@@ -6,35 +6,38 @@ Explain under which circumstances *Tight Class Cohesion* (TCC) and *Loose Class 
 
 TCC and LCC will produce the same value for a given Java class if : 
 
-- all methods are connected to each other (i.e. they all call each other)
-- there is no indirect connection between methods (i.e. a method calls a method that calls another method)
+- all public methods are connected to each other (i.e. they access the same class-level variable)
+- there is no indirect connection between public methods 
 
 Exemple of a class that will produce the same value for TCC and LCC :
 
 ```java
 public class MyClass {
+    int x = 0;
     public void method1() {
-        method2();
+        x += 1;
     }
 
     public void method2() {
-        method3();
+        x += 2;
     }
 
     public void method3() {
-        method1();
+        x += 3;
     }
 }
 ```
+In the example above, all public methods are connected to each other and there is no indirect connection between public methods. Therefore, TCC and LCC will produce the same value for this class.
+
 ```plantuml
 object methode1
 object methode2
 object methode3
 
 
-methode1 - methode2
-methode2 - methode3
-methode3 - methode1
+methode1 - methode2 : x 
+methode2 - methode3 : x 
+methode3 - methode1 : x
 ```
 
 Calculating TCC and LCC for this class will produce the same value :
