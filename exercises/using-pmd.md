@@ -165,106 +165,50 @@ here are the changes I would make to the code (2 options) :
 ### False positive
 
 
+The other issue is the following :
+
+
+```
+commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/distribution/KolmogorovSmirnovDistribution.java:280:
+UnusedAssignment:	The initializer for variable 'h' is never used (overwritten on lines 283, 286 and 288)
+```
+
+Here is the related code :
 
 ```java
-    /***
-     * Creates {@code H} of size {@code m x m} as described in [1] (see above).
-     *
-     * @param d statistic
-     * @return H matrix
-     * @throws NumberIsTooLargeException if fractional part is greater than 1
-     * @throws FractionConversionException if algorithm fails to convert
-     * {@code h} to a {@link org.apache.commons.math3.fraction.BigFraction} in
-     * expressing {@code d} as {@code (k - h) / m} for integer {@code k, m} and
-     * {@code 0 <= h < 1}.
-     */
-    private FieldMatrix<BigFraction> createH(double d)
-            throws NumberIsTooLargeException, FractionConversionException {
+  private FieldMatrix<BigFraction> createH(double d)
+          throws NumberIsTooLargeException, FractionConversionException {
 
-        int k = (int) FastMath.ceil(n * d);
+    int k = (int) FastMath.ceil(n * d);
 
-        int m = 2 * k - 1;
-        double hDouble = k - n * d;
+    int m = 2 * k - 1;
+    double hDouble = k - n * d;
 
-        if (hDouble >= 1) {
-            throw new NumberIsTooLargeException(hDouble, 1.0, false);
-        }
-
-        BigFraction h = null;
-
-        try {
-            h = new BigFraction(hDouble, 1.0e-20, 10000);
-        } catch (FractionConversionException e1) {
-            try {
-                h = new BigFraction(hDouble, 1.0e-10, 10000);
-            } catch (FractionConversionException e2) {
-                h = new BigFraction(hDouble, 1.0e-5, 10000);
-            }
-        }
-
-        final BigFraction[][] Hdata = new BigFraction[m][m];
-
-        /*
-         * Start by filling everything with either 0 or 1.
-         */
-        for (int i = 0; i < m; ++i) {
-            for (int j = 0; j < m; ++j) {
-                if (i - j + 1 < 0) {
-                    Hdata[i][j] = BigFraction.ZERO;
-                } else {
-                    Hdata[i][j] = BigFraction.ONE;
-                }
-            }
-        }
-
-        /*
-         * Setting up power-array to avoid calculating the same value twice:
-         * hPowers[0] = h^1 ... hPowers[m-1] = h^m
-         */
-        final BigFraction[] hPowers = new BigFraction[m];
-        hPowers[0] = h;
-        for (int i = 1; i < m; ++i) {
-            hPowers[i] = h.multiply(hPowers[i - 1]);
-        }
-
-        /*
-         * First column and last row has special values (each other reversed).
-         */
-        for (int i = 0; i < m; ++i) {
-            Hdata[i][0] = Hdata[i][0].subtract(hPowers[i]);
-            Hdata[m - 1][i] = Hdata[m - 1][i].subtract(hPowers[m - i - 1]);
-        }
-
-        /*
-         * [1] states: "For 1/2 < h < 1 the bottom left element of the matrix
-         * should be (1 - 2*h^m + (2h - 1)^m )/m!" Since 0 <= h < 1, then if h >
-         * 1/2 is sufficient to check:
-         */
-        if (h.compareTo(BigFraction.ONE_HALF) == 1) {
-            Hdata[m - 1][0] = Hdata[m - 1][0].add(h.multiply(2).subtract(1).pow(m));
-        }
-
-        /*
-         * Aside from the first column and last row, the (i, j)-th element is
-         * 1/(i - j + 1)! if i - j + 1 >= 0, else 0. 1's and 0's are already
-         * put, so only division with (i - j + 1)! is needed in the elements
-         * that have 1's. There is no need to calculate (i - j + 1)! and then
-         * divide - small steps avoid overflows.
-         *
-         * Note that i - j + 1 > 0 <=> i + 1 > j instead of j'ing all the way to
-         * m. Also note that it is started at g = 2 because dividing by 1 isn't
-         * really necessary.
-         */
-        for (int i = 0; i < m; ++i) {
-            for (int j = 0; j < i + 1; ++j) {
-                if (i - j + 1 > 0) {
-                    for (int g = 2; g <= i - j + 1; ++g) {
-                        Hdata[i][j] = Hdata[i][j].divide(g);
-                    }
-                }
-            }
-        }
-
-        return new Array2DRowFieldMatrix<BigFraction>(BigFractionField.getInstance(), Hdata);
+    if (hDouble >= 1) {
+        throw new NumberIsTooLargeException(hDouble, 1.0, false);
     }
+
+    BigFraction h = null; // line 280 (target of the issue)
+
+    try {
+        h = new BigFraction(hDouble, 1.0e-20, 10000); // line 283
+    } catch (FractionConversionException e1) {
+        try {
+            h = new BigFraction(hDouble, 1.0e-10, 10000); // line 286
+        } catch (FractionConversionException e2) {
+            h = new BigFraction(hDouble, 1.0e-5, 10000); // line 288
+        }
+    }
+
+    // [...] the rest of the code of the method
+    // h is used 3 times after this block
+  }
 ```
+
+PMD is telling us that "The initializer for variable 'h' is never used (overwritten on lines 283, 286 and 288)" which means that the variable `h` got assigned the value of `null` but this value is never used (overwritten on lines 283, 286 and 288).
+
+PMD is suggesting replacing the line 280 by `BigFraction h;` without any initialization.
+
+By default in java, if no initialization value is given to a variable which is not primitive typed, it is initialized to null.
+
+I consider this issue as a false positive because the variable `h` is initialized to `null` by default and the code is more readable with the initialization to `null` than without it. Furthermore, initialize variables upon definition is considered as a good practice.
