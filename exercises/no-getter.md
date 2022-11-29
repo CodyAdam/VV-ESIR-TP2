@@ -34,6 +34,7 @@ The solution is available in the [Exercise4](../code/Exercise4/) folder.
 
 ## How to build 
 
+(require java 11)
 To build the project, run the following command:
 
 ```bash
