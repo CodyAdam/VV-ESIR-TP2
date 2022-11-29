@@ -1,0 +1,1418 @@
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/analysis/polynomials/PolynomialFunction.java:321:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/analysis/polynomials/PolynomialFunction.java:327:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/dfp/Dfp.java:274:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/dfp/DfpMath.java:544:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/dfp/DfpMath.java:551:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/dfp/DfpMath.java:553:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/dfp/DfpMath.java:560:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/dfp/DfpMath.java:600:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/dfp/DfpMath.java:602:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/dfp/DfpMath.java:609:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/dfp/DfpMath.java:617:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/distribution/AbstractRealDistribution.java:215:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/distribution/AbstractRealDistribution.java:219:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/distribution/GammaDistribution.java:465:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/distribution/GammaDistribution.java:477:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/distribution/PoissonDistribution.java:356:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/distribution/PoissonDistribution.java:363:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/FieldRotation.java:425:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/FieldRotation.java:631:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/FieldRotation.java:647:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/FieldRotation.java:663:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/FieldRotation.java:679:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/FieldRotation.java:695:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/FieldRotation.java:711:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/FieldRotation.java:727:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/FieldRotation.java:743:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/FieldRotation.java:759:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/FieldRotation.java:775:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/FieldRotation.java:791:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/FieldRotation.java:807:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/FieldRotation.java:825:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/FieldRotation.java:841:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/FieldRotation.java:857:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/FieldRotation.java:873:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/FieldRotation.java:889:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/FieldRotation.java:905:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/FieldRotation.java:921:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/FieldRotation.java:937:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/FieldRotation.java:953:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/FieldRotation.java:969:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/FieldRotation.java:985:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/FieldRotation.java:1001:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/OutlineExtractor.java:184:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/PolyhedronsSet.java:566:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Rotation.java:453:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Rotation.java:638:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Rotation.java:656:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Rotation.java:674:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Rotation.java:692:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Rotation.java:710:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Rotation.java:728:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Rotation.java:746:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Rotation.java:764:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Rotation.java:782:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Rotation.java:800:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Rotation.java:818:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Rotation.java:836:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Rotation.java:856:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Rotation.java:874:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Rotation.java:892:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Rotation.java:910:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Rotation.java:928:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Rotation.java:946:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Rotation.java:964:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Rotation.java:982:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Rotation.java:1000:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Rotation.java:1018:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Rotation.java:1036:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Rotation.java:1054:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/SphereGenerator.java:46:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/SphereGenerator.java:52:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/DiskGenerator.java:42:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java:700:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java:703:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java:711:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java:712:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java:727:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java:736:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java:742:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java:750:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java:755:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java:851:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/hull/ConvexHull2D.java:143:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/hull/MonotoneChain.java:166:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/partitioning/AbstractRegion.java:445:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/partitioning/AbstractRegion.java:447:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/partitioning/BSPTree.java:458:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/partitioning/BSPTree.java:711:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/partitioning/BoundaryBuilder.java:71:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/partitioning/BoundaryProjector.java:98:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/partitioning/BoundaryProjector.java:100:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/partitioning/utilities/OrderedTuple.java:261:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/partitioning/utilities/OrderedTuple.java:263:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/partitioning/utilities/OrderedTuple.java:269:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/partitioning/utilities/OrderedTuple.java:271:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/partitioning/utilities/OrderedTuple.java:276:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/partitioning/utilities/OrderedTuple.java:278:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/spherical/oned/ArcsSet.java:500:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/spherical/oned/ArcsSet.java:506:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/spherical/oned/ArcsSet.java:517:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/spherical/oned/ArcsSet.java:540:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/spherical/oned/ArcsSet.java:549:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/spherical/oned/ArcsSet.java:742:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/spherical/oned/ArcsSet.java:766:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/spherical/oned/ArcsSet.java:830:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/spherical/oned/ArcsSet.java:840:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/spherical/oned/ArcsSet.java:842:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/spherical/twod/Edge.java:159:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/spherical/twod/Edge.java:174:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/spherical/twod/SphericalPolygonsSet.java:400:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/linear/BiDiagonalTransformer.java:146:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/linear/BiDiagonalTransformer.java:150:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/linear/EigenDecomposition.java:839:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/linear/EigenDecomposition.java:840:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/linear/EigenDecomposition.java:853:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/linear/EigenDecomposition.java:862:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/linear/EigenDecomposition.java:902:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/linear/EigenDecomposition.java:913:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/linear/EigenDecomposition.java:923:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/linear/EigenDecomposition.java:939:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/linear/RealMatrixFormat.java:325:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/linear/RealMatrixFormat.java:330:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/linear/RealMatrixFormat.java:353:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/linear/SchurTransformer.java:163:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/linear/SchurTransformer.java:291:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/linear/SingularValueDecomposition.java:122:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/linear/SingularValueDecomposition.java:165:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ml/clustering/KMeansPlusPlusClusterer.java:385:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ml/clustering/KMeansPlusPlusClusterer.java:388:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ml/neuralnet/twod/NeuronSquareMesh2D.java:455:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ml/neuralnet/twod/NeuronSquareMesh2D.java:458:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ml/neuralnet/twod/NeuronSquareMesh2D.java:462:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ml/neuralnet/twod/NeuronSquareMesh2D.java:465:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ml/neuralnet/twod/NeuronSquareMesh2D.java:472:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ml/neuralnet/twod/NeuronSquareMesh2D.java:475:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ml/neuralnet/twod/NeuronSquareMesh2D.java:479:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ml/neuralnet/twod/NeuronSquareMesh2D.java:482:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/events/EventFilter.java:117:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/events/EventFilter.java:140:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/events/EventFilter.java:156:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/events/EventFilter.java:179:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/events/EventState.java:301:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/events/FieldEventState.java:244:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/nonstiff/GraggBulirschStoerIntegrator.java:691:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/nonstiff/GraggBulirschStoerIntegrator.java:712:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/nonstiff/GraggBulirschStoerIntegrator.java:715:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/nonstiff/GraggBulirschStoerIntegrator.java:724:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/nonstiff/GraggBulirschStoerIntegrator.java:730:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/nonstiff/GraggBulirschStoerIntegrator.java:742:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/nonstiff/GraggBulirschStoerIntegrator.java:750:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/nonstiff/GraggBulirschStoerIntegrator.java:755:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/nonstiff/GraggBulirschStoerIntegrator.java:766:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/nonstiff/GraggBulirschStoerIntegrator.java:768:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/nonstiff/GraggBulirschStoerIntegrator.java:779:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/nonstiff/GraggBulirschStoerIntegrator.java:846:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/nonstiff/GraggBulirschStoerIntegrator.java:851:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/nonstiff/GraggBulirschStoerIntegrator.java:876:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/nonstiff/GraggBulirschStoerIntegrator.java:881:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/nonstiff/GraggBulirschStoerIntegrator.java:883:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/nonstiff/GraggBulirschStoerIntegrator.java:888:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/nonstiff/GraggBulirschStoerIntegrator.java:892:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/nonstiff/GraggBulirschStoerIntegrator.java:904:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/nonstiff/GraggBulirschStoerIntegrator.java:907:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/nonstiff/GraggBulirschStoerStepInterpolator.java:281:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/BaseMultivariateOptimizer.java:130:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/BaseMultivariateOptimizer.java:136:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/BaseMultivariateOptimizer.java:142:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/BaseMultivariateOptimizer.java:148:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/linear/SimplexSolver.java:282:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/nonlinear/scalar/noderiv/BOBYQAOptimizer.java:546:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/nonlinear/scalar/noderiv/BOBYQAOptimizer.java:927:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/nonlinear/scalar/noderiv/BOBYQAOptimizer.java:938:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/nonlinear/scalar/noderiv/BOBYQAOptimizer.java:1092:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/nonlinear/scalar/noderiv/BOBYQAOptimizer.java:1095:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/nonlinear/scalar/noderiv/BOBYQAOptimizer.java:1098:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/nonlinear/scalar/noderiv/BOBYQAOptimizer.java:1154:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/nonlinear/scalar/noderiv/BOBYQAOptimizer.java:1386:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/nonlinear/scalar/noderiv/BOBYQAOptimizer.java:1470:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/nonlinear/scalar/noderiv/BOBYQAOptimizer.java:1475:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/nonlinear/scalar/noderiv/BOBYQAOptimizer.java:1642:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/nonlinear/scalar/noderiv/BOBYQAOptimizer.java:1650:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/nonlinear/scalar/noderiv/BOBYQAOptimizer.java:1654:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/nonlinear/scalar/noderiv/BOBYQAOptimizer.java:1713:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/nonlinear/scalar/noderiv/BOBYQAOptimizer.java:1726:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/nonlinear/scalar/noderiv/BOBYQAOptimizer.java:1729:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/nonlinear/scalar/noderiv/BOBYQAOptimizer.java:1977:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/nonlinear/scalar/noderiv/BOBYQAOptimizer.java:2112:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/nonlinear/scalar/noderiv/BOBYQAOptimizer.java:2123:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/nonlinear/scalar/noderiv/CMAESOptimizer.java:742:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/nonlinear/scalar/noderiv/CMAESOptimizer.java:785:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/nonlinear/scalar/noderiv/NelderMeadSimplex.java:247:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/nonlinear/scalar/noderiv/NelderMeadSimplex.java:261:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/univariate/BrentOptimizer.java:171:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/univariate/BrentOptimizer.java:180:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/univariate/BrentOptimizer.java:188:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/univariate/BrentOptimizer.java:189:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/univariate/BrentOptimizer.java:197:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/univariate/BrentOptimizer.java:206:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/univariate/BrentOptimizer.java:216:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/univariate/BrentOptimizer.java:245:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/univariate/BrentOptimizer.java:257:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/univariate/BrentOptimizer.java:262:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/univariate/BrentOptimizer.java:268:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/direct/BOBYQAOptimizer.java:551:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/direct/BOBYQAOptimizer.java:932:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/direct/BOBYQAOptimizer.java:943:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/direct/BOBYQAOptimizer.java:1097:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/direct/BOBYQAOptimizer.java:1100:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/direct/BOBYQAOptimizer.java:1103:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/direct/BOBYQAOptimizer.java:1159:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/direct/BOBYQAOptimizer.java:1391:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/direct/BOBYQAOptimizer.java:1475:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/direct/BOBYQAOptimizer.java:1480:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/direct/BOBYQAOptimizer.java:1647:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/direct/BOBYQAOptimizer.java:1655:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/direct/BOBYQAOptimizer.java:1659:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/direct/BOBYQAOptimizer.java:1718:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/direct/BOBYQAOptimizer.java:1731:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/direct/BOBYQAOptimizer.java:1734:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/direct/BOBYQAOptimizer.java:1982:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/direct/BOBYQAOptimizer.java:2117:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/direct/BOBYQAOptimizer.java:2128:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/direct/BaseAbstractMultivariateOptimizer.java:278:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/direct/BaseAbstractMultivariateOptimizer.java:284:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/direct/BaseAbstractMultivariateOptimizer.java:290:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/direct/BaseAbstractMultivariateOptimizer.java:296:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java:859:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java:902:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/direct/NelderMeadSimplex.java:250:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/direct/NelderMeadSimplex.java:264:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/linear/SimplexSolver.java:126:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/linear/SimplexSolver.java:150:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java:174:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java:183:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java:191:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java:192:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java:200:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java:209:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java:219:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java:248:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java:260:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java:265:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java:271:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/random/StableRandomGenerator.java:127:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/special/BesselJ.java:281:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/special/BesselJ.java:284:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/special/BesselJ.java:289:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/special/BesselJ.java:293:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/special/BesselJ.java:296:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/special/BesselJ.java:297:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/special/BesselJ.java:311:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/special/BesselJ.java:315:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/special/BesselJ.java:329:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/special/BesselJ.java:331:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/special/BesselJ.java:374:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/special/BesselJ.java:387:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/special/BesselJ.java:412:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/special/BesselJ.java:429:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/special/BesselJ.java:464:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/special/BesselJ.java:475:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/special/BesselJ.java:488:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/special/BesselJ.java:509:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/special/BesselJ.java:528:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/special/BesselJ.java:531:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/special/BesselJ.java:535:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/special/BesselJ.java:546:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/special/BesselJ.java:547:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/special/BesselJ.java:549:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/special/BesselJ.java:561:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/special/BesselJ.java:565:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/special/BesselJ.java:569:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/special/BesselJ.java:578:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/special/BesselJ.java:580:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/special/BesselJ.java:591:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/special/BesselJ.java:595:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/special/BesselJ.java:607:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/special/BesselJ.java:608:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/special/BesselJ.java:613:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/special/BesselJ.java:622:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/special/BesselJ.java:626:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/special/BesselJ.java:631:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/special/Beta.java:459:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/special/Beta.java:479:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/clustering/KMeansPlusPlusClusterer.java:354:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/clustering/KMeansPlusPlusClusterer.java:357:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/correlation/KendallsCorrelation.java:218:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/descriptive/moment/SemiVariance.java:278:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/descriptive/moment/SemiVariance.java:284:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/descriptive/moment/Variance.java:421:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/descriptive/moment/Variance.java:529:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/regression/MillerUpdatingRegression.java:516:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/regression/MillerUpdatingRegression.java:522:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/regression/RegressionResults.java:403:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/regression/RegressionResults.java:405:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/regression/RegressionResults.java:411:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/regression/SimpleRegression.java:828:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/regression/SimpleRegression.java:830:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/regression/SimpleRegression.java:833:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/regression/SimpleRegression.java:838:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/regression/SimpleRegression.java:843:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/regression/SimpleRegression.java:851:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/regression/SimpleRegression.java:857:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java:295:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java:555:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java:557:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java:562:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java:564:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/util/ArithmeticUtils.java:579:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/util/CombinatoricsUtils.java:406:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/util/FastMath.java:888:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/util/FastMath.java:898:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/util/FastMath.java:908:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/util/FastMath.java:919:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/util/FastMath.java:1196:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/util/FastMath.java:1491:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/util/FastMath.java:1495:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/util/FastMath.java:1497:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/util/FastMath.java:1510:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/util/FastMath.java:1524:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/util/FastMath.java:1527:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/util/FastMath.java:1530:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/util/FastMath.java:1545:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/util/FastMath.java:1549:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/util/FastMath.java:1550:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/util/FastMath.java:1557:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/util/FastMath.java:1572:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/util/FastMath.java:1750:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/util/FastMath.java:1752:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/util/FastMath.java:2692:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/util/FastMath.java:2700:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/util/FastMath.java:3199:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/util/FastMath.java:3221:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/util/FastMath.java:3283:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/util/FastMath.java:3305:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/util/MathArrays.java:713:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/util/MathArrays.java:722:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/util/MathArrays.java:727:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/util/MathArrays.java:744:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/analysis/differentiation/DerivativeStructureTest.java:400:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/analysis/differentiation/DerivativeStructureTest.java:1107:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/util/FastMathStrictComparisonTest.java:111:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/util/FastMathStrictComparisonTest.java:113:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/util/FastMathStrictComparisonTest.java:223:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/util/FastMathStrictComparisonTest.java:229:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/util/FastMathStrictComparisonTest.java:231:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/util/FastMathStrictComparisonTest.java:233:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/util/FastMathStrictComparisonTest.java:235:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/util/FastMathTest.java:624:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/util/FastMathTest.java:626:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/util/FastMathTest.java:644:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/util/FastMathTest.java:649:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/util/FastMathTest.java:651:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/util/FastMathTest.java:657:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/maxima/special/RealFunctionValidation/RealFunctionValidation.java:108:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement
+
+
+/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/maxima/special/RealFunctionValidation/RealFunctionValidation.java:110:
+	TooMuchNestedIfStatement:	You should avoid nesting more than 2 if statement

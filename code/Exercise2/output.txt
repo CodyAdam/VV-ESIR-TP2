@@ -4986,3 +4986,5 @@ commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/util/FastMathCalc
 	UseVarargs:	Consider using varargs for methods or constructors which take an array the last parameter.
 
 
+And more ... 
+(the file is stripped down)

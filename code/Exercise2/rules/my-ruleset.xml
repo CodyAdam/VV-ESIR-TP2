@@ -9,8 +9,10 @@
   </description>
 
   <rule ref="category/java/bestpractices.xml" />
-  <!-- <rule ref="category/java/codestyle.xml" />
+  <!-- 
+  <rule ref="category/java/codestyle.xml" />
   <rule ref="category/java/documentation.xml" />
   <rule ref="category/java/errorprone.xml" />
-  <rule ref="category/java/performance.xml" /> -->
+  <rule ref="category/java/performance.xml" /> 
+  -->
 </ruleset>
