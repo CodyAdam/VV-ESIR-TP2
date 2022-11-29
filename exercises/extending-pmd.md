@@ -23,3 +23,24 @@ Use your rule with different projects and describe you findings below. See the [
 
 ## Answer
 
+```xml
+<rule name="TooMuchNestedIfStatement"
+      language="java"
+      message="You should avoid nesting more than 2 if statement"
+      class="net.sourceforge.pmd.lang.rule.XPathRule">
+   <description>
+
+   </description>
+   <priority>4</priority>
+   <properties>
+      <property name="version" value="2.0"/>
+      <property name="xpath">
+         <value>
+<![CDATA[
+/IfStatement[count(ancestor::BlockStatement/Statement/IfStatement)>=3]
+]]>
+         </value>
+      </property>
+   </properties>
+</rule>
+```
