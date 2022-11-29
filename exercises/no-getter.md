@@ -27,3 +27,39 @@ The program should take as input the path to the source code of the project. It 
 Include in this repository the code of your application. Remove all unnecessary files like compiled binaries. See the [instructions](../sujet.md) for suggestions on the projects to use.
 
 *Disclaimer* In a real project not all fields need to be accessed with a public getter.
+
+# Solution
+
+The solution is available in the [Exercise4](../code/Exercise4/) folder.
+
+## How to build 
+
+To build the project, run the following command:
+
+```bash
+mvn clean package
+```
+
+The jar file will be generated in the `target` folder.
+
+## How to run
+
+To run the project on a source directory, run the following command:
+
+```bash
+java -jar list-private-fields-1.0-jar-with-dependencies.jar <path-to-source-directory>
+```
+
+## How to preview the report
+
+The report is formatted in Markdown. To preview it you can use the bash `>` operator:
+
+```bash
+java -jar list-private-fields-1.0-jar-with-dependencies.jar <path-to-source-directory> > report.md
+```
+
+## Demo on the Apache Commons Math project (only a small part of the report is shown)
+
+Running the program on the Apache Commons Math project. We founded a total of 2792 private fields without public getter.
+
+The full report is available [here](../code/Exercise4/report.md).
