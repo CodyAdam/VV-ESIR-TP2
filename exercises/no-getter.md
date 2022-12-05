@@ -53,7 +53,7 @@ java -jar list-private-fields-1.0-jar-with-dependencies.jar <path-to-source-dire
 
 ## How to preview the report
 
-The report is formatted in Markdown. To preview it you can use the bash `>` operator:
+The report is outputed in Markdown. To preview it you can use the bash `>` operator to write the output to a file and then use a Markdown previewer.
 
 ```bash
 java -jar list-private-fields-1.0-jar-with-dependencies.jar <path-to-source-directory> > report.md

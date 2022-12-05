@@ -16,7 +16,8 @@ public class NoGetterPrinter extends VoidVisitorWithDefaults<Void> {
         }
     }
 
-    public void visitTypeDeclaration(TypeDeclaration<?> declaration, Void arg) {
+    @Override
+    public void visit(ClassOrInterfaceDeclaration declaration, Void arg) {
         if (!declaration.isPublic()) // We only care about public classes
             return;
 
@@ -58,22 +59,4 @@ public class NoGetterPrinter extends VoidVisitorWithDefaults<Void> {
             }
         }
     }
-
-    @Override
-    public void visit(ClassOrInterfaceDeclaration declaration, Void arg) {
-        visitTypeDeclaration(declaration, arg);
-    }
-
-    @Override
-    public void visit(EnumDeclaration declaration, Void arg) {
-        visitTypeDeclaration(declaration, arg);
-    }
-
-    @Override
-    public void visit(MethodDeclaration declaration, Void arg) {
-        if (!declaration.isPublic())
-            return;
-        System.out.println("  " + declaration.getDeclarationAsString(true, true));
-    }
-
 }

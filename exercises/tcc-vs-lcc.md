@@ -4,10 +4,12 @@ Explain under which circumstances *Tight Class Cohesion* (TCC) and *Loose Class 
 
 ## Answer
 
-TCC and LCC will produce the same value for a given Java class if : 
+There are 3 cases where TCC and LCC will produce the same value for a given Java class ([source](https://www.aivosto.com/project/help/pm-oo-cohesion.html)) :
 
-- all public methods are connected to each other (i.e. they access the same class-level variable)
-- there is no indirect connection between public methods 
+- TCC=LCC=1 is the maximally cohesive class where all methods are directly connected to each other.
+- When TCC=0 (and LCC=0), the class is totally non-cohesive and all the methods are totally unconnected
+- When TCC=LCC<1, all existing connections are direct (even though not all methods are connected).
+
 
 Exemple of a class that will produce the same value for TCC and LCC :
 
@@ -29,15 +31,11 @@ public class MyClass {
 ```
 In the example above, all public methods are connected to each other and there is no indirect connection between public methods. Therefore, TCC and LCC will produce the same value for this class.
 
-```plantuml
-object methode1
-object methode2
-object methode3
-
-
-methode1 - methode2 : x 
-methode2 - methode3 : x 
-methode3 - methode1 : x
+```mermaid
+graph TD;
+    methode1 -- x --- methode2;
+    methode2 -- x --- methode3; 
+    methode3 -- x --- methode1; 
 ```
 
 Calculating TCC and LCC for this class will produce the same value :

@@ -9,3 +9,37 @@ Ignore inherited members to compute TCC of a class.
 Include in this repository the code of your application. Remove all unnecessary files like compiled binaries. Do include the reports and plots you obtained from different projects. See the [instructions](../sujet.md) for suggestions on the projects to use.
 
 You may use [javaparser-starter](../code/javaparser-starter) as a starting point.
+
+
+# Solution
+
+The solution is available in the [Exercice5](/code/Exercise5/) folder.
+
+You can find a sample report [here](/code/Exercise5/report.md). This sample was generated on the examples classes in the [Exercise5/get-tcc/examples](/code/Exercise5/get-tcc/examples/) directory.
+
+## How to build 
+
+(require java 11)
+To build the project, run the following command:
+
+```bash
+mvn clean package
+```
+
+The jar file will be generated in the `target` folder.
+
+## How to run
+
+To run the project on a source directory, run the following command:
+
+```bash
+java -jar get-tcc-1.0-jar-with-dependencies.jar <path-to-source-directory>
+```
+
+## How to preview the report
+
+The report is outputed in Markdown. To preview it you can use the bash `>` operator to write the output to a file and then use a Markdown previewer.
+
+```bash
+java -jar get-tcc-1.0-jar-with-dependencies.jar <path-to-source-directory> > report.md
+```
