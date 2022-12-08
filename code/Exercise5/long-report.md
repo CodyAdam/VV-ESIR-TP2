@@ -1,3241 +1,68 @@
 # Report TCC Value
 
-Calculating the TCC values of the classes in `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/random/`
+Calculating the TCC values of the classes in `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src`
 
-# The class 'RandomGenerator'
-Package: `org.apache.commons.math3.random.RandomGenerator`
+# The class 'PrimesTest'
+Package: `org.apache.commons.math3.primes.PrimesTest`
 
-methods : [ `setSeed` `nextInt` `nextInt` `nextBytes` `nextFloat` `setSeed` `nextGaussian` `setSeed` `nextLong` `nextBoolean` `nextDouble` ]
+methods : [ `assertNextPrimeException` `product` `sum` `assertPrimeFactorsException` `testPrimeFactors` `testNextPrime` `testIsPrime` `checkPrimeFactors` ]
 
-attributes : [ ]
-
-
-The TCC value is 0 because the class has no methods or no attributes.
-
-
-
-# The class 'AbstractRandomGenerator'
-Package: `org.apache.commons.math3.random.AbstractRandomGenerator`
-
-methods : [ `nextLong` `nextBoolean` `clear` `nextBytes` `nextGaussian` `nextInt` `setSeed` `setSeed` `setSeed` `nextInt` `nextDouble` `nextFloat` ]
-
-attributes : [ `cachedNormalDeviate` ]
+attributes : [ `PRIMES_SET` `BELOW_2` `NOT_PRIMES` `PRIMES` ]
 
 
 The attributes used in each method are:
-  - clear uses [cachedNormalDeviate]
-  - nextGaussian uses [cachedNormalDeviate]
+  - testPrimeFactors uses [BELOW_2, NOT_PRIMES, PRIMES]
+  - testIsPrime uses [BELOW_2, NOT_PRIMES, PRIMES]
+  - checkPrimeFactors uses [PRIMES_SET]
 
 The methods called in each method are:
-  - nextBoolean calls [nextDouble]
-  - nextLong calls [nextDouble]
-  - nextBytes calls [nextInt]
-  - nextGaussian calls [nextDouble]
-  - nextInt calls [nextDouble]
-  - setSeed calls [setSeed]
-  - setSeed calls [setSeed]
-  - nextInt calls [nextDouble]
-  - nextFloat calls [nextDouble]
+  - testPrimeFactors calls [product, assertPrimeFactorsException, checkPrimeFactors]
+  - testNextPrime calls [assertNextPrimeException]
 
 ```mermaid
 graph TD
-  nextBoolean -->|call| nextDouble
-  nextLong -->|call| nextDouble
-  nextBytes -->|call| nextInt
-  nextGaussian -->|call| nextDouble
-  nextInt -->|call| nextDouble
-  setSeed -->|call| setSeed
-  setSeed -->|call| setSeed
-  nextInt -->|call| nextDouble
-  nextFloat -->|call| nextDouble
-  clear -. use .->cachedNormalDeviate((cachedNormalDeviate))
-  nextGaussian -. use .->cachedNormalDeviate((cachedNormalDeviate))
-  nextGaussian ----|link by cachedNormalDeviate| clear
+  testPrimeFactors -->|call| product
+  testPrimeFactors -->|call| assertPrimeFactorsException
+  testPrimeFactors -->|call| checkPrimeFactors
+  testNextPrime -->|call| assertNextPrimeException
+  testPrimeFactors -. use .->BELOW_2((BELOW_2))
+  testPrimeFactors -. use .->NOT_PRIMES((NOT_PRIMES))
+  testPrimeFactors -. use .->PRIMES((PRIMES))
+  testIsPrime -. use .->BELOW_2((BELOW_2))
+  testIsPrime -. use .->NOT_PRIMES((NOT_PRIMES))
+  testIsPrime -. use .->PRIMES((PRIMES))
+  checkPrimeFactors -. use .->PRIMES_SET((PRIMES_SET))
+  testPrimeFactors ----|link by PRIMES_SET| checkPrimeFactors
+  testPrimeFactors ----|link by BELOW_2| testIsPrime
+  testPrimeFactors ----|link by NOT_PRIMES| testIsPrime
+  testPrimeFactors ----|link by PRIMES| testIsPrime
 ```
 
-Number of max pairs: $66.0$
+Number of max pairs: $28.0$
 
-Number of direct connections (link by): $1.0$
+Number of direct connections (link by): $4.0$
 
-**TCC value: $0.015151515151515152$**
-
-
+**TCC value: $0.14285714285714285$**
 
 
-# The class 'Well19937c'
-Package: `org.apache.commons.math3.random.Well19937c`
 
-methods : [ `next` ]
 
-attributes : [ `serialVersionUID` `M1` `M2` `M3` `K` ]
+# The class 'RetryRunnerTest'
+Package: `org.apache.commons.math3.RetryRunnerTest`
+
+methods : [ `testRetryFailSometimes` `testRetryFailAlways` ]
+
+attributes : [ `rng` ]
 
 
 The attributes used in each method are:
+  - testRetryFailSometimes uses [rng]
 
 The methods called in each method are:
 
 ```mermaid
 graph TD
-```
-
-Number of max pairs: $0.0$
-
-Number of direct connections (link by): $0.0$
-
-**TCC value: $NaN$**
-
-
-
-
-# The class 'RandomDataGenerator'
-Package: `org.apache.commons.math3.random.RandomDataGenerator`
-
-methods : [ `nextGamma` `nextGaussian` `nextZipf` `reSeedSecure` `nextLong` `nextUniform` `nextPoisson` `nextPascal` `initRan` `reSeed` `nextSecureHexString` `nextLong` `reSeed` `nextSecureInt` `nextHypergeometric` `nextChiSquare` `nextBeta` `getSecRan` `setSecureAlgorithm` `nextExponential` `nextT` `nextSecureLong` `nextWeibull` `nextSample` `nextHexString` `nextBinomial` `nextUniform` `nextCauchy` `nextInt` `nextPermutation` `getRandomGenerator` `reSeedSecure` `nextF` ]
-
-attributes : [ `rand` `serialVersionUID` `secRand` ]
-
-
-The attributes used in each method are:
-  - getSecRan uses [secRand]
-  - setSecureAlgorithm uses [secRand]
-  - getRandomGenerator uses [rand]
-  - initRan uses [rand]
-
-The methods called in each method are:
-  - nextGamma calls [getRandomGenerator]
-  - nextGaussian calls [getRandomGenerator, nextGaussian]
-  - reSeedSecure calls [getSecRan]
-  - nextZipf calls [getRandomGenerator]
-  - nextUniform calls [nextUniform]
-  - nextPoisson calls [getRandomGenerator]
-  - nextPascal calls [getRandomGenerator]
-  - reSeed calls [getRandomGenerator]
-  - nextSecureHexString calls [getSecRan]
-  - nextLong calls [getRandomGenerator, nextInt, nextLong]
-  - reSeed calls [getRandomGenerator]
-  - nextChiSquare calls [getRandomGenerator]
-  - nextHypergeometric calls [getRandomGenerator]
-  - nextSecureInt calls [getSecRan]
-  - nextBeta calls [getRandomGenerator]
-  - nextT calls [getRandomGenerator]
-  - nextExponential calls [getRandomGenerator]
-  - nextSecureLong calls [getSecRan, nextInt, nextLong]
-  - nextWeibull calls [getRandomGenerator]
-  - nextSample calls [nextPermutation]
-  - nextBinomial calls [getRandomGenerator]
-  - nextHexString calls [getRandomGenerator]
-  - nextUniform calls [getRandomGenerator]
-  - nextCauchy calls [getRandomGenerator]
-  - nextInt calls [getRandomGenerator]
-  - nextPermutation calls [getRandomGenerator]
-  - getRandomGenerator calls [initRan]
-  - reSeedSecure calls [getSecRan]
-  - nextF calls [getRandomGenerator]
-
-```mermaid
-graph TD
-  nextGamma -->|call| getRandomGenerator
-  nextGaussian -->|call| getRandomGenerator
-  nextGaussian -->|call| nextGaussian
-  reSeedSecure -->|call| getSecRan
-  nextZipf -->|call| getRandomGenerator
-  nextUniform -->|call| nextUniform
-  nextPoisson -->|call| getRandomGenerator
-  nextPascal -->|call| getRandomGenerator
-  reSeed -->|call| getRandomGenerator
-  nextSecureHexString -->|call| getSecRan
-  nextLong -->|call| getRandomGenerator
-  nextLong -->|call| nextInt
-  nextLong -->|call| nextLong
-  reSeed -->|call| getRandomGenerator
-  nextChiSquare -->|call| getRandomGenerator
-  nextHypergeometric -->|call| getRandomGenerator
-  nextSecureInt -->|call| getSecRan
-  nextBeta -->|call| getRandomGenerator
-  nextT -->|call| getRandomGenerator
-  nextExponential -->|call| getRandomGenerator
-  nextSecureLong -->|call| getSecRan
-  nextSecureLong -->|call| nextInt
-  nextSecureLong -->|call| nextLong
-  nextWeibull -->|call| getRandomGenerator
-  nextSample -->|call| nextPermutation
-  nextBinomial -->|call| getRandomGenerator
-  nextHexString -->|call| getRandomGenerator
-  nextUniform -->|call| getRandomGenerator
-  nextCauchy -->|call| getRandomGenerator
-  nextInt -->|call| getRandomGenerator
-  nextPermutation -->|call| getRandomGenerator
-  getRandomGenerator -->|call| initRan
-  reSeedSecure -->|call| getSecRan
-  nextF -->|call| getRandomGenerator
-  getSecRan -. use .->secRand((secRand))
-  setSecureAlgorithm -. use .->secRand((secRand))
-  getRandomGenerator -. use .->rand((rand))
-  initRan -. use .->rand((rand))
-  nextGamma ----|link by rand| initRan
-  nextGamma ----|link by rand| nextChiSquare
-  nextGamma ----|link by rand| nextBeta
-  nextGamma ----|link by rand| nextExponential
-  nextGamma ----|link by rand| nextBinomial
-  nextGamma ----|link by rand| nextCauchy
-  nextGamma ----|link by rand| getRandomGenerator
-  nextGamma ----|link by rand| nextF
-  nextGaussian ----|link by rand| nextGamma
-  nextGaussian ----|link by rand| initRan
-  nextGaussian ----|link by rand| nextChiSquare
-  nextGaussian ----|link by rand| nextBeta
-  nextGaussian ----|link by rand| nextExponential
-  nextGaussian ----|link by rand| nextBinomial
-  nextGaussian ----|link by rand| nextCauchy
-  nextGaussian ----|link by rand| getRandomGenerator
-  nextGaussian ----|link by rand| nextF
-  reSeedSecure ----|link by secRand| nextSecureHexString
-  reSeedSecure ----|link by secRand| nextSecureInt
-  reSeedSecure ----|link by secRand| getSecRan
-  reSeedSecure ----|link by secRand| nextSecureLong
-  nextZipf ----|link by rand| nextGamma
-  nextZipf ----|link by rand| nextGaussian
-  nextZipf ----|link by rand| nextUniform
-  nextZipf ----|link by rand| nextPoisson
-  nextZipf ----|link by rand| nextPascal
-  nextZipf ----|link by rand| initRan
-  nextZipf ----|link by rand| nextLong
-  nextZipf ----|link by rand| nextChiSquare
-  nextZipf ----|link by rand| nextHypergeometric
-  nextZipf ----|link by rand| nextBeta
-  nextZipf ----|link by rand| nextT
-  nextZipf ----|link by rand| nextExponential
-  nextZipf ----|link by rand| nextSecureLong
-  nextZipf ----|link by rand| nextWeibull
-  nextZipf ----|link by rand| nextSample
-  nextZipf ----|link by rand| nextBinomial
-  nextZipf ----|link by rand| nextHexString
-  nextZipf ----|link by rand| nextUniform
-  nextZipf ----|link by rand| nextCauchy
-  nextZipf ----|link by rand| nextInt
-  nextZipf ----|link by rand| nextPermutation
-  nextZipf ----|link by rand| getRandomGenerator
-  nextZipf ----|link by rand| nextF
-  nextUniform ----|link by rand| nextGamma
-  nextUniform ----|link by rand| nextGaussian
-  nextUniform ----|link by rand| nextPoisson
-  nextUniform ----|link by rand| nextPascal
-  nextUniform ----|link by rand| initRan
-  nextUniform ----|link by rand| nextLong
-  nextUniform ----|link by rand| nextChiSquare
-  nextUniform ----|link by rand| nextHypergeometric
-  nextUniform ----|link by rand| nextBeta
-  nextUniform ----|link by rand| nextT
-  nextUniform ----|link by rand| nextExponential
-  nextUniform ----|link by rand| nextSecureLong
-  nextUniform ----|link by rand| nextSample
-  nextUniform ----|link by rand| nextBinomial
-  nextUniform ----|link by rand| nextHexString
-  nextUniform ----|link by rand| nextCauchy
-  nextUniform ----|link by rand| nextInt
-  nextUniform ----|link by rand| nextPermutation
-  nextUniform ----|link by rand| getRandomGenerator
-  nextUniform ----|link by rand| nextF
-  nextPoisson ----|link by rand| nextGamma
-  nextPoisson ----|link by rand| nextGaussian
-  nextPoisson ----|link by rand| nextPascal
-  nextPoisson ----|link by rand| initRan
-  nextPoisson ----|link by rand| nextLong
-  nextPoisson ----|link by rand| nextChiSquare
-  nextPoisson ----|link by rand| nextHypergeometric
-  nextPoisson ----|link by rand| nextBeta
-  nextPoisson ----|link by rand| nextExponential
-  nextPoisson ----|link by rand| nextBinomial
-  nextPoisson ----|link by rand| nextHexString
-  nextPoisson ----|link by rand| nextCauchy
-  nextPoisson ----|link by rand| nextInt
-  nextPoisson ----|link by rand| nextPermutation
-  nextPoisson ----|link by rand| getRandomGenerator
-  nextPoisson ----|link by rand| nextF
-  nextPascal ----|link by rand| nextGamma
-  nextPascal ----|link by rand| nextGaussian
-  nextPascal ----|link by rand| initRan
-  nextPascal ----|link by rand| nextLong
-  nextPascal ----|link by rand| nextChiSquare
-  nextPascal ----|link by rand| nextHypergeometric
-  nextPascal ----|link by rand| nextBeta
-  nextPascal ----|link by rand| nextExponential
-  nextPascal ----|link by rand| nextBinomial
-  nextPascal ----|link by rand| nextHexString
-  nextPascal ----|link by rand| nextCauchy
-  nextPascal ----|link by rand| nextInt
-  nextPascal ----|link by rand| getRandomGenerator
-  nextPascal ----|link by rand| nextF
-  initRan ----|link by rand| getRandomGenerator
-  reSeed ----|link by rand| nextGamma
-  reSeed ----|link by rand| nextGaussian
-  reSeed ----|link by rand| nextZipf
-  reSeed ----|link by rand| nextUniform
-  reSeed ----|link by rand| nextPoisson
-  reSeed ----|link by rand| nextPascal
-  reSeed ----|link by rand| initRan
-  reSeed ----|link by rand| nextLong
-  reSeed ----|link by rand| nextChiSquare
-  reSeed ----|link by rand| nextHypergeometric
-  reSeed ----|link by rand| nextBeta
-  reSeed ----|link by rand| nextT
-  reSeed ----|link by rand| nextExponential
-  reSeed ----|link by rand| nextSecureLong
-  reSeed ----|link by rand| nextWeibull
-  reSeed ----|link by rand| nextSample
-  reSeed ----|link by rand| nextBinomial
-  reSeed ----|link by rand| nextHexString
-  reSeed ----|link by rand| nextUniform
-  reSeed ----|link by rand| nextCauchy
-  reSeed ----|link by rand| nextInt
-  reSeed ----|link by rand| nextPermutation
-  reSeed ----|link by rand| getRandomGenerator
-  reSeed ----|link by rand| nextF
-  nextSecureHexString ----|link by secRand| getSecRan
-  nextLong ----|link by rand| nextGamma
-  nextLong ----|link by rand| nextGaussian
-  nextLong ----|link by rand| initRan
-  nextLong ----|link by rand| nextChiSquare
-  nextLong ----|link by rand| nextHypergeometric
-  nextLong ----|link by rand| nextBeta
-  nextLong ----|link by rand| nextExponential
-  nextLong ----|link by rand| nextBinomial
-  nextLong ----|link by rand| nextHexString
-  nextLong ----|link by rand| nextCauchy
-  nextLong ----|link by rand| nextInt
-  nextLong ----|link by rand| getRandomGenerator
-  nextLong ----|link by rand| nextF
-  reSeed ----|link by rand| nextGamma
-  reSeed ----|link by rand| nextGaussian
-  reSeed ----|link by rand| nextZipf
-  reSeed ----|link by rand| nextUniform
-  reSeed ----|link by rand| nextPoisson
-  reSeed ----|link by rand| nextPascal
-  reSeed ----|link by rand| initRan
-  reSeed ----|link by rand| nextLong
-  reSeed ----|link by rand| nextChiSquare
-  reSeed ----|link by rand| nextHypergeometric
-  reSeed ----|link by rand| nextBeta
-  reSeed ----|link by rand| nextT
-  reSeed ----|link by rand| nextExponential
-  reSeed ----|link by rand| nextSecureLong
-  reSeed ----|link by rand| nextWeibull
-  reSeed ----|link by rand| nextSample
-  reSeed ----|link by rand| nextBinomial
-  reSeed ----|link by rand| nextHexString
-  reSeed ----|link by rand| nextUniform
-  reSeed ----|link by rand| nextCauchy
-  reSeed ----|link by rand| nextInt
-  reSeed ----|link by rand| nextPermutation
-  reSeed ----|link by rand| getRandomGenerator
-  reSeed ----|link by rand| nextF
-  nextChiSquare ----|link by rand| initRan
-  nextChiSquare ----|link by rand| nextBeta
-  nextChiSquare ----|link by rand| nextBinomial
-  nextChiSquare ----|link by rand| nextCauchy
-  nextChiSquare ----|link by rand| getRandomGenerator
-  nextHypergeometric ----|link by rand| nextGamma
-  nextHypergeometric ----|link by rand| nextGaussian
-  nextHypergeometric ----|link by rand| initRan
-  nextHypergeometric ----|link by rand| nextChiSquare
-  nextHypergeometric ----|link by rand| nextBeta
-  nextHypergeometric ----|link by rand| nextExponential
-  nextHypergeometric ----|link by rand| nextBinomial
-  nextHypergeometric ----|link by rand| nextHexString
-  nextHypergeometric ----|link by rand| nextCauchy
-  nextHypergeometric ----|link by rand| getRandomGenerator
-  nextHypergeometric ----|link by rand| nextF
-  nextSecureInt ----|link by secRand| nextSecureHexString
-  nextSecureInt ----|link by secRand| getSecRan
-  nextBeta ----|link by rand| initRan
-  nextBeta ----|link by rand| getRandomGenerator
-  setSecureAlgorithm ----|link by secRand| reSeedSecure
-  setSecureAlgorithm ----|link by secRand| nextSecureHexString
-  setSecureAlgorithm ----|link by secRand| nextSecureInt
-  setSecureAlgorithm ----|link by secRand| getSecRan
-  setSecureAlgorithm ----|link by secRand| nextSecureLong
-  setSecureAlgorithm ----|link by secRand| reSeedSecure
-  nextT ----|link by rand| nextGamma
-  nextT ----|link by rand| nextGaussian
-  nextT ----|link by rand| nextPoisson
-  nextT ----|link by rand| nextPascal
-  nextT ----|link by rand| initRan
-  nextT ----|link by rand| nextLong
-  nextT ----|link by rand| nextChiSquare
-  nextT ----|link by rand| nextHypergeometric
-  nextT ----|link by rand| nextBeta
-  nextT ----|link by rand| nextExponential
-  nextT ----|link by rand| nextSecureLong
-  nextT ----|link by rand| nextSample
-  nextT ----|link by rand| nextBinomial
-  nextT ----|link by rand| nextHexString
-  nextT ----|link by rand| nextCauchy
-  nextT ----|link by rand| nextInt
-  nextT ----|link by rand| nextPermutation
-  nextT ----|link by rand| getRandomGenerator
-  nextT ----|link by rand| nextF
-  nextExponential ----|link by rand| initRan
-  nextExponential ----|link by rand| nextChiSquare
-  nextExponential ----|link by rand| nextBeta
-  nextExponential ----|link by rand| nextBinomial
-  nextExponential ----|link by rand| nextCauchy
-  nextExponential ----|link by rand| getRandomGenerator
-  nextSecureLong ----|link by rand| nextGamma
-  nextSecureLong ----|link by rand| nextGaussian
-  nextSecureLong ----|link by rand| nextPoisson
-  nextSecureLong ----|link by rand| nextPascal
-  nextSecureLong ----|link by rand| initRan
-  nextSecureLong ----|link by rand| nextLong
-  nextSecureLong ----|link by rand| nextChiSquare
-  nextSecureLong ----|link by rand| nextHypergeometric
-  nextSecureLong ----|link by rand| nextBeta
-  nextSecureLong ----|link by rand| nextExponential
-  nextSecureLong ----|link by rand| nextSample
-  nextSecureLong ----|link by rand| nextBinomial
-  nextSecureLong ----|link by rand| nextHexString
-  nextSecureLong ----|link by rand| nextCauchy
-  nextSecureLong ----|link by rand| nextInt
-  nextSecureLong ----|link by rand| nextPermutation
-  nextSecureLong ----|link by rand| getRandomGenerator
-  nextSecureLong ----|link by rand| nextF
-  nextSecureLong ----|link by secRand| nextSecureHexString
-  nextSecureLong ----|link by secRand| nextSecureInt
-  nextSecureLong ----|link by secRand| getSecRan
-  nextWeibull ----|link by rand| nextGamma
-  nextWeibull ----|link by rand| nextGaussian
-  nextWeibull ----|link by rand| nextUniform
-  nextWeibull ----|link by rand| nextPoisson
-  nextWeibull ----|link by rand| nextPascal
-  nextWeibull ----|link by rand| initRan
-  nextWeibull ----|link by rand| nextLong
-  nextWeibull ----|link by rand| nextChiSquare
-  nextWeibull ----|link by rand| nextHypergeometric
-  nextWeibull ----|link by rand| nextBeta
-  nextWeibull ----|link by rand| nextT
-  nextWeibull ----|link by rand| nextExponential
-  nextWeibull ----|link by rand| nextSecureLong
-  nextWeibull ----|link by rand| nextSample
-  nextWeibull ----|link by rand| nextBinomial
-  nextWeibull ----|link by rand| nextHexString
-  nextWeibull ----|link by rand| nextUniform
-  nextWeibull ----|link by rand| nextCauchy
-  nextWeibull ----|link by rand| nextInt
-  nextWeibull ----|link by rand| nextPermutation
-  nextWeibull ----|link by rand| getRandomGenerator
-  nextWeibull ----|link by rand| nextF
-  nextSample ----|link by rand| nextGamma
-  nextSample ----|link by rand| nextGaussian
-  nextSample ----|link by rand| nextPoisson
-  nextSample ----|link by rand| nextPascal
-  nextSample ----|link by rand| initRan
-  nextSample ----|link by rand| nextLong
-  nextSample ----|link by rand| nextChiSquare
-  nextSample ----|link by rand| nextHypergeometric
-  nextSample ----|link by rand| nextBeta
-  nextSample ----|link by rand| nextExponential
-  nextSample ----|link by rand| nextBinomial
-  nextSample ----|link by rand| nextHexString
-  nextSample ----|link by rand| nextCauchy
-  nextSample ----|link by rand| nextInt
-  nextSample ----|link by rand| nextPermutation
-  nextSample ----|link by rand| getRandomGenerator
-  nextSample ----|link by rand| nextF
-  nextBinomial ----|link by rand| initRan
-  nextBinomial ----|link by rand| nextBeta
-  nextBinomial ----|link by rand| getRandomGenerator
-  nextHexString ----|link by rand| nextGamma
-  nextHexString ----|link by rand| nextGaussian
-  nextHexString ----|link by rand| initRan
-  nextHexString ----|link by rand| nextChiSquare
-  nextHexString ----|link by rand| nextBeta
-  nextHexString ----|link by rand| nextExponential
-  nextHexString ----|link by rand| nextBinomial
-  nextHexString ----|link by rand| nextCauchy
-  nextHexString ----|link by rand| getRandomGenerator
-  nextHexString ----|link by rand| nextF
-  nextUniform ----|link by rand| nextGamma
-  nextUniform ----|link by rand| nextGaussian
-  nextUniform ----|link by rand| nextPoisson
-  nextUniform ----|link by rand| nextPascal
-  nextUniform ----|link by rand| initRan
-  nextUniform ----|link by rand| nextLong
-  nextUniform ----|link by rand| nextChiSquare
-  nextUniform ----|link by rand| nextHypergeometric
-  nextUniform ----|link by rand| nextBeta
-  nextUniform ----|link by rand| nextT
-  nextUniform ----|link by rand| nextExponential
-  nextUniform ----|link by rand| nextSecureLong
-  nextUniform ----|link by rand| nextSample
-  nextUniform ----|link by rand| nextBinomial
-  nextUniform ----|link by rand| nextHexString
-  nextUniform ----|link by rand| nextCauchy
-  nextUniform ----|link by rand| nextInt
-  nextUniform ----|link by rand| nextPermutation
-  nextUniform ----|link by rand| getRandomGenerator
-  nextUniform ----|link by rand| nextF
-  nextCauchy ----|link by rand| initRan
-  nextCauchy ----|link by rand| nextBeta
-  nextCauchy ----|link by rand| nextBinomial
-  nextCauchy ----|link by rand| getRandomGenerator
-  nextInt ----|link by rand| nextGamma
-  nextInt ----|link by rand| nextGaussian
-  nextInt ----|link by rand| initRan
-  nextInt ----|link by rand| nextChiSquare
-  nextInt ----|link by rand| nextHypergeometric
-  nextInt ----|link by rand| nextBeta
-  nextInt ----|link by rand| nextExponential
-  nextInt ----|link by rand| nextBinomial
-  nextInt ----|link by rand| nextHexString
-  nextInt ----|link by rand| nextCauchy
-  nextInt ----|link by rand| getRandomGenerator
-  nextInt ----|link by rand| nextF
-  nextPermutation ----|link by rand| nextGamma
-  nextPermutation ----|link by rand| nextGaussian
-  nextPermutation ----|link by rand| nextPascal
-  nextPermutation ----|link by rand| initRan
-  nextPermutation ----|link by rand| nextLong
-  nextPermutation ----|link by rand| nextChiSquare
-  nextPermutation ----|link by rand| nextHypergeometric
-  nextPermutation ----|link by rand| nextBeta
-  nextPermutation ----|link by rand| nextExponential
-  nextPermutation ----|link by rand| nextBinomial
-  nextPermutation ----|link by rand| nextHexString
-  nextPermutation ----|link by rand| nextCauchy
-  nextPermutation ----|link by rand| nextInt
-  nextPermutation ----|link by rand| getRandomGenerator
-  nextPermutation ----|link by rand| nextF
-  reSeedSecure ----|link by secRand| nextSecureHexString
-  reSeedSecure ----|link by secRand| nextSecureInt
-  reSeedSecure ----|link by secRand| getSecRan
-  reSeedSecure ----|link by secRand| nextSecureLong
-  nextF ----|link by rand| initRan
-  nextF ----|link by rand| nextChiSquare
-  nextF ----|link by rand| nextBeta
-  nextF ----|link by rand| nextExponential
-  nextF ----|link by rand| nextBinomial
-  nextF ----|link by rand| nextCauchy
-  nextF ----|link by rand| getRandomGenerator
-```
-
-Number of max pairs: $528.0$
-
-Number of direct connections (link by): $343.0$
-
-**TCC value: $0.6496212121212122$**
-
-
-
-
-# The class 'Well19937a'
-Package: `org.apache.commons.math3.random.Well19937a`
-
-methods : [ `next` ]
-
-attributes : [ `serialVersionUID` `M1` `M2` `M3` `K` ]
-
-
-The attributes used in each method are:
-
-The methods called in each method are:
-
-```mermaid
-graph TD
-```
-
-Number of max pairs: $0.0$
-
-Number of direct connections (link by): $0.0$
-
-**TCC value: $NaN$**
-
-
-
-
-# The class 'AbstractWell'
-Package: `org.apache.commons.math3.random.AbstractWell`
-
-methods : [ `setSeed` `setSeed` `next` `setSeed` ]
-
-attributes : [ `serialVersionUID` `v` `i1` `index` `i2` `i3` `iRm1` `iRm2` ]
-
-
-The attributes used in each method are:
-  - setSeed uses [v, index]
-
-The methods called in each method are:
-  - setSeed calls [setSeed]
-  - setSeed calls [setSeed]
-  - setSeed calls [setSeed]
-
-```mermaid
-graph TD
-  setSeed -->|call| setSeed
-  setSeed -->|call| setSeed
-  setSeed -->|call| setSeed
-  setSeed -. use .->v((v))
-  setSeed -. use .->index((index))
-```
-
-Number of max pairs: $6.0$
-
-Number of direct connections (link by): $0.0$
-
-**TCC value: $0.0$**
-
-
-
-
-# The class 'SobolSequenceGenerator'
-Package: `org.apache.commons.math3.random.SobolSequenceGenerator`
-
-methods : [ `nextVector` `initFromStream` `skipTo` `initDirectionVector` `getNextIndex` ]
-
-attributes : [ `count` `x` `BITS` `SCALE` `FILE_CHARSET` `RESOURCE_NAME` `dimension` `MAX_DIMENSION` `direction` ]
-
-
-The attributes used in each method are:
-  - nextVector uses [count, x, SCALE, dimension, direction]
-  - initFromStream uses [BITS, FILE_CHARSET, dimension, direction]
-  - skipTo uses [x, count, BITS, dimension, direction]
-  - initDirectionVector uses [BITS, direction]
-  - getNextIndex uses [count]
-
-The methods called in each method are:
-  - initFromStream calls [initDirectionVector]
-  - skipTo calls [nextVector]
-
-```mermaid
-graph TD
-  initFromStream -->|call| initDirectionVector
-  skipTo -->|call| nextVector
-  nextVector -. use .->count((count))
-  nextVector -. use .->x((x))
-  nextVector -. use .->SCALE((SCALE))
-  nextVector -. use .->dimension((dimension))
-  nextVector -. use .->direction((direction))
-  initFromStream -. use .->BITS((BITS))
-  initFromStream -. use .->FILE_CHARSET((FILE_CHARSET))
-  initFromStream -. use .->dimension((dimension))
-  initFromStream -. use .->direction((direction))
-  skipTo -. use .->x((x))
-  skipTo -. use .->count((count))
-  skipTo -. use .->BITS((BITS))
-  skipTo -. use .->dimension((dimension))
-  skipTo -. use .->direction((direction))
-  initDirectionVector -. use .->BITS((BITS))
-  initDirectionVector -. use .->direction((direction))
-  getNextIndex -. use .->count((count))
-  nextVector ----|link by count| getNextIndex
-  nextVector ----|link by dimension| initFromStream
-  nextVector ----|link by direction| initFromStream
-  nextVector ----|link by direction| initDirectionVector
-  initFromStream ----|link by BITS| initDirectionVector
-  initFromStream ----|link by direction| initDirectionVector
-  skipTo ----|link by x| nextVector
-  skipTo ----|link by count| nextVector
-  skipTo ----|link by count| getNextIndex
-  skipTo ----|link by BITS| initFromStream
-  skipTo ----|link by BITS| initDirectionVector
-  skipTo ----|link by SCALE| nextVector
-  skipTo ----|link by dimension| nextVector
-  skipTo ----|link by dimension| initFromStream
-  skipTo ----|link by direction| nextVector
-  skipTo ----|link by direction| initFromStream
-  skipTo ----|link by direction| initDirectionVector
-```
-
-Number of max pairs: $10.0$
-
-Number of direct connections (link by): $17.0$
-
-**TCC value: $1.7$**
-
-
-
-
-# The class 'RandomVectorGenerator'
-Package: `org.apache.commons.math3.random.RandomVectorGenerator`
-
-methods : [ `nextVector` ]
-
-attributes : [ ]
-
-
-The TCC value is 0 because the class has no methods or no attributes.
-
-
-
-# The class 'EmpiricalDistribution'
-Package: `org.apache.commons.math3.random.EmpiricalDistribution`
-
-methods : [ `probability` `getUpperBounds` `findBin` `cumulativeProbability` `pB` `k` `reSeed` `isLoaded` `getNumericalVariance` `reseedRandomGenerator` `cumBinP` `getSampleStats` `load` `getSupportUpperBound` `isSupportUpperBoundInclusive` `getSupportLowerBound` `inverseCumulativeProbability` `fillBinStats` `getNextValue` `isSupportLowerBoundInclusive` `getNumericalMean` `density` `load` `getBinCount` `getBinStats` `kB` `isSupportConnected` `load` `pBminus` `getKernel` `getGeneratorUpperBounds` ]
-
-attributes : [ `randomData` `loaded` `upperBounds` `DEFAULT_BIN_COUNT` `serialVersionUID` `binCount` `min` `max` `binStats` `delta` `FILE_CHARSET` `sampleStats` ]
-
-
-The attributes used in each method are:
-  - getUpperBounds uses [binCount, min, max, delta]
-  - findBin uses [binCount, min, delta]
-  - cumulativeProbability uses [min, max]
-  - k uses [binStats]
-  - pB uses [upperBounds]
-  - reSeed uses [randomData]
-  - getNumericalVariance uses [sampleStats]
-  - isLoaded uses [loaded]
-  - reseedRandomGenerator uses [randomData]
-  - cumBinP uses [upperBounds]
-  - getSampleStats uses [sampleStats]
-  - load uses [loaded, FILE_CHARSET, sampleStats]
-  - getSupportUpperBound uses [max]
-  - getSupportLowerBound uses [min]
-  - inverseCumulativeProbability uses [min, binStats]
-  - fillBinStats uses [upperBounds, binCount, min, max, binStats, delta, sampleStats]
-  - getNextValue uses [loaded]
-  - getNumericalMean uses [sampleStats]
-  - density uses [min, max, binStats]
-  - load uses [loaded, FILE_CHARSET]
-  - getBinCount uses [binCount]
-  - getBinStats uses [binStats]
-  - kB uses [min, binStats]
-  - load uses [loaded]
-  - pBminus uses [upperBounds]
-  - getKernel uses [randomData]
-  - getGeneratorUpperBounds uses [upperBounds]
-
-The methods called in each method are:
-  - load calls [fillBinStats]
-  - k calls [getKernel, findBin]
-  - reSeed calls [reSeed]
-  - kB calls [getKernel, cumulativeProbability, getUpperBounds]
-  - reseedRandomGenerator calls [reSeed]
-  - load calls [fillBinStats]
-  - inverseCumulativeProbability calls [getKernel, cumulativeProbability, pB, pBminus, kB, inverseCumulativeProbability, cumBinP, getSupportLowerBound, getSupportUpperBound, getUpperBounds]
-  - cumulativeProbability calls [pB, cumulativeProbability, pBminus, getNumericalMean, kB, findBin, k, getUpperBounds]
-  - load calls [fillBinStats]
-  - density calls [getKernel, pB, density, kB, findBin]
-
-```mermaid
-graph TD
-  load -->|call| fillBinStats
-  k -->|call| getKernel
-  k -->|call| findBin
-  reSeed -->|call| reSeed
-  kB -->|call| getKernel
-  kB -->|call| cumulativeProbability
-  kB -->|call| getUpperBounds
-  reseedRandomGenerator -->|call| reSeed
-  load -->|call| fillBinStats
-  inverseCumulativeProbability -->|call| getKernel
-  inverseCumulativeProbability -->|call| cumulativeProbability
-  inverseCumulativeProbability -->|call| pB
-  inverseCumulativeProbability -->|call| pBminus
-  inverseCumulativeProbability -->|call| kB
-  inverseCumulativeProbability -->|call| inverseCumulativeProbability
-  inverseCumulativeProbability -->|call| cumBinP
-  inverseCumulativeProbability -->|call| getSupportLowerBound
-  inverseCumulativeProbability -->|call| getSupportUpperBound
-  inverseCumulativeProbability -->|call| getUpperBounds
-  cumulativeProbability -->|call| pB
-  cumulativeProbability -->|call| cumulativeProbability
-  cumulativeProbability -->|call| pBminus
-  cumulativeProbability -->|call| getNumericalMean
-  cumulativeProbability -->|call| kB
-  cumulativeProbability -->|call| findBin
-  cumulativeProbability -->|call| k
-  cumulativeProbability -->|call| getUpperBounds
-  load -->|call| fillBinStats
-  density -->|call| getKernel
-  density -->|call| pB
-  density -->|call| density
-  density -->|call| kB
-  density -->|call| findBin
-  getUpperBounds -. use .->binCount((binCount))
-  getUpperBounds -. use .->min((min))
-  getUpperBounds -. use .->max((max))
-  getUpperBounds -. use .->delta((delta))
-  findBin -. use .->binCount((binCount))
-  findBin -. use .->min((min))
-  findBin -. use .->delta((delta))
-  cumulativeProbability -. use .->min((min))
-  cumulativeProbability -. use .->max((max))
-  k -. use .->binStats((binStats))
-  pB -. use .->upperBounds((upperBounds))
-  reSeed -. use .->randomData((randomData))
-  getNumericalVariance -. use .->sampleStats((sampleStats))
-  isLoaded -. use .->loaded((loaded))
-  reseedRandomGenerator -. use .->randomData((randomData))
-  cumBinP -. use .->upperBounds((upperBounds))
-  getSampleStats -. use .->sampleStats((sampleStats))
-  load -. use .->loaded((loaded))
-  load -. use .->FILE_CHARSET((FILE_CHARSET))
-  load -. use .->sampleStats((sampleStats))
-  getSupportUpperBound -. use .->max((max))
-  getSupportLowerBound -. use .->min((min))
-  inverseCumulativeProbability -. use .->min((min))
-  inverseCumulativeProbability -. use .->binStats((binStats))
-  fillBinStats -. use .->upperBounds((upperBounds))
-  fillBinStats -. use .->binCount((binCount))
-  fillBinStats -. use .->min((min))
-  fillBinStats -. use .->max((max))
-  fillBinStats -. use .->binStats((binStats))
-  fillBinStats -. use .->delta((delta))
-  fillBinStats -. use .->sampleStats((sampleStats))
-  getNextValue -. use .->loaded((loaded))
-  getNumericalMean -. use .->sampleStats((sampleStats))
-  density -. use .->min((min))
-  density -. use .->max((max))
-  density -. use .->binStats((binStats))
-  load -. use .->loaded((loaded))
-  load -. use .->FILE_CHARSET((FILE_CHARSET))
-  getBinCount -. use .->binCount((binCount))
-  getBinStats -. use .->binStats((binStats))
-  kB -. use .->min((min))
-  kB -. use .->binStats((binStats))
-  load -. use .->loaded((loaded))
-  pBminus -. use .->upperBounds((upperBounds))
-  getKernel -. use .->randomData((randomData))
-  getGeneratorUpperBounds -. use .->upperBounds((upperBounds))
-  getUpperBounds ----|link by binCount| findBin
-  getUpperBounds ----|link by binCount| cumulativeProbability
-  getUpperBounds ----|link by binCount| fillBinStats
-  getUpperBounds ----|link by binCount| density
-  getUpperBounds ----|link by binCount| getBinCount
-  getUpperBounds ----|link by min| findBin
-  getUpperBounds ----|link by min| cumulativeProbability
-  getUpperBounds ----|link by min| getSupportLowerBound
-  getUpperBounds ----|link by min| fillBinStats
-  getUpperBounds ----|link by min| density
-  getUpperBounds ----|link by max| cumulativeProbability
-  getUpperBounds ----|link by max| getSupportUpperBound
-  getUpperBounds ----|link by max| fillBinStats
-  getUpperBounds ----|link by max| density
-  getUpperBounds ----|link by delta| findBin
-  getUpperBounds ----|link by delta| cumulativeProbability
-  getUpperBounds ----|link by delta| fillBinStats
-  getUpperBounds ----|link by delta| density
-  findBin ----|link by binCount| cumulativeProbability
-  findBin ----|link by binCount| fillBinStats
-  findBin ----|link by binCount| density
-  findBin ----|link by min| cumulativeProbability
-  findBin ----|link by min| fillBinStats
-  findBin ----|link by min| density
-  findBin ----|link by delta| cumulativeProbability
-  findBin ----|link by delta| fillBinStats
-  findBin ----|link by delta| density
-  cumulativeProbability ----|link by upperBounds| cumBinP
-  k ----|link by randomData| cumulativeProbability
-  k ----|link by randomData| inverseCumulativeProbability
-  k ----|link by randomData| density
-  k ----|link by randomData| getKernel
-  k ----|link by binCount| getUpperBounds
-  k ----|link by binCount| findBin
-  k ----|link by binCount| cumulativeProbability
-  k ----|link by binCount| inverseCumulativeProbability
-  k ----|link by binCount| fillBinStats
-  k ----|link by binCount| density
-  k ----|link by binCount| getBinCount
-  k ----|link by min| getUpperBounds
-  k ----|link by min| findBin
-  k ----|link by min| cumulativeProbability
-  k ----|link by min| getSupportLowerBound
-  k ----|link by min| inverseCumulativeProbability
-  k ----|link by min| fillBinStats
-  k ----|link by min| density
-  k ----|link by binStats| cumulativeProbability
-  k ----|link by binStats| inverseCumulativeProbability
-  k ----|link by binStats| fillBinStats
-  k ----|link by binStats| density
-  k ----|link by binStats| getBinStats
-  k ----|link by delta| getUpperBounds
-  k ----|link by delta| findBin
-  k ----|link by delta| cumulativeProbability
-  k ----|link by delta| inverseCumulativeProbability
-  k ----|link by delta| fillBinStats
-  k ----|link by delta| density
-  pB ----|link by upperBounds| cumulativeProbability
-  pB ----|link by upperBounds| cumBinP
-  pB ----|link by upperBounds| load
-  pB ----|link by upperBounds| inverseCumulativeProbability
-  pB ----|link by upperBounds| fillBinStats
-  pB ----|link by upperBounds| density
-  pB ----|link by upperBounds| load
-  pB ----|link by upperBounds| kB
-  pB ----|link by upperBounds| load
-  pB ----|link by upperBounds| getGeneratorUpperBounds
-  reSeed ----|link by randomData| cumulativeProbability
-  reSeed ----|link by randomData| k
-  reSeed ----|link by randomData| inverseCumulativeProbability
-  reSeed ----|link by randomData| density
-  reSeed ----|link by randomData| kB
-  reSeed ----|link by randomData| getKernel
-  getNumericalVariance ----|link by sampleStats| cumulativeProbability
-  getNumericalVariance ----|link by sampleStats| fillBinStats
-  getNumericalVariance ----|link by sampleStats| getNumericalMean
-  getNumericalVariance ----|link by sampleStats| density
-  isLoaded ----|link by loaded| getNextValue
-  reseedRandomGenerator ----|link by randomData| cumulativeProbability
-  reseedRandomGenerator ----|link by randomData| k
-  reseedRandomGenerator ----|link by randomData| reSeed
-  reseedRandomGenerator ----|link by randomData| inverseCumulativeProbability
-  reseedRandomGenerator ----|link by randomData| density
-  reseedRandomGenerator ----|link by randomData| kB
-  reseedRandomGenerator ----|link by randomData| getKernel
-  getSampleStats ----|link by sampleStats| cumulativeProbability
-  getSampleStats ----|link by sampleStats| getNumericalVariance
-  getSampleStats ----|link by sampleStats| fillBinStats
-  getSampleStats ----|link by sampleStats| getNumericalMean
-  getSampleStats ----|link by sampleStats| density
-  load ----|link by loaded| isLoaded
-  load ----|link by loaded| getNextValue
-  load ----|link by upperBounds| cumulativeProbability
-  load ----|link by upperBounds| cumBinP
-  load ----|link by upperBounds| inverseCumulativeProbability
-  load ----|link by upperBounds| fillBinStats
-  load ----|link by upperBounds| density
-  load ----|link by upperBounds| kB
-  load ----|link by upperBounds| getGeneratorUpperBounds
-  load ----|link by binCount| getUpperBounds
-  load ----|link by binCount| findBin
-  load ----|link by binCount| cumulativeProbability
-  load ----|link by binCount| k
-  load ----|link by binCount| inverseCumulativeProbability
-  load ----|link by binCount| fillBinStats
-  load ----|link by binCount| density
-  load ----|link by binCount| getBinCount
-  load ----|link by binCount| kB
-  load ----|link by min| getUpperBounds
-  load ----|link by min| findBin
-  load ----|link by min| cumulativeProbability
-  load ----|link by min| k
-  load ----|link by min| getSupportLowerBound
-  load ----|link by min| inverseCumulativeProbability
-  load ----|link by min| fillBinStats
-  load ----|link by min| density
-  load ----|link by min| kB
-  load ----|link by max| getUpperBounds
-  load ----|link by max| cumulativeProbability
-  load ----|link by max| getSupportUpperBound
-  load ----|link by max| inverseCumulativeProbability
-  load ----|link by max| fillBinStats
-  load ----|link by max| density
-  load ----|link by max| kB
-  load ----|link by binStats| cumulativeProbability
-  load ----|link by binStats| k
-  load ----|link by binStats| inverseCumulativeProbability
-  load ----|link by binStats| fillBinStats
-  load ----|link by binStats| density
-  load ----|link by binStats| getBinStats
-  load ----|link by binStats| kB
-  load ----|link by delta| getUpperBounds
-  load ----|link by delta| findBin
-  load ----|link by delta| cumulativeProbability
-  load ----|link by delta| k
-  load ----|link by delta| inverseCumulativeProbability
-  load ----|link by delta| fillBinStats
-  load ----|link by delta| density
-  load ----|link by delta| kB
-  load ----|link by sampleStats| cumulativeProbability
-  load ----|link by sampleStats| getNumericalVariance
-  load ----|link by sampleStats| getSampleStats
-  load ----|link by sampleStats| inverseCumulativeProbability
-  load ----|link by sampleStats| fillBinStats
-  load ----|link by sampleStats| getNumericalMean
-  load ----|link by sampleStats| density
-  load ----|link by sampleStats| kB
-  getSupportUpperBound ----|link by max| cumulativeProbability
-  getSupportUpperBound ----|link by max| fillBinStats
-  getSupportUpperBound ----|link by max| density
-  getSupportLowerBound ----|link by min| findBin
-  getSupportLowerBound ----|link by min| cumulativeProbability
-  getSupportLowerBound ----|link by min| fillBinStats
-  getSupportLowerBound ----|link by min| density
-  inverseCumulativeProbability ----|link by randomData| cumulativeProbability
-  inverseCumulativeProbability ----|link by randomData| density
-  inverseCumulativeProbability ----|link by randomData| getKernel
-  inverseCumulativeProbability ----|link by upperBounds| cumulativeProbability
-  inverseCumulativeProbability ----|link by upperBounds| cumBinP
-  inverseCumulativeProbability ----|link by upperBounds| fillBinStats
-  inverseCumulativeProbability ----|link by upperBounds| density
-  inverseCumulativeProbability ----|link by upperBounds| getGeneratorUpperBounds
-  inverseCumulativeProbability ----|link by binCount| getUpperBounds
-  inverseCumulativeProbability ----|link by binCount| findBin
-  inverseCumulativeProbability ----|link by binCount| cumulativeProbability
-  inverseCumulativeProbability ----|link by binCount| fillBinStats
-  inverseCumulativeProbability ----|link by binCount| density
-  inverseCumulativeProbability ----|link by binCount| getBinCount
-  inverseCumulativeProbability ----|link by min| getUpperBounds
-  inverseCumulativeProbability ----|link by min| findBin
-  inverseCumulativeProbability ----|link by min| cumulativeProbability
-  inverseCumulativeProbability ----|link by min| getSupportLowerBound
-  inverseCumulativeProbability ----|link by min| fillBinStats
-  inverseCumulativeProbability ----|link by min| density
-  inverseCumulativeProbability ----|link by max| getUpperBounds
-  inverseCumulativeProbability ----|link by max| cumulativeProbability
-  inverseCumulativeProbability ----|link by max| getSupportUpperBound
-  inverseCumulativeProbability ----|link by max| fillBinStats
-  inverseCumulativeProbability ----|link by max| density
-  inverseCumulativeProbability ----|link by binStats| cumulativeProbability
-  inverseCumulativeProbability ----|link by binStats| fillBinStats
-  inverseCumulativeProbability ----|link by binStats| density
-  inverseCumulativeProbability ----|link by binStats| getBinStats
-  inverseCumulativeProbability ----|link by delta| getUpperBounds
-  inverseCumulativeProbability ----|link by delta| findBin
-  inverseCumulativeProbability ----|link by delta| cumulativeProbability
-  inverseCumulativeProbability ----|link by delta| fillBinStats
-  inverseCumulativeProbability ----|link by delta| density
-  inverseCumulativeProbability ----|link by sampleStats| cumulativeProbability
-  inverseCumulativeProbability ----|link by sampleStats| getNumericalVariance
-  inverseCumulativeProbability ----|link by sampleStats| getSampleStats
-  inverseCumulativeProbability ----|link by sampleStats| fillBinStats
-  inverseCumulativeProbability ----|link by sampleStats| getNumericalMean
-  inverseCumulativeProbability ----|link by sampleStats| density
-  fillBinStats ----|link by upperBounds| cumulativeProbability
-  fillBinStats ----|link by upperBounds| cumBinP
-  fillBinStats ----|link by upperBounds| density
-  fillBinStats ----|link by binCount| cumulativeProbability
-  fillBinStats ----|link by binCount| density
-  fillBinStats ----|link by min| cumulativeProbability
-  fillBinStats ----|link by min| density
-  fillBinStats ----|link by max| cumulativeProbability
-  fillBinStats ----|link by max| density
-  fillBinStats ----|link by binStats| cumulativeProbability
-  fillBinStats ----|link by binStats| density
-  fillBinStats ----|link by delta| cumulativeProbability
-  fillBinStats ----|link by delta| density
-  fillBinStats ----|link by sampleStats| cumulativeProbability
-  fillBinStats ----|link by sampleStats| density
-  getNumericalMean ----|link by sampleStats| cumulativeProbability
-  getNumericalMean ----|link by sampleStats| fillBinStats
-  getNumericalMean ----|link by sampleStats| density
-  density ----|link by randomData| cumulativeProbability
-  density ----|link by upperBounds| cumulativeProbability
-  density ----|link by upperBounds| cumBinP
-  density ----|link by binCount| cumulativeProbability
-  density ----|link by min| cumulativeProbability
-  density ----|link by max| cumulativeProbability
-  density ----|link by binStats| cumulativeProbability
-  density ----|link by delta| cumulativeProbability
-  density ----|link by sampleStats| cumulativeProbability
-  load ----|link by loaded| isLoaded
-  load ----|link by loaded| getNextValue
-  load ----|link by upperBounds| cumulativeProbability
-  load ----|link by upperBounds| cumBinP
-  load ----|link by upperBounds| inverseCumulativeProbability
-  load ----|link by upperBounds| fillBinStats
-  load ----|link by upperBounds| density
-  load ----|link by upperBounds| kB
-  load ----|link by upperBounds| getGeneratorUpperBounds
-  load ----|link by binCount| getUpperBounds
-  load ----|link by binCount| findBin
-  load ----|link by binCount| cumulativeProbability
-  load ----|link by binCount| k
-  load ----|link by binCount| inverseCumulativeProbability
-  load ----|link by binCount| fillBinStats
-  load ----|link by binCount| density
-  load ----|link by binCount| getBinCount
-  load ----|link by binCount| kB
-  load ----|link by min| getUpperBounds
-  load ----|link by min| findBin
-  load ----|link by min| cumulativeProbability
-  load ----|link by min| k
-  load ----|link by min| getSupportLowerBound
-  load ----|link by min| inverseCumulativeProbability
-  load ----|link by min| fillBinStats
-  load ----|link by min| density
-  load ----|link by min| kB
-  load ----|link by max| getUpperBounds
-  load ----|link by max| cumulativeProbability
-  load ----|link by max| getSupportUpperBound
-  load ----|link by max| inverseCumulativeProbability
-  load ----|link by max| fillBinStats
-  load ----|link by max| density
-  load ----|link by max| kB
-  load ----|link by binStats| cumulativeProbability
-  load ----|link by binStats| k
-  load ----|link by binStats| inverseCumulativeProbability
-  load ----|link by binStats| fillBinStats
-  load ----|link by binStats| density
-  load ----|link by binStats| getBinStats
-  load ----|link by binStats| kB
-  load ----|link by delta| getUpperBounds
-  load ----|link by delta| findBin
-  load ----|link by delta| cumulativeProbability
-  load ----|link by delta| k
-  load ----|link by delta| inverseCumulativeProbability
-  load ----|link by delta| fillBinStats
-  load ----|link by delta| density
-  load ----|link by delta| kB
-  load ----|link by sampleStats| cumulativeProbability
-  load ----|link by sampleStats| getNumericalVariance
-  load ----|link by sampleStats| getSampleStats
-  load ----|link by sampleStats| inverseCumulativeProbability
-  load ----|link by sampleStats| fillBinStats
-  load ----|link by sampleStats| getNumericalMean
-  load ----|link by sampleStats| density
-  load ----|link by sampleStats| kB
-  getBinCount ----|link by binCount| findBin
-  getBinCount ----|link by binCount| cumulativeProbability
-  getBinCount ----|link by binCount| fillBinStats
-  getBinCount ----|link by binCount| density
-  getBinStats ----|link by binStats| cumulativeProbability
-  getBinStats ----|link by binStats| fillBinStats
-  getBinStats ----|link by binStats| density
-  kB ----|link by randomData| cumulativeProbability
-  kB ----|link by randomData| k
-  kB ----|link by randomData| inverseCumulativeProbability
-  kB ----|link by randomData| density
-  kB ----|link by randomData| getKernel
-  kB ----|link by upperBounds| cumulativeProbability
-  kB ----|link by upperBounds| cumBinP
-  kB ----|link by upperBounds| inverseCumulativeProbability
-  kB ----|link by upperBounds| fillBinStats
-  kB ----|link by upperBounds| density
-  kB ----|link by upperBounds| getGeneratorUpperBounds
-  kB ----|link by binCount| getUpperBounds
-  kB ----|link by binCount| findBin
-  kB ----|link by binCount| cumulativeProbability
-  kB ----|link by binCount| k
-  kB ----|link by binCount| inverseCumulativeProbability
-  kB ----|link by binCount| fillBinStats
-  kB ----|link by binCount| density
-  kB ----|link by binCount| getBinCount
-  kB ----|link by min| getUpperBounds
-  kB ----|link by min| findBin
-  kB ----|link by min| cumulativeProbability
-  kB ----|link by min| k
-  kB ----|link by min| getSupportLowerBound
-  kB ----|link by min| inverseCumulativeProbability
-  kB ----|link by min| fillBinStats
-  kB ----|link by min| density
-  kB ----|link by max| getUpperBounds
-  kB ----|link by max| cumulativeProbability
-  kB ----|link by max| getSupportUpperBound
-  kB ----|link by max| inverseCumulativeProbability
-  kB ----|link by max| fillBinStats
-  kB ----|link by max| density
-  kB ----|link by binStats| cumulativeProbability
-  kB ----|link by binStats| k
-  kB ----|link by binStats| inverseCumulativeProbability
-  kB ----|link by binStats| fillBinStats
-  kB ----|link by binStats| density
-  kB ----|link by binStats| getBinStats
-  kB ----|link by delta| getUpperBounds
-  kB ----|link by delta| findBin
-  kB ----|link by delta| cumulativeProbability
-  kB ----|link by delta| k
-  kB ----|link by delta| inverseCumulativeProbability
-  kB ----|link by delta| fillBinStats
-  kB ----|link by delta| density
-  kB ----|link by sampleStats| cumulativeProbability
-  kB ----|link by sampleStats| getNumericalVariance
-  kB ----|link by sampleStats| getSampleStats
-  kB ----|link by sampleStats| inverseCumulativeProbability
-  kB ----|link by sampleStats| fillBinStats
-  kB ----|link by sampleStats| getNumericalMean
-  kB ----|link by sampleStats| density
-  load ----|link by loaded| isLoaded
-  load ----|link by loaded| getNextValue
-  load ----|link by upperBounds| cumulativeProbability
-  load ----|link by upperBounds| cumBinP
-  load ----|link by upperBounds| inverseCumulativeProbability
-  load ----|link by upperBounds| fillBinStats
-  load ----|link by upperBounds| density
-  load ----|link by upperBounds| kB
-  load ----|link by upperBounds| getGeneratorUpperBounds
-  load ----|link by binCount| getUpperBounds
-  load ----|link by binCount| findBin
-  load ----|link by binCount| cumulativeProbability
-  load ----|link by binCount| k
-  load ----|link by binCount| inverseCumulativeProbability
-  load ----|link by binCount| fillBinStats
-  load ----|link by binCount| density
-  load ----|link by binCount| getBinCount
-  load ----|link by binCount| kB
-  load ----|link by min| getUpperBounds
-  load ----|link by min| findBin
-  load ----|link by min| cumulativeProbability
-  load ----|link by min| k
-  load ----|link by min| getSupportLowerBound
-  load ----|link by min| inverseCumulativeProbability
-  load ----|link by min| fillBinStats
-  load ----|link by min| density
-  load ----|link by min| kB
-  load ----|link by max| getUpperBounds
-  load ----|link by max| cumulativeProbability
-  load ----|link by max| getSupportUpperBound
-  load ----|link by max| inverseCumulativeProbability
-  load ----|link by max| fillBinStats
-  load ----|link by max| density
-  load ----|link by max| kB
-  load ----|link by binStats| cumulativeProbability
-  load ----|link by binStats| k
-  load ----|link by binStats| inverseCumulativeProbability
-  load ----|link by binStats| fillBinStats
-  load ----|link by binStats| density
-  load ----|link by binStats| getBinStats
-  load ----|link by binStats| kB
-  load ----|link by delta| getUpperBounds
-  load ----|link by delta| findBin
-  load ----|link by delta| cumulativeProbability
-  load ----|link by delta| k
-  load ----|link by delta| inverseCumulativeProbability
-  load ----|link by delta| fillBinStats
-  load ----|link by delta| density
-  load ----|link by delta| kB
-  load ----|link by sampleStats| cumulativeProbability
-  load ----|link by sampleStats| getNumericalVariance
-  load ----|link by sampleStats| getSampleStats
-  load ----|link by sampleStats| inverseCumulativeProbability
-  load ----|link by sampleStats| fillBinStats
-  load ----|link by sampleStats| getNumericalMean
-  load ----|link by sampleStats| density
-  load ----|link by sampleStats| kB
-  pBminus ----|link by upperBounds| cumulativeProbability
-  pBminus ----|link by upperBounds| pB
-  pBminus ----|link by upperBounds| cumBinP
-  pBminus ----|link by upperBounds| load
-  pBminus ----|link by upperBounds| inverseCumulativeProbability
-  pBminus ----|link by upperBounds| fillBinStats
-  pBminus ----|link by upperBounds| density
-  pBminus ----|link by upperBounds| load
-  pBminus ----|link by upperBounds| kB
-  pBminus ----|link by upperBounds| load
-  pBminus ----|link by upperBounds| getGeneratorUpperBounds
-  getKernel ----|link by randomData| cumulativeProbability
-  getKernel ----|link by randomData| density
-  getGeneratorUpperBounds ----|link by upperBounds| cumulativeProbability
-  getGeneratorUpperBounds ----|link by upperBounds| cumBinP
-  getGeneratorUpperBounds ----|link by upperBounds| fillBinStats
-  getGeneratorUpperBounds ----|link by upperBounds| density
-```
-
-Number of max pairs: $465.0$
-
-Number of direct connections (link by): $412.0$
-
-**TCC value: $0.886021505376344$**
-
-
-
-
-# The class 'NormalizedRandomGenerator'
-Package: `org.apache.commons.math3.random.NormalizedRandomGenerator`
-
-methods : [ `nextNormalizedDouble` ]
-
-attributes : [ ]
-
-
-The TCC value is 0 because the class has no methods or no attributes.
-
-
-
-# The class 'GaussianRandomGenerator'
-Package: `org.apache.commons.math3.random.GaussianRandomGenerator`
-
-methods : [ `nextNormalizedDouble` ]
-
-attributes : [ `generator` ]
-
-
-The attributes used in each method are:
-  - nextNormalizedDouble uses [generator]
-
-The methods called in each method are:
-
-```mermaid
-graph TD
-  nextNormalizedDouble -. use .->generator((generator))
-```
-
-Number of max pairs: $0.0$
-
-Number of direct connections (link by): $0.0$
-
-**TCC value: $NaN$**
-
-
-
-
-# The class 'RandomAdaptor'
-Package: `org.apache.commons.math3.random.RandomAdaptor`
-
-methods : [ `nextBytes` `nextDouble` `nextGaussian` `setSeed` `createAdaptor` `nextBoolean` `nextFloat` `setSeed` `setSeed` `nextInt` `nextInt` `nextLong` ]
-
-attributes : [ `serialVersionUID` `randomGenerator` ]
-
-
-The attributes used in each method are:
-  - nextBytes uses [randomGenerator]
-  - nextDouble uses [randomGenerator]
-  - setSeed uses [randomGenerator]
-  - nextGaussian uses [randomGenerator]
-  - createAdaptor uses [randomGenerator]
-  - nextBoolean uses [randomGenerator]
-  - setSeed uses [randomGenerator]
-  - setSeed uses [randomGenerator]
-  - nextFloat uses [randomGenerator]
-  - nextInt uses [randomGenerator]
-  - nextInt uses [randomGenerator]
-  - nextLong uses [randomGenerator]
-
-The methods called in each method are:
-  - nextBytes calls [nextBytes]
-  - nextDouble calls [nextDouble]
-  - setSeed calls [setSeed]
-  - nextGaussian calls [nextGaussian]
-  - nextBoolean calls [nextBoolean]
-  - setSeed calls [setSeed]
-  - setSeed calls [setSeed]
-  - nextFloat calls [nextFloat]
-  - nextInt calls [nextInt]
-  - nextInt calls [nextInt]
-  - nextLong calls [nextLong]
-
-```mermaid
-graph TD
-  nextBytes -->|call| nextBytes
-  nextDouble -->|call| nextDouble
-  setSeed -->|call| setSeed
-  nextGaussian -->|call| nextGaussian
-  nextBoolean -->|call| nextBoolean
-  setSeed -->|call| setSeed
-  setSeed -->|call| setSeed
-  nextFloat -->|call| nextFloat
-  nextInt -->|call| nextInt
-  nextInt -->|call| nextInt
-  nextLong -->|call| nextLong
-  nextBytes -. use .->randomGenerator((randomGenerator))
-  nextDouble -. use .->randomGenerator((randomGenerator))
-  setSeed -. use .->randomGenerator((randomGenerator))
-  nextGaussian -. use .->randomGenerator((randomGenerator))
-  createAdaptor -. use .->randomGenerator((randomGenerator))
-  nextBoolean -. use .->randomGenerator((randomGenerator))
-  setSeed -. use .->randomGenerator((randomGenerator))
-  setSeed -. use .->randomGenerator((randomGenerator))
-  nextFloat -. use .->randomGenerator((randomGenerator))
-  nextInt -. use .->randomGenerator((randomGenerator))
-  nextInt -. use .->randomGenerator((randomGenerator))
-  nextLong -. use .->randomGenerator((randomGenerator))
-  nextBytes ----|link by randomGenerator| createAdaptor
-  nextBytes ----|link by randomGenerator| nextBoolean
-  nextDouble ----|link by randomGenerator| nextBytes
-  nextDouble ----|link by randomGenerator| createAdaptor
-  nextDouble ----|link by randomGenerator| nextBoolean
-  setSeed ----|link by randomGenerator| nextBytes
-  setSeed ----|link by randomGenerator| nextDouble
-  setSeed ----|link by randomGenerator| nextGaussian
-  setSeed ----|link by randomGenerator| createAdaptor
-  setSeed ----|link by randomGenerator| nextBoolean
-  setSeed ----|link by randomGenerator| nextFloat
-  setSeed ----|link by randomGenerator| nextInt
-  setSeed ----|link by randomGenerator| nextInt
-  setSeed ----|link by randomGenerator| nextLong
-  nextGaussian ----|link by randomGenerator| nextBytes
-  nextGaussian ----|link by randomGenerator| nextDouble
-  nextGaussian ----|link by randomGenerator| createAdaptor
-  nextGaussian ----|link by randomGenerator| nextBoolean
-  nextGaussian ----|link by randomGenerator| nextFloat
-  nextBoolean ----|link by randomGenerator| createAdaptor
-  setSeed ----|link by randomGenerator| nextBytes
-  setSeed ----|link by randomGenerator| nextDouble
-  setSeed ----|link by randomGenerator| nextGaussian
-  setSeed ----|link by randomGenerator| createAdaptor
-  setSeed ----|link by randomGenerator| nextBoolean
-  setSeed ----|link by randomGenerator| nextFloat
-  setSeed ----|link by randomGenerator| nextInt
-  setSeed ----|link by randomGenerator| nextInt
-  setSeed ----|link by randomGenerator| nextLong
-  setSeed ----|link by randomGenerator| nextBytes
-  setSeed ----|link by randomGenerator| nextDouble
-  setSeed ----|link by randomGenerator| nextGaussian
-  setSeed ----|link by randomGenerator| createAdaptor
-  setSeed ----|link by randomGenerator| nextBoolean
-  setSeed ----|link by randomGenerator| nextFloat
-  setSeed ----|link by randomGenerator| nextInt
-  setSeed ----|link by randomGenerator| nextInt
-  setSeed ----|link by randomGenerator| nextLong
-  nextFloat ----|link by randomGenerator| nextBytes
-  nextFloat ----|link by randomGenerator| nextDouble
-  nextFloat ----|link by randomGenerator| createAdaptor
-  nextFloat ----|link by randomGenerator| nextBoolean
-  nextInt ----|link by randomGenerator| nextBytes
-  nextInt ----|link by randomGenerator| nextDouble
-  nextInt ----|link by randomGenerator| nextGaussian
-  nextInt ----|link by randomGenerator| createAdaptor
-  nextInt ----|link by randomGenerator| nextBoolean
-  nextInt ----|link by randomGenerator| nextFloat
-  nextInt ----|link by randomGenerator| nextBytes
-  nextInt ----|link by randomGenerator| nextDouble
-  nextInt ----|link by randomGenerator| nextGaussian
-  nextInt ----|link by randomGenerator| createAdaptor
-  nextInt ----|link by randomGenerator| nextBoolean
-  nextInt ----|link by randomGenerator| nextFloat
-  nextLong ----|link by randomGenerator| nextBytes
-  nextLong ----|link by randomGenerator| nextDouble
-  nextLong ----|link by randomGenerator| nextGaussian
-  nextLong ----|link by randomGenerator| createAdaptor
-  nextLong ----|link by randomGenerator| nextBoolean
-  nextLong ----|link by randomGenerator| nextFloat
-  nextLong ----|link by randomGenerator| nextInt
-  nextLong ----|link by randomGenerator| nextInt
-```
-
-Number of max pairs: $66.0$
-
-Number of direct connections (link by): $62.0$
-
-**TCC value: $0.9393939393939394$**
-
-
-
-
-# The class 'UniformRandomGenerator'
-Package: `org.apache.commons.math3.random.UniformRandomGenerator`
-
-methods : [ `nextNormalizedDouble` ]
-
-attributes : [ `SQRT3` `generator` ]
-
-
-The attributes used in each method are:
-  - nextNormalizedDouble uses [SQRT3, generator]
-
-The methods called in each method are:
-
-```mermaid
-graph TD
-  nextNormalizedDouble -. use .->SQRT3((SQRT3))
-  nextNormalizedDouble -. use .->generator((generator))
-```
-
-Number of max pairs: $0.0$
-
-Number of direct connections (link by): $0.0$
-
-**TCC value: $NaN$**
-
-
-
-
-# The class 'CorrelatedRandomVectorGenerator'
-Package: `org.apache.commons.math3.random.CorrelatedRandomVectorGenerator`
-
-methods : [ `getGenerator` `getRank` `nextVector` `getRootMatrix` ]
-
-attributes : [ `mean` `normalized` `root` `generator` ]
-
-
-The attributes used in each method are:
-  - getGenerator uses [generator]
-  - nextVector uses [normalized, mean, root, generator]
-  - getRank uses [normalized]
-  - getRootMatrix uses [root]
-
-The methods called in each method are:
-
-```mermaid
-graph TD
-  getGenerator -. use .->generator((generator))
-  nextVector -. use .->normalized((normalized))
-  nextVector -. use .->mean((mean))
-  nextVector -. use .->root((root))
-  nextVector -. use .->generator((generator))
-  getRank -. use .->normalized((normalized))
-  getRootMatrix -. use .->root((root))
-  nextVector ----|link by normalized| getRank
-  nextVector ----|link by root| getRootMatrix
-  nextVector ----|link by generator| getGenerator
-```
-
-Number of max pairs: $6.0$
-
-Number of direct connections (link by): $3.0$
-
-**TCC value: $0.5$**
-
-
-
-
-# The class 'Well1024a'
-Package: `org.apache.commons.math3.random.Well1024a`
-
-methods : [ `next` ]
-
-attributes : [ `serialVersionUID` `M1` `M2` `M3` `K` ]
-
-
-The attributes used in each method are:
-
-The methods called in each method are:
-
-```mermaid
-graph TD
-```
-
-Number of max pairs: $0.0$
-
-Number of direct connections (link by): $0.0$
-
-**TCC value: $NaN$**
-
-
-
-
-# The class 'SynchronizedRandomGenerator'
-Package: `org.apache.commons.math3.random.SynchronizedRandomGenerator`
-
-methods : [ `nextGaussian` `setSeed` `nextBytes` `nextInt` `setSeed` `nextBoolean` `nextInt` `nextDouble` `setSeed` `nextLong` `nextFloat` ]
-
-attributes : [ `wrapped` ]
-
-
-The attributes used in each method are:
-  - nextGaussian uses [wrapped]
-  - nextInt uses [wrapped]
-  - nextBytes uses [wrapped]
-  - setSeed uses [wrapped]
-  - setSeed uses [wrapped]
-  - nextBoolean uses [wrapped]
-  - nextInt uses [wrapped]
-  - nextDouble uses [wrapped]
-  - setSeed uses [wrapped]
-  - nextFloat uses [wrapped]
-  - nextLong uses [wrapped]
-
-The methods called in each method are:
-  - nextGaussian calls [nextGaussian]
-  - nextInt calls [nextInt]
-  - nextBytes calls [nextBytes]
-  - setSeed calls [setSeed]
-  - setSeed calls [setSeed]
-  - nextBoolean calls [nextBoolean]
-  - nextInt calls [nextInt]
-  - nextDouble calls [nextDouble]
-  - setSeed calls [setSeed]
-  - nextFloat calls [nextFloat]
-  - nextLong calls [nextLong]
-
-```mermaid
-graph TD
-  nextGaussian -->|call| nextGaussian
-  nextInt -->|call| nextInt
-  nextBytes -->|call| nextBytes
-  setSeed -->|call| setSeed
-  setSeed -->|call| setSeed
-  nextBoolean -->|call| nextBoolean
-  nextInt -->|call| nextInt
-  nextDouble -->|call| nextDouble
-  setSeed -->|call| setSeed
-  nextFloat -->|call| nextFloat
-  nextLong -->|call| nextLong
-  nextGaussian -. use .->wrapped((wrapped))
-  nextInt -. use .->wrapped((wrapped))
-  nextBytes -. use .->wrapped((wrapped))
-  setSeed -. use .->wrapped((wrapped))
-  setSeed -. use .->wrapped((wrapped))
-  nextBoolean -. use .->wrapped((wrapped))
-  nextInt -. use .->wrapped((wrapped))
-  nextDouble -. use .->wrapped((wrapped))
-  setSeed -. use .->wrapped((wrapped))
-  nextFloat -. use .->wrapped((wrapped))
-  nextLong -. use .->wrapped((wrapped))
-  nextGaussian ----|link by wrapped| nextBytes
-  nextGaussian ----|link by wrapped| nextBoolean
-  nextGaussian ----|link by wrapped| nextDouble
-  nextGaussian ----|link by wrapped| nextFloat
-  nextInt ----|link by wrapped| nextGaussian
-  nextInt ----|link by wrapped| nextBytes
-  nextInt ----|link by wrapped| nextBoolean
-  nextInt ----|link by wrapped| nextDouble
-  nextInt ----|link by wrapped| nextFloat
-  nextBytes ----|link by wrapped| nextBoolean
-  setSeed ----|link by wrapped| nextGaussian
-  setSeed ----|link by wrapped| nextInt
-  setSeed ----|link by wrapped| nextBytes
-  setSeed ----|link by wrapped| nextBoolean
-  setSeed ----|link by wrapped| nextInt
-  setSeed ----|link by wrapped| nextDouble
-  setSeed ----|link by wrapped| nextFloat
-  setSeed ----|link by wrapped| nextLong
-  setSeed ----|link by wrapped| nextGaussian
-  setSeed ----|link by wrapped| nextInt
-  setSeed ----|link by wrapped| nextBytes
-  setSeed ----|link by wrapped| nextBoolean
-  setSeed ----|link by wrapped| nextInt
-  setSeed ----|link by wrapped| nextDouble
-  setSeed ----|link by wrapped| nextFloat
-  setSeed ----|link by wrapped| nextLong
-  nextInt ----|link by wrapped| nextGaussian
-  nextInt ----|link by wrapped| nextBytes
-  nextInt ----|link by wrapped| nextBoolean
-  nextInt ----|link by wrapped| nextDouble
-  nextInt ----|link by wrapped| nextFloat
-  nextDouble ----|link by wrapped| nextBytes
-  nextDouble ----|link by wrapped| nextBoolean
-  setSeed ----|link by wrapped| nextGaussian
-  setSeed ----|link by wrapped| nextInt
-  setSeed ----|link by wrapped| nextBytes
-  setSeed ----|link by wrapped| nextBoolean
-  setSeed ----|link by wrapped| nextInt
-  setSeed ----|link by wrapped| nextDouble
-  setSeed ----|link by wrapped| nextFloat
-  setSeed ----|link by wrapped| nextLong
-  nextFloat ----|link by wrapped| nextBytes
-  nextFloat ----|link by wrapped| nextBoolean
-  nextFloat ----|link by wrapped| nextDouble
-  nextLong ----|link by wrapped| nextGaussian
-  nextLong ----|link by wrapped| nextInt
-  nextLong ----|link by wrapped| nextBytes
-  nextLong ----|link by wrapped| nextBoolean
-  nextLong ----|link by wrapped| nextInt
-  nextLong ----|link by wrapped| nextDouble
-  nextLong ----|link by wrapped| nextFloat
-```
-
-Number of max pairs: $55.0$
-
-Number of direct connections (link by): $51.0$
-
-**TCC value: $0.9272727272727272$**
-
-
-
-
-# The class 'Well512a'
-Package: `org.apache.commons.math3.random.Well512a`
-
-methods : [ `next` ]
-
-attributes : [ `serialVersionUID` `M1` `M2` `M3` `K` ]
-
-
-The attributes used in each method are:
-
-The methods called in each method are:
-
-```mermaid
-graph TD
-```
-
-Number of max pairs: $0.0$
-
-Number of direct connections (link by): $0.0$
-
-**TCC value: $NaN$**
-
-
-
-
-# The class 'HaltonSequenceGenerator'
-Package: `org.apache.commons.math3.random.HaltonSequenceGenerator`
-
-methods : [ `scramble` `getNextIndex` `nextVector` `skipTo` ]
-
-attributes : [ `count` `WEIGHTS` `weight` `PRIMES` `dimension` `base` ]
-
-
-The attributes used in each method are:
-  - getNextIndex uses [count]
-  - scramble uses [weight]
-  - nextVector uses [count, dimension, base]
-  - skipTo uses [count]
-
-The methods called in each method are:
-  - nextVector calls [scramble]
-  - skipTo calls [nextVector]
-
-```mermaid
-graph TD
-  nextVector -->|call| scramble
-  skipTo -->|call| nextVector
-  getNextIndex -. use .->count((count))
-  scramble -. use .->weight((weight))
-  nextVector -. use .->count((count))
-  nextVector -. use .->dimension((dimension))
-  nextVector -. use .->base((base))
-  skipTo -. use .->count((count))
-  scramble ----|link by weight| nextVector
-  nextVector ----|link by count| getNextIndex
-  skipTo ----|link by count| getNextIndex
-  skipTo ----|link by count| nextVector
-  skipTo ----|link by weight| scramble
-  skipTo ----|link by weight| nextVector
-  skipTo ----|link by dimension| nextVector
-  skipTo ----|link by base| nextVector
-```
-
-Number of max pairs: $6.0$
-
-Number of direct connections (link by): $8.0$
-
-**TCC value: $1.3333333333333333$**
-
-
-
-
-# The class 'RandomDataImpl'
-Package: `org.apache.commons.math3.random.RandomDataImpl`
-
-methods : [ `nextChiSquare` `reSeed` `nextExponential` `nextPascal` `nextHexString` `setSecureAlgorithm` `reSeed` `nextF` `nextHypergeometric` `nextInversionDeviate` `nextInt` `nextWeibull` `nextUniform` `nextPermutation` `nextInversionDeviate` `nextLong` `nextSecureLong` `reSeedSecure` `nextSample` `reSeedSecure` `nextBeta` `nextZipf` `nextT` `nextCauchy` `nextSecureInt` `nextSecureHexString` `getDelegate` `nextGamma` `nextGaussian` `nextBinomial` `nextUniform` `nextPoisson` ]
-
-attributes : [ `delegate` `serialVersionUID` ]
-
-
-The attributes used in each method are:
-  - nextChiSquare uses [delegate]
-  - reSeed uses [delegate]
-  - nextExponential uses [delegate]
-  - nextPascal uses [delegate]
-  - nextHexString uses [delegate]
-  - setSecureAlgorithm uses [delegate]
-  - reSeed uses [delegate]
-  - nextHypergeometric uses [delegate]
-  - nextF uses [delegate]
-  - nextWeibull uses [delegate]
-  - nextInt uses [delegate]
-  - nextUniform uses [delegate]
-  - nextPermutation uses [delegate]
-  - nextLong uses [delegate]
-  - nextSecureLong uses [delegate]
-  - nextSample uses [delegate]
-  - reSeedSecure uses [delegate]
-  - reSeedSecure uses [delegate]
-  - nextBeta uses [delegate]
-  - nextZipf uses [delegate]
-  - nextT uses [delegate]
-  - nextCauchy uses [delegate]
-  - nextSecureInt uses [delegate]
-  - nextSecureHexString uses [delegate]
-  - getDelegate uses [delegate]
-  - nextGamma uses [delegate]
-  - nextGaussian uses [delegate]
-  - nextBinomial uses [delegate]
-  - nextUniform uses [delegate]
-  - nextPoisson uses [delegate]
-
-The methods called in each method are:
-  - nextChiSquare calls [nextChiSquare]
-  - reSeed calls [reSeed]
-  - nextExponential calls [nextExponential]
-  - nextPascal calls [nextPascal]
-  - nextHexString calls [nextHexString]
-  - setSecureAlgorithm calls [setSecureAlgorithm]
-  - reSeed calls [reSeed]
-  - nextHypergeometric calls [nextHypergeometric]
-  - nextF calls [nextF]
-  - nextInversionDeviate calls [nextUniform]
-  - nextWeibull calls [nextWeibull]
-  - nextInt calls [nextInt]
-  - nextUniform calls [nextUniform]
-  - nextInversionDeviate calls [nextUniform]
-  - nextPermutation calls [nextPermutation]
-  - nextLong calls [nextLong]
-  - nextSecureLong calls [nextSecureLong]
-  - nextSample calls [nextSample]
-  - reSeedSecure calls [reSeedSecure]
-  - reSeedSecure calls [reSeedSecure]
-  - nextBeta calls [nextBeta]
-  - nextZipf calls [nextZipf]
-  - nextT calls [nextT]
-  - nextCauchy calls [nextCauchy]
-  - nextSecureInt calls [nextSecureInt]
-  - nextSecureHexString calls [nextSecureHexString]
-  - nextGamma calls [nextGamma]
-  - nextGaussian calls [nextGaussian]
-  - nextBinomial calls [nextBinomial]
-  - nextUniform calls [nextUniform]
-  - nextPoisson calls [nextPoisson]
-
-```mermaid
-graph TD
-  nextChiSquare -->|call| nextChiSquare
-  reSeed -->|call| reSeed
-  nextExponential -->|call| nextExponential
-  nextPascal -->|call| nextPascal
-  nextHexString -->|call| nextHexString
-  setSecureAlgorithm -->|call| setSecureAlgorithm
-  reSeed -->|call| reSeed
-  nextHypergeometric -->|call| nextHypergeometric
-  nextF -->|call| nextF
-  nextInversionDeviate -->|call| nextUniform
-  nextWeibull -->|call| nextWeibull
-  nextInt -->|call| nextInt
-  nextUniform -->|call| nextUniform
-  nextInversionDeviate -->|call| nextUniform
-  nextPermutation -->|call| nextPermutation
-  nextLong -->|call| nextLong
-  nextSecureLong -->|call| nextSecureLong
-  nextSample -->|call| nextSample
-  reSeedSecure -->|call| reSeedSecure
-  reSeedSecure -->|call| reSeedSecure
-  nextBeta -->|call| nextBeta
-  nextZipf -->|call| nextZipf
-  nextT -->|call| nextT
-  nextCauchy -->|call| nextCauchy
-  nextSecureInt -->|call| nextSecureInt
-  nextSecureHexString -->|call| nextSecureHexString
-  nextGamma -->|call| nextGamma
-  nextGaussian -->|call| nextGaussian
-  nextBinomial -->|call| nextBinomial
-  nextUniform -->|call| nextUniform
-  nextPoisson -->|call| nextPoisson
-  nextChiSquare -. use .->delegate((delegate))
-  reSeed -. use .->delegate((delegate))
-  nextExponential -. use .->delegate((delegate))
-  nextPascal -. use .->delegate((delegate))
-  nextHexString -. use .->delegate((delegate))
-  setSecureAlgorithm -. use .->delegate((delegate))
-  reSeed -. use .->delegate((delegate))
-  nextHypergeometric -. use .->delegate((delegate))
-  nextF -. use .->delegate((delegate))
-  nextWeibull -. use .->delegate((delegate))
-  nextInt -. use .->delegate((delegate))
-  nextUniform -. use .->delegate((delegate))
-  nextPermutation -. use .->delegate((delegate))
-  nextLong -. use .->delegate((delegate))
-  nextSecureLong -. use .->delegate((delegate))
-  nextSample -. use .->delegate((delegate))
-  reSeedSecure -. use .->delegate((delegate))
-  reSeedSecure -. use .->delegate((delegate))
-  nextBeta -. use .->delegate((delegate))
-  nextZipf -. use .->delegate((delegate))
-  nextT -. use .->delegate((delegate))
-  nextCauchy -. use .->delegate((delegate))
-  nextSecureInt -. use .->delegate((delegate))
-  nextSecureHexString -. use .->delegate((delegate))
-  getDelegate -. use .->delegate((delegate))
-  nextGamma -. use .->delegate((delegate))
-  nextGaussian -. use .->delegate((delegate))
-  nextBinomial -. use .->delegate((delegate))
-  nextUniform -. use .->delegate((delegate))
-  nextPoisson -. use .->delegate((delegate))
-  nextChiSquare ----|link by delegate| nextBeta
-  nextChiSquare ----|link by delegate| nextCauchy
-  nextChiSquare ----|link by delegate| getDelegate
-  nextChiSquare ----|link by delegate| nextBinomial
-  reSeed ----|link by delegate| nextChiSquare
-  reSeed ----|link by delegate| nextExponential
-  reSeed ----|link by delegate| nextPascal
-  reSeed ----|link by delegate| nextHexString
-  reSeed ----|link by delegate| nextHypergeometric
-  reSeed ----|link by delegate| nextF
-  reSeed ----|link by delegate| nextInversionDeviate
-  reSeed ----|link by delegate| nextWeibull
-  reSeed ----|link by delegate| nextInt
-  reSeed ----|link by delegate| nextUniform
-  reSeed ----|link by delegate| nextInversionDeviate
-  reSeed ----|link by delegate| nextPermutation
-  reSeed ----|link by delegate| nextLong
-  reSeed ----|link by delegate| nextSecureLong
-  reSeed ----|link by delegate| nextSample
-  reSeed ----|link by delegate| nextBeta
-  reSeed ----|link by delegate| nextZipf
-  reSeed ----|link by delegate| nextT
-  reSeed ----|link by delegate| nextCauchy
-  reSeed ----|link by delegate| nextSecureInt
-  reSeed ----|link by delegate| nextSecureHexString
-  reSeed ----|link by delegate| getDelegate
-  reSeed ----|link by delegate| nextGamma
-  reSeed ----|link by delegate| nextGaussian
-  reSeed ----|link by delegate| nextBinomial
-  reSeed ----|link by delegate| nextUniform
-  reSeed ----|link by delegate| nextPoisson
-  nextExponential ----|link by delegate| nextChiSquare
-  nextExponential ----|link by delegate| nextBeta
-  nextExponential ----|link by delegate| nextCauchy
-  nextExponential ----|link by delegate| getDelegate
-  nextExponential ----|link by delegate| nextBinomial
-  nextPascal ----|link by delegate| nextChiSquare
-  nextPascal ----|link by delegate| nextExponential
-  nextPascal ----|link by delegate| nextHexString
-  nextPascal ----|link by delegate| nextHypergeometric
-  nextPascal ----|link by delegate| nextF
-  nextPascal ----|link by delegate| nextInversionDeviate
-  nextPascal ----|link by delegate| nextInt
-  nextPascal ----|link by delegate| nextInversionDeviate
-  nextPascal ----|link by delegate| nextLong
-  nextPascal ----|link by delegate| nextBeta
-  nextPascal ----|link by delegate| nextCauchy
-  nextPascal ----|link by delegate| getDelegate
-  nextPascal ----|link by delegate| nextGamma
-  nextPascal ----|link by delegate| nextGaussian
-  nextPascal ----|link by delegate| nextBinomial
-  nextHexString ----|link by delegate| nextChiSquare
-  nextHexString ----|link by delegate| nextExponential
-  nextHexString ----|link by delegate| nextF
-  nextHexString ----|link by delegate| nextBeta
-  nextHexString ----|link by delegate| nextCauchy
-  nextHexString ----|link by delegate| getDelegate
-  nextHexString ----|link by delegate| nextGamma
-  nextHexString ----|link by delegate| nextGaussian
-  nextHexString ----|link by delegate| nextBinomial
-  setSecureAlgorithm ----|link by delegate| nextChiSquare
-  setSecureAlgorithm ----|link by delegate| reSeed
-  setSecureAlgorithm ----|link by delegate| nextExponential
-  setSecureAlgorithm ----|link by delegate| nextPascal
-  setSecureAlgorithm ----|link by delegate| nextHexString
-  setSecureAlgorithm ----|link by delegate| reSeed
-  setSecureAlgorithm ----|link by delegate| nextHypergeometric
-  setSecureAlgorithm ----|link by delegate| nextF
-  setSecureAlgorithm ----|link by delegate| nextInversionDeviate
-  setSecureAlgorithm ----|link by delegate| nextWeibull
-  setSecureAlgorithm ----|link by delegate| nextInt
-  setSecureAlgorithm ----|link by delegate| nextUniform
-  setSecureAlgorithm ----|link by delegate| nextInversionDeviate
-  setSecureAlgorithm ----|link by delegate| nextPermutation
-  setSecureAlgorithm ----|link by delegate| nextLong
-  setSecureAlgorithm ----|link by delegate| nextSecureLong
-  setSecureAlgorithm ----|link by delegate| nextSample
-  setSecureAlgorithm ----|link by delegate| reSeedSecure
-  setSecureAlgorithm ----|link by delegate| reSeedSecure
-  setSecureAlgorithm ----|link by delegate| nextBeta
-  setSecureAlgorithm ----|link by delegate| nextZipf
-  setSecureAlgorithm ----|link by delegate| nextT
-  setSecureAlgorithm ----|link by delegate| nextCauchy
-  setSecureAlgorithm ----|link by delegate| nextSecureInt
-  setSecureAlgorithm ----|link by delegate| nextSecureHexString
-  setSecureAlgorithm ----|link by delegate| getDelegate
-  setSecureAlgorithm ----|link by delegate| nextGamma
-  setSecureAlgorithm ----|link by delegate| nextGaussian
-  setSecureAlgorithm ----|link by delegate| nextBinomial
-  setSecureAlgorithm ----|link by delegate| nextUniform
-  setSecureAlgorithm ----|link by delegate| nextPoisson
-  reSeed ----|link by delegate| nextChiSquare
-  reSeed ----|link by delegate| nextExponential
-  reSeed ----|link by delegate| nextPascal
-  reSeed ----|link by delegate| nextHexString
-  reSeed ----|link by delegate| nextHypergeometric
-  reSeed ----|link by delegate| nextF
-  reSeed ----|link by delegate| nextInversionDeviate
-  reSeed ----|link by delegate| nextWeibull
-  reSeed ----|link by delegate| nextInt
-  reSeed ----|link by delegate| nextUniform
-  reSeed ----|link by delegate| nextInversionDeviate
-  reSeed ----|link by delegate| nextPermutation
-  reSeed ----|link by delegate| nextLong
-  reSeed ----|link by delegate| nextSecureLong
-  reSeed ----|link by delegate| nextSample
-  reSeed ----|link by delegate| nextBeta
-  reSeed ----|link by delegate| nextZipf
-  reSeed ----|link by delegate| nextT
-  reSeed ----|link by delegate| nextCauchy
-  reSeed ----|link by delegate| nextSecureInt
-  reSeed ----|link by delegate| nextSecureHexString
-  reSeed ----|link by delegate| getDelegate
-  reSeed ----|link by delegate| nextGamma
-  reSeed ----|link by delegate| nextGaussian
-  reSeed ----|link by delegate| nextBinomial
-  reSeed ----|link by delegate| nextUniform
-  reSeed ----|link by delegate| nextPoisson
-  nextHypergeometric ----|link by delegate| nextChiSquare
-  nextHypergeometric ----|link by delegate| nextExponential
-  nextHypergeometric ----|link by delegate| nextHexString
-  nextHypergeometric ----|link by delegate| nextF
-  nextHypergeometric ----|link by delegate| nextBeta
-  nextHypergeometric ----|link by delegate| nextCauchy
-  nextHypergeometric ----|link by delegate| getDelegate
-  nextHypergeometric ----|link by delegate| nextGamma
-  nextHypergeometric ----|link by delegate| nextGaussian
-  nextHypergeometric ----|link by delegate| nextBinomial
-  nextF ----|link by delegate| nextChiSquare
-  nextF ----|link by delegate| nextExponential
-  nextF ----|link by delegate| nextBeta
-  nextF ----|link by delegate| nextCauchy
-  nextF ----|link by delegate| getDelegate
-  nextF ----|link by delegate| nextBinomial
-  nextInversionDeviate ----|link by delegate| nextChiSquare
-  nextInversionDeviate ----|link by delegate| nextExponential
-  nextInversionDeviate ----|link by delegate| nextHexString
-  nextInversionDeviate ----|link by delegate| nextHypergeometric
-  nextInversionDeviate ----|link by delegate| nextF
-  nextInversionDeviate ----|link by delegate| nextInt
-  nextInversionDeviate ----|link by delegate| nextBeta
-  nextInversionDeviate ----|link by delegate| nextCauchy
-  nextInversionDeviate ----|link by delegate| getDelegate
-  nextInversionDeviate ----|link by delegate| nextGamma
-  nextInversionDeviate ----|link by delegate| nextGaussian
-  nextInversionDeviate ----|link by delegate| nextBinomial
-  nextWeibull ----|link by delegate| nextChiSquare
-  nextWeibull ----|link by delegate| nextExponential
-  nextWeibull ----|link by delegate| nextPascal
-  nextWeibull ----|link by delegate| nextHexString
-  nextWeibull ----|link by delegate| nextHypergeometric
-  nextWeibull ----|link by delegate| nextF
-  nextWeibull ----|link by delegate| nextInversionDeviate
-  nextWeibull ----|link by delegate| nextInt
-  nextWeibull ----|link by delegate| nextUniform
-  nextWeibull ----|link by delegate| nextInversionDeviate
-  nextWeibull ----|link by delegate| nextPermutation
-  nextWeibull ----|link by delegate| nextLong
-  nextWeibull ----|link by delegate| nextSecureLong
-  nextWeibull ----|link by delegate| nextSample
-  nextWeibull ----|link by delegate| nextBeta
-  nextWeibull ----|link by delegate| nextT
-  nextWeibull ----|link by delegate| nextCauchy
-  nextWeibull ----|link by delegate| nextSecureInt
-  nextWeibull ----|link by delegate| nextSecureHexString
-  nextWeibull ----|link by delegate| getDelegate
-  nextWeibull ----|link by delegate| nextGamma
-  nextWeibull ----|link by delegate| nextGaussian
-  nextWeibull ----|link by delegate| nextBinomial
-  nextWeibull ----|link by delegate| nextUniform
-  nextWeibull ----|link by delegate| nextPoisson
-  nextInt ----|link by delegate| nextChiSquare
-  nextInt ----|link by delegate| nextExponential
-  nextInt ----|link by delegate| nextHexString
-  nextInt ----|link by delegate| nextHypergeometric
-  nextInt ----|link by delegate| nextF
-  nextInt ----|link by delegate| nextBeta
-  nextInt ----|link by delegate| nextCauchy
-  nextInt ----|link by delegate| getDelegate
-  nextInt ----|link by delegate| nextGamma
-  nextInt ----|link by delegate| nextGaussian
-  nextInt ----|link by delegate| nextBinomial
-  nextUniform ----|link by delegate| nextChiSquare
-  nextUniform ----|link by delegate| nextExponential
-  nextUniform ----|link by delegate| nextPascal
-  nextUniform ----|link by delegate| nextHexString
-  nextUniform ----|link by delegate| nextHypergeometric
-  nextUniform ----|link by delegate| nextF
-  nextUniform ----|link by delegate| nextInversionDeviate
-  nextUniform ----|link by delegate| nextInt
-  nextUniform ----|link by delegate| nextInversionDeviate
-  nextUniform ----|link by delegate| nextPermutation
-  nextUniform ----|link by delegate| nextLong
-  nextUniform ----|link by delegate| nextSecureLong
-  nextUniform ----|link by delegate| nextSample
-  nextUniform ----|link by delegate| nextBeta
-  nextUniform ----|link by delegate| nextT
-  nextUniform ----|link by delegate| nextCauchy
-  nextUniform ----|link by delegate| nextSecureInt
-  nextUniform ----|link by delegate| nextSecureHexString
-  nextUniform ----|link by delegate| getDelegate
-  nextUniform ----|link by delegate| nextGamma
-  nextUniform ----|link by delegate| nextGaussian
-  nextUniform ----|link by delegate| nextBinomial
-  nextUniform ----|link by delegate| nextPoisson
-  nextInversionDeviate ----|link by delegate| nextChiSquare
-  nextInversionDeviate ----|link by delegate| nextExponential
-  nextInversionDeviate ----|link by delegate| nextHexString
-  nextInversionDeviate ----|link by delegate| nextHypergeometric
-  nextInversionDeviate ----|link by delegate| nextF
-  nextInversionDeviate ----|link by delegate| nextInt
-  nextInversionDeviate ----|link by delegate| nextBeta
-  nextInversionDeviate ----|link by delegate| nextCauchy
-  nextInversionDeviate ----|link by delegate| getDelegate
-  nextInversionDeviate ----|link by delegate| nextGamma
-  nextInversionDeviate ----|link by delegate| nextGaussian
-  nextInversionDeviate ----|link by delegate| nextBinomial
-  nextPermutation ----|link by delegate| nextChiSquare
-  nextPermutation ----|link by delegate| nextExponential
-  nextPermutation ----|link by delegate| nextPascal
-  nextPermutation ----|link by delegate| nextHexString
-  nextPermutation ----|link by delegate| nextHypergeometric
-  nextPermutation ----|link by delegate| nextF
-  nextPermutation ----|link by delegate| nextInversionDeviate
-  nextPermutation ----|link by delegate| nextInt
-  nextPermutation ----|link by delegate| nextInversionDeviate
-  nextPermutation ----|link by delegate| nextLong
-  nextPermutation ----|link by delegate| nextBeta
-  nextPermutation ----|link by delegate| nextCauchy
-  nextPermutation ----|link by delegate| getDelegate
-  nextPermutation ----|link by delegate| nextGamma
-  nextPermutation ----|link by delegate| nextGaussian
-  nextPermutation ----|link by delegate| nextBinomial
-  nextLong ----|link by delegate| nextChiSquare
-  nextLong ----|link by delegate| nextExponential
-  nextLong ----|link by delegate| nextHexString
-  nextLong ----|link by delegate| nextHypergeometric
-  nextLong ----|link by delegate| nextF
-  nextLong ----|link by delegate| nextInversionDeviate
-  nextLong ----|link by delegate| nextInt
-  nextLong ----|link by delegate| nextInversionDeviate
-  nextLong ----|link by delegate| nextBeta
-  nextLong ----|link by delegate| nextCauchy
-  nextLong ----|link by delegate| getDelegate
-  nextLong ----|link by delegate| nextGamma
-  nextLong ----|link by delegate| nextGaussian
-  nextLong ----|link by delegate| nextBinomial
-  nextSecureLong ----|link by delegate| nextChiSquare
-  nextSecureLong ----|link by delegate| nextExponential
-  nextSecureLong ----|link by delegate| nextPascal
-  nextSecureLong ----|link by delegate| nextHexString
-  nextSecureLong ----|link by delegate| nextHypergeometric
-  nextSecureLong ----|link by delegate| nextF
-  nextSecureLong ----|link by delegate| nextInversionDeviate
-  nextSecureLong ----|link by delegate| nextInt
-  nextSecureLong ----|link by delegate| nextInversionDeviate
-  nextSecureLong ----|link by delegate| nextPermutation
-  nextSecureLong ----|link by delegate| nextLong
-  nextSecureLong ----|link by delegate| nextSample
-  nextSecureLong ----|link by delegate| nextBeta
-  nextSecureLong ----|link by delegate| nextCauchy
-  nextSecureLong ----|link by delegate| nextSecureInt
-  nextSecureLong ----|link by delegate| nextSecureHexString
-  nextSecureLong ----|link by delegate| getDelegate
-  nextSecureLong ----|link by delegate| nextGamma
-  nextSecureLong ----|link by delegate| nextGaussian
-  nextSecureLong ----|link by delegate| nextBinomial
-  nextSecureLong ----|link by delegate| nextPoisson
-  nextSample ----|link by delegate| nextChiSquare
-  nextSample ----|link by delegate| nextExponential
-  nextSample ----|link by delegate| nextPascal
-  nextSample ----|link by delegate| nextHexString
-  nextSample ----|link by delegate| nextHypergeometric
-  nextSample ----|link by delegate| nextF
-  nextSample ----|link by delegate| nextInversionDeviate
-  nextSample ----|link by delegate| nextInt
-  nextSample ----|link by delegate| nextInversionDeviate
-  nextSample ----|link by delegate| nextPermutation
-  nextSample ----|link by delegate| nextLong
-  nextSample ----|link by delegate| nextBeta
-  nextSample ----|link by delegate| nextCauchy
-  nextSample ----|link by delegate| getDelegate
-  nextSample ----|link by delegate| nextGamma
-  nextSample ----|link by delegate| nextGaussian
-  nextSample ----|link by delegate| nextBinomial
-  nextSample ----|link by delegate| nextPoisson
-  reSeedSecure ----|link by delegate| nextChiSquare
-  reSeedSecure ----|link by delegate| reSeed
-  reSeedSecure ----|link by delegate| nextExponential
-  reSeedSecure ----|link by delegate| nextPascal
-  reSeedSecure ----|link by delegate| nextHexString
-  reSeedSecure ----|link by delegate| reSeed
-  reSeedSecure ----|link by delegate| nextHypergeometric
-  reSeedSecure ----|link by delegate| nextF
-  reSeedSecure ----|link by delegate| nextInversionDeviate
-  reSeedSecure ----|link by delegate| nextWeibull
-  reSeedSecure ----|link by delegate| nextInt
-  reSeedSecure ----|link by delegate| nextUniform
-  reSeedSecure ----|link by delegate| nextInversionDeviate
-  reSeedSecure ----|link by delegate| nextPermutation
-  reSeedSecure ----|link by delegate| nextLong
-  reSeedSecure ----|link by delegate| nextSecureLong
-  reSeedSecure ----|link by delegate| nextSample
-  reSeedSecure ----|link by delegate| nextBeta
-  reSeedSecure ----|link by delegate| nextZipf
-  reSeedSecure ----|link by delegate| nextT
-  reSeedSecure ----|link by delegate| nextCauchy
-  reSeedSecure ----|link by delegate| nextSecureInt
-  reSeedSecure ----|link by delegate| nextSecureHexString
-  reSeedSecure ----|link by delegate| getDelegate
-  reSeedSecure ----|link by delegate| nextGamma
-  reSeedSecure ----|link by delegate| nextGaussian
-  reSeedSecure ----|link by delegate| nextBinomial
-  reSeedSecure ----|link by delegate| nextUniform
-  reSeedSecure ----|link by delegate| nextPoisson
-  reSeedSecure ----|link by delegate| nextChiSquare
-  reSeedSecure ----|link by delegate| reSeed
-  reSeedSecure ----|link by delegate| nextExponential
-  reSeedSecure ----|link by delegate| nextPascal
-  reSeedSecure ----|link by delegate| nextHexString
-  reSeedSecure ----|link by delegate| reSeed
-  reSeedSecure ----|link by delegate| nextHypergeometric
-  reSeedSecure ----|link by delegate| nextF
-  reSeedSecure ----|link by delegate| nextInversionDeviate
-  reSeedSecure ----|link by delegate| nextWeibull
-  reSeedSecure ----|link by delegate| nextInt
-  reSeedSecure ----|link by delegate| nextUniform
-  reSeedSecure ----|link by delegate| nextInversionDeviate
-  reSeedSecure ----|link by delegate| nextPermutation
-  reSeedSecure ----|link by delegate| nextLong
-  reSeedSecure ----|link by delegate| nextSecureLong
-  reSeedSecure ----|link by delegate| nextSample
-  reSeedSecure ----|link by delegate| nextBeta
-  reSeedSecure ----|link by delegate| nextZipf
-  reSeedSecure ----|link by delegate| nextT
-  reSeedSecure ----|link by delegate| nextCauchy
-  reSeedSecure ----|link by delegate| nextSecureInt
-  reSeedSecure ----|link by delegate| nextSecureHexString
-  reSeedSecure ----|link by delegate| getDelegate
-  reSeedSecure ----|link by delegate| nextGamma
-  reSeedSecure ----|link by delegate| nextGaussian
-  reSeedSecure ----|link by delegate| nextBinomial
-  reSeedSecure ----|link by delegate| nextUniform
-  reSeedSecure ----|link by delegate| nextPoisson
-  nextBeta ----|link by delegate| getDelegate
-  nextZipf ----|link by delegate| nextChiSquare
-  nextZipf ----|link by delegate| nextExponential
-  nextZipf ----|link by delegate| nextPascal
-  nextZipf ----|link by delegate| nextHexString
-  nextZipf ----|link by delegate| nextHypergeometric
-  nextZipf ----|link by delegate| nextF
-  nextZipf ----|link by delegate| nextInversionDeviate
-  nextZipf ----|link by delegate| nextWeibull
-  nextZipf ----|link by delegate| nextInt
-  nextZipf ----|link by delegate| nextUniform
-  nextZipf ----|link by delegate| nextInversionDeviate
-  nextZipf ----|link by delegate| nextPermutation
-  nextZipf ----|link by delegate| nextLong
-  nextZipf ----|link by delegate| nextSecureLong
-  nextZipf ----|link by delegate| nextSample
-  nextZipf ----|link by delegate| nextBeta
-  nextZipf ----|link by delegate| nextT
-  nextZipf ----|link by delegate| nextCauchy
-  nextZipf ----|link by delegate| nextSecureInt
-  nextZipf ----|link by delegate| nextSecureHexString
-  nextZipf ----|link by delegate| getDelegate
-  nextZipf ----|link by delegate| nextGamma
-  nextZipf ----|link by delegate| nextGaussian
-  nextZipf ----|link by delegate| nextBinomial
-  nextZipf ----|link by delegate| nextUniform
-  nextZipf ----|link by delegate| nextPoisson
-  nextT ----|link by delegate| nextChiSquare
-  nextT ----|link by delegate| nextExponential
-  nextT ----|link by delegate| nextPascal
-  nextT ----|link by delegate| nextHexString
-  nextT ----|link by delegate| nextHypergeometric
-  nextT ----|link by delegate| nextF
-  nextT ----|link by delegate| nextInversionDeviate
-  nextT ----|link by delegate| nextInt
-  nextT ----|link by delegate| nextInversionDeviate
-  nextT ----|link by delegate| nextPermutation
-  nextT ----|link by delegate| nextLong
-  nextT ----|link by delegate| nextSecureLong
-  nextT ----|link by delegate| nextSample
-  nextT ----|link by delegate| nextBeta
-  nextT ----|link by delegate| nextCauchy
-  nextT ----|link by delegate| nextSecureInt
-  nextT ----|link by delegate| nextSecureHexString
-  nextT ----|link by delegate| getDelegate
-  nextT ----|link by delegate| nextGamma
-  nextT ----|link by delegate| nextGaussian
-  nextT ----|link by delegate| nextBinomial
-  nextT ----|link by delegate| nextPoisson
-  nextCauchy ----|link by delegate| nextBeta
-  nextCauchy ----|link by delegate| getDelegate
-  nextCauchy ----|link by delegate| nextBinomial
-  nextSecureInt ----|link by delegate| nextChiSquare
-  nextSecureInt ----|link by delegate| nextExponential
-  nextSecureInt ----|link by delegate| nextPascal
-  nextSecureInt ----|link by delegate| nextHexString
-  nextSecureInt ----|link by delegate| nextHypergeometric
-  nextSecureInt ----|link by delegate| nextF
-  nextSecureInt ----|link by delegate| nextInversionDeviate
-  nextSecureInt ----|link by delegate| nextInt
-  nextSecureInt ----|link by delegate| nextInversionDeviate
-  nextSecureInt ----|link by delegate| nextPermutation
-  nextSecureInt ----|link by delegate| nextLong
-  nextSecureInt ----|link by delegate| nextSample
-  nextSecureInt ----|link by delegate| nextBeta
-  nextSecureInt ----|link by delegate| nextCauchy
-  nextSecureInt ----|link by delegate| nextSecureHexString
-  nextSecureInt ----|link by delegate| getDelegate
-  nextSecureInt ----|link by delegate| nextGamma
-  nextSecureInt ----|link by delegate| nextGaussian
-  nextSecureInt ----|link by delegate| nextBinomial
-  nextSecureInt ----|link by delegate| nextPoisson
-  nextSecureHexString ----|link by delegate| nextChiSquare
-  nextSecureHexString ----|link by delegate| nextExponential
-  nextSecureHexString ----|link by delegate| nextPascal
-  nextSecureHexString ----|link by delegate| nextHexString
-  nextSecureHexString ----|link by delegate| nextHypergeometric
-  nextSecureHexString ----|link by delegate| nextF
-  nextSecureHexString ----|link by delegate| nextInversionDeviate
-  nextSecureHexString ----|link by delegate| nextInt
-  nextSecureHexString ----|link by delegate| nextInversionDeviate
-  nextSecureHexString ----|link by delegate| nextPermutation
-  nextSecureHexString ----|link by delegate| nextLong
-  nextSecureHexString ----|link by delegate| nextSample
-  nextSecureHexString ----|link by delegate| nextBeta
-  nextSecureHexString ----|link by delegate| nextCauchy
-  nextSecureHexString ----|link by delegate| getDelegate
-  nextSecureHexString ----|link by delegate| nextGamma
-  nextSecureHexString ----|link by delegate| nextGaussian
-  nextSecureHexString ----|link by delegate| nextBinomial
-  nextSecureHexString ----|link by delegate| nextPoisson
-  nextGamma ----|link by delegate| nextChiSquare
-  nextGamma ----|link by delegate| nextExponential
-  nextGamma ----|link by delegate| nextF
-  nextGamma ----|link by delegate| nextBeta
-  nextGamma ----|link by delegate| nextCauchy
-  nextGamma ----|link by delegate| getDelegate
-  nextGamma ----|link by delegate| nextBinomial
-  nextGaussian ----|link by delegate| nextChiSquare
-  nextGaussian ----|link by delegate| nextExponential
-  nextGaussian ----|link by delegate| nextF
-  nextGaussian ----|link by delegate| nextBeta
-  nextGaussian ----|link by delegate| nextCauchy
-  nextGaussian ----|link by delegate| getDelegate
-  nextGaussian ----|link by delegate| nextGamma
-  nextGaussian ----|link by delegate| nextBinomial
-  nextBinomial ----|link by delegate| nextBeta
-  nextBinomial ----|link by delegate| getDelegate
-  nextUniform ----|link by delegate| nextChiSquare
-  nextUniform ----|link by delegate| nextExponential
-  nextUniform ----|link by delegate| nextPascal
-  nextUniform ----|link by delegate| nextHexString
-  nextUniform ----|link by delegate| nextHypergeometric
-  nextUniform ----|link by delegate| nextF
-  nextUniform ----|link by delegate| nextInversionDeviate
-  nextUniform ----|link by delegate| nextInt
-  nextUniform ----|link by delegate| nextInversionDeviate
-  nextUniform ----|link by delegate| nextPermutation
-  nextUniform ----|link by delegate| nextLong
-  nextUniform ----|link by delegate| nextSecureLong
-  nextUniform ----|link by delegate| nextSample
-  nextUniform ----|link by delegate| nextBeta
-  nextUniform ----|link by delegate| nextT
-  nextUniform ----|link by delegate| nextCauchy
-  nextUniform ----|link by delegate| nextSecureInt
-  nextUniform ----|link by delegate| nextSecureHexString
-  nextUniform ----|link by delegate| getDelegate
-  nextUniform ----|link by delegate| nextGamma
-  nextUniform ----|link by delegate| nextGaussian
-  nextUniform ----|link by delegate| nextBinomial
-  nextUniform ----|link by delegate| nextPoisson
-  nextPoisson ----|link by delegate| nextChiSquare
-  nextPoisson ----|link by delegate| nextExponential
-  nextPoisson ----|link by delegate| nextPascal
-  nextPoisson ----|link by delegate| nextHexString
-  nextPoisson ----|link by delegate| nextHypergeometric
-  nextPoisson ----|link by delegate| nextF
-  nextPoisson ----|link by delegate| nextInversionDeviate
-  nextPoisson ----|link by delegate| nextInt
-  nextPoisson ----|link by delegate| nextInversionDeviate
-  nextPoisson ----|link by delegate| nextPermutation
-  nextPoisson ----|link by delegate| nextLong
-  nextPoisson ----|link by delegate| nextBeta
-  nextPoisson ----|link by delegate| nextCauchy
-  nextPoisson ----|link by delegate| getDelegate
-  nextPoisson ----|link by delegate| nextGamma
-  nextPoisson ----|link by delegate| nextGaussian
-  nextPoisson ----|link by delegate| nextBinomial
-```
-
-Number of max pairs: $496.0$
-
-Number of direct connections (link by): $492.0$
-
-**TCC value: $0.9919354838709677$**
-
-
-
-
-# The class 'UnitSphereRandomVectorGenerator'
-Package: `org.apache.commons.math3.random.UnitSphereRandomVectorGenerator`
-
-methods : [ `nextVector` ]
-
-attributes : [ `rand` `dimension` ]
-
-
-The attributes used in each method are:
-  - nextVector uses [rand, dimension]
-
-The methods called in each method are:
-
-```mermaid
-graph TD
-  nextVector -. use .->rand((rand))
-  nextVector -. use .->dimension((dimension))
-```
-
-Number of max pairs: $0.0$
-
-Number of direct connections (link by): $0.0$
-
-**TCC value: $NaN$**
-
-
-
-
-# The class 'Well44497a'
-Package: `org.apache.commons.math3.random.Well44497a`
-
-methods : [ `next` ]
-
-attributes : [ `serialVersionUID` `M1` `M2` `M3` `K` ]
-
-
-The attributes used in each method are:
-
-The methods called in each method are:
-
-```mermaid
-graph TD
-```
-
-Number of max pairs: $0.0$
-
-Number of direct connections (link by): $0.0$
-
-**TCC value: $NaN$**
-
-
-
-
-# The class 'ValueServer'
-Package: `org.apache.commons.math3.random.ValueServer`
-
-methods : [ `setSigma` `setMode` `closeReplayFile` `getEmpiricalDistribution` `getNextDigest` `fill` `getNextExponential` `computeDistribution` `getNextReplay` `getNext` `setMu` `getSigma` `getNextGaussian` `getMode` `setValuesFileURL` `getNextUniform` `fill` `getMu` `getValuesFileURL` `setValuesFileURL` `computeDistribution` `reSeed` `resetReplayFile` ]
-
-attributes : [ `sigma` `empiricalDistribution` `GAUSSIAN_MODE` `REPLAY_MODE` `mu` `DIGEST_MODE` `CONSTANT_MODE` `filePointer` `mode` `randomData` `EXPONENTIAL_MODE` `valuesFileURL` `UNIFORM_MODE` ]
-
-
-The attributes used in each method are:
-  - setSigma uses [sigma]
-  - closeReplayFile uses [filePointer]
-  - setMode uses [mode]
-  - getNextDigest uses [empiricalDistribution]
-  - getEmpiricalDistribution uses [empiricalDistribution]
-  - getNextExponential uses [randomData, mu]
-  - computeDistribution uses [randomData, sigma, empiricalDistribution, valuesFileURL, mu]
-  - getNextReplay uses [valuesFileURL, filePointer]
-  - getNextGaussian uses [randomData, sigma, mu]
-  - getSigma uses [sigma]
-  - setMu uses [mu]
-  - getNext uses [mode, EXPONENTIAL_MODE, GAUSSIAN_MODE, REPLAY_MODE, mu, DIGEST_MODE, CONSTANT_MODE, UNIFORM_MODE]
-  - getNextUniform uses [randomData, mu]
-  - getMode uses [mode]
-  - getMu uses [mu]
-  - getValuesFileURL uses [valuesFileURL]
-  - reSeed uses [randomData]
-  - resetReplayFile uses [valuesFileURL, filePointer]
-
-The methods called in each method are:
-  - fill calls [getNext]
-  - reSeed calls [reSeed]
-  - computeDistribution calls [computeDistribution]
-  - getNextReplay calls [closeReplayFile, resetReplayFile]
-  - getNext calls [getNextReplay, getNextUniform, getNextGaussian, getNextDigest, getNextExponential]
-  - fill calls [getNext]
-
-```mermaid
-graph TD
-  fill -->|call| getNext
-  reSeed -->|call| reSeed
-  computeDistribution -->|call| computeDistribution
-  getNextReplay -->|call| closeReplayFile
-  getNextReplay -->|call| resetReplayFile
-  getNext -->|call| getNextReplay
-  getNext -->|call| getNextUniform
-  getNext -->|call| getNextGaussian
-  getNext -->|call| getNextDigest
-  getNext -->|call| getNextExponential
-  fill -->|call| getNext
-  setSigma -. use .->sigma((sigma))
-  closeReplayFile -. use .->filePointer((filePointer))
-  setMode -. use .->mode((mode))
-  getNextDigest -. use .->empiricalDistribution((empiricalDistribution))
-  getEmpiricalDistribution -. use .->empiricalDistribution((empiricalDistribution))
-  getNextExponential -. use .->randomData((randomData))
-  getNextExponential -. use .->mu((mu))
-  computeDistribution -. use .->randomData((randomData))
-  computeDistribution -. use .->sigma((sigma))
-  computeDistribution -. use .->empiricalDistribution((empiricalDistribution))
-  computeDistribution -. use .->valuesFileURL((valuesFileURL))
-  computeDistribution -. use .->mu((mu))
-  getNextReplay -. use .->valuesFileURL((valuesFileURL))
-  getNextReplay -. use .->filePointer((filePointer))
-  getNextGaussian -. use .->randomData((randomData))
-  getNextGaussian -. use .->sigma((sigma))
-  getNextGaussian -. use .->mu((mu))
-  getSigma -. use .->sigma((sigma))
-  setMu -. use .->mu((mu))
-  getNext -. use .->mode((mode))
-  getNext -. use .->EXPONENTIAL_MODE((EXPONENTIAL_MODE))
-  getNext -. use .->GAUSSIAN_MODE((GAUSSIAN_MODE))
-  getNext -. use .->REPLAY_MODE((REPLAY_MODE))
-  getNext -. use .->mu((mu))
-  getNext -. use .->DIGEST_MODE((DIGEST_MODE))
-  getNext -. use .->CONSTANT_MODE((CONSTANT_MODE))
-  getNext -. use .->UNIFORM_MODE((UNIFORM_MODE))
-  getNextUniform -. use .->randomData((randomData))
-  getNextUniform -. use .->mu((mu))
-  getMode -. use .->mode((mode))
-  getMu -. use .->mu((mu))
-  getValuesFileURL -. use .->valuesFileURL((valuesFileURL))
-  reSeed -. use .->randomData((randomData))
-  resetReplayFile -. use .->valuesFileURL((valuesFileURL))
-  resetReplayFile -. use .->filePointer((filePointer))
-  setSigma ----|link by sigma| fill
-  setSigma ----|link by sigma| computeDistribution
-  setSigma ----|link by sigma| getNextGaussian
-  setSigma ----|link by sigma| getSigma
-  setSigma ----|link by sigma| getNext
-  setSigma ----|link by sigma| fill
-  setSigma ----|link by sigma| computeDistribution
-  setMode ----|link by mode| fill
-  setMode ----|link by mode| getNext
-  setMode ----|link by mode| getMode
-  setMode ----|link by mode| fill
-  getNextDigest ----|link by empiricalDistribution| getEmpiricalDistribution
-  getNextDigest ----|link by empiricalDistribution| fill
-  getNextDigest ----|link by empiricalDistribution| computeDistribution
-  getNextDigest ----|link by empiricalDistribution| getNext
-  getNextDigest ----|link by empiricalDistribution| fill
-  getNextDigest ----|link by empiricalDistribution| computeDistribution
-  getEmpiricalDistribution ----|link by empiricalDistribution| fill
-  getEmpiricalDistribution ----|link by empiricalDistribution| computeDistribution
-  getEmpiricalDistribution ----|link by empiricalDistribution| fill
-  getEmpiricalDistribution ----|link by empiricalDistribution| computeDistribution
-  fill ----|link by sigma| computeDistribution
-  fill ----|link by sigma| computeDistribution
-  fill ----|link by empiricalDistribution| computeDistribution
-  fill ----|link by empiricalDistribution| computeDistribution
-  fill ----|link by mu| computeDistribution
-  fill ----|link by mu| computeDistribution
-  fill ----|link by filePointer| closeReplayFile
-  fill ----|link by randomData| computeDistribution
-  fill ----|link by randomData| computeDistribution
-  fill ----|link by valuesFileURL| computeDistribution
-  fill ----|link by valuesFileURL| computeDistribution
-  getNextExponential ----|link by randomData| fill
-  getNextExponential ----|link by randomData| computeDistribution
-  getNextExponential ----|link by randomData| getNext
-  getNextExponential ----|link by randomData| fill
-  getNextExponential ----|link by randomData| computeDistribution
-  getNextExponential ----|link by mu| fill
-  getNextExponential ----|link by mu| computeDistribution
-  getNextExponential ----|link by mu| getNext
-  getNextExponential ----|link by mu| fill
-  getNextExponential ----|link by mu| getMu
-  getNextExponential ----|link by mu| computeDistribution
-  getNextReplay ----|link by valuesFileURL| fill
-  getNextReplay ----|link by valuesFileURL| computeDistribution
-  getNextReplay ----|link by valuesFileURL| getNext
-  getNextReplay ----|link by valuesFileURL| fill
-  getNextReplay ----|link by valuesFileURL| computeDistribution
-  getNextReplay ----|link by filePointer| closeReplayFile
-  getNextReplay ----|link by filePointer| fill
-  getNextReplay ----|link by filePointer| getNext
-  getNextReplay ----|link by filePointer| fill
-  getNextGaussian ----|link by randomData| fill
-  getNextGaussian ----|link by randomData| getNextExponential
-  getNextGaussian ----|link by randomData| computeDistribution
-  getNextGaussian ----|link by randomData| getNext
-  getNextGaussian ----|link by randomData| fill
-  getNextGaussian ----|link by randomData| computeDistribution
-  getNextGaussian ----|link by sigma| fill
-  getNextGaussian ----|link by sigma| computeDistribution
-  getNextGaussian ----|link by sigma| getNext
-  getNextGaussian ----|link by sigma| fill
-  getNextGaussian ----|link by sigma| computeDistribution
-  getNextGaussian ----|link by mu| fill
-  getNextGaussian ----|link by mu| getNextExponential
-  getNextGaussian ----|link by mu| computeDistribution
-  getNextGaussian ----|link by mu| getNext
-  getNextGaussian ----|link by mu| fill
-  getNextGaussian ----|link by mu| getMu
-  getNextGaussian ----|link by mu| computeDistribution
-  getSigma ----|link by sigma| fill
-  getSigma ----|link by sigma| computeDistribution
-  getSigma ----|link by sigma| getNextGaussian
-  getSigma ----|link by sigma| getNext
-  getSigma ----|link by sigma| fill
-  getSigma ----|link by sigma| computeDistribution
-  setMu ----|link by mu| fill
-  setMu ----|link by mu| getNextExponential
-  setMu ----|link by mu| computeDistribution
-  setMu ----|link by mu| getNextGaussian
-  setMu ----|link by mu| getNext
-  setMu ----|link by mu| getNextUniform
-  setMu ----|link by mu| fill
-  setMu ----|link by mu| getMu
-  setMu ----|link by mu| computeDistribution
-  getNext ----|link by sigma| fill
-  getNext ----|link by sigma| computeDistribution
-  getNext ----|link by sigma| fill
-  getNext ----|link by sigma| computeDistribution
-  getNext ----|link by empiricalDistribution| getEmpiricalDistribution
-  getNext ----|link by empiricalDistribution| fill
-  getNext ----|link by empiricalDistribution| computeDistribution
-  getNext ----|link by empiricalDistribution| fill
-  getNext ----|link by empiricalDistribution| computeDistribution
-  getNext ----|link by GAUSSIAN_MODE| fill
-  getNext ----|link by GAUSSIAN_MODE| fill
-  getNext ----|link by REPLAY_MODE| fill
-  getNext ----|link by REPLAY_MODE| fill
-  getNext ----|link by mu| fill
-  getNext ----|link by mu| computeDistribution
-  getNext ----|link by mu| fill
-  getNext ----|link by mu| getMu
-  getNext ----|link by mu| computeDistribution
-  getNext ----|link by DIGEST_MODE| fill
-  getNext ----|link by DIGEST_MODE| fill
-  getNext ----|link by CONSTANT_MODE| fill
-  getNext ----|link by CONSTANT_MODE| fill
-  getNext ----|link by filePointer| closeReplayFile
-  getNext ----|link by filePointer| fill
-  getNext ----|link by filePointer| fill
-  getNext ----|link by mode| fill
-  getNext ----|link by mode| getMode
-  getNext ----|link by mode| fill
-  getNext ----|link by randomData| fill
-  getNext ----|link by randomData| computeDistribution
-  getNext ----|link by randomData| fill
-  getNext ----|link by randomData| computeDistribution
-  getNext ----|link by EXPONENTIAL_MODE| fill
-  getNext ----|link by EXPONENTIAL_MODE| fill
-  getNext ----|link by valuesFileURL| fill
-  getNext ----|link by valuesFileURL| computeDistribution
-  getNext ----|link by valuesFileURL| fill
-  getNext ----|link by valuesFileURL| computeDistribution
-  getNext ----|link by UNIFORM_MODE| fill
-  getNext ----|link by UNIFORM_MODE| fill
-  getNextUniform ----|link by randomData| fill
-  getNextUniform ----|link by randomData| getNextExponential
-  getNextUniform ----|link by randomData| computeDistribution
-  getNextUniform ----|link by randomData| getNextGaussian
-  getNextUniform ----|link by randomData| getNext
-  getNextUniform ----|link by randomData| fill
-  getNextUniform ----|link by randomData| computeDistribution
-  getNextUniform ----|link by mu| fill
-  getNextUniform ----|link by mu| getNextExponential
-  getNextUniform ----|link by mu| computeDistribution
-  getNextUniform ----|link by mu| getNextGaussian
-  getNextUniform ----|link by mu| getNext
-  getNextUniform ----|link by mu| fill
-  getNextUniform ----|link by mu| getMu
-  getNextUniform ----|link by mu| computeDistribution
-  getMode ----|link by mode| fill
-  getMode ----|link by mode| fill
-  fill ----|link by sigma| computeDistribution
-  fill ----|link by sigma| computeDistribution
-  fill ----|link by empiricalDistribution| computeDistribution
-  fill ----|link by empiricalDistribution| computeDistribution
-  fill ----|link by mu| computeDistribution
-  fill ----|link by mu| computeDistribution
-  fill ----|link by filePointer| closeReplayFile
-  fill ----|link by randomData| computeDistribution
-  fill ----|link by randomData| computeDistribution
-  fill ----|link by valuesFileURL| computeDistribution
-  fill ----|link by valuesFileURL| computeDistribution
-  getMu ----|link by mu| fill
-  getMu ----|link by mu| computeDistribution
-  getMu ----|link by mu| fill
-  getMu ----|link by mu| computeDistribution
-  getValuesFileURL ----|link by valuesFileURL| fill
-  getValuesFileURL ----|link by valuesFileURL| computeDistribution
-  getValuesFileURL ----|link by valuesFileURL| getNextReplay
-  getValuesFileURL ----|link by valuesFileURL| getNext
-  getValuesFileURL ----|link by valuesFileURL| fill
-  getValuesFileURL ----|link by valuesFileURL| computeDistribution
-  reSeed ----|link by randomData| fill
-  reSeed ----|link by randomData| getNextExponential
-  reSeed ----|link by randomData| computeDistribution
-  reSeed ----|link by randomData| getNextGaussian
-  reSeed ----|link by randomData| getNext
-  reSeed ----|link by randomData| getNextUniform
-  reSeed ----|link by randomData| fill
-  reSeed ----|link by randomData| computeDistribution
-  resetReplayFile ----|link by valuesFileURL| fill
-  resetReplayFile ----|link by valuesFileURL| computeDistribution
-  resetReplayFile ----|link by valuesFileURL| getNextReplay
-  resetReplayFile ----|link by valuesFileURL| getNext
-  resetReplayFile ----|link by valuesFileURL| fill
-  resetReplayFile ----|link by valuesFileURL| getValuesFileURL
-  resetReplayFile ----|link by valuesFileURL| computeDistribution
-  resetReplayFile ----|link by filePointer| closeReplayFile
-  resetReplayFile ----|link by filePointer| fill
-  resetReplayFile ----|link by filePointer| getNextReplay
-  resetReplayFile ----|link by filePointer| getNext
-  resetReplayFile ----|link by filePointer| fill
-```
-
-Number of max pairs: $253.0$
-
-Number of direct connections (link by): $183.0$
-
-**TCC value: $0.7233201581027668$**
-
-
-
-
-# The class 'RandomGeneratorFactory'
-Package: `org.apache.commons.math3.random.RandomGeneratorFactory`
-
-methods : [ `convertToLong` `createRandomGenerator` ]
-
-attributes : [ ]
-
-
-The TCC value is 0 because the class has no methods or no attributes.
-
-
-
-# The class 'MersenneTwister'
-Package: `org.apache.commons.math3.random.MersenneTwister`
-
-methods : [ `setSeed` `next` `setSeed` `setSeed` ]
-
-attributes : [ `serialVersionUID` `mti` `mt` `M` `N` `MAG01` ]
-
-
-The attributes used in each method are:
-  - setSeed uses [mt, N]
-  - next uses [mti, mt, M, N, MAG01]
-  - setSeed uses [mti, mt, N]
-
-The methods called in each method are:
-  - setSeed calls [setSeed]
-  - setSeed calls [setSeed]
-
-```mermaid
-graph TD
-  setSeed -->|call| setSeed
-  setSeed -->|call| setSeed
-  setSeed -. use .->mt((mt))
-  setSeed -. use .->N((N))
-  next -. use .->mti((mti))
-  next -. use .->mt((mt))
-  next -. use .->M((M))
-  next -. use .->N((N))
-  next -. use .->MAG01((MAG01))
-  setSeed -. use .->mti((mti))
-  setSeed -. use .->mt((mt))
-  setSeed -. use .->N((N))
-  setSeed ----|link by mti| next
-  setSeed ----|link by mt| next
-  setSeed ----|link by N| next
-  setSeed ----|link by mti| next
-  setSeed ----|link by mt| next
-  setSeed ----|link by N| next
-  setSeed ----|link by mti| next
-  setSeed ----|link by mt| next
-  setSeed ----|link by N| next
-```
-
-Number of max pairs: $6.0$
-
-Number of direct connections (link by): $9.0$
-
-**TCC value: $1.5$**
-
-
-
-
-# The class 'ISAACRandom'
-Package: `org.apache.commons.math3.random.ISAACRandom`
-
-methods : [ `setSeed` `setSeed` `isaac2` `setSeed` `next` `isaac` `initState` `shuffle` `isaac3` `setState` ]
-
-attributes : [ `arr` `isaacC` `H_SIZE` `isaacA` `SIZE` `isaacB` `count` `rsl` `MASK` `GLD_RATIO` `isaacX` `serialVersionUID` `mem` `SIZE_L` `isaacI` `isaacJ` ]
-
-
-The attributes used in each method are:
-  - setSeed uses [rsl]
-  - isaac2 uses [isaacX, mem, isaacA, isaacI, isaacJ]
-  - next uses [SIZE, count, rsl]
-  - isaac uses [isaacC, H_SIZE, isaacB, isaacI, isaacJ]
-  - initState uses [arr, GLD_RATIO, isaacC, mem, isaacA, isaacB, SIZE, count, rsl]
-  - shuffle uses [arr]
-  - setState uses [arr, mem]
-  - isaac3 uses [isaacX, mem, isaacA, isaacB, rsl, isaacI, SIZE_L, MASK]
-
-The methods called in each method are:
-  - setSeed calls [setSeed]
-  - setSeed calls [initState, setSeed]
-  - isaac2 calls [isaac3]
-  - next calls [isaac]
-  - setSeed calls [setSeed]
-  - isaac calls [isaac2]
-  - initState calls [isaac, setState, shuffle]
-
-```mermaid
-graph TD
-  setSeed -->|call| setSeed
-  setSeed -->|call| initState
-  setSeed -->|call| setSeed
-  isaac2 -->|call| isaac3
-  next -->|call| isaac
-  setSeed -->|call| setSeed
-  isaac -->|call| isaac2
-  initState -->|call| isaac
-  initState -->|call| setState
-  initState -->|call| shuffle
-  setSeed -. use .->rsl((rsl))
-  isaac2 -. use .->isaacX((isaacX))
-  isaac2 -. use .->mem((mem))
-  isaac2 -. use .->isaacA((isaacA))
-  isaac2 -. use .->isaacI((isaacI))
-  isaac2 -. use .->isaacJ((isaacJ))
-  next -. use .->SIZE((SIZE))
-  next -. use .->count((count))
-  next -. use .->rsl((rsl))
-  isaac -. use .->isaacC((isaacC))
-  isaac -. use .->H_SIZE((H_SIZE))
-  isaac -. use .->isaacB((isaacB))
-  isaac -. use .->isaacI((isaacI))
-  isaac -. use .->isaacJ((isaacJ))
-  initState -. use .->arr((arr))
-  initState -. use .->GLD_RATIO((GLD_RATIO))
-  initState -. use .->isaacC((isaacC))
-  initState -. use .->mem((mem))
-  initState -. use .->isaacA((isaacA))
-  initState -. use .->isaacB((isaacB))
-  initState -. use .->SIZE((SIZE))
-  initState -. use .->count((count))
-  initState -. use .->rsl((rsl))
-  shuffle -. use .->arr((arr))
-  setState -. use .->arr((arr))
-  setState -. use .->mem((mem))
-  isaac3 -. use .->isaacX((isaacX))
-  isaac3 -. use .->mem((mem))
-  isaac3 -. use .->isaacA((isaacA))
-  isaac3 -. use .->isaacB((isaacB))
-  isaac3 -. use .->rsl((rsl))
-  isaac3 -. use .->isaacI((isaacI))
-  isaac3 -. use .->SIZE_L((SIZE_L))
-  isaac3 -. use .->MASK((MASK))
-  setSeed ----|link by arr| initState
-  setSeed ----|link by isaacC| next
-  setSeed ----|link by isaacC| isaac
-  setSeed ----|link by isaacC| initState
-  setSeed ----|link by isaacA| isaac2
-  setSeed ----|link by isaacA| next
-  setSeed ----|link by isaacA| isaac
-  setSeed ----|link by isaacA| initState
-  setSeed ----|link by isaacA| isaac3
-  setSeed ----|link by H_SIZE| next
-  setSeed ----|link by H_SIZE| isaac
-  setSeed ----|link by H_SIZE| initState
-  setSeed ----|link by isaacB| isaac2
-  setSeed ----|link by isaacB| next
-  setSeed ----|link by isaacB| isaac
-  setSeed ----|link by isaacB| initState
-  setSeed ----|link by isaacB| isaac3
-  setSeed ----|link by SIZE| next
-  setSeed ----|link by SIZE| initState
-  setSeed ----|link by count| next
-  setSeed ----|link by count| initState
-  setSeed ----|link by rsl| isaac2
-  setSeed ----|link by rsl| next
-  setSeed ----|link by rsl| isaac
-  setSeed ----|link by rsl| initState
-  setSeed ----|link by rsl| isaac3
-  setSeed ----|link by MASK| isaac2
-  setSeed ----|link by MASK| next
-  setSeed ----|link by MASK| isaac
-  setSeed ----|link by MASK| initState
-  setSeed ----|link by MASK| isaac3
-  setSeed ----|link by GLD_RATIO| initState
-  setSeed ----|link by isaacX| isaac2
-  setSeed ----|link by isaacX| next
-  setSeed ----|link by isaacX| isaac
-  setSeed ----|link by isaacX| initState
-  setSeed ----|link by isaacX| isaac3
-  setSeed ----|link by mem| isaac2
-  setSeed ----|link by mem| next
-  setSeed ----|link by mem| isaac
-  setSeed ----|link by mem| initState
-  setSeed ----|link by mem| isaac3
-  setSeed ----|link by isaacI| isaac2
-  setSeed ----|link by isaacI| next
-  setSeed ----|link by isaacI| isaac
-  setSeed ----|link by isaacI| initState
-  setSeed ----|link by isaacI| isaac3
-  setSeed ----|link by SIZE_L| isaac2
-  setSeed ----|link by SIZE_L| next
-  setSeed ----|link by SIZE_L| isaac
-  setSeed ----|link by SIZE_L| initState
-  setSeed ----|link by SIZE_L| isaac3
-  setSeed ----|link by isaacJ| isaac2
-  setSeed ----|link by isaacJ| next
-  setSeed ----|link by isaacJ| isaac
-  setSeed ----|link by isaacJ| initState
-  setSeed ----|link by arr| initState
-  setSeed ----|link by isaacC| next
-  setSeed ----|link by isaacC| isaac
-  setSeed ----|link by isaacC| initState
-  setSeed ----|link by isaacA| isaac2
-  setSeed ----|link by isaacA| next
-  setSeed ----|link by isaacA| isaac
-  setSeed ----|link by isaacA| initState
-  setSeed ----|link by isaacA| isaac3
-  setSeed ----|link by H_SIZE| next
-  setSeed ----|link by H_SIZE| isaac
-  setSeed ----|link by H_SIZE| initState
-  setSeed ----|link by isaacB| isaac2
-  setSeed ----|link by isaacB| next
-  setSeed ----|link by isaacB| isaac
-  setSeed ----|link by isaacB| initState
-  setSeed ----|link by isaacB| isaac3
-  setSeed ----|link by SIZE| next
-  setSeed ----|link by SIZE| initState
-  setSeed ----|link by count| next
-  setSeed ----|link by count| initState
-  setSeed ----|link by rsl| isaac2
-  setSeed ----|link by rsl| next
-  setSeed ----|link by rsl| isaac
-  setSeed ----|link by rsl| initState
-  setSeed ----|link by rsl| isaac3
-  setSeed ----|link by MASK| isaac2
-  setSeed ----|link by MASK| next
-  setSeed ----|link by MASK| isaac
-  setSeed ----|link by MASK| initState
-  setSeed ----|link by MASK| isaac3
-  setSeed ----|link by GLD_RATIO| initState
-  setSeed ----|link by isaacX| isaac2
-  setSeed ----|link by isaacX| next
-  setSeed ----|link by isaacX| isaac
-  setSeed ----|link by isaacX| initState
-  setSeed ----|link by isaacX| isaac3
-  setSeed ----|link by mem| isaac2
-  setSeed ----|link by mem| next
-  setSeed ----|link by mem| isaac
-  setSeed ----|link by mem| initState
-  setSeed ----|link by mem| isaac3
-  setSeed ----|link by isaacI| isaac2
-  setSeed ----|link by isaacI| next
-  setSeed ----|link by isaacI| isaac
-  setSeed ----|link by isaacI| initState
-  setSeed ----|link by isaacI| isaac3
-  setSeed ----|link by SIZE_L| isaac2
-  setSeed ----|link by SIZE_L| next
-  setSeed ----|link by SIZE_L| isaac
-  setSeed ----|link by SIZE_L| initState
-  setSeed ----|link by SIZE_L| isaac3
-  setSeed ----|link by isaacJ| isaac2
-  setSeed ----|link by isaacJ| next
-  setSeed ----|link by isaacJ| isaac
-  setSeed ----|link by isaacJ| initState
-  isaac2 ----|link by isaacX| isaac
-  isaac2 ----|link by isaacX| initState
-  isaac2 ----|link by mem| isaac
-  isaac2 ----|link by mem| initState
-  isaac2 ----|link by isaacA| isaac
-  isaac2 ----|link by isaacA| initState
-  isaac2 ----|link by isaacB| isaac
-  isaac2 ----|link by isaacB| initState
-  isaac2 ----|link by rsl| isaac
-  isaac2 ----|link by rsl| initState
-  isaac2 ----|link by isaacI| isaac
-  isaac2 ----|link by isaacI| initState
-  isaac2 ----|link by SIZE_L| isaac
-  isaac2 ----|link by SIZE_L| initState
-  isaac2 ----|link by isaacJ| isaac
-  isaac2 ----|link by isaacJ| initState
-  isaac2 ----|link by MASK| isaac
-  isaac2 ----|link by MASK| initState
-  setSeed ----|link by arr| initState
-  setSeed ----|link by isaacC| next
-  setSeed ----|link by isaacC| isaac
-  setSeed ----|link by isaacC| initState
-  setSeed ----|link by isaacA| isaac2
-  setSeed ----|link by isaacA| next
-  setSeed ----|link by isaacA| isaac
-  setSeed ----|link by isaacA| initState
-  setSeed ----|link by isaacA| isaac3
-  setSeed ----|link by H_SIZE| next
-  setSeed ----|link by H_SIZE| isaac
-  setSeed ----|link by H_SIZE| initState
-  setSeed ----|link by isaacB| isaac2
-  setSeed ----|link by isaacB| next
-  setSeed ----|link by isaacB| isaac
-  setSeed ----|link by isaacB| initState
-  setSeed ----|link by isaacB| isaac3
-  setSeed ----|link by SIZE| next
-  setSeed ----|link by SIZE| initState
-  setSeed ----|link by count| next
-  setSeed ----|link by count| initState
-  setSeed ----|link by rsl| isaac2
-  setSeed ----|link by rsl| next
-  setSeed ----|link by rsl| isaac
-  setSeed ----|link by rsl| initState
-  setSeed ----|link by rsl| isaac3
-  setSeed ----|link by MASK| isaac2
-  setSeed ----|link by MASK| next
-  setSeed ----|link by MASK| isaac
-  setSeed ----|link by MASK| initState
-  setSeed ----|link by MASK| isaac3
-  setSeed ----|link by GLD_RATIO| initState
-  setSeed ----|link by isaacX| isaac2
-  setSeed ----|link by isaacX| next
-  setSeed ----|link by isaacX| isaac
-  setSeed ----|link by isaacX| initState
-  setSeed ----|link by isaacX| isaac3
-  setSeed ----|link by mem| isaac2
-  setSeed ----|link by mem| next
-  setSeed ----|link by mem| isaac
-  setSeed ----|link by mem| initState
-  setSeed ----|link by mem| isaac3
-  setSeed ----|link by isaacI| isaac2
-  setSeed ----|link by isaacI| next
-  setSeed ----|link by isaacI| isaac
-  setSeed ----|link by isaacI| initState
-  setSeed ----|link by isaacI| isaac3
-  setSeed ----|link by SIZE_L| isaac2
-  setSeed ----|link by SIZE_L| next
-  setSeed ----|link by SIZE_L| isaac
-  setSeed ----|link by SIZE_L| initState
-  setSeed ----|link by SIZE_L| isaac3
-  setSeed ----|link by isaacJ| isaac2
-  setSeed ----|link by isaacJ| next
-  setSeed ----|link by isaacJ| isaac
-  setSeed ----|link by isaacJ| initState
-  next ----|link by isaacC| isaac
-  next ----|link by isaacC| initState
-  next ----|link by H_SIZE| isaac
-  next ----|link by H_SIZE| initState
-  next ----|link by isaacA| isaac2
-  next ----|link by isaacA| isaac
-  next ----|link by isaacA| initState
-  next ----|link by isaacA| isaac3
-  next ----|link by SIZE| initState
-  next ----|link by isaacB| isaac2
-  next ----|link by isaacB| isaac
-  next ----|link by isaacB| initState
-  next ----|link by isaacB| isaac3
-  next ----|link by count| initState
-  next ----|link by rsl| isaac2
-  next ----|link by rsl| isaac
-  next ----|link by rsl| initState
-  next ----|link by rsl| isaac3
-  next ----|link by MASK| isaac2
-  next ----|link by MASK| isaac
-  next ----|link by MASK| initState
-  next ----|link by MASK| isaac3
-  next ----|link by isaacX| isaac2
-  next ----|link by isaacX| isaac
-  next ----|link by isaacX| initState
-  next ----|link by isaacX| isaac3
-  next ----|link by mem| isaac2
-  next ----|link by mem| isaac
-  next ----|link by mem| initState
-  next ----|link by mem| isaac3
-  next ----|link by isaacI| isaac2
-  next ----|link by isaacI| isaac
-  next ----|link by isaacI| initState
-  next ----|link by isaacI| isaac3
-  next ----|link by SIZE_L| isaac2
-  next ----|link by SIZE_L| isaac
-  next ----|link by SIZE_L| initState
-  next ----|link by SIZE_L| isaac3
-  next ----|link by isaacJ| isaac2
-  next ----|link by isaacJ| isaac
-  next ----|link by isaacJ| initState
-  isaac ----|link by isaacX| initState
-  isaac ----|link by isaacC| initState
-  isaac ----|link by mem| initState
-  isaac ----|link by H_SIZE| initState
-  isaac ----|link by isaacA| initState
-  isaac ----|link by isaacB| initState
-  isaac ----|link by rsl| initState
-  isaac ----|link by isaacI| initState
-  isaac ----|link by SIZE_L| initState
-  isaac ----|link by isaacJ| initState
-  isaac ----|link by MASK| initState
-  shuffle ----|link by arr| setSeed
-  shuffle ----|link by arr| setSeed
-  shuffle ----|link by arr| setSeed
-  shuffle ----|link by arr| initState
-  shuffle ----|link by arr| setState
-  setState ----|link by arr| setSeed
-  setState ----|link by arr| setSeed
-  setState ----|link by arr| setSeed
-  setState ----|link by arr| initState
-  setState ----|link by mem| setSeed
-  setState ----|link by mem| setSeed
-  setState ----|link by mem| isaac2
-  setState ----|link by mem| setSeed
-  setState ----|link by mem| next
-  setState ----|link by mem| isaac
-  setState ----|link by mem| initState
-  setState ----|link by mem| isaac3
-  isaac3 ----|link by isaacX| isaac2
-  isaac3 ----|link by isaacX| isaac
-  isaac3 ----|link by isaacX| initState
-  isaac3 ----|link by mem| isaac2
-  isaac3 ----|link by mem| isaac
-  isaac3 ----|link by mem| initState
-  isaac3 ----|link by isaacA| isaac2
-  isaac3 ----|link by isaacA| isaac
-  isaac3 ----|link by isaacA| initState
-  isaac3 ----|link by isaacB| isaac2
-  isaac3 ----|link by isaacB| isaac
-  isaac3 ----|link by isaacB| initState
-  isaac3 ----|link by rsl| isaac2
-  isaac3 ----|link by rsl| isaac
-  isaac3 ----|link by rsl| initState
-  isaac3 ----|link by isaacI| isaac2
-  isaac3 ----|link by isaacI| isaac
-  isaac3 ----|link by isaacI| initState
-  isaac3 ----|link by SIZE_L| isaac2
-  isaac3 ----|link by SIZE_L| isaac
-  isaac3 ----|link by SIZE_L| initState
-  isaac3 ----|link by MASK| isaac2
-  isaac3 ----|link by MASK| isaac
-  isaac3 ----|link by MASK| initState
-```
-
-Number of max pairs: $45.0$
-
-Number of direct connections (link by): $279.0$
-
-**TCC value: $6.2$**
-
-
-
-
-# The class 'UncorrelatedRandomVectorGenerator'
-Package: `org.apache.commons.math3.random.UncorrelatedRandomVectorGenerator`
-
-methods : [ `nextVector` ]
-
-attributes : [ `mean` `generator` `standardDeviation` ]
-
-
-The attributes used in each method are:
-  - nextVector uses [mean, generator, standardDeviation]
-
-The methods called in each method are:
-
-```mermaid
-graph TD
-  nextVector -. use .->mean((mean))
-  nextVector -. use .->generator((generator))
-  nextVector -. use .->standardDeviation((standardDeviation))
-```
-
-Number of max pairs: $0.0$
-
-Number of direct connections (link by): $0.0$
-
-**TCC value: $NaN$**
-
-
-
-
-# The class 'StableRandomGenerator'
-Package: `org.apache.commons.math3.random.StableRandomGenerator`
-
-methods : [ `nextNormalizedDouble` ]
-
-attributes : [ `zeta` `alpha` `generator` `beta` ]
-
-
-The attributes used in each method are:
-  - nextNormalizedDouble uses [zeta, alpha, generator, beta]
-
-The methods called in each method are:
-
-```mermaid
-graph TD
-  nextNormalizedDouble -. use .->zeta((zeta))
-  nextNormalizedDouble -. use .->alpha((alpha))
-  nextNormalizedDouble -. use .->generator((generator))
-  nextNormalizedDouble -. use .->beta((beta))
-```
-
-Number of max pairs: $0.0$
-
-Number of direct connections (link by): $0.0$
-
-**TCC value: $NaN$**
-
-
-
-
-# The class 'RandomData'
-Package: `org.apache.commons.math3.random.RandomData`
-
-methods : [ `nextSample` `nextUniform` `nextSecureInt` `nextPoisson` `nextSecureHexString` `nextSecureLong` `nextExponential` `nextUniform` `nextInt` `nextHexString` `nextLong` `nextGaussian` `nextPermutation` ]
-
-attributes : [ ]
-
-
-The TCC value is 0 because the class has no methods or no attributes.
-
-
-
-# The class 'BitsStreamGenerator'
-Package: `org.apache.commons.math3.random.BitsStreamGenerator`
-
-methods : [ `next` `setSeed` `nextFloat` `setSeed` `nextGaussian` `clear` `nextBytes` `nextBytes` `nextBoolean` `setSeed` `nextLong` `nextInt` `nextInt` `nextDouble` `nextLong` `nextBytesFill` ]
-
-attributes : [ `serialVersionUID` `nextGaussian` ]
-
-
-The attributes used in each method are:
-  - clear uses [nextGaussian]
-  - nextGaussian uses [nextGaussian]
-
-The methods called in each method are:
-  - nextFloat calls [next]
-  - nextInt calls [next]
-  - nextInt calls [next]
-  - nextGaussian calls [nextDouble]
-  - nextDouble calls [next]
-  - nextBytes calls [nextBytesFill]
-  - nextBytes calls [nextBytesFill]
-  - nextBoolean calls [next]
-  - nextLong calls [next]
-  - nextLong calls [next]
-  - nextBytesFill calls [next]
-
-```mermaid
-graph TD
-  nextFloat -->|call| next
-  nextInt -->|call| next
-  nextInt -->|call| next
-  nextGaussian -->|call| nextDouble
-  nextDouble -->|call| next
-  nextBytes -->|call| nextBytesFill
-  nextBytes -->|call| nextBytesFill
-  nextBoolean -->|call| next
-  nextLong -->|call| next
-  nextLong -->|call| next
-  nextBytesFill -->|call| next
-  clear -. use .->nextGaussian((nextGaussian))
-  nextGaussian -. use .->nextGaussian((nextGaussian))
-  nextGaussian ----|link by nextGaussian| clear
-```
-
-Number of max pairs: $120.0$
-
-Number of direct connections (link by): $1.0$
-
-**TCC value: $0.008333333333333333$**
-
-
-
-
-# The class 'Well44497b'
-Package: `org.apache.commons.math3.random.Well44497b`
-
-methods : [ `next` ]
-
-attributes : [ `serialVersionUID` `M1` `M2` `M3` `K` ]
-
-
-The attributes used in each method are:
-
-The methods called in each method are:
-
-```mermaid
-graph TD
-```
-
-Number of max pairs: $0.0$
-
-Number of direct connections (link by): $0.0$
-
-**TCC value: $NaN$**
-
-
-
-
-# The class 'JDKRandomGenerator'
-Package: `org.apache.commons.math3.random.JDKRandomGenerator`
-
-methods : [ `setSeed` `setSeed` ]
-
-attributes : [ `serialVersionUID` ]
-
-
-The attributes used in each method are:
-
-The methods called in each method are:
-  - setSeed calls [setSeed]
-  - setSeed calls [setSeed]
-
-```mermaid
-graph TD
-  setSeed -->|call| setSeed
-  setSeed -->|call| setSeed
+  testRetryFailSometimes -. use .->rng((rng))
 ```
 
 Number of max pairs: $1.0$
@@ -3246,5 +73,1744 @@ Number of direct connections (link by): $0.0$
 
 
 
-*This output is printed as markdown format for readability, you can save to markdown using the `>` bash operator*
 
+# The class 'NonMonotonicSequenceExceptionTest'
+Package: `org.apache.commons.math3.exception.NonMonotonicSequenceExceptionTest`
+
+methods : [ `testAccessors` ]
+
+attributes : [ ]
+
+
+The TCC value is 0 because the class has no methods or no attributes.
+
+
+
+# The class 'NumberIsTooLargeExceptionTest'
+Package: `org.apache.commons.math3.exception.NumberIsTooLargeExceptionTest`
+
+methods : [ `testAccessors` ]
+
+attributes : [ ]
+
+
+The TCC value is 0 because the class has no methods or no attributes.
+
+
+
+# The class 'MaxCountExceededExceptionTest'
+Package: `org.apache.commons.math3.exception.MaxCountExceededExceptionTest`
+
+methods : [ `testAccessors` ]
+
+attributes : [ ]
+
+
+The TCC value is 0 because the class has no methods or no attributes.
+
+
+
+# The class 'LocalizedFormatsTest'
+Package: `org.apache.commons.math3.exception.util.LocalizedFormatsTest`
+
+methods : [ `testNoMissingFrenchTranslation` `testVariablePartsConsistency` `testAllKeysPresentInPropertiesFiles` `testAllPropertiesCorrespondToKeys` `testNoOpEnglishTranslation` `testMessageNumber` ]
+
+attributes : [ ]
+
+
+The TCC value is 0 because the class has no methods or no attributes.
+
+
+
+# The class 'ExceptionContextTest'
+Package: `org.apache.commons.math3.exception.util.ExceptionContextTest`
+
+methods : [ `testMessageChain` `testNoArgAddMessage` `testSerialize` `testSerializeUnserializable` `testContext` ]
+
+attributes : [ ]
+
+
+The TCC value is 0 because the class has no methods or no attributes.
+
+
+
+# The class 'ArgUtilsTest'
+Package: `org.apache.commons.math3.exception.util.ArgUtilsTest`
+
+methods : [ `testFlatten` `create` ]
+
+attributes : [ ]
+
+
+The TCC value is 0 because the class has no methods or no attributes.
+
+
+
+# The class 'OutOfRangeExceptionTest'
+Package: `org.apache.commons.math3.exception.OutOfRangeExceptionTest`
+
+methods : [ `testAccessors` ]
+
+attributes : [ ]
+
+
+The TCC value is 0 because the class has no methods or no attributes.
+
+
+
+# The class 'TooManyEvaluationsExceptionTest'
+Package: `org.apache.commons.math3.exception.TooManyEvaluationsExceptionTest`
+
+methods : [ `testMessage` ]
+
+attributes : [ ]
+
+
+The TCC value is 0 because the class has no methods or no attributes.
+
+
+
+# The class 'NotStrictlyPositiveExceptionTest'
+Package: `org.apache.commons.math3.exception.NotStrictlyPositiveExceptionTest`
+
+methods : [ `testAccessors` ]
+
+attributes : [ ]
+
+
+The TCC value is 0 because the class has no methods or no attributes.
+
+
+
+# The class 'NumberIsTooSmallExceptionTest'
+Package: `org.apache.commons.math3.exception.NumberIsTooSmallExceptionTest`
+
+methods : [ `testAccessors` ]
+
+attributes : [ ]
+
+
+The TCC value is 0 because the class has no methods or no attributes.
+
+
+
+# The class 'DimensionMismatchExceptionTest'
+Package: `org.apache.commons.math3.exception.DimensionMismatchExceptionTest`
+
+methods : [ `testAccessors` ]
+
+attributes : [ ]
+
+
+The TCC value is 0 because the class has no methods or no attributes.
+
+
+
+# The class 'NotPositiveExceptionTest'
+Package: `org.apache.commons.math3.exception.NotPositiveExceptionTest`
+
+methods : [ `testAccessors` ]
+
+attributes : [ ]
+
+
+The TCC value is 0 because the class has no methods or no attributes.
+
+
+
+# The class 'KalmanFilterTest'
+Package: `org.apache.commons.math3.filter.KalmanFilterTest`
+
+methods : [ `testConstant` `testTransitionControlMatrixMismatch` `testConstantAcceleration` `testCannonball` `assertMatrixEquals` `assertVectorEquals` `testTransitionMeasurementMatrixMismatch` ]
+
+attributes : [ ]
+
+
+The TCC value is 0 because the class has no methods or no attributes.
+
+
+
+# The class 'PowellOptimizerTest'
+Package: `org.apache.commons.math3.optimization.direct.PowellOptimizerTest`
+
+methods : [ `testQuadratic` `doTest` `doTest` `testMaximizeQuadratic` `testRelativeToleranceOnScaledValues` `testSumSinc` ]
+
+attributes : [ ]
+
+
+The TCC value is 0 because the class has no methods or no attributes.
+
+
+
+# The class 'MultivariateFunctionPenaltyAdapterTest'
+Package: `org.apache.commons.math3.optimization.direct.MultivariateFunctionPenaltyAdapterTest`
+
+methods : [ `testStartSimplexInsideRange` `testUnbounded` `testStartSimplexOutsideRange` `testHalfBounded` `testOptimumOutsideRange` ]
+
+attributes : [ ]
+
+
+The TCC value is 0 because the class has no methods or no attributes.
+
+
+
+# The class 'MultivariateFunctionMappingAdapterTest'
+Package: `org.apache.commons.math3.optimization.direct.MultivariateFunctionMappingAdapterTest`
+
+methods : [ `testStartSimplexInsideRange` `testOptimumOutsideRange` `testUnbounded` `testHalfBounded` ]
+
+attributes : [ ]
+
+
+The TCC value is 0 because the class has no methods or no attributes.
+
+
+
+# The class 'BOBYQAOptimizerTest'
+Package: `org.apache.commons.math3.optimization.direct.BOBYQAOptimizerTest`
+
+methods : [ `testBoundariesDimensionMismatch` `doTest` `testCigTab` `testTablet` `testTwoAxes` `testAckley` `testRastrigin` `testMaxEvaluations` `testConstrainedRosen` `point` `testElliRotated` `testSphere` `boundaries` `testCigar` `testSsDiffPow` `testRosen` `testMaximize` `testProblemDimensionTooSmall` `testEllipse` `testDiffPow` `doTest` `testInitOutOfBounds` `testConstrainedRosenWithMoreInterpolationPoints` ]
+
+attributes : [ `DIM` ]
+
+
+The attributes used in each method are:
+  - testBoundariesDimensionMismatch uses [DIM]
+  - testTablet uses [DIM]
+  - testCigTab uses [DIM]
+  - testAckley uses [DIM]
+  - testTwoAxes uses [DIM]
+  - testRastrigin uses [DIM]
+  - testConstrainedRosen uses [DIM]
+  - testMaxEvaluations uses [DIM]
+  - testElliRotated uses [DIM]
+  - testSphere uses [DIM]
+  - testCigar uses [DIM]
+  - testSsDiffPow uses [DIM]
+  - testRosen uses [DIM]
+  - testMaximize uses [DIM]
+  - testEllipse uses [DIM]
+  - testDiffPow uses [DIM]
+  - testInitOutOfBounds uses [DIM]
+  - testConstrainedRosenWithMoreInterpolationPoints uses [DIM]
+
+The methods called in each method are:
+  - testBoundariesDimensionMismatch calls [doTest, boundaries, point]
+  - testTablet calls [doTest, point]
+  - testCigTab calls [doTest, point]
+  - testAckley calls [doTest, point]
+  - testTwoAxes calls [doTest, point]
+  - testRastrigin calls [doTest, point]
+  - testConstrainedRosen calls [doTest, boundaries, point]
+  - testMaxEvaluations calls [doTest, point]
+  - testElliRotated calls [doTest, point]
+  - testSphere calls [doTest, point]
+  - testCigar calls [doTest, point]
+  - testSsDiffPow calls [doTest, point]
+  - testRosen calls [doTest, point]
+  - testMaximize calls [doTest, boundaries, point]
+  - testEllipse calls [doTest, point]
+  - testProblemDimensionTooSmall calls [doTest, point]
+  - testDiffPow calls [doTest, point]
+  - doTest calls [doTest]
+  - testInitOutOfBounds calls [doTest, boundaries, point]
+  - testConstrainedRosenWithMoreInterpolationPoints calls [doTest, boundaries, point]
+
+```mermaid
+graph TD
+  testBoundariesDimensionMismatch -->|call| doTest
+  testBoundariesDimensionMismatch -->|call| boundaries
+  testBoundariesDimensionMismatch -->|call| point
+  testTablet -->|call| doTest
+  testTablet -->|call| point
+  testCigTab -->|call| doTest
+  testCigTab -->|call| point
+  testAckley -->|call| doTest
+  testAckley -->|call| point
+  testTwoAxes -->|call| doTest
+  testTwoAxes -->|call| point
+  testRastrigin -->|call| doTest
+  testRastrigin -->|call| point
+  testConstrainedRosen -->|call| doTest
+  testConstrainedRosen -->|call| boundaries
+  testConstrainedRosen -->|call| point
+  testMaxEvaluations -->|call| doTest
+  testMaxEvaluations -->|call| point
+  testElliRotated -->|call| doTest
+  testElliRotated -->|call| point
+  testSphere -->|call| doTest
+  testSphere -->|call| point
+  testCigar -->|call| doTest
+  testCigar -->|call| point
+  testSsDiffPow -->|call| doTest
+  testSsDiffPow -->|call| point
+  testRosen -->|call| doTest
+  testRosen -->|call| point
+  testMaximize -->|call| doTest
+  testMaximize -->|call| boundaries
+  testMaximize -->|call| point
+  testEllipse -->|call| doTest
+  testEllipse -->|call| point
+  testProblemDimensionTooSmall -->|call| doTest
+  testProblemDimensionTooSmall -->|call| point
+  testDiffPow -->|call| doTest
+  testDiffPow -->|call| point
+  doTest -->|call| doTest
+  testInitOutOfBounds -->|call| doTest
+  testInitOutOfBounds -->|call| boundaries
+  testInitOutOfBounds -->|call| point
+  testConstrainedRosenWithMoreInterpolationPoints -->|call| doTest
+  testConstrainedRosenWithMoreInterpolationPoints -->|call| boundaries
+  testConstrainedRosenWithMoreInterpolationPoints -->|call| point
+  testBoundariesDimensionMismatch -. use .->DIM((DIM))
+  testTablet -. use .->DIM((DIM))
+  testCigTab -. use .->DIM((DIM))
+  testAckley -. use .->DIM((DIM))
+  testTwoAxes -. use .->DIM((DIM))
+  testRastrigin -. use .->DIM((DIM))
+  testConstrainedRosen -. use .->DIM((DIM))
+  testMaxEvaluations -. use .->DIM((DIM))
+  testElliRotated -. use .->DIM((DIM))
+  testSphere -. use .->DIM((DIM))
+  testCigar -. use .->DIM((DIM))
+  testSsDiffPow -. use .->DIM((DIM))
+  testRosen -. use .->DIM((DIM))
+  testMaximize -. use .->DIM((DIM))
+  testEllipse -. use .->DIM((DIM))
+  testDiffPow -. use .->DIM((DIM))
+  testInitOutOfBounds -. use .->DIM((DIM))
+  testConstrainedRosenWithMoreInterpolationPoints -. use .->DIM((DIM))
+  testBoundariesDimensionMismatch ----|link by DIM| testAckley
+  testTablet ----|link by DIM| testBoundariesDimensionMismatch
+  testTablet ----|link by DIM| testCigTab
+  testTablet ----|link by DIM| testAckley
+  testTablet ----|link by DIM| testRastrigin
+  testTablet ----|link by DIM| testConstrainedRosen
+  testTablet ----|link by DIM| testMaxEvaluations
+  testTablet ----|link by DIM| testElliRotated
+  testTablet ----|link by DIM| testSphere
+  testTablet ----|link by DIM| testCigar
+  testTablet ----|link by DIM| testSsDiffPow
+  testTablet ----|link by DIM| testRosen
+  testTablet ----|link by DIM| testMaximize
+  testTablet ----|link by DIM| testEllipse
+  testTablet ----|link by DIM| testDiffPow
+  testTablet ----|link by DIM| testInitOutOfBounds
+  testTablet ----|link by DIM| testConstrainedRosenWithMoreInterpolationPoints
+  testCigTab ----|link by DIM| testBoundariesDimensionMismatch
+  testCigTab ----|link by DIM| testAckley
+  testTwoAxes ----|link by DIM| testBoundariesDimensionMismatch
+  testTwoAxes ----|link by DIM| testTablet
+  testTwoAxes ----|link by DIM| testCigTab
+  testTwoAxes ----|link by DIM| testAckley
+  testTwoAxes ----|link by DIM| testRastrigin
+  testTwoAxes ----|link by DIM| testConstrainedRosen
+  testTwoAxes ----|link by DIM| testMaxEvaluations
+  testTwoAxes ----|link by DIM| testElliRotated
+  testTwoAxes ----|link by DIM| testSphere
+  testTwoAxes ----|link by DIM| testCigar
+  testTwoAxes ----|link by DIM| testSsDiffPow
+  testTwoAxes ----|link by DIM| testRosen
+  testTwoAxes ----|link by DIM| testMaximize
+  testTwoAxes ----|link by DIM| testEllipse
+  testTwoAxes ----|link by DIM| testDiffPow
+  testTwoAxes ----|link by DIM| testInitOutOfBounds
+  testTwoAxes ----|link by DIM| testConstrainedRosenWithMoreInterpolationPoints
+  testRastrigin ----|link by DIM| testBoundariesDimensionMismatch
+  testRastrigin ----|link by DIM| testCigTab
+  testRastrigin ----|link by DIM| testAckley
+  testRastrigin ----|link by DIM| testConstrainedRosen
+  testRastrigin ----|link by DIM| testMaxEvaluations
+  testRastrigin ----|link by DIM| testElliRotated
+  testRastrigin ----|link by DIM| testCigar
+  testRastrigin ----|link by DIM| testMaximize
+  testRastrigin ----|link by DIM| testEllipse
+  testRastrigin ----|link by DIM| testDiffPow
+  testRastrigin ----|link by DIM| testInitOutOfBounds
+  testRastrigin ----|link by DIM| testConstrainedRosenWithMoreInterpolationPoints
+  testConstrainedRosen ----|link by DIM| testBoundariesDimensionMismatch
+  testConstrainedRosen ----|link by DIM| testCigTab
+  testConstrainedRosen ----|link by DIM| testAckley
+  testConstrainedRosen ----|link by DIM| testCigar
+  testMaxEvaluations ----|link by DIM| testBoundariesDimensionMismatch
+  testMaxEvaluations ----|link by DIM| testCigTab
+  testMaxEvaluations ----|link by DIM| testAckley
+  testMaxEvaluations ----|link by DIM| testConstrainedRosen
+  testMaxEvaluations ----|link by DIM| testElliRotated
+  testMaxEvaluations ----|link by DIM| testCigar
+  testMaxEvaluations ----|link by DIM| testEllipse
+  testMaxEvaluations ----|link by DIM| testDiffPow
+  testMaxEvaluations ----|link by DIM| testInitOutOfBounds
+  testMaxEvaluations ----|link by DIM| testConstrainedRosenWithMoreInterpolationPoints
+  testElliRotated ----|link by DIM| testBoundariesDimensionMismatch
+  testElliRotated ----|link by DIM| testCigTab
+  testElliRotated ----|link by DIM| testAckley
+  testElliRotated ----|link by DIM| testConstrainedRosen
+  testElliRotated ----|link by DIM| testCigar
+  testElliRotated ----|link by DIM| testDiffPow
+  testElliRotated ----|link by DIM| testConstrainedRosenWithMoreInterpolationPoints
+  testSphere ----|link by DIM| testBoundariesDimensionMismatch
+  testSphere ----|link by DIM| testCigTab
+  testSphere ----|link by DIM| testAckley
+  testSphere ----|link by DIM| testRastrigin
+  testSphere ----|link by DIM| testConstrainedRosen
+  testSphere ----|link by DIM| testMaxEvaluations
+  testSphere ----|link by DIM| testElliRotated
+  testSphere ----|link by DIM| testCigar
+  testSphere ----|link by DIM| testRosen
+  testSphere ----|link by DIM| testMaximize
+  testSphere ----|link by DIM| testEllipse
+  testSphere ----|link by DIM| testDiffPow
+  testSphere ----|link by DIM| testInitOutOfBounds
+  testSphere ----|link by DIM| testConstrainedRosenWithMoreInterpolationPoints
+  testCigar ----|link by DIM| testBoundariesDimensionMismatch
+  testCigar ----|link by DIM| testCigTab
+  testCigar ----|link by DIM| testAckley
+  testSsDiffPow ----|link by DIM| testBoundariesDimensionMismatch
+  testSsDiffPow ----|link by DIM| testCigTab
+  testSsDiffPow ----|link by DIM| testAckley
+  testSsDiffPow ----|link by DIM| testRastrigin
+  testSsDiffPow ----|link by DIM| testConstrainedRosen
+  testSsDiffPow ----|link by DIM| testMaxEvaluations
+  testSsDiffPow ----|link by DIM| testElliRotated
+  testSsDiffPow ----|link by DIM| testSphere
+  testSsDiffPow ----|link by DIM| testCigar
+  testSsDiffPow ----|link by DIM| testRosen
+  testSsDiffPow ----|link by DIM| testMaximize
+  testSsDiffPow ----|link by DIM| testEllipse
+  testSsDiffPow ----|link by DIM| testDiffPow
+  testSsDiffPow ----|link by DIM| testInitOutOfBounds
+  testSsDiffPow ----|link by DIM| testConstrainedRosenWithMoreInterpolationPoints
+  testRosen ----|link by DIM| testBoundariesDimensionMismatch
+  testRosen ----|link by DIM| testCigTab
+  testRosen ----|link by DIM| testAckley
+  testRosen ----|link by DIM| testRastrigin
+  testRosen ----|link by DIM| testConstrainedRosen
+  testRosen ----|link by DIM| testMaxEvaluations
+  testRosen ----|link by DIM| testElliRotated
+  testRosen ----|link by DIM| testCigar
+  testRosen ----|link by DIM| testMaximize
+  testRosen ----|link by DIM| testEllipse
+  testRosen ----|link by DIM| testDiffPow
+  testRosen ----|link by DIM| testInitOutOfBounds
+  testRosen ----|link by DIM| testConstrainedRosenWithMoreInterpolationPoints
+  testMaximize ----|link by DIM| testBoundariesDimensionMismatch
+  testMaximize ----|link by DIM| testCigTab
+  testMaximize ----|link by DIM| testAckley
+  testMaximize ----|link by DIM| testConstrainedRosen
+  testMaximize ----|link by DIM| testMaxEvaluations
+  testMaximize ----|link by DIM| testElliRotated
+  testMaximize ----|link by DIM| testCigar
+  testMaximize ----|link by DIM| testEllipse
+  testMaximize ----|link by DIM| testDiffPow
+  testMaximize ----|link by DIM| testInitOutOfBounds
+  testMaximize ----|link by DIM| testConstrainedRosenWithMoreInterpolationPoints
+  testEllipse ----|link by DIM| testBoundariesDimensionMismatch
+  testEllipse ----|link by DIM| testCigTab
+  testEllipse ----|link by DIM| testAckley
+  testEllipse ----|link by DIM| testConstrainedRosen
+  testEllipse ----|link by DIM| testElliRotated
+  testEllipse ----|link by DIM| testCigar
+  testEllipse ----|link by DIM| testDiffPow
+  testEllipse ----|link by DIM| testConstrainedRosenWithMoreInterpolationPoints
+  testDiffPow ----|link by DIM| testBoundariesDimensionMismatch
+  testDiffPow ----|link by DIM| testCigTab
+  testDiffPow ----|link by DIM| testAckley
+  testDiffPow ----|link by DIM| testConstrainedRosen
+  testDiffPow ----|link by DIM| testCigar
+  testDiffPow ----|link by DIM| testConstrainedRosenWithMoreInterpolationPoints
+  testInitOutOfBounds ----|link by DIM| testBoundariesDimensionMismatch
+  testInitOutOfBounds ----|link by DIM| testCigTab
+  testInitOutOfBounds ----|link by DIM| testAckley
+  testInitOutOfBounds ----|link by DIM| testConstrainedRosen
+  testInitOutOfBounds ----|link by DIM| testElliRotated
+  testInitOutOfBounds ----|link by DIM| testCigar
+  testInitOutOfBounds ----|link by DIM| testEllipse
+  testInitOutOfBounds ----|link by DIM| testDiffPow
+  testInitOutOfBounds ----|link by DIM| testConstrainedRosenWithMoreInterpolationPoints
+  testConstrainedRosenWithMoreInterpolationPoints ----|link by DIM| testBoundariesDimensionMismatch
+  testConstrainedRosenWithMoreInterpolationPoints ----|link by DIM| testCigTab
+  testConstrainedRosenWithMoreInterpolationPoints ----|link by DIM| testAckley
+  testConstrainedRosenWithMoreInterpolationPoints ----|link by DIM| testConstrainedRosen
+  testConstrainedRosenWithMoreInterpolationPoints ----|link by DIM| testCigar
+```
+
+Number of max pairs: $253.0$
+
+Number of direct connections (link by): $153.0$
+
+**TCC value: $0.6047430830039525$**
+
+
+
+
+# The class 'SimplexOptimizerNelderMeadTest'
+Package: `org.apache.commons.math3.optimization.direct.SimplexOptimizerNelderMeadTest`
+
+methods : [ `testPowell` `testMaximize1` `testLeastSquares1` `testMinimize2` `testLeastSquares2` `testLeastSquares3` `testMinimize1` `testMaxIterations` `testMaximize2` `testRosenbrock` ]
+
+attributes : [ ]
+
+
+The TCC value is 0 because the class has no methods or no attributes.
+
+
+
+# The class 'SimplexOptimizerMultiDirectionalTest'
+Package: `org.apache.commons.math3.optimization.direct.SimplexOptimizerMultiDirectionalTest`
+
+methods : [ `testMath283` `testMinimize1` `testRosenbrock` `testMinimize2` `testMaximize2` `testMaximize1` `testPowell` ]
+
+attributes : [ `count` ]
+
+
+The attributes used in each method are:
+  - testRosenbrock uses [count]
+  - testPowell uses [count]
+
+The methods called in each method are:
+
+```mermaid
+graph TD
+  testRosenbrock -. use .->count((count))
+  testPowell -. use .->count((count))
+  testRosenbrock ----|link by count| testPowell
+```
+
+Number of max pairs: $21.0$
+
+Number of direct connections (link by): $1.0$
+
+**TCC value: $0.047619047619047616$**
+
+
+
+
+# The class 'CMAESOptimizerTest'
+Package: `org.apache.commons.math3.optimization.direct.CMAESOptimizerTest`
+
+methods : [ `testTwoAxes` `testSsDiffPow` `testInitOutofbounds1` `testElliRotated` `testCigarWithBoundaries` `doTest` `point` `testDiffPow` `testMath864` `testCigTab` `testRastrigin` `testDiagonalRosen` `testAckley` `testInitOutofbounds2` `testInputSigmaOutOfRange` `testSphere` `testConstrainedRosen` `testInputSigmaNegative` `testEllipse` `boundaries` `testFitAccuracyDependsOnBoundary` `testInputSigmaDimensionMismatch` `testTablet` `testMaximize` `testRosen` `testCigar` `testBoundariesDimensionMismatch` ]
+
+attributes : [ `DIM` `LAMBDA` ]
+
+
+The attributes used in each method are:
+  - testInitOutofbounds2 uses [DIM, LAMBDA]
+  - testTwoAxes uses [DIM, LAMBDA]
+  - testConstrainedRosen uses [DIM, LAMBDA]
+  - testSphere uses [DIM, LAMBDA]
+  - testInputSigmaOutOfRange uses [DIM, LAMBDA]
+  - testSsDiffPow uses [DIM]
+  - testInputSigmaNegative uses [DIM, LAMBDA]
+  - testCigarWithBoundaries uses [DIM, LAMBDA]
+  - testElliRotated uses [DIM, LAMBDA]
+  - testInitOutofbounds1 uses [DIM, LAMBDA]
+  - testEllipse uses [DIM, LAMBDA]
+  - testDiffPow uses [DIM]
+  - testRastrigin uses [DIM]
+  - testCigTab uses [DIM, LAMBDA]
+  - testInputSigmaDimensionMismatch uses [DIM, LAMBDA]
+  - testTablet uses [DIM, LAMBDA]
+  - testMaximize uses [DIM, LAMBDA]
+  - testRosen uses [DIM, LAMBDA]
+  - testCigar uses [DIM, LAMBDA]
+  - testDiagonalRosen uses [DIM, LAMBDA]
+  - testBoundariesDimensionMismatch uses [DIM, LAMBDA]
+  - testAckley uses [DIM, LAMBDA]
+
+The methods called in each method are:
+  - testInitOutofbounds2 calls [doTest, boundaries, point]
+  - testTwoAxes calls [doTest, point]
+  - testConstrainedRosen calls [doTest, boundaries, point]
+  - testSphere calls [doTest, point]
+  - testInputSigmaOutOfRange calls [doTest, boundaries, point]
+  - testSsDiffPow calls [doTest, point]
+  - testInputSigmaNegative calls [doTest, point]
+  - testCigarWithBoundaries calls [doTest, boundaries, point]
+  - testElliRotated calls [doTest, point]
+  - testInitOutofbounds1 calls [doTest, boundaries, point]
+  - testEllipse calls [doTest, point]
+  - testDiffPow calls [doTest, point]
+  - testRastrigin calls [doTest, point]
+  - testCigTab calls [doTest, point]
+  - testInputSigmaDimensionMismatch calls [doTest, point]
+  - testTablet calls [doTest, point]
+  - testMaximize calls [doTest, boundaries, point]
+  - testRosen calls [doTest, point]
+  - testCigar calls [doTest, point]
+  - testDiagonalRosen calls [doTest, point]
+  - testBoundariesDimensionMismatch calls [doTest, boundaries, point]
+  - testAckley calls [doTest, point]
+
+```mermaid
+graph TD
+  testInitOutofbounds2 -->|call| doTest
+  testInitOutofbounds2 -->|call| boundaries
+  testInitOutofbounds2 -->|call| point
+  testTwoAxes -->|call| doTest
+  testTwoAxes -->|call| point
+  testConstrainedRosen -->|call| doTest
+  testConstrainedRosen -->|call| boundaries
+  testConstrainedRosen -->|call| point
+  testSphere -->|call| doTest
+  testSphere -->|call| point
+  testInputSigmaOutOfRange -->|call| doTest
+  testInputSigmaOutOfRange -->|call| boundaries
+  testInputSigmaOutOfRange -->|call| point
+  testSsDiffPow -->|call| doTest
+  testSsDiffPow -->|call| point
+  testInputSigmaNegative -->|call| doTest
+  testInputSigmaNegative -->|call| point
+  testCigarWithBoundaries -->|call| doTest
+  testCigarWithBoundaries -->|call| boundaries
+  testCigarWithBoundaries -->|call| point
+  testElliRotated -->|call| doTest
+  testElliRotated -->|call| point
+  testInitOutofbounds1 -->|call| doTest
+  testInitOutofbounds1 -->|call| boundaries
+  testInitOutofbounds1 -->|call| point
+  testEllipse -->|call| doTest
+  testEllipse -->|call| point
+  testDiffPow -->|call| doTest
+  testDiffPow -->|call| point
+  testRastrigin -->|call| doTest
+  testRastrigin -->|call| point
+  testCigTab -->|call| doTest
+  testCigTab -->|call| point
+  testInputSigmaDimensionMismatch -->|call| doTest
+  testInputSigmaDimensionMismatch -->|call| point
+  testTablet -->|call| doTest
+  testTablet -->|call| point
+  testMaximize -->|call| doTest
+  testMaximize -->|call| boundaries
+  testMaximize -->|call| point
+  testRosen -->|call| doTest
+  testRosen -->|call| point
+  testCigar -->|call| doTest
+  testCigar -->|call| point
+  testDiagonalRosen -->|call| doTest
+  testDiagonalRosen -->|call| point
+  testBoundariesDimensionMismatch -->|call| doTest
+  testBoundariesDimensionMismatch -->|call| boundaries
+  testBoundariesDimensionMismatch -->|call| point
+  testAckley -->|call| doTest
+  testAckley -->|call| point
+  testInitOutofbounds2 -. use .->DIM((DIM))
+  testInitOutofbounds2 -. use .->LAMBDA((LAMBDA))
+  testTwoAxes -. use .->DIM((DIM))
+  testTwoAxes -. use .->LAMBDA((LAMBDA))
+  testConstrainedRosen -. use .->DIM((DIM))
+  testConstrainedRosen -. use .->LAMBDA((LAMBDA))
+  testSphere -. use .->DIM((DIM))
+  testSphere -. use .->LAMBDA((LAMBDA))
+  testInputSigmaOutOfRange -. use .->DIM((DIM))
+  testInputSigmaOutOfRange -. use .->LAMBDA((LAMBDA))
+  testSsDiffPow -. use .->DIM((DIM))
+  testInputSigmaNegative -. use .->DIM((DIM))
+  testInputSigmaNegative -. use .->LAMBDA((LAMBDA))
+  testCigarWithBoundaries -. use .->DIM((DIM))
+  testCigarWithBoundaries -. use .->LAMBDA((LAMBDA))
+  testElliRotated -. use .->DIM((DIM))
+  testElliRotated -. use .->LAMBDA((LAMBDA))
+  testInitOutofbounds1 -. use .->DIM((DIM))
+  testInitOutofbounds1 -. use .->LAMBDA((LAMBDA))
+  testEllipse -. use .->DIM((DIM))
+  testEllipse -. use .->LAMBDA((LAMBDA))
+  testDiffPow -. use .->DIM((DIM))
+  testRastrigin -. use .->DIM((DIM))
+  testCigTab -. use .->DIM((DIM))
+  testCigTab -. use .->LAMBDA((LAMBDA))
+  testInputSigmaDimensionMismatch -. use .->DIM((DIM))
+  testInputSigmaDimensionMismatch -. use .->LAMBDA((LAMBDA))
+  testTablet -. use .->DIM((DIM))
+  testTablet -. use .->LAMBDA((LAMBDA))
+  testMaximize -. use .->DIM((DIM))
+  testMaximize -. use .->LAMBDA((LAMBDA))
+  testRosen -. use .->DIM((DIM))
+  testRosen -. use .->LAMBDA((LAMBDA))
+  testCigar -. use .->DIM((DIM))
+  testCigar -. use .->LAMBDA((LAMBDA))
+  testDiagonalRosen -. use .->DIM((DIM))
+  testDiagonalRosen -. use .->LAMBDA((LAMBDA))
+  testBoundariesDimensionMismatch -. use .->DIM((DIM))
+  testBoundariesDimensionMismatch -. use .->LAMBDA((LAMBDA))
+  testAckley -. use .->DIM((DIM))
+  testAckley -. use .->LAMBDA((LAMBDA))
+  testInitOutofbounds2 ----|link by DIM| testConstrainedRosen
+  testInitOutofbounds2 ----|link by DIM| testCigarWithBoundaries
+  testInitOutofbounds2 ----|link by DIM| testElliRotated
+  testInitOutofbounds2 ----|link by DIM| testInitOutofbounds1
+  testInitOutofbounds2 ----|link by DIM| testEllipse
+  testInitOutofbounds2 ----|link by DIM| testDiffPow
+  testInitOutofbounds2 ----|link by DIM| testCigTab
+  testInitOutofbounds2 ----|link by DIM| testCigar
+  testInitOutofbounds2 ----|link by DIM| testDiagonalRosen
+  testInitOutofbounds2 ----|link by DIM| testBoundariesDimensionMismatch
+  testInitOutofbounds2 ----|link by DIM| testAckley
+  testInitOutofbounds2 ----|link by LAMBDA| testConstrainedRosen
+  testInitOutofbounds2 ----|link by LAMBDA| testCigarWithBoundaries
+  testInitOutofbounds2 ----|link by LAMBDA| testElliRotated
+  testInitOutofbounds2 ----|link by LAMBDA| testInitOutofbounds1
+  testInitOutofbounds2 ----|link by LAMBDA| testEllipse
+  testInitOutofbounds2 ----|link by LAMBDA| testCigTab
+  testInitOutofbounds2 ----|link by LAMBDA| testCigar
+  testInitOutofbounds2 ----|link by LAMBDA| testDiagonalRosen
+  testInitOutofbounds2 ----|link by LAMBDA| testBoundariesDimensionMismatch
+  testInitOutofbounds2 ----|link by LAMBDA| testAckley
+  testTwoAxes ----|link by DIM| testInitOutofbounds2
+  testTwoAxes ----|link by DIM| testConstrainedRosen
+  testTwoAxes ----|link by DIM| testSphere
+  testTwoAxes ----|link by DIM| testInputSigmaOutOfRange
+  testTwoAxes ----|link by DIM| testSsDiffPow
+  testTwoAxes ----|link by DIM| testInputSigmaNegative
+  testTwoAxes ----|link by DIM| testCigarWithBoundaries
+  testTwoAxes ----|link by DIM| testElliRotated
+  testTwoAxes ----|link by DIM| testInitOutofbounds1
+  testTwoAxes ----|link by DIM| testEllipse
+  testTwoAxes ----|link by DIM| testDiffPow
+  testTwoAxes ----|link by DIM| testRastrigin
+  testTwoAxes ----|link by DIM| testCigTab
+  testTwoAxes ----|link by DIM| testInputSigmaDimensionMismatch
+  testTwoAxes ----|link by DIM| testTablet
+  testTwoAxes ----|link by DIM| testMaximize
+  testTwoAxes ----|link by DIM| testRosen
+  testTwoAxes ----|link by DIM| testCigar
+  testTwoAxes ----|link by DIM| testDiagonalRosen
+  testTwoAxes ----|link by DIM| testBoundariesDimensionMismatch
+  testTwoAxes ----|link by DIM| testAckley
+  testTwoAxes ----|link by LAMBDA| testInitOutofbounds2
+  testTwoAxes ----|link by LAMBDA| testConstrainedRosen
+  testTwoAxes ----|link by LAMBDA| testSphere
+  testTwoAxes ----|link by LAMBDA| testInputSigmaOutOfRange
+  testTwoAxes ----|link by LAMBDA| testInputSigmaNegative
+  testTwoAxes ----|link by LAMBDA| testCigarWithBoundaries
+  testTwoAxes ----|link by LAMBDA| testElliRotated
+  testTwoAxes ----|link by LAMBDA| testInitOutofbounds1
+  testTwoAxes ----|link by LAMBDA| testEllipse
+  testTwoAxes ----|link by LAMBDA| testCigTab
+  testTwoAxes ----|link by LAMBDA| testInputSigmaDimensionMismatch
+  testTwoAxes ----|link by LAMBDA| testTablet
+  testTwoAxes ----|link by LAMBDA| testMaximize
+  testTwoAxes ----|link by LAMBDA| testRosen
+  testTwoAxes ----|link by LAMBDA| testCigar
+  testTwoAxes ----|link by LAMBDA| testDiagonalRosen
+  testTwoAxes ----|link by LAMBDA| testBoundariesDimensionMismatch
+  testTwoAxes ----|link by LAMBDA| testAckley
+  testConstrainedRosen ----|link by DIM| testCigarWithBoundaries
+  testConstrainedRosen ----|link by DIM| testCigTab
+  testConstrainedRosen ----|link by DIM| testCigar
+  testConstrainedRosen ----|link by DIM| testBoundariesDimensionMismatch
+  testConstrainedRosen ----|link by DIM| testAckley
+  testConstrainedRosen ----|link by LAMBDA| testCigarWithBoundaries
+  testConstrainedRosen ----|link by LAMBDA| testCigTab
+  testConstrainedRosen ----|link by LAMBDA| testCigar
+  testConstrainedRosen ----|link by LAMBDA| testBoundariesDimensionMismatch
+  testConstrainedRosen ----|link by LAMBDA| testAckley
+  testSphere ----|link by DIM| testInitOutofbounds2
+  testSphere ----|link by DIM| testConstrainedRosen
+  testSphere ----|link by DIM| testInputSigmaOutOfRange
+  testSphere ----|link by DIM| testInputSigmaNegative
+  testSphere ----|link by DIM| testCigarWithBoundaries
+  testSphere ----|link by DIM| testElliRotated
+  testSphere ----|link by DIM| testInitOutofbounds1
+  testSphere ----|link by DIM| testEllipse
+  testSphere ----|link by DIM| testDiffPow
+  testSphere ----|link by DIM| testRastrigin
+  testSphere ----|link by DIM| testCigTab
+  testSphere ----|link by DIM| testInputSigmaDimensionMismatch
+  testSphere ----|link by DIM| testMaximize
+  testSphere ----|link by DIM| testRosen
+  testSphere ----|link by DIM| testCigar
+  testSphere ----|link by DIM| testDiagonalRosen
+  testSphere ----|link by DIM| testBoundariesDimensionMismatch
+  testSphere ----|link by DIM| testAckley
+  testSphere ----|link by LAMBDA| testInitOutofbounds2
+  testSphere ----|link by LAMBDA| testConstrainedRosen
+  testSphere ----|link by LAMBDA| testInputSigmaOutOfRange
+  testSphere ----|link by LAMBDA| testInputSigmaNegative
+  testSphere ----|link by LAMBDA| testCigarWithBoundaries
+  testSphere ----|link by LAMBDA| testElliRotated
+  testSphere ----|link by LAMBDA| testInitOutofbounds1
+  testSphere ----|link by LAMBDA| testEllipse
+  testSphere ----|link by LAMBDA| testCigTab
+  testSphere ----|link by LAMBDA| testInputSigmaDimensionMismatch
+  testSphere ----|link by LAMBDA| testMaximize
+  testSphere ----|link by LAMBDA| testRosen
+  testSphere ----|link by LAMBDA| testCigar
+  testSphere ----|link by LAMBDA| testDiagonalRosen
+  testSphere ----|link by LAMBDA| testBoundariesDimensionMismatch
+  testSphere ----|link by LAMBDA| testAckley
+  testInputSigmaOutOfRange ----|link by DIM| testInitOutofbounds2
+  testInputSigmaOutOfRange ----|link by DIM| testConstrainedRosen
+  testInputSigmaOutOfRange ----|link by DIM| testInputSigmaNegative
+  testInputSigmaOutOfRange ----|link by DIM| testCigarWithBoundaries
+  testInputSigmaOutOfRange ----|link by DIM| testElliRotated
+  testInputSigmaOutOfRange ----|link by DIM| testInitOutofbounds1
+  testInputSigmaOutOfRange ----|link by DIM| testEllipse
+  testInputSigmaOutOfRange ----|link by DIM| testDiffPow
+  testInputSigmaOutOfRange ----|link by DIM| testCigTab
+  testInputSigmaOutOfRange ----|link by DIM| testInputSigmaDimensionMismatch
+  testInputSigmaOutOfRange ----|link by DIM| testCigar
+  testInputSigmaOutOfRange ----|link by DIM| testDiagonalRosen
+  testInputSigmaOutOfRange ----|link by DIM| testBoundariesDimensionMismatch
+  testInputSigmaOutOfRange ----|link by DIM| testAckley
+  testInputSigmaOutOfRange ----|link by LAMBDA| testInitOutofbounds2
+  testInputSigmaOutOfRange ----|link by LAMBDA| testConstrainedRosen
+  testInputSigmaOutOfRange ----|link by LAMBDA| testInputSigmaNegative
+  testInputSigmaOutOfRange ----|link by LAMBDA| testCigarWithBoundaries
+  testInputSigmaOutOfRange ----|link by LAMBDA| testElliRotated
+  testInputSigmaOutOfRange ----|link by LAMBDA| testInitOutofbounds1
+  testInputSigmaOutOfRange ----|link by LAMBDA| testEllipse
+  testInputSigmaOutOfRange ----|link by LAMBDA| testCigTab
+  testInputSigmaOutOfRange ----|link by LAMBDA| testInputSigmaDimensionMismatch
+  testInputSigmaOutOfRange ----|link by LAMBDA| testCigar
+  testInputSigmaOutOfRange ----|link by LAMBDA| testDiagonalRosen
+  testInputSigmaOutOfRange ----|link by LAMBDA| testBoundariesDimensionMismatch
+  testInputSigmaOutOfRange ----|link by LAMBDA| testAckley
+  testSsDiffPow ----|link by DIM| testInitOutofbounds2
+  testSsDiffPow ----|link by DIM| testConstrainedRosen
+  testSsDiffPow ----|link by DIM| testSphere
+  testSsDiffPow ----|link by DIM| testInputSigmaOutOfRange
+  testSsDiffPow ----|link by DIM| testInputSigmaNegative
+  testSsDiffPow ----|link by DIM| testCigarWithBoundaries
+  testSsDiffPow ----|link by DIM| testElliRotated
+  testSsDiffPow ----|link by DIM| testInitOutofbounds1
+  testSsDiffPow ----|link by DIM| testEllipse
+  testSsDiffPow ----|link by DIM| testDiffPow
+  testSsDiffPow ----|link by DIM| testRastrigin
+  testSsDiffPow ----|link by DIM| testCigTab
+  testSsDiffPow ----|link by DIM| testInputSigmaDimensionMismatch
+  testSsDiffPow ----|link by DIM| testMaximize
+  testSsDiffPow ----|link by DIM| testRosen
+  testSsDiffPow ----|link by DIM| testCigar
+  testSsDiffPow ----|link by DIM| testDiagonalRosen
+  testSsDiffPow ----|link by DIM| testBoundariesDimensionMismatch
+  testSsDiffPow ----|link by DIM| testAckley
+  testInputSigmaNegative ----|link by DIM| testInitOutofbounds2
+  testInputSigmaNegative ----|link by DIM| testConstrainedRosen
+  testInputSigmaNegative ----|link by DIM| testCigarWithBoundaries
+  testInputSigmaNegative ----|link by DIM| testElliRotated
+  testInputSigmaNegative ----|link by DIM| testInitOutofbounds1
+  testInputSigmaNegative ----|link by DIM| testEllipse
+  testInputSigmaNegative ----|link by DIM| testDiffPow
+  testInputSigmaNegative ----|link by DIM| testCigTab
+  testInputSigmaNegative ----|link by DIM| testInputSigmaDimensionMismatch
+  testInputSigmaNegative ----|link by DIM| testCigar
+  testInputSigmaNegative ----|link by DIM| testDiagonalRosen
+  testInputSigmaNegative ----|link by DIM| testBoundariesDimensionMismatch
+  testInputSigmaNegative ----|link by DIM| testAckley
+  testInputSigmaNegative ----|link by LAMBDA| testInitOutofbounds2
+  testInputSigmaNegative ----|link by LAMBDA| testConstrainedRosen
+  testInputSigmaNegative ----|link by LAMBDA| testCigarWithBoundaries
+  testInputSigmaNegative ----|link by LAMBDA| testElliRotated
+  testInputSigmaNegative ----|link by LAMBDA| testInitOutofbounds1
+  testInputSigmaNegative ----|link by LAMBDA| testEllipse
+  testInputSigmaNegative ----|link by LAMBDA| testCigTab
+  testInputSigmaNegative ----|link by LAMBDA| testInputSigmaDimensionMismatch
+  testInputSigmaNegative ----|link by LAMBDA| testCigar
+  testInputSigmaNegative ----|link by LAMBDA| testDiagonalRosen
+  testInputSigmaNegative ----|link by LAMBDA| testBoundariesDimensionMismatch
+  testInputSigmaNegative ----|link by LAMBDA| testAckley
+  testCigarWithBoundaries ----|link by DIM| testCigTab
+  testCigarWithBoundaries ----|link by DIM| testCigar
+  testCigarWithBoundaries ----|link by DIM| testBoundariesDimensionMismatch
+  testCigarWithBoundaries ----|link by DIM| testAckley
+  testCigarWithBoundaries ----|link by LAMBDA| testCigTab
+  testCigarWithBoundaries ----|link by LAMBDA| testCigar
+  testCigarWithBoundaries ----|link by LAMBDA| testBoundariesDimensionMismatch
+  testCigarWithBoundaries ----|link by LAMBDA| testAckley
+  testElliRotated ----|link by DIM| testConstrainedRosen
+  testElliRotated ----|link by DIM| testCigarWithBoundaries
+  testElliRotated ----|link by DIM| testDiffPow
+  testElliRotated ----|link by DIM| testCigTab
+  testElliRotated ----|link by DIM| testCigar
+  testElliRotated ----|link by DIM| testDiagonalRosen
+  testElliRotated ----|link by DIM| testBoundariesDimensionMismatch
+  testElliRotated ----|link by DIM| testAckley
+  testElliRotated ----|link by LAMBDA| testConstrainedRosen
+  testElliRotated ----|link by LAMBDA| testCigarWithBoundaries
+  testElliRotated ----|link by LAMBDA| testCigTab
+  testElliRotated ----|link by LAMBDA| testCigar
+  testElliRotated ----|link by LAMBDA| testDiagonalRosen
+  testElliRotated ----|link by LAMBDA| testBoundariesDimensionMismatch
+  testElliRotated ----|link by LAMBDA| testAckley
+  testInitOutofbounds1 ----|link by DIM| testConstrainedRosen
+  testInitOutofbounds1 ----|link by DIM| testCigarWithBoundaries
+  testInitOutofbounds1 ----|link by DIM| testElliRotated
+  testInitOutofbounds1 ----|link by DIM| testEllipse
+  testInitOutofbounds1 ----|link by DIM| testDiffPow
+  testInitOutofbounds1 ----|link by DIM| testCigTab
+  testInitOutofbounds1 ----|link by DIM| testCigar
+  testInitOutofbounds1 ----|link by DIM| testDiagonalRosen
+  testInitOutofbounds1 ----|link by DIM| testBoundariesDimensionMismatch
+  testInitOutofbounds1 ----|link by DIM| testAckley
+  testInitOutofbounds1 ----|link by LAMBDA| testConstrainedRosen
+  testInitOutofbounds1 ----|link by LAMBDA| testCigarWithBoundaries
+  testInitOutofbounds1 ----|link by LAMBDA| testElliRotated
+  testInitOutofbounds1 ----|link by LAMBDA| testEllipse
+  testInitOutofbounds1 ----|link by LAMBDA| testCigTab
+  testInitOutofbounds1 ----|link by LAMBDA| testCigar
+  testInitOutofbounds1 ----|link by LAMBDA| testDiagonalRosen
+  testInitOutofbounds1 ----|link by LAMBDA| testBoundariesDimensionMismatch
+  testInitOutofbounds1 ----|link by LAMBDA| testAckley
+  testEllipse ----|link by DIM| testConstrainedRosen
+  testEllipse ----|link by DIM| testCigarWithBoundaries
+  testEllipse ----|link by DIM| testElliRotated
+  testEllipse ----|link by DIM| testDiffPow
+  testEllipse ----|link by DIM| testCigTab
+  testEllipse ----|link by DIM| testCigar
+  testEllipse ----|link by DIM| testDiagonalRosen
+  testEllipse ----|link by DIM| testBoundariesDimensionMismatch
+  testEllipse ----|link by DIM| testAckley
+  testEllipse ----|link by LAMBDA| testConstrainedRosen
+  testEllipse ----|link by LAMBDA| testCigarWithBoundaries
+  testEllipse ----|link by LAMBDA| testElliRotated
+  testEllipse ----|link by LAMBDA| testCigTab
+  testEllipse ----|link by LAMBDA| testCigar
+  testEllipse ----|link by LAMBDA| testDiagonalRosen
+  testEllipse ----|link by LAMBDA| testBoundariesDimensionMismatch
+  testEllipse ----|link by LAMBDA| testAckley
+  testDiffPow ----|link by DIM| testConstrainedRosen
+  testDiffPow ----|link by DIM| testCigarWithBoundaries
+  testDiffPow ----|link by DIM| testCigTab
+  testDiffPow ----|link by DIM| testCigar
+  testDiffPow ----|link by DIM| testDiagonalRosen
+  testDiffPow ----|link by DIM| testBoundariesDimensionMismatch
+  testDiffPow ----|link by DIM| testAckley
+  testRastrigin ----|link by DIM| testInitOutofbounds2
+  testRastrigin ----|link by DIM| testConstrainedRosen
+  testRastrigin ----|link by DIM| testInputSigmaOutOfRange
+  testRastrigin ----|link by DIM| testInputSigmaNegative
+  testRastrigin ----|link by DIM| testCigarWithBoundaries
+  testRastrigin ----|link by DIM| testElliRotated
+  testRastrigin ----|link by DIM| testInitOutofbounds1
+  testRastrigin ----|link by DIM| testEllipse
+  testRastrigin ----|link by DIM| testDiffPow
+  testRastrigin ----|link by DIM| testCigTab
+  testRastrigin ----|link by DIM| testInputSigmaDimensionMismatch
+  testRastrigin ----|link by DIM| testMaximize
+  testRastrigin ----|link by DIM| testCigar
+  testRastrigin ----|link by DIM| testDiagonalRosen
+  testRastrigin ----|link by DIM| testBoundariesDimensionMismatch
+  testRastrigin ----|link by DIM| testAckley
+  testCigTab ----|link by DIM| testBoundariesDimensionMismatch
+  testCigTab ----|link by DIM| testAckley
+  testCigTab ----|link by LAMBDA| testBoundariesDimensionMismatch
+  testCigTab ----|link by LAMBDA| testAckley
+  testInputSigmaDimensionMismatch ----|link by DIM| testInitOutofbounds2
+  testInputSigmaDimensionMismatch ----|link by DIM| testConstrainedRosen
+  testInputSigmaDimensionMismatch ----|link by DIM| testCigarWithBoundaries
+  testInputSigmaDimensionMismatch ----|link by DIM| testElliRotated
+  testInputSigmaDimensionMismatch ----|link by DIM| testInitOutofbounds1
+  testInputSigmaDimensionMismatch ----|link by DIM| testEllipse
+  testInputSigmaDimensionMismatch ----|link by DIM| testDiffPow
+  testInputSigmaDimensionMismatch ----|link by DIM| testCigTab
+  testInputSigmaDimensionMismatch ----|link by DIM| testCigar
+  testInputSigmaDimensionMismatch ----|link by DIM| testDiagonalRosen
+  testInputSigmaDimensionMismatch ----|link by DIM| testBoundariesDimensionMismatch
+  testInputSigmaDimensionMismatch ----|link by DIM| testAckley
+  testInputSigmaDimensionMismatch ----|link by LAMBDA| testInitOutofbounds2
+  testInputSigmaDimensionMismatch ----|link by LAMBDA| testConstrainedRosen
+  testInputSigmaDimensionMismatch ----|link by LAMBDA| testCigarWithBoundaries
+  testInputSigmaDimensionMismatch ----|link by LAMBDA| testElliRotated
+  testInputSigmaDimensionMismatch ----|link by LAMBDA| testInitOutofbounds1
+  testInputSigmaDimensionMismatch ----|link by LAMBDA| testEllipse
+  testInputSigmaDimensionMismatch ----|link by LAMBDA| testCigTab
+  testInputSigmaDimensionMismatch ----|link by LAMBDA| testCigar
+  testInputSigmaDimensionMismatch ----|link by LAMBDA| testDiagonalRosen
+  testInputSigmaDimensionMismatch ----|link by LAMBDA| testBoundariesDimensionMismatch
+  testInputSigmaDimensionMismatch ----|link by LAMBDA| testAckley
+  testTablet ----|link by DIM| testInitOutofbounds2
+  testTablet ----|link by DIM| testConstrainedRosen
+  testTablet ----|link by DIM| testSphere
+  testTablet ----|link by DIM| testInputSigmaOutOfRange
+  testTablet ----|link by DIM| testSsDiffPow
+  testTablet ----|link by DIM| testInputSigmaNegative
+  testTablet ----|link by DIM| testCigarWithBoundaries
+  testTablet ----|link by DIM| testElliRotated
+  testTablet ----|link by DIM| testInitOutofbounds1
+  testTablet ----|link by DIM| testEllipse
+  testTablet ----|link by DIM| testDiffPow
+  testTablet ----|link by DIM| testRastrigin
+  testTablet ----|link by DIM| testCigTab
+  testTablet ----|link by DIM| testInputSigmaDimensionMismatch
+  testTablet ----|link by DIM| testMaximize
+  testTablet ----|link by DIM| testRosen
+  testTablet ----|link by DIM| testCigar
+  testTablet ----|link by DIM| testDiagonalRosen
+  testTablet ----|link by DIM| testBoundariesDimensionMismatch
+  testTablet ----|link by DIM| testAckley
+  testTablet ----|link by LAMBDA| testInitOutofbounds2
+  testTablet ----|link by LAMBDA| testConstrainedRosen
+  testTablet ----|link by LAMBDA| testSphere
+  testTablet ----|link by LAMBDA| testInputSigmaOutOfRange
+  testTablet ----|link by LAMBDA| testInputSigmaNegative
+  testTablet ----|link by LAMBDA| testCigarWithBoundaries
+  testTablet ----|link by LAMBDA| testElliRotated
+  testTablet ----|link by LAMBDA| testInitOutofbounds1
+  testTablet ----|link by LAMBDA| testEllipse
+  testTablet ----|link by LAMBDA| testCigTab
+  testTablet ----|link by LAMBDA| testInputSigmaDimensionMismatch
+  testTablet ----|link by LAMBDA| testMaximize
+  testTablet ----|link by LAMBDA| testRosen
+  testTablet ----|link by LAMBDA| testCigar
+  testTablet ----|link by LAMBDA| testDiagonalRosen
+  testTablet ----|link by LAMBDA| testBoundariesDimensionMismatch
+  testTablet ----|link by LAMBDA| testAckley
+  testMaximize ----|link by DIM| testInitOutofbounds2
+  testMaximize ----|link by DIM| testConstrainedRosen
+  testMaximize ----|link by DIM| testInputSigmaOutOfRange
+  testMaximize ----|link by DIM| testInputSigmaNegative
+  testMaximize ----|link by DIM| testCigarWithBoundaries
+  testMaximize ----|link by DIM| testElliRotated
+  testMaximize ----|link by DIM| testInitOutofbounds1
+  testMaximize ----|link by DIM| testEllipse
+  testMaximize ----|link by DIM| testDiffPow
+  testMaximize ----|link by DIM| testCigTab
+  testMaximize ----|link by DIM| testInputSigmaDimensionMismatch
+  testMaximize ----|link by DIM| testCigar
+  testMaximize ----|link by DIM| testDiagonalRosen
+  testMaximize ----|link by DIM| testBoundariesDimensionMismatch
+  testMaximize ----|link by DIM| testAckley
+  testMaximize ----|link by LAMBDA| testInitOutofbounds2
+  testMaximize ----|link by LAMBDA| testConstrainedRosen
+  testMaximize ----|link by LAMBDA| testInputSigmaOutOfRange
+  testMaximize ----|link by LAMBDA| testInputSigmaNegative
+  testMaximize ----|link by LAMBDA| testCigarWithBoundaries
+  testMaximize ----|link by LAMBDA| testElliRotated
+  testMaximize ----|link by LAMBDA| testInitOutofbounds1
+  testMaximize ----|link by LAMBDA| testEllipse
+  testMaximize ----|link by LAMBDA| testCigTab
+  testMaximize ----|link by LAMBDA| testInputSigmaDimensionMismatch
+  testMaximize ----|link by LAMBDA| testCigar
+  testMaximize ----|link by LAMBDA| testDiagonalRosen
+  testMaximize ----|link by LAMBDA| testBoundariesDimensionMismatch
+  testMaximize ----|link by LAMBDA| testAckley
+  testRosen ----|link by DIM| testInitOutofbounds2
+  testRosen ----|link by DIM| testConstrainedRosen
+  testRosen ----|link by DIM| testInputSigmaOutOfRange
+  testRosen ----|link by DIM| testInputSigmaNegative
+  testRosen ----|link by DIM| testCigarWithBoundaries
+  testRosen ----|link by DIM| testElliRotated
+  testRosen ----|link by DIM| testInitOutofbounds1
+  testRosen ----|link by DIM| testEllipse
+  testRosen ----|link by DIM| testDiffPow
+  testRosen ----|link by DIM| testRastrigin
+  testRosen ----|link by DIM| testCigTab
+  testRosen ----|link by DIM| testInputSigmaDimensionMismatch
+  testRosen ----|link by DIM| testMaximize
+  testRosen ----|link by DIM| testCigar
+  testRosen ----|link by DIM| testDiagonalRosen
+  testRosen ----|link by DIM| testBoundariesDimensionMismatch
+  testRosen ----|link by DIM| testAckley
+  testRosen ----|link by LAMBDA| testInitOutofbounds2
+  testRosen ----|link by LAMBDA| testConstrainedRosen
+  testRosen ----|link by LAMBDA| testInputSigmaOutOfRange
+  testRosen ----|link by LAMBDA| testInputSigmaNegative
+  testRosen ----|link by LAMBDA| testCigarWithBoundaries
+  testRosen ----|link by LAMBDA| testElliRotated
+  testRosen ----|link by LAMBDA| testInitOutofbounds1
+  testRosen ----|link by LAMBDA| testEllipse
+  testRosen ----|link by LAMBDA| testCigTab
+  testRosen ----|link by LAMBDA| testInputSigmaDimensionMismatch
+  testRosen ----|link by LAMBDA| testMaximize
+  testRosen ----|link by LAMBDA| testCigar
+  testRosen ----|link by LAMBDA| testDiagonalRosen
+  testRosen ----|link by LAMBDA| testBoundariesDimensionMismatch
+  testRosen ----|link by LAMBDA| testAckley
+  testCigar ----|link by DIM| testCigTab
+  testCigar ----|link by DIM| testBoundariesDimensionMismatch
+  testCigar ----|link by DIM| testAckley
+  testCigar ----|link by LAMBDA| testCigTab
+  testCigar ----|link by LAMBDA| testBoundariesDimensionMismatch
+  testCigar ----|link by LAMBDA| testAckley
+  testDiagonalRosen ----|link by DIM| testConstrainedRosen
+  testDiagonalRosen ----|link by DIM| testCigarWithBoundaries
+  testDiagonalRosen ----|link by DIM| testCigTab
+  testDiagonalRosen ----|link by DIM| testCigar
+  testDiagonalRosen ----|link by DIM| testBoundariesDimensionMismatch
+  testDiagonalRosen ----|link by DIM| testAckley
+  testDiagonalRosen ----|link by LAMBDA| testConstrainedRosen
+  testDiagonalRosen ----|link by LAMBDA| testCigarWithBoundaries
+  testDiagonalRosen ----|link by LAMBDA| testCigTab
+  testDiagonalRosen ----|link by LAMBDA| testCigar
+  testDiagonalRosen ----|link by LAMBDA| testBoundariesDimensionMismatch
+  testDiagonalRosen ----|link by LAMBDA| testAckley
+  testBoundariesDimensionMismatch ----|link by DIM| testAckley
+  testBoundariesDimensionMismatch ----|link by LAMBDA| testAckley
+```
+
+Number of max pairs: $351.0$
+
+Number of direct connections (link by): $402.0$
+
+**TCC value: $1.1452991452991452$**
+
+
+
+
+# The class 'SimpleVectorValueCheckerTest'
+Package: `org.apache.commons.math3.optimization.SimpleVectorValueCheckerTest`
+
+methods : [ `testIterationCheckDisabled` `testIterationCheck` `testIterationCheckPrecondition` ]
+
+attributes : [ ]
+
+
+The TCC value is 0 because the class has no methods or no attributes.
+
+
+
+# The class 'SimplePointCheckerTest'
+Package: `org.apache.commons.math3.optimization.SimplePointCheckerTest`
+
+methods : [ `testIterationCheckDisabled` `testIterationCheckPrecondition` `testIterationCheck` ]
+
+attributes : [ ]
+
+
+The TCC value is 0 because the class has no methods or no attributes.
+
+
+
+# The class 'MultivariateDifferentiableVectorMultiStartOptimizerTest'
+Package: `org.apache.commons.math3.optimization.MultivariateDifferentiableVectorMultiStartOptimizerTest`
+
+methods : [ `testNoOptimum` `testTrivial` ]
+
+attributes : [ ]
+
+
+The TCC value is 0 because the class has no methods or no attributes.
+
+
+
+# The class 'CurveFitterTest'
+Package: `org.apache.commons.math3.optimization.fitting.CurveFitterTest`
+
+methods : [ `testMath303` `testMath304` `testMath372` ]
+
+attributes : [ ]
+
+
+The TCC value is 0 because the class has no methods or no attributes.
+
+
+
+# The class 'HarmonicFitterTest'
+Package: `org.apache.commons.math3.optimization.fitting.HarmonicFitterTest`
+
+methods : [ `test1PercentError` `testMath844` `testPreconditions1` `testUnsorted` `testNoError` `testTinyVariationsData` `testInitialGuess` ]
+
+attributes : [ ]
+
+
+The TCC value is 0 because the class has no methods or no attributes.
+
+
+
+# The class 'GaussianFitterTest'
+Package: `org.apache.commons.math3.optimization.fitting.GaussianFitterTest`
+
+methods : [ `testFit01` `testFit06` `testFit07` `testMath798` `testFit05` `addDatasetToGaussianFitter` `testFit02` `testFit03` `testFit04` `testMath519` ]
+
+attributes : [ `DATASET4` `DATASET5` `DATASET2` `DATASET3` `DATASET1` ]
+
+
+The attributes used in each method are:
+  - testFit07 uses [DATASET5]
+  - testFit06 uses [DATASET4]
+  - testFit01 uses [DATASET1]
+  - testFit05 uses [DATASET3]
+  - testFit04 uses [DATASET2]
+
+The methods called in each method are:
+  - testFit07 calls [addDatasetToGaussianFitter]
+  - testFit06 calls [addDatasetToGaussianFitter]
+  - testFit01 calls [addDatasetToGaussianFitter]
+  - testFit05 calls [addDatasetToGaussianFitter]
+  - testFit03 calls [addDatasetToGaussianFitter]
+  - testFit04 calls [addDatasetToGaussianFitter]
+
+```mermaid
+graph TD
+  testFit07 -->|call| addDatasetToGaussianFitter
+  testFit06 -->|call| addDatasetToGaussianFitter
+  testFit01 -->|call| addDatasetToGaussianFitter
+  testFit05 -->|call| addDatasetToGaussianFitter
+  testFit03 -->|call| addDatasetToGaussianFitter
+  testFit04 -->|call| addDatasetToGaussianFitter
+  testFit07 -. use .->DATASET5((DATASET5))
+  testFit06 -. use .->DATASET4((DATASET4))
+  testFit01 -. use .->DATASET1((DATASET1))
+  testFit05 -. use .->DATASET3((DATASET3))
+  testFit04 -. use .->DATASET2((DATASET2))
+```
+
+Number of max pairs: $45.0$
+
+Number of direct connections (link by): $0.0$
+
+**TCC value: $0.0$**
+
+
+
+
+# The class 'PolynomialFitterTest'
+Package: `org.apache.commons.math3.optimization.fitting.PolynomialFitterTest`
+
+methods : [ `testSmallError` `testLargeSample` `doMath798` `checkUnsolvableProblem` `testRedundantSolvable` `buildRandomPolynomial` `testRedundantUnsolvable` `testMath798` `testMath798WithToleranceTooLowButNoException` `testNoError` `testFit` `testMath798WithToleranceTooLow` ]
+
+attributes : [ ]
+
+
+The TCC value is 0 because the class has no methods or no attributes.
+
+
+
+# The class 'MultivariateDifferentiableMultiStartOptimizerTest'
+Package: `org.apache.commons.math3.optimization.MultivariateDifferentiableMultiStartOptimizerTest`
+
+methods : [ `testCircleFitting` ]
+
+attributes : [ ]
+
+
+The TCC value is 0 because the class has no methods or no attributes.
+
+
+
+# The class 'SimpleValueCheckerTest'
+Package: `org.apache.commons.math3.optimization.SimpleValueCheckerTest`
+
+methods : [ `testIterationCheck` `testIterationCheckPrecondition` `testIterationCheckDisabled` ]
+
+attributes : [ ]
+
+
+The TCC value is 0 because the class has no methods or no attributes.
+
+
+
+# The class 'PointValuePairTest'
+Package: `org.apache.commons.math3.optimization.PointValuePairTest`
+
+methods : [ `testSerial` ]
+
+attributes : [ ]
+
+
+The TCC value is 0 because the class has no methods or no attributes.
+
+
+
+# The class 'UnivariateMultiStartOptimizerTest'
+Package: `org.apache.commons.math3.optimization.univariate.UnivariateMultiStartOptimizerTest`
+
+methods : [ `testQuinticMin` `testSinMin` `testBadFunction` ]
+
+attributes : [ ]
+
+
+The TCC value is 0 because the class has no methods or no attributes.
+
+
+
+# The class 'SimpleUnivariateValueCheckerTest'
+Package: `org.apache.commons.math3.optimization.univariate.SimpleUnivariateValueCheckerTest`
+
+methods : [ `testIterationCheckDisabled` `testIterationCheck` `testIterationCheckPrecondition` ]
+
+attributes : [ ]
+
+
+The TCC value is 0 because the class has no methods or no attributes.
+
+
+
+# The class 'BracketFinderTest'
+Package: `org.apache.commons.math3.optimization.univariate.BracketFinderTest`
+
+methods : [ `testCubicMax` `testMinimumIsOnIntervalBoundary` `testCubicMin` `testIntervalBoundsOrdering` ]
+
+attributes : [ ]
+
+
+The TCC value is 0 because the class has no methods or no attributes.
+
+
+
+# The class 'BrentOptimizerTest'
+Package: `org.apache.commons.math3.optimization.univariate.BrentOptimizerTest`
+
+methods : [ `testQuinticMinStatistics` `testMath832` `testSinMinWithValueChecker` `testQuinticMin` `testKeepInitIfBest` `testMinEndpoints` `testMath855` `testQuinticMax` `testSinMin` `testBoundaries` ]
+
+attributes : [ ]
+
+
+The TCC value is 0 because the class has no methods or no attributes.
+
+
+
+# The class 'SimplexTableauTest'
+Package: `org.apache.commons.math3.optimization.linear.SimplexTableauTest`
+
+methods : [ `createFunction` `assertMatrixEquals` `testTableauWithNoArtificialVars` `testInitialization` `testDropPhase1Objective` `createConstraints` `testSerial` ]
+
+attributes : [ ]
+
+
+The TCC value is 0 because the class has no methods or no attributes.
+
+
+
+# The class 'SimplexSolverTest'
+Package: `org.apache.commons.math3.optimization.linear.SimplexSolverTest`
+
+methods : [ `testSimplexSolver` `testEpsilon` `testMath781` `testMath434PivotRowSelection` `testMath286` `testMinimization` `testMath713NegativeVariable` `equationFromString` `testMath290LEQ` `testUnboundedSolution` `testMath434PivotRowSelection2` `testTrivialModel` `testMath288` `testSingleVariableAndConstraint` `testLargeModel` `testMath272` `testSolutionWithNegativeDecisionVariable` `testMath434NegativeVariable` `validSolution` `testInfeasibleSolution` `testDegeneracy` `testMath293` `testMath828Cycle` `testModelWithNoArtificialVars` `testMath290GEQ` `testMath828` `testMath434UnfeasibleSolution` `testRestrictVariablesToNonNegative` ]
+
+attributes : [ ]
+
+
+The TCC value is 0 because the class has no methods or no attributes.
+
+
+
+# The class 'MultivariateMultiStartOptimizerTest'
+Package: `org.apache.commons.math3.optimization.MultivariateMultiStartOptimizerTest`
+
+methods : [ `testRosenbrock` ]
+
+attributes : [ ]
+
+
+The TCC value is 0 because the class has no methods or no attributes.
+
+
+
+# The class 'PointVectorValuePairTest'
+Package: `org.apache.commons.math3.optimization.PointVectorValuePairTest`
+
+methods : [ `testSerial` ]
+
+attributes : [ ]
+
+
+The TCC value is 0 because the class has no methods or no attributes.
+
+
+
+# The class 'NonLinearConjugateGradientOptimizerTest'
+Package: `org.apache.commons.math3.optimization.general.NonLinearConjugateGradientOptimizerTest`
+
+methods : [ `testTrivial` `testInconsistentEquations` `testNonInversible` `testOneSet` `testMoreEstimatedParametersUnsorted` `testColumnsPermutation` `testTwoSets` `testIllConditioned` `testRedundantEquations` `testNoDependency` `testMoreEstimatedParametersSimple` `testCircleFitting` ]
+
+attributes : [ ]
+
+
+The TCC value is 0 because the class has no methods or no attributes.
+
+
+
+# The class 'CircleVectorial'
+Package: `org.apache.commons.math3.optimization.general.CircleVectorial`
+
+methods : [ `value` `value` `getRadius` `getN` `addPoint` `getRadius` `distance` ]
+
+attributes : [ `points` ]
+
+
+The attributes used in each method are:
+  - value uses [points]
+  - value uses [points]
+  - getRadius uses [points]
+  - getN uses [points]
+  - addPoint uses [points]
+  - getRadius uses [points]
+
+The methods called in each method are:
+  - value calls [distance, getRadius]
+  - value calls [distance, getRadius]
+  - getRadius calls [distance]
+  - getRadius calls [distance]
+
+```mermaid
+graph TD
+  value -->|call| distance
+  value -->|call| getRadius
+  value -->|call| distance
+  value -->|call| getRadius
+  getRadius -->|call| distance
+  getRadius -->|call| distance
+  value -. use .->points((points))
+  value -. use .->points((points))
+  getRadius -. use .->points((points))
+  getN -. use .->points((points))
+  addPoint -. use .->points((points))
+  getRadius -. use .->points((points))
+  value ----|link by points| getRadius
+  value ----|link by points| getN
+  value ----|link by points| addPoint
+  value ----|link by points| getRadius
+  value ----|link by points| getRadius
+  value ----|link by points| getN
+  value ----|link by points| addPoint
+  value ----|link by points| getRadius
+  getRadius ----|link by points| getN
+  getRadius ----|link by points| addPoint
+  getN ----|link by points| addPoint
+  getRadius ----|link by points| getN
+  getRadius ----|link by points| addPoint
+```
+
+Number of max pairs: $21.0$
+
+Number of direct connections (link by): $13.0$
+
+**TCC value: $0.6190476190476191$**
+
+
+
+
+# The class 'StraightLineProblem'
+Package: `org.apache.commons.math3.optimization.general.StraightLineProblem`
+
+methods : [ `value` `solve` `target` `weight` `x` `value` `addPoint` `y` ]
+
+attributes : [ `sigma` `points` ]
+
+
+The attributes used in each method are:
+  - value uses [points]
+  - solve uses [points]
+  - weight uses [sigma, points]
+  - value uses [points]
+  - x uses [points]
+  - y uses [points]
+  - addPoint uses [points]
+
+The methods called in each method are:
+  - value calls [value]
+  - target calls [y]
+  - value calls [value]
+
+```mermaid
+graph TD
+  value -->|call| value
+  target -->|call| y
+  value -->|call| value
+  value -. use .->points((points))
+  solve -. use .->points((points))
+  weight -. use .->sigma((sigma))
+  weight -. use .->points((points))
+  value -. use .->points((points))
+  x -. use .->points((points))
+  y -. use .->points((points))
+  addPoint -. use .->points((points))
+  value ----|link by points| solve
+  value ----|link by points| target
+  value ----|link by points| addPoint
+  solve ----|link by points| addPoint
+  target ----|link by points| solve
+  target ----|link by points| addPoint
+  weight ----|link by points| value
+  weight ----|link by points| solve
+  weight ----|link by points| target
+  weight ----|link by points| value
+  weight ----|link by points| addPoint
+  value ----|link by points| solve
+  value ----|link by points| target
+  value ----|link by points| addPoint
+  x ----|link by points| value
+  x ----|link by points| solve
+  x ----|link by points| target
+  x ----|link by points| weight
+  x ----|link by points| value
+  x ----|link by points| addPoint
+  y ----|link by points| value
+  y ----|link by points| solve
+  y ----|link by points| target
+  y ----|link by points| weight
+  y ----|link by points| value
+  y ----|link by points| x
+  y ----|link by points| addPoint
+```
+
+Number of max pairs: $28.0$
+
+Number of direct connections (link by): $27.0$
+
+**TCC value: $0.9642857142857143$**
+
+
+
+
+# The class 'GaussNewtonOptimizerTest'
+Package: `org.apache.commons.math3.optimization.general.GaussNewtonOptimizerTest`
+
+methods : [ `testMaxEvaluations` `testMoreEstimatedParametersUnsorted` `createOptimizer` `testHahn1` `testMoreEstimatedParametersSimple` `testCircleFittingBadInit` ]
+
+attributes : [ ]
+
+
+The TCC value is 0 because the class has no methods or no attributes.
+
+
+
+# The class 'AbstractLeastSquaresOptimizerTestValidation'
+Package: `org.apache.commons.math3.optimization.general.AbstractLeastSquaresOptimizerTestValidation`
+
+methods : [ `testParametersErrorMonteCarloObservations` `testParametersErrorMonteCarloParameters` `getChi2N` ]
+
+attributes : [ `MONTE_CARLO_RUNS` ]
+
+
+The attributes used in each method are:
+  - testParametersErrorMonteCarloObservations uses [MONTE_CARLO_RUNS]
+  - testParametersErrorMonteCarloParameters uses [MONTE_CARLO_RUNS]
+
+The methods called in each method are:
+  - testParametersErrorMonteCarloParameters calls [getChi2N]
+
+```mermaid
+graph TD
+  testParametersErrorMonteCarloParameters -->|call| getChi2N
+  testParametersErrorMonteCarloObservations -. use .->MONTE_CARLO_RUNS((MONTE_CARLO_RUNS))
+  testParametersErrorMonteCarloParameters -. use .->MONTE_CARLO_RUNS((MONTE_CARLO_RUNS))
+  testParametersErrorMonteCarloParameters ----|link by MONTE_CARLO_RUNS| testParametersErrorMonteCarloObservations
+```
+
+Number of max pairs: $3.0$
+
+Number of direct connections (link by): $1.0$
+
+**TCC value: $0.3333333333333333$**
+
+
+
+
+# The class 'DummyOptimizer'
+Package: `org.apache.commons.math3.optimization.general.DummyOptimizer`
+
+methods : [ `doOptimize` ]
+
+attributes : [ ]
+
+
+The TCC value is 0 because the class has no methods or no attributes.
+
+
+
+# The class 'CircleProblem'
+Package: `org.apache.commons.math3.optimization.general.CircleProblem`
+
+methods : [ `addPoint` `target` `value` `value` `weight` ]
+
+attributes : [ `ySigma` `xSigma` `points` ]
+
+
+The attributes used in each method are:
+  - target uses [points]
+  - addPoint uses [points]
+  - value uses [points]
+  - value uses [points]
+  - weight uses [ySigma, xSigma, points]
+
+The methods called in each method are:
+
+```mermaid
+graph TD
+  target -. use .->points((points))
+  addPoint -. use .->points((points))
+  value -. use .->points((points))
+  value -. use .->points((points))
+  weight -. use .->ySigma((ySigma))
+  weight -. use .->xSigma((xSigma))
+  weight -. use .->points((points))
+  target ----|link by points| addPoint
+  value ----|link by points| target
+  value ----|link by points| addPoint
+  value ----|link by points| target
+  value ----|link by points| addPoint
+  weight ----|link by points| target
+  weight ----|link by points| addPoint
+  weight ----|link by points| value
+  weight ----|link by points| value
+```
+
+Number of max pairs: $10.0$
+
+Number of direct connections (link by): $9.0$
+
+**TCC value: $0.9$**
+
+
+
+
+# The class 'RandomCirclePointGenerator'
+Package: `org.apache.commons.math3.optimization.general.RandomCirclePointGenerator`
+
+methods : [ `generate` `create` ]
+
+attributes : [ `cX` `cY` `tP` `radius` ]
+
+
+The attributes used in each method are:
+  - create uses [cX, cY, tP, radius]
+
+The methods called in each method are:
+  - generate calls [create]
+
+```mermaid
+graph TD
+  generate -->|call| create
+  create -. use .->cX((cX))
+  create -. use .->cY((cY))
+  create -. use .->tP((tP))
+  create -. use .->radius((radius))
+  generate ----|link by cX| create
+  generate ----|link by cY| create
+  generate ----|link by tP| create
+  generate ----|link by radius| create
+```
+
+Number of max pairs: $1.0$
+
+Number of direct connections (link by): $4.0$
+
+**TCC value: $4.0$**
+
+
+
+
+# The class 'CircleScalar'
+Package: `org.apache.commons.math3.optimization.general.CircleScalar`
+
+methods : [ `value` `getRadius` `value` `addPoint` `getRadius` `distance` ]
+
+attributes : [ `points` ]
+
+
+The attributes used in each method are:
+  - value uses [points]
+  - getRadius uses [points]
+  - value uses [points]
+  - addPoint uses [points]
+  - getRadius uses [points]
+
+The methods called in each method are:
+  - value calls [distance, getRadius]
+  - getRadius calls [distance]
+  - value calls [distance, getRadius]
+  - getRadius calls [distance]
+
+```mermaid
+graph TD
+  value -->|call| distance
+  value -->|call| getRadius
+  getRadius -->|call| distance
+  value -->|call| distance
+  value -->|call| getRadius
+  getRadius -->|call| distance
+  value -. use .->points((points))
+  getRadius -. use .->points((points))
+  value -. use .->points((points))
+  addPoint -. use .->points((points))
+  getRadius -. use .->points((points))
+  value ----|link by points| getRadius
+  value ----|link by points| addPoint
+  value ----|link by points| getRadius
+  getRadius ----|link by points| addPoint
+  value ----|link by points| getRadius
+  value ----|link by points| addPoint
+  value ----|link by points| getRadius
+  getRadius ----|link by points| addPoint
+```
+
+Number of max pairs: $15.0$
+
+Number of direct connections (link by): $8.0$
+
+**TCC value: $0.5333333333333333$**
+
+
+
+
+# The class 'MinpackTest'
+Package: `org.apache.commons.math3.optimization.general.MinpackTest`
+
+methods : [ `testMinpackJennrichSampson` `testMinpackBrownAlmostLinear` `testMinpackOsborne2` `testMinpackOsborne1` `testMinpackBox3Dimensional` `testMinpackLinearFullRank` `testMinpackMeyer` `testMinpackFreudensteinRoth` `testMinpackBard` `testMinpackChebyquad` `minpackTest` `testMinpackKowalikOsborne` `testMinpackBrownDennis` `testMinpackRosenbrok` `testMinpackWatson` `testMinpackLinearRank1` `testMinpackLinearRank1ZeroColsAndRows` `testMinpackHelicalValley` `testMinpackPowellSingular` ]
+
+attributes : [ ]
+
+
+The TCC value is 0 because the class has no methods or no attributes.
+
+
+
+# The class 'LevenbergMarquardtOptimizerTest'
+Package: `org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizerTest`
+
+methods : [ `createOptimizer` `testCircleFitting2` `testControlParameters` `testNonInvertible` `testBevington` `checkEstimate` `testMath199` ]
+
+attributes : [ ]
+
+
+The TCC value is 0 because the class has no methods or no attributes.
+
+
+
+# The class 'StatisticalReferenceDataset'
+Package: `org.apache.commons.math3.optimization.general.StatisticalReferenceDataset`
+
+methods : [ `getParameterStandardDeviation` `getData` `getLeastSquaresProblem` `findLineNumbers` `getName` `getX` `getNumObservations` `getNumStartingPoints` `getParameters` `getParameter` `getNumParameters` `getModelValue` `getY` `getParametersStandardDeviations` `getStartingPoint` `getResidualSumOfSquares` ]
+
+attributes : [ `a` `problem` `sigA` `numStartingPoints` `numObservations` `numParameters` `name` `x` `y` `residualSumOfSquares` `startingValues` ]
+
+
+The attributes used in each method are:
+  - getParameterStandardDeviation uses [sigA]
+  - getData uses [x, y]
+  - getLeastSquaresProblem uses [problem]
+  - getX uses [x]
+  - getName uses [name]
+  - getNumObservations uses [numObservations]
+  - getNumStartingPoints uses [numStartingPoints]
+  - getParameter uses [a]
+  - getParameters uses [a]
+  - getNumParameters uses [numParameters]
+  - getY uses [y]
+  - getStartingPoint uses [startingValues]
+  - getParametersStandardDeviations uses [sigA]
+  - getResidualSumOfSquares uses [residualSumOfSquares]
+
+The methods called in each method are:
+
+```mermaid
+graph TD
+  getParameterStandardDeviation -. use .->sigA((sigA))
+  getData -. use .->x((x))
+  getData -. use .->y((y))
+  getLeastSquaresProblem -. use .->problem((problem))
+  getX -. use .->x((x))
+  getName -. use .->name((name))
+  getNumObservations -. use .->numObservations((numObservations))
+  getNumStartingPoints -. use .->numStartingPoints((numStartingPoints))
+  getParameter -. use .->a((a))
+  getParameters -. use .->a((a))
+  getNumParameters -. use .->numParameters((numParameters))
+  getY -. use .->y((y))
+  getStartingPoint -. use .->startingValues((startingValues))
+  getParametersStandardDeviations -. use .->sigA((sigA))
+  getResidualSumOfSquares -. use .->residualSumOfSquares((residualSumOfSquares))
+  getX ----|link by x| getData
+  getParameters ----|link by a| getParameter
+  getY ----|link by y| getData
+  getParametersStandardDeviations ----|link by sigA| getParameterStandardDeviation
+```
+
+Number of max pairs: $120.0$
+
+Number of direct connections (link by): $4.0$
+
+**TCC value: $0.03333333333333333$**
