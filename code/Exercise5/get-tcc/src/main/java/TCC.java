@@ -52,7 +52,7 @@ public class TCC extends VoidVisitorWithDefaults<Void> {
 
         // Check if TCC is 0
         if (methods.size() == 0 || attributes.size() == 0) {
-            System.out.println("\nThe TCC value is 0 because the class has no methods or attributes.");
+            System.out.println("\nThe TCC value is 0 because the class has no methods or no attributes.");
             System.out.println("\n");
             return;
         }
@@ -77,7 +77,7 @@ public class TCC extends VoidVisitorWithDefaults<Void> {
         }
 
         // Get all methods that call other methods
-        Map<MethodDeclaration, Set<MethodCallExpr>> methodToCalls = new HashMap<>();
+        Map<MethodDeclaration, Set<String>> methodToCalls = new HashMap<>();
         methods.forEach(
                 method -> {
                     // get all methodCallExpr in the method body
@@ -87,14 +87,14 @@ public class TCC extends VoidVisitorWithDefaults<Void> {
                         for (MethodDeclaration methodDeclaration : methods) {
                             if (methodDeclaration.getNameAsString().equals(methodCallExpr.getNameAsString())) {
                                 methodToCalls.computeIfAbsent(method, k -> new HashSet<>())
-                                        .add(methodCallExpr);
+                                        .add(methodCallExpr.getNameAsString());
                             }
                         }
                     }
                 });
 
         System.out.println("\nThe methods called in each method are:");
-        for (Map.Entry<MethodDeclaration, Set<MethodCallExpr>> entry : methodToCalls.entrySet()) {
+        for (Map.Entry<MethodDeclaration, Set<String>> entry : methodToCalls.entrySet()) {
             System.out.println("  - " + entry.getKey().getNameAsString() + " calls " + entry.getValue());
         }
 
@@ -106,11 +106,11 @@ public class TCC extends VoidVisitorWithDefaults<Void> {
         System.out.println("graph TD");
 
         // calls connections
-        for (Map.Entry<MethodDeclaration, Set<MethodCallExpr>> entry : methodToCalls.entrySet()) {
-            for (MethodCallExpr methodCallExpr : entry.getValue()) {
+        for (Map.Entry<MethodDeclaration, Set<String>> entry : methodToCalls.entrySet()) {
+            for (String name : entry.getValue()) {
                 System.out
                         .println("  " + entry.getKey().getNameAsString() + " -->|call| "
-                                + methodCallExpr.getNameAsString());
+                                + name);
             }
         }
 
@@ -122,24 +122,35 @@ public class TCC extends VoidVisitorWithDefaults<Void> {
             }
         }
 
-        // attributes connections through calls
-        Map<MethodDeclaration, Set<String>> toAdd = new HashMap<>();
-        for (Map.Entry<MethodDeclaration, Set<MethodCallExpr>> entry : methodToCalls.entrySet()) {
-            for (MethodCallExpr methodCallExpr : entry.getValue()) {
-                for (Map.Entry<MethodDeclaration, Set<String>> entry2 : methodToAttributes.entrySet()) {
-                    if (entry2.getKey().getNameAsString().equals(methodCallExpr.getNameAsString())) {
-                        for (String attribute : entry2.getValue()) {
-                            toAdd.computeIfAbsent(entry.getKey(), k -> new HashSet<>())
-                                    .add(attribute);
+        boolean hasChanged = true;
+        while (hasChanged) {
+            hasChanged = false;
+            // attributes connections through calls
+            Map<MethodDeclaration, Set<String>> toAdd = new HashMap<>();
+            for (Map.Entry<MethodDeclaration, Set<String>> entry : methodToCalls.entrySet()) {
+                for (String name : entry.getValue()) {
+                    for (Map.Entry<MethodDeclaration, Set<String>> entry2 : methodToAttributes.entrySet()) {
+                        if (entry2.getKey().getNameAsString().equals(name)) {
+                            for (String attribute : entry2.getValue()) {
+                                toAdd.computeIfAbsent(entry.getKey(), k -> new HashSet<>())
+                                        .add(attribute);
+                            }
                         }
                     }
                 }
             }
-        }
-        // add toAdd to methodToAttributes
-        for (Map.Entry<MethodDeclaration, Set<String>> entry : toAdd.entrySet()) {
-            methodToAttributes.computeIfAbsent(entry.getKey(), k -> new HashSet<>())
-                    .addAll(entry.getValue());
+
+            // add toAdd to methodToAttributes
+            for (Map.Entry<MethodDeclaration, Set<String>> entry : toAdd.entrySet()) {
+                // if the method already has the attribute, don't add it
+                if (methodToAttributes.get(entry.getKey()) != null
+                        && methodToAttributes.get(entry.getKey()).containsAll(entry.getValue())) {
+                    continue;
+                }
+                hasChanged = true;
+                methodToAttributes.computeIfAbsent(entry.getKey(), k -> new HashSet<>())
+                        .addAll(entry.getValue());
+            }
         }
 
         // connection through attributes

@@ -15,7 +15,9 @@ You may use [javaparser-starter](../code/javaparser-starter) as a starting point
 
 The solution is available in the [Exercice5](/code/Exercise5/) folder.
 
-You can find a sample report [here](/code/Exercise5/report.md). This sample was generated on the examples classes in the [Exercise5/get-tcc/examples](/code/Exercise5/get-tcc/examples/) directory.
+- You can find a sample report [here](/code/Exercise5/report.md). This sample was generated on the examples classes in the [Exercise5/get-tcc/examples](/code/Exercise5/get-tcc/examples/) directory.
+
+- You can find another report [here](/code/Exercise5/long-report.md). This sample was generated on the [Apache Commons Math](https://github.com/apache/commons-math) source code (the report was cut because it was too long).
 
 ## How to build 
 
@@ -43,3 +45,7 @@ The report is outputed in Markdown. To preview it you can use the bash `>` opera
 ```bash
 java -jar get-tcc-1.0-jar-with-dependencies.jar <path-to-source-directory> > report.md
 ```
+
+- You can find a sample report [here](/code/Exercise5/report.md). This sample was generated on the examples classes in the [Exercise5/get-tcc/examples](/code/Exercise5/get-tcc/examples/) directory.
+
+- You can find another report [here](/code/Exercise5/long-report.md). This sample was generated on the [Apache Commons Math](https://github.com/apache/commons-math) source code (the report was cut because it was too long).

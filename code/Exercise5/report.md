@@ -1,7 +1,8 @@
-This is the ouput of the following command : 
-`java -jar target/get-tcc-1.0-jar-with-dependencies.jar examples`
+> This is the ouput of the following command : 
+> `java -jar target/get-tcc-1.0-jar-with-dependencies.jar examples`
+> It take the classes in the `examples` directory as input.
 
-# Report list private fields
+# Report TCC Value
 
 Calculating the TCC values of the classes in `/home/cody/Git/VV-ESIR-TP2/code/Exercise5/get-tcc/examples`
 

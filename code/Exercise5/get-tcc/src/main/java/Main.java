@@ -19,7 +19,7 @@ public class Main {
             System.exit(2);
         }
 
-        System.out.println("# Report list private fields\n");
+        System.out.println("# Report TCC Value\n");
         System.out.println("Calculating the TCC values of the classes in `" + target + "`");
 
         SourceRoot root = new SourceRoot(file.toPath());
