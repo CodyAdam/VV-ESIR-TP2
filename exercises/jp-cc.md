@@ -19,8 +19,8 @@ The solution is available in the [Exercice6](/code/Exercise6/) folder.
 
 - You can find a sample report [here](/code/Exercise6/report.md). This sample was generated on the examples classes in the [Exercise5/get-tcc/examples](/code/Exercise5/get-tcc/examples/) directory.
 - You can find another report [here](/code/Exercise6/common-math-random-report.md). This sample was generated on the [Apache Commons Math](https://github.com/apache/commons-math) Random Package source (smaller sample).
-- You can find another report [here](/code/Exercise6/common-math-report.md). This sample was generated on the [Apache Commons Math](https://github.com/apache/commons-math) source (**full**).
-- You can find another report [here](/code/Exercise6/commons-cli-master-report.md). This sample was generated on the [Apache Commons CLI](https://github.com/apache/commons-cli) source (**full**).
+- You can find another report [here](/code/Exercise6/common-math-report.md). This sample was generated on the [Apache Commons Math](https://github.com/apache/commons-math) source (**it may be too big to be rendered with markdown**).
+- You can find another report [here](/code/Exercise6/commons-cli-master-report.md). This sample was generated on the [Apache Commons CLI](https://github.com/apache/commons-cli) source (not that big).
 
 # Comparison of the results
 
