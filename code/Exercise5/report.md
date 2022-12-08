@@ -7,7 +7,7 @@
 Calculating the TCC values of the classes in `/home/cody/Git/VV-ESIR-TP2/code/Exercise5/get-tcc/examples`
 
 # The class 'Example1'
-Full name: `Example1`
+Package: `Example1`
 methods : [ `C` `D` `E` `B` `A` ]
 attributes : [ `x` `y` ]
 
@@ -38,7 +38,7 @@ Number of direct connections (link by): $2.0$
 
 
 # The class 'Example2'
-Full name: `Example2`
+Package: `Example2`
 methods : [ `C` `D` `E` `B` `A` ]
 attributes : [ `x` `y` ]
 

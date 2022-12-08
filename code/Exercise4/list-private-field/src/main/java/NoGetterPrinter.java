@@ -47,7 +47,7 @@ public class NoGetterPrinter extends VoidVisitorWithDefaults<Void> {
                             String fullName = declaration.getFullyQualifiedName().orElse("[Anonymous]");
                             // only part after the last dot
                             System.out.println("\n\n## In " + fullName.substring(fullName.lastIndexOf('.') + 1) + "\n");
-                            System.out.println("Full name: `" + fullName + "`");
+                            System.out.println("Package: `" + fullName + "`");
                             System.out.println("Path: `"
                                     + declaration.findCompilationUnit().get().getStorage().get().getPath() + "`\n");
                             firstPass = false;

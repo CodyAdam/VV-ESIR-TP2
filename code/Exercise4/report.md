@@ -5,7 +5,7 @@ Looking for public classes without getters in `/home/cody/Git/VV-ESIR-TP2/code/E
 
 ## In SimplexOptimizerMultiDirectionalTest
 
-Full name: `org.apache.commons.math3.optimization.direct.SimplexOptimizerMultiDirectionalTest`
+Package: `org.apache.commons.math3.optimization.direct.SimplexOptimizerMultiDirectionalTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/optimization/direct/SimplexOptimizerMultiDirectionalTest.java`
 
 - `count` (line 204)
@@ -13,7 +13,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In AbstractLeastSquaresOptimizerTestValidation
 
-Full name: `org.apache.commons.math3.optimization.general.AbstractLeastSquaresOptimizerTestValidation`
+Package: `org.apache.commons.math3.optimization.general.AbstractLeastSquaresOptimizerTestValidation`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/optimization/general/AbstractLeastSquaresOptimizerTestValidation.java`
 
 - `MONTE_CARLO_RUNS` (line 47)
@@ -21,7 +21,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In RandomCirclePointGenerator
 
-Full name: `org.apache.commons.math3.optimization.general.RandomCirclePointGenerator`
+Package: `org.apache.commons.math3.optimization.general.RandomCirclePointGenerator`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/optimization/general/RandomCirclePointGenerator.java`
 
 - `cX` (line 35)
@@ -32,7 +32,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In CircleScalar
 
-Full name: `org.apache.commons.math3.optimization.general.CircleScalar`
+Package: `org.apache.commons.math3.optimization.general.CircleScalar`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/optimization/general/CircleScalar.java`
 
 - `points` (line 31)
@@ -40,7 +40,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In StatisticalReferenceDataset
 
-Full name: `org.apache.commons.math3.optimization.general.StatisticalReferenceDataset`
+Package: `org.apache.commons.math3.optimization.general.StatisticalReferenceDataset`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/optimization/general/StatisticalReferenceDataset.java`
 
 - `name` (line 38)
@@ -58,7 +58,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In RandomStraightLinePointGenerator
 
-Full name: `org.apache.commons.math3.optimization.general.RandomStraightLinePointGenerator`
+Package: `org.apache.commons.math3.optimization.general.RandomStraightLinePointGenerator`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/optimization/general/RandomStraightLinePointGenerator.java`
 
 - `slope` (line 34)
@@ -69,7 +69,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In AbstractLeastSquaresOptimizerAbstractTest
 
-Full name: `org.apache.commons.math3.optimization.general.AbstractLeastSquaresOptimizerAbstractTest`
+Package: `org.apache.commons.math3.optimization.general.AbstractLeastSquaresOptimizerAbstractTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/optimization/general/AbstractLeastSquaresOptimizerAbstractTest.java`
 
 - `circlePoints` (line 432)
@@ -77,7 +77,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In IntegerDistributionAbstractTest
 
-Full name: `org.apache.commons.math3.distribution.IntegerDistributionAbstractTest`
+Package: `org.apache.commons.math3.distribution.IntegerDistributionAbstractTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/distribution/IntegerDistributionAbstractTest.java`
 
 - `distribution` (line 52)
@@ -93,7 +93,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In PoissonDistributionTest
 
-Full name: `org.apache.commons.math3.distribution.PoissonDistributionTest`
+Package: `org.apache.commons.math3.distribution.PoissonDistributionTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/distribution/PoissonDistributionTest.java`
 
 - `DEFAULT_TEST_POISSON_PARAMETER` (line 33)
@@ -101,7 +101,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In RealDistributionAbstractTest
 
-Full name: `org.apache.commons.math3.distribution.RealDistributionAbstractTest`
+Package: `org.apache.commons.math3.distribution.RealDistributionAbstractTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/distribution/RealDistributionAbstractTest.java`
 
 - `distribution` (line 77)
@@ -116,7 +116,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In EnumeratedIntegerDistributionTest
 
-Full name: `org.apache.commons.math3.distribution.EnumeratedIntegerDistributionTest`
+Package: `org.apache.commons.math3.distribution.EnumeratedIntegerDistributionTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/distribution/EnumeratedIntegerDistributionTest.java`
 
 - `testDistribution` (line 38)
@@ -124,7 +124,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In EnumeratedRealDistributionTest
 
-Full name: `org.apache.commons.math3.distribution.EnumeratedRealDistributionTest`
+Package: `org.apache.commons.math3.distribution.EnumeratedRealDistributionTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/distribution/EnumeratedRealDistributionTest.java`
 
 - `testDistribution` (line 43)
@@ -132,7 +132,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In KolmogorovSmirnovDistributionTest
 
-Full name: `org.apache.commons.math3.distribution.KolmogorovSmirnovDistributionTest`
+Package: `org.apache.commons.math3.distribution.KolmogorovSmirnovDistributionTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/distribution/KolmogorovSmirnovDistributionTest.java`
 
 - `TOLERANCE` (line 30)
@@ -140,7 +140,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In GammaDistributionTest
 
-Full name: `org.apache.commons.math3.distribution.GammaDistributionTest`
+Package: `org.apache.commons.math3.distribution.GammaDistributionTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/distribution/GammaDistributionTest.java`
 
 - `HALF_LOG_2_PI` (line 179)
@@ -148,7 +148,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In PerfTestUtils
 
-Full name: `org.apache.commons.math3.PerfTestUtils`
+Package: `org.apache.commons.math3.PerfTestUtils`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/PerfTestUtils.java`
 
 - `DEFAULT_REPEAT_CHUNK` (line 33)
@@ -158,7 +158,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In TestBean
 
-Full name: `org.apache.commons.math3.util.TestBean`
+Package: `org.apache.commons.math3.util.TestBean`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/util/TestBean.java`
 
 - `x` (line 26)
@@ -167,7 +167,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In MathArraysTest
 
-Full name: `org.apache.commons.math3.util.MathArraysTest`
+Package: `org.apache.commons.math3.util.MathArraysTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/util/MathArraysTest.java`
 
 - `testArray` (line 38)
@@ -179,7 +179,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In OpenIntToFieldTest
 
-Full name: `org.apache.commons.math3.util.OpenIntToFieldTest`
+Package: `org.apache.commons.math3.util.OpenIntToFieldTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/util/OpenIntToFieldTest.java`
 
 - `javaMap` (line 40)
@@ -188,7 +188,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In CombinatoricsUtilsTest
 
-Full name: `org.apache.commons.math3.util.CombinatoricsUtilsTest`
+Package: `org.apache.commons.math3.util.CombinatoricsUtilsTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/util/CombinatoricsUtilsTest.java`
 
 - `binomialCache` (line 38)
@@ -196,7 +196,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In FastMathStrictComparisonTest
 
-Full name: `org.apache.commons.math3.util.FastMathStrictComparisonTest`
+Package: `org.apache.commons.math3.util.FastMathStrictComparisonTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/util/FastMathStrictComparisonTest.java`
 
 - `DOUBLE_SPECIAL_VALUES` (line 47)
@@ -211,7 +211,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In OpenIntToDoubleHashMapTest
 
-Full name: `org.apache.commons.math3.util.OpenIntToDoubleHashMapTest`
+Package: `org.apache.commons.math3.util.OpenIntToDoubleHashMapTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/util/OpenIntToDoubleHashMapTest.java`
 
 - `javaMap` (line 38)
@@ -219,7 +219,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In FastMathTest
 
-Full name: `org.apache.commons.math3.util.FastMathTest`
+Package: `org.apache.commons.math3.util.FastMathTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/util/FastMathTest.java`
 
 - `MAX_ERROR_ULP` (line 41)
@@ -230,7 +230,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In GeneticAlgorithmTestPermutations
 
-Full name: `org.apache.commons.math3.genetics.GeneticAlgorithmTestPermutations`
+Package: `org.apache.commons.math3.genetics.GeneticAlgorithmTestPermutations`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/genetics/GeneticAlgorithmTestPermutations.java`
 
 - `DIMENSION` (line 36)
@@ -245,7 +245,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In FitnessCachingTest
 
-Full name: `org.apache.commons.math3.genetics.FitnessCachingTest`
+Package: `org.apache.commons.math3.genetics.FitnessCachingTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/genetics/FitnessCachingTest.java`
 
 - `DIMENSION` (line 30)
@@ -260,7 +260,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In GeneticAlgorithmTestBinary
 
-Full name: `org.apache.commons.math3.genetics.GeneticAlgorithmTestBinary`
+Package: `org.apache.commons.math3.genetics.GeneticAlgorithmTestBinary`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/genetics/GeneticAlgorithmTestBinary.java`
 
 - `DIMENSION` (line 32)
@@ -274,7 +274,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In UniformCrossoverTest
 
-Full name: `org.apache.commons.math3.genetics.UniformCrossoverTest`
+Package: `org.apache.commons.math3.genetics.UniformCrossoverTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/genetics/UniformCrossoverTest.java`
 
 - `LEN` (line 31)
@@ -284,7 +284,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In ElitisticListPopulationTest
 
-Full name: `org.apache.commons.math3.genetics.ElitisticListPopulationTest`
+Package: `org.apache.commons.math3.genetics.ElitisticListPopulationTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/genetics/ElitisticListPopulationTest.java`
 
 - `counter` (line 29)
@@ -292,7 +292,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In TournamentSelectionTest
 
-Full name: `org.apache.commons.math3.genetics.TournamentSelectionTest`
+Package: `org.apache.commons.math3.genetics.TournamentSelectionTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/genetics/TournamentSelectionTest.java`
 
 - `counter` (line 24)
@@ -300,7 +300,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In RandomDataGeneratorTest
 
-Full name: `org.apache.commons.math3.random.RandomDataGeneratorTest`
+Package: `org.apache.commons.math3.random.RandomDataGeneratorTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/random/RandomDataGeneratorTest.java`
 
 - `hex` (line 68)
@@ -308,7 +308,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In CorrelatedRandomVectorGeneratorTest
 
-Full name: `org.apache.commons.math3.random.CorrelatedRandomVectorGeneratorTest`
+Package: `org.apache.commons.math3.random.CorrelatedRandomVectorGeneratorTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/random/CorrelatedRandomVectorGeneratorTest.java`
 
 - `mean` (line 35)
@@ -318,7 +318,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In SobolSequenceGeneratorTest
 
-Full name: `org.apache.commons.math3.random.SobolSequenceGeneratorTest`
+Package: `org.apache.commons.math3.random.SobolSequenceGeneratorTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/random/SobolSequenceGeneratorTest.java`
 
 - `referenceValues` (line 29)
@@ -327,7 +327,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In EmpiricalDistributionTest
 
-Full name: `org.apache.commons.math3.random.EmpiricalDistributionTest`
+Package: `org.apache.commons.math3.random.EmpiricalDistributionTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/random/EmpiricalDistributionTest.java`
 
 - `binMass` (line 329)
@@ -336,7 +336,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In TestRandomGenerator
 
-Full name: `org.apache.commons.math3.random.TestRandomGenerator`
+Package: `org.apache.commons.math3.random.TestRandomGenerator`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/random/TestRandomGenerator.java`
 
 - `random` (line 28)
@@ -344,7 +344,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In SynchronizedRandomGeneratorTest
 
-Full name: `org.apache.commons.math3.random.SynchronizedRandomGeneratorTest`
+Package: `org.apache.commons.math3.random.SynchronizedRandomGeneratorTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/random/SynchronizedRandomGeneratorTest.java`
 
 - `numberOfThreads` (line 31)
@@ -354,7 +354,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In StableRandomGeneratorTest
 
-Full name: `org.apache.commons.math3.random.StableRandomGeneratorTest`
+Package: `org.apache.commons.math3.random.StableRandomGeneratorTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/random/StableRandomGeneratorTest.java`
 
 - `rg` (line 32)
@@ -363,7 +363,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In ISAACTest
 
-Full name: `org.apache.commons.math3.random.ISAACTest`
+Package: `org.apache.commons.math3.random.ISAACTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/random/ISAACTest.java`
 
 - `SEED_1` (line 30)
@@ -374,7 +374,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In ValueServerTest
 
-Full name: `org.apache.commons.math3.random.ValueServerTest`
+Package: `org.apache.commons.math3.random.ValueServerTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/random/ValueServerTest.java`
 
 - `vs` (line 39)
@@ -382,7 +382,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In UncorrelatedRandomVectorGeneratorTest
 
-Full name: `org.apache.commons.math3.random.UncorrelatedRandomVectorGeneratorTest`
+Package: `org.apache.commons.math3.random.UncorrelatedRandomVectorGeneratorTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/random/UncorrelatedRandomVectorGeneratorTest.java`
 
 - `mean` (line 28)
@@ -392,7 +392,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In HaltonSequenceGeneratorTest
 
-Full name: `org.apache.commons.math3.random.HaltonSequenceGeneratorTest`
+Package: `org.apache.commons.math3.random.HaltonSequenceGeneratorTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/random/HaltonSequenceGeneratorTest.java`
 
 - `referenceValues` (line 29)
@@ -402,7 +402,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In GammaTest
 
-Full name: `org.apache.commons.math3.special.GammaTest`
+Package: `org.apache.commons.math3.special.GammaTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/special/GammaTest.java`
 
 - `LOG_GAMMA_REF` (line 184)
@@ -413,7 +413,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In BetaTest
 
-Full name: `org.apache.commons.math3.special.BetaTest`
+Package: `org.apache.commons.math3.special.BetaTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/special/BetaTest.java`
 
 - `LOG_GAMMA_SUM_METHOD` (line 37)
@@ -427,7 +427,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In BesselJTest
 
-Full name: `org.apache.commons.math3.special.BesselJTest`
+Package: `org.apache.commons.math3.special.BesselJTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/special/BesselJTest.java`
 
 - `BESSEL_J_REF` (line 48)
@@ -435,7 +435,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In RandomCirclePointGenerator
 
-Full name: `org.apache.commons.math3.fitting.leastsquares.RandomCirclePointGenerator`
+Package: `org.apache.commons.math3.fitting.leastsquares.RandomCirclePointGenerator`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/fitting/leastsquares/RandomCirclePointGenerator.java`
 
 - `cX` (line 33)
@@ -446,7 +446,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In StatisticalReferenceDataset
 
-Full name: `org.apache.commons.math3.fitting.leastsquares.StatisticalReferenceDataset`
+Package: `org.apache.commons.math3.fitting.leastsquares.StatisticalReferenceDataset`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/fitting/leastsquares/StatisticalReferenceDataset.java`
 
 - `name` (line 35)
@@ -464,7 +464,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In EvaluationTestValidation
 
-Full name: `org.apache.commons.math3.fitting.leastsquares.EvaluationTestValidation`
+Package: `org.apache.commons.math3.fitting.leastsquares.EvaluationTestValidation`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/fitting/leastsquares/EvaluationTestValidation.java`
 
 - `MONTE_CARLO_RUNS` (line 48)
@@ -472,7 +472,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In RandomStraightLinePointGenerator
 
-Full name: `org.apache.commons.math3.fitting.leastsquares.RandomStraightLinePointGenerator`
+Package: `org.apache.commons.math3.fitting.leastsquares.RandomStraightLinePointGenerator`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/fitting/leastsquares/RandomStraightLinePointGenerator.java`
 
 - `slope` (line 32)
@@ -483,7 +483,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In AbstractLeastSquaresOptimizerAbstractTest
 
-Full name: `org.apache.commons.math3.fitting.leastsquares.AbstractLeastSquaresOptimizerAbstractTest`
+Package: `org.apache.commons.math3.fitting.leastsquares.AbstractLeastSquaresOptimizerAbstractTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/fitting/leastsquares/AbstractLeastSquaresOptimizerAbstractTest.java`
 
 - `circlePoints` (line 479)
@@ -491,7 +491,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In StatUtilsTest
 
-Full name: `org.apache.commons.math3.stat.StatUtilsTest`
+Package: `org.apache.commons.math3.stat.StatUtilsTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/stat/StatUtilsTest.java`
 
 - `ONE` (line 34)
@@ -509,7 +509,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In IntervalUtilsTest
 
-Full name: `org.apache.commons.math3.stat.interval.IntervalUtilsTest`
+Package: `org.apache.commons.math3.stat.interval.IntervalUtilsTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/stat/interval/IntervalUtilsTest.java`
 
 - `successes` (line 28)
@@ -520,7 +520,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In BinomialConfidenceIntervalAbstractTest
 
-Full name: `org.apache.commons.math3.stat.interval.BinomialConfidenceIntervalAbstractTest`
+Package: `org.apache.commons.math3.stat.interval.BinomialConfidenceIntervalAbstractTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/stat/interval/BinomialConfidenceIntervalAbstractTest.java`
 
 - `successes` (line 33)
@@ -530,7 +530,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In NaturalRankingTest
 
-Full name: `org.apache.commons.math3.stat.ranking.NaturalRankingTest`
+Package: `org.apache.commons.math3.stat.ranking.NaturalRankingTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/stat/ranking/NaturalRankingTest.java`
 
 - `exampleData` (line 35)
@@ -543,7 +543,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In TTestTest
 
-Full name: `org.apache.commons.math3.stat.inference.TTestTest`
+Package: `org.apache.commons.math3.stat.inference.TTestTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/stat/inference/TTestTest.java`
 
 - `tooShortObs` (line 36)
@@ -553,7 +553,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In OneWayAnovaTest
 
-Full name: `org.apache.commons.math3.stat.inference.OneWayAnovaTest`
+Package: `org.apache.commons.math3.stat.inference.OneWayAnovaTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/stat/inference/OneWayAnovaTest.java`
 
 - `emptyArray` (line 37)
@@ -564,7 +564,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In TestUtilsTest
 
-Full name: `org.apache.commons.math3.stat.inference.TestUtilsTest`
+Package: `org.apache.commons.math3.stat.inference.TestUtilsTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/stat/inference/TestUtilsTest.java`
 
 - `tooShortObs` (line 196)
@@ -579,7 +579,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In BinomialTestTest
 
-Full name: `org.apache.commons.math3.stat.inference.BinomialTestTest`
+Package: `org.apache.commons.math3.stat.inference.BinomialTestTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/stat/inference/BinomialTestTest.java`
 
 - `successes` (line 31)
@@ -589,7 +589,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In FrequencyTest
 
-Full name: `org.apache.commons.math3.stat.FrequencyTest`
+Package: `org.apache.commons.math3.stat.FrequencyTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/stat/FrequencyTest.java`
 
 - `ONE_LONG` (line 37)
@@ -605,7 +605,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In SummaryStatisticsTest
 
-Full name: `org.apache.commons.math3.stat.descriptive.SummaryStatisticsTest`
+Package: `org.apache.commons.math3.stat.descriptive.SummaryStatisticsTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/stat/descriptive/SummaryStatisticsTest.java`
 
 - `one` (line 34)
@@ -626,7 +626,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In ListUnivariateImpl
 
-Full name: `org.apache.commons.math3.stat.descriptive.ListUnivariateImpl`
+Package: `org.apache.commons.math3.stat.descriptive.ListUnivariateImpl`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/stat/descriptive/ListUnivariateImpl.java`
 
 - `serialVersionUID` (line 35)
@@ -634,7 +634,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In MixedListUnivariateImplTest
 
-Full name: `org.apache.commons.math3.stat.descriptive.MixedListUnivariateImplTest`
+Package: `org.apache.commons.math3.stat.descriptive.MixedListUnivariateImplTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/stat/descriptive/MixedListUnivariateImplTest.java`
 
 - `one` (line 36)
@@ -654,7 +654,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In PSquarePercentileTest
 
-Full name: `org.apache.commons.math3.stat.descriptive.rank.PSquarePercentileTest`
+Package: `org.apache.commons.math3.stat.descriptive.rank.PSquarePercentileTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/stat/descriptive/rank/PSquarePercentileTest.java`
 
 - `randomGenerator` (line 53)
@@ -662,7 +662,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In PercentileTest
 
-Full name: `org.apache.commons.math3.stat.descriptive.rank.PercentileTest`
+Package: `org.apache.commons.math3.stat.descriptive.rank.PercentileTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/stat/descriptive/rank/PercentileTest.java`
 
 - `quantile` (line 50)
@@ -673,7 +673,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In VectorialCovarianceTest
 
-Full name: `org.apache.commons.math3.stat.descriptive.moment.VectorialCovarianceTest`
+Package: `org.apache.commons.math3.stat.descriptive.moment.VectorialCovarianceTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/stat/descriptive/moment/VectorialCovarianceTest.java`
 
 - `points` (line 28)
@@ -681,7 +681,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In VectorialMeanTest
 
-Full name: `org.apache.commons.math3.stat.descriptive.moment.VectorialMeanTest`
+Package: `org.apache.commons.math3.stat.descriptive.moment.VectorialMeanTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/stat/descriptive/moment/VectorialMeanTest.java`
 
 - `points` (line 27)
@@ -689,7 +689,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In ListUnivariateImplTest
 
-Full name: `org.apache.commons.math3.stat.descriptive.ListUnivariateImplTest`
+Package: `org.apache.commons.math3.stat.descriptive.ListUnivariateImplTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/stat/descriptive/ListUnivariateImplTest.java`
 
 - `one` (line 35)
@@ -708,7 +708,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In OLSMultipleLinearRegressionTest
 
-Full name: `org.apache.commons.math3.stat.regression.OLSMultipleLinearRegressionTest`
+Package: `org.apache.commons.math3.stat.regression.OLSMultipleLinearRegressionTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/stat/regression/OLSMultipleLinearRegressionTest.java`
 
 - `y` (line 33)
@@ -717,7 +717,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In SimpleRegressionTest
 
-Full name: `org.apache.commons.math3.stat.regression.SimpleRegressionTest`
+Package: `org.apache.commons.math3.stat.regression.SimpleRegressionTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/stat/regression/SimpleRegressionTest.java`
 
 - `data` (line 41)
@@ -734,7 +734,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In MillerUpdatingRegressionTest
 
-Full name: `org.apache.commons.math3.stat.regression.MillerUpdatingRegressionTest`
+Package: `org.apache.commons.math3.stat.regression.MillerUpdatingRegressionTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/stat/regression/MillerUpdatingRegressionTest.java`
 
 - `airdata` (line 36)
@@ -742,7 +742,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In GLSMultipleLinearRegressionTest
 
-Full name: `org.apache.commons.math3.stat.regression.GLSMultipleLinearRegressionTest`
+Package: `org.apache.commons.math3.stat.regression.GLSMultipleLinearRegressionTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/stat/regression/GLSMultipleLinearRegressionTest.java`
 
 - `y` (line 35)
@@ -753,7 +753,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In CertifiedDataAbstractTest
 
-Full name: `org.apache.commons.math3.stat.data.CertifiedDataAbstractTest`
+Package: `org.apache.commons.math3.stat.data.CertifiedDataAbstractTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/stat/data/CertifiedDataAbstractTest.java`
 
 - `descriptives` (line 42)
@@ -763,7 +763,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In KendallsCorrelationTest
 
-Full name: `org.apache.commons.math3.stat.correlation.KendallsCorrelationTest`
+Package: `org.apache.commons.math3.stat.correlation.KendallsCorrelationTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/stat/correlation/KendallsCorrelationTest.java`
 
 - `correlation` (line 34)
@@ -771,7 +771,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In UnivariatePeriodicInterpolatorTest
 
-Full name: `org.apache.commons.math3.analysis.interpolation.UnivariatePeriodicInterpolatorTest`
+Package: `org.apache.commons.math3.analysis.interpolation.UnivariatePeriodicInterpolatorTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/analysis/interpolation/UnivariatePeriodicInterpolatorTest.java`
 
 - `rng` (line 33)
@@ -779,7 +779,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In FunctionUtilsTest
 
-Full name: `org.apache.commons.math3.analysis.FunctionUtilsTest`
+Package: `org.apache.commons.math3.analysis.FunctionUtilsTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/analysis/FunctionUtilsTest.java`
 
 - `EPS` (line 49)
@@ -787,7 +787,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In HarmonicOscillatorTest
 
-Full name: `org.apache.commons.math3.analysis.function.HarmonicOscillatorTest`
+Package: `org.apache.commons.math3.analysis.function.HarmonicOscillatorTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/analysis/function/HarmonicOscillatorTest.java`
 
 - `EPS` (line 33)
@@ -795,7 +795,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In GaussianTest
 
-Full name: `org.apache.commons.math3.analysis.function.GaussianTest`
+Package: `org.apache.commons.math3.analysis.function.GaussianTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/analysis/function/GaussianTest.java`
 
 - `EPS` (line 34)
@@ -803,7 +803,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In StepFunctionTest
 
-Full name: `org.apache.commons.math3.analysis.function.StepFunctionTest`
+Package: `org.apache.commons.math3.analysis.function.StepFunctionTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/analysis/function/StepFunctionTest.java`
 
 - `EPS` (line 33)
@@ -811,7 +811,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In LogisticTest
 
-Full name: `org.apache.commons.math3.analysis.function.LogisticTest`
+Package: `org.apache.commons.math3.analysis.function.LogisticTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/analysis/function/LogisticTest.java`
 
 - `EPS` (line 34)
@@ -819,7 +819,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In LogitTest
 
-Full name: `org.apache.commons.math3.analysis.function.LogitTest`
+Package: `org.apache.commons.math3.analysis.function.LogitTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/analysis/function/LogitTest.java`
 
 - `EPS` (line 38)
@@ -827,7 +827,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In SigmoidTest
 
-Full name: `org.apache.commons.math3.analysis.function.SigmoidTest`
+Package: `org.apache.commons.math3.analysis.function.SigmoidTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/analysis/function/SigmoidTest.java`
 
 - `EPS` (line 32)
@@ -835,7 +835,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In FieldBracketingNthOrderBrentSolverTest
 
-Full name: `org.apache.commons.math3.analysis.solvers.FieldBracketingNthOrderBrentSolverTest`
+Package: `org.apache.commons.math3.analysis.solvers.FieldBracketingNthOrderBrentSolverTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/analysis/solvers/FieldBracketingNthOrderBrentSolverTest.java`
 
 - `field` (line 169)
@@ -846,7 +846,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In SumSincFunction
 
-Full name: `org.apache.commons.math3.analysis.SumSincFunction`
+Package: `org.apache.commons.math3.analysis.SumSincFunction`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/analysis/SumSincFunction.java`
 
 - `sinc` (line 26)
@@ -855,7 +855,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In GaussianQuadratureAbstractTest
 
-Full name: `org.apache.commons.math3.analysis.integration.gauss.GaussianQuadratureAbstractTest`
+Package: `org.apache.commons.math3.analysis.integration.gauss.GaussianQuadratureAbstractTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/analysis/integration/gauss/GaussianQuadratureAbstractTest.java`
 
 - `eps` (line 34)
@@ -866,7 +866,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In LegendreHighPrecisionParametricTest
 
-Full name: `org.apache.commons.math3.analysis.integration.gauss.LegendreHighPrecisionParametricTest`
+Package: `org.apache.commons.math3.analysis.integration.gauss.LegendreHighPrecisionParametricTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/analysis/integration/gauss/LegendreHighPrecisionParametricTest.java`
 
 - `factory` (line 36)
@@ -874,7 +874,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In LegendreParametricTest
 
-Full name: `org.apache.commons.math3.analysis.integration.gauss.LegendreParametricTest`
+Package: `org.apache.commons.math3.analysis.integration.gauss.LegendreParametricTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/analysis/integration/gauss/LegendreParametricTest.java`
 
 - `factory` (line 36)
@@ -882,7 +882,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In LegendreTest
 
-Full name: `org.apache.commons.math3.analysis.integration.gauss.LegendreTest`
+Package: `org.apache.commons.math3.analysis.integration.gauss.LegendreTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/analysis/integration/gauss/LegendreTest.java`
 
 - `factory` (line 31)
@@ -890,7 +890,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In HermiteParametricTest
 
-Full name: `org.apache.commons.math3.analysis.integration.gauss.HermiteParametricTest`
+Package: `org.apache.commons.math3.analysis.integration.gauss.HermiteParametricTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/analysis/integration/gauss/HermiteParametricTest.java`
 
 - `SQRT_PI` (line 37)
@@ -899,7 +899,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In HermiteTest
 
-Full name: `org.apache.commons.math3.analysis.integration.gauss.HermiteTest`
+Package: `org.apache.commons.math3.analysis.integration.gauss.HermiteTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/analysis/integration/gauss/HermiteTest.java`
 
 - `factory` (line 29)
@@ -907,7 +907,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In LegendreHighPrecisionTest
 
-Full name: `org.apache.commons.math3.analysis.integration.gauss.LegendreHighPrecisionTest`
+Package: `org.apache.commons.math3.analysis.integration.gauss.LegendreHighPrecisionTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/analysis/integration/gauss/LegendreHighPrecisionTest.java`
 
 - `factory` (line 31)
@@ -915,7 +915,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In MonitoredFunction
 
-Full name: `org.apache.commons.math3.analysis.MonitoredFunction`
+Package: `org.apache.commons.math3.analysis.MonitoredFunction`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/analysis/MonitoredFunction.java`
 
 - `callsCount` (line 43)
@@ -924,7 +924,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In QuaternionTest
 
-Full name: `org.apache.commons.math3.complex.QuaternionTest`
+Package: `org.apache.commons.math3.complex.QuaternionTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/complex/QuaternionTest.java`
 
 - `EPS` (line 32)
@@ -933,7 +933,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In ComplexUtilsTest
 
-Full name: `org.apache.commons.math3.complex.ComplexUtilsTest`
+Package: `org.apache.commons.math3.complex.ComplexUtilsTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/complex/ComplexUtilsTest.java`
 
 - `inf` (line 29)
@@ -949,7 +949,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In ComplexTest
 
-Full name: `org.apache.commons.math3.complex.ComplexTest`
+Package: `org.apache.commons.math3.complex.ComplexTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/complex/ComplexTest.java`
 
 - `inf` (line 34)
@@ -978,7 +978,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In OffsetFeatureInitializer
 
-Full name: `org.apache.commons.math3.ml.neuralnet.OffsetFeatureInitializer`
+Package: `org.apache.commons.math3.ml.neuralnet.OffsetFeatureInitializer`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/ml/neuralnet/OffsetFeatureInitializer.java`
 
 - `orig` (line 27)
@@ -987,7 +987,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In TravellingSalesmanSolver
 
-Full name: `org.apache.commons.math3.ml.neuralnet.sofm.TravellingSalesmanSolver`
+Package: `org.apache.commons.math3.ml.neuralnet.sofm.TravellingSalesmanSolver`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/ml/neuralnet/sofm/TravellingSalesmanSolver.java`
 
 - `FIRST_NEURON_ID` (line 57)
@@ -1000,7 +1000,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In KMeansPlusPlusClustererTest
 
-Full name: `org.apache.commons.math3.ml.clustering.KMeansPlusPlusClustererTest`
+Package: `org.apache.commons.math3.ml.clustering.KMeansPlusPlusClustererTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/ml/clustering/KMeansPlusPlusClustererTest.java`
 
 - `random` (line 35)
@@ -1008,7 +1008,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In SumOfClusterVariancesTest
 
-Full name: `org.apache.commons.math3.ml.clustering.evaluation.SumOfClusterVariancesTest`
+Package: `org.apache.commons.math3.ml.clustering.evaluation.SumOfClusterVariancesTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/ml/clustering/evaluation/SumOfClusterVariancesTest.java`
 
 - `evaluator` (line 35)
@@ -1016,7 +1016,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In FastFourierTransformerTest
 
-Full name: `org.apache.commons.math3.transform.FastFourierTransformerTest`
+Package: `org.apache.commons.math3.transform.FastFourierTransformerTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/transform/FastFourierTransformerTest.java`
 
 - `SEED` (line 41)
@@ -1024,7 +1024,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In RealTransformerAbstractTest
 
-Full name: `org.apache.commons.math3.transform.RealTransformerAbstractTest`
+Package: `org.apache.commons.math3.transform.RealTransformerAbstractTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/transform/RealTransformerAbstractTest.java`
 
 - `SEED` (line 43)
@@ -1032,7 +1032,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In FastCosineTransformerTest
 
-Full name: `org.apache.commons.math3.transform.FastCosineTransformerTest`
+Package: `org.apache.commons.math3.transform.FastCosineTransformerTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/transform/FastCosineTransformerTest.java`
 
 - `normalization` (line 44)
@@ -1043,7 +1043,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In FastSineTransformerTest
 
-Full name: `org.apache.commons.math3.transform.FastSineTransformerTest`
+Package: `org.apache.commons.math3.transform.FastSineTransformerTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/transform/FastSineTransformerTest.java`
 
 - `normalization` (line 44)
@@ -1054,7 +1054,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In SparseRealMatrixTest
 
-Full name: `org.apache.commons.math3.linear.SparseRealMatrixTest`
+Package: `org.apache.commons.math3.linear.SparseRealMatrixTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/linear/SparseRealMatrixTest.java`
 
 - `d3` (line 217)
@@ -1064,7 +1064,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Array2DRowRealMatrixTest
 
-Full name: `org.apache.commons.math3.linear.Array2DRowRealMatrixTest`
+Package: `org.apache.commons.math3.linear.Array2DRowRealMatrixTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/linear/Array2DRowRealMatrixTest.java`
 
 - `d3` (line 213)
@@ -1074,7 +1074,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In TriDiagonalTransformerTest
 
-Full name: `org.apache.commons.math3.linear.TriDiagonalTransformerTest`
+Package: `org.apache.commons.math3.linear.TriDiagonalTransformerTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/linear/TriDiagonalTransformerTest.java`
 
 - `testSquare5` (line 29)
@@ -1083,7 +1083,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In LUSolverTest
 
-Full name: `org.apache.commons.math3.linear.LUSolverTest`
+Package: `org.apache.commons.math3.linear.LUSolverTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/linear/LUSolverTest.java`
 
 - `testData` (line 26)
@@ -1094,7 +1094,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In SchurTransformerTest
 
-Full name: `org.apache.commons.math3.linear.SchurTransformerTest`
+Package: `org.apache.commons.math3.linear.SchurTransformerTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/linear/SchurTransformerTest.java`
 
 - `testSquare5` (line 28)
@@ -1104,7 +1104,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In EigenDecompositionTest
 
-Full name: `org.apache.commons.math3.linear.EigenDecompositionTest`
+Package: `org.apache.commons.math3.linear.EigenDecompositionTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/linear/EigenDecompositionTest.java`
 
 - `refValues` (line 37)
@@ -1113,7 +1113,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In BiDiagonalTransformerTest
 
-Full name: `org.apache.commons.math3.linear.BiDiagonalTransformerTest`
+Package: `org.apache.commons.math3.linear.BiDiagonalTransformerTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/linear/BiDiagonalTransformerTest.java`
 
 - `testSquare` (line 29)
@@ -1122,7 +1122,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In HessenbergTransformerTest
 
-Full name: `org.apache.commons.math3.linear.HessenbergTransformerTest`
+Package: `org.apache.commons.math3.linear.HessenbergTransformerTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/linear/HessenbergTransformerTest.java`
 
 - `testSquare5` (line 28)
@@ -1132,7 +1132,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In RRQRDecompositionTest
 
-Full name: `org.apache.commons.math3.linear.RRQRDecompositionTest`
+Package: `org.apache.commons.math3.linear.RRQRDecompositionTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/linear/RRQRDecompositionTest.java`
 
 - `testData3x3NonSingular` (line 27)
@@ -1145,7 +1145,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In QRDecompositionTest
 
-Full name: `org.apache.commons.math3.linear.QRDecompositionTest`
+Package: `org.apache.commons.math3.linear.QRDecompositionTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/linear/QRDecompositionTest.java`
 
 - `testData3x3NonSingular` (line 28)
@@ -1158,7 +1158,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In EigenSolverTest
 
-Full name: `org.apache.commons.math3.linear.EigenSolverTest`
+Package: `org.apache.commons.math3.linear.EigenSolverTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/linear/EigenSolverTest.java`
 
 - `bigSingular` (line 30)
@@ -1166,7 +1166,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In RealVectorAbstractTest
 
-Full name: `org.apache.commons.math3.linear.RealVectorAbstractTest`
+Package: `org.apache.commons.math3.linear.RealVectorAbstractTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/linear/RealVectorAbstractTest.java`
 
 - `values` (line 126)
@@ -1174,7 +1174,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In BlockRealMatrixTest
 
-Full name: `org.apache.commons.math3.linear.BlockRealMatrixTest`
+Package: `org.apache.commons.math3.linear.BlockRealMatrixTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/linear/BlockRealMatrixTest.java`
 
 - `d3` (line 292)
@@ -1184,7 +1184,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In FieldMatrixImplTest
 
-Full name: `org.apache.commons.math3.linear.FieldMatrixImplTest`
+Package: `org.apache.commons.math3.linear.FieldMatrixImplTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/linear/FieldMatrixImplTest.java`
 
 - `d3` (line 188)
@@ -1194,7 +1194,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In LUDecompositionTest
 
-Full name: `org.apache.commons.math3.linear.LUDecompositionTest`
+Package: `org.apache.commons.math3.linear.LUDecompositionTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/linear/LUDecompositionTest.java`
 
 - `testData` (line 24)
@@ -1208,7 +1208,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In HilbertMatrix
 
-Full name: `org.apache.commons.math3.linear.HilbertMatrix`
+Package: `org.apache.commons.math3.linear.HilbertMatrix`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/linear/HilbertMatrix.java`
 
 - `n` (line 26)
@@ -1216,7 +1216,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In CholeskySolverTest
 
-Full name: `org.apache.commons.math3.linear.CholeskySolverTest`
+Package: `org.apache.commons.math3.linear.CholeskySolverTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/linear/CholeskySolverTest.java`
 
 - `testData` (line 27)
@@ -1224,7 +1224,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In SingularValueSolverTest
 
-Full name: `org.apache.commons.math3.linear.SingularValueSolverTest`
+Package: `org.apache.commons.math3.linear.SingularValueSolverTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/linear/SingularValueSolverTest.java`
 
 - `testSquare` (line 27)
@@ -1234,7 +1234,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In BlockFieldMatrixTest
 
-Full name: `org.apache.commons.math3.linear.BlockFieldMatrixTest`
+Package: `org.apache.commons.math3.linear.BlockFieldMatrixTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/linear/BlockFieldMatrixTest.java`
 
 - `d3` (line 332)
@@ -1244,7 +1244,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In CholeskyDecompositionTest
 
-Full name: `org.apache.commons.math3.linear.CholeskyDecompositionTest`
+Package: `org.apache.commons.math3.linear.CholeskyDecompositionTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/linear/CholeskyDecompositionTest.java`
 
 - `testData` (line 25)
@@ -1252,7 +1252,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In FieldLUSolverTest
 
-Full name: `org.apache.commons.math3.linear.FieldLUSolverTest`
+Package: `org.apache.commons.math3.linear.FieldLUSolverTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/linear/FieldLUSolverTest.java`
 
 - `testData` (line 27)
@@ -1263,7 +1263,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In FieldLUDecompositionTest
 
-Full name: `org.apache.commons.math3.linear.FieldLUDecompositionTest`
+Package: `org.apache.commons.math3.linear.FieldLUDecompositionTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/linear/FieldLUDecompositionTest.java`
 
 - `testData` (line 28)
@@ -1275,7 +1275,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In SparseFieldMatrixTest
 
-Full name: `org.apache.commons.math3.linear.SparseFieldMatrixTest`
+Package: `org.apache.commons.math3.linear.SparseFieldMatrixTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/linear/SparseFieldMatrixTest.java`
 
 - `d3` (line 226)
@@ -1285,7 +1285,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In SingularValueDecompositionTest
 
-Full name: `org.apache.commons.math3.linear.SingularValueDecompositionTest`
+Package: `org.apache.commons.math3.linear.SingularValueDecompositionTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/linear/SingularValueDecompositionTest.java`
 
 - `testSquare` (line 32)
@@ -1295,7 +1295,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In InverseHilbertMatrix
 
-Full name: `org.apache.commons.math3.linear.InverseHilbertMatrix`
+Package: `org.apache.commons.math3.linear.InverseHilbertMatrix`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/linear/InverseHilbertMatrix.java`
 
 - `n` (line 31)
@@ -1303,7 +1303,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In DfpDecTest
 
-Full name: `org.apache.commons.math3.dfp.DfpDecTest`
+Package: `org.apache.commons.math3.dfp.DfpDecTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/dfp/DfpDecTest.java`
 
 - `field` (line 27)
@@ -1313,7 +1313,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In DfpTest
 
-Full name: `org.apache.commons.math3.dfp.DfpTest`
+Package: `org.apache.commons.math3.dfp.DfpTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/dfp/DfpTest.java`
 
 - `field` (line 35)
@@ -1326,7 +1326,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In BracketingNthOrderBrentSolverDFPTest
 
-Full name: `org.apache.commons.math3.dfp.BracketingNthOrderBrentSolverDFPTest`
+Package: `org.apache.commons.math3.dfp.BracketingNthOrderBrentSolverDFPTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/dfp/BracketingNthOrderBrentSolverDFPTest.java`
 
 - `field` (line 166)
@@ -1337,7 +1337,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In DfpMathTest
 
-Full name: `org.apache.commons.math3.dfp.DfpMathTest`
+Package: `org.apache.commons.math3.dfp.DfpMathTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/dfp/DfpMathTest.java`
 
 - `factory` (line 27)
@@ -1349,7 +1349,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In PLYParser
 
-Full name: `org.apache.commons.math3.geometry.euclidean.threed.PLYParser`
+Package: `org.apache.commons.math3.geometry.euclidean.threed.PLYParser`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/geometry/euclidean/threed/PLYParser.java`
 
 - `vertices` (line 43)
@@ -1360,7 +1360,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In TestProblem3
 
-Full name: `org.apache.commons.math3.ode.TestProblem3`
+Package: `org.apache.commons.math3.ode.TestProblem3`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/ode/TestProblem3.java`
 
 - `y` (line 46)
@@ -1368,7 +1368,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In TestFieldProblemHandler
 
-Full name: `org.apache.commons.math3.ode.TestFieldProblemHandler`
+Package: `org.apache.commons.math3.ode.TestFieldProblemHandler`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/ode/TestFieldProblemHandler.java`
 
 - `problem` (line 35)
@@ -1382,7 +1382,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In TestProblem6
 
-Full name: `org.apache.commons.math3.ode.TestProblem6`
+Package: `org.apache.commons.math3.ode.TestProblem6`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/ode/TestProblem6.java`
 
 - `y` (line 39)
@@ -1390,7 +1390,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In OverlappingEventsTest
 
-Full name: `org.apache.commons.math3.ode.events.OverlappingEventsTest`
+Package: `org.apache.commons.math3.ode.events.OverlappingEventsTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/ode/events/OverlappingEventsTest.java`
 
 - `EVENT_TIMES1` (line 40)
@@ -1399,7 +1399,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In StepFieldProblem
 
-Full name: `org.apache.commons.math3.ode.nonstiff.StepFieldProblem`
+Package: `org.apache.commons.math3.ode.nonstiff.StepFieldProblem`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/ode/nonstiff/StepFieldProblem.java`
 
 - `field` (line 73)
@@ -1410,7 +1410,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In StepProblem
 
-Full name: `org.apache.commons.math3.ode.nonstiff.StepProblem`
+Package: `org.apache.commons.math3.ode.nonstiff.StepProblem`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/ode/nonstiff/StepProblem.java`
 
 - `rate` (line 61)
@@ -1420,7 +1420,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In TestFieldProblem4
 
-Full name: `org.apache.commons.math3.ode.TestFieldProblem4`
+Package: `org.apache.commons.math3.ode.TestFieldProblem4`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/ode/TestFieldProblem4.java`
 
 - `a` (line 49)
@@ -1428,7 +1428,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In TestProblem4
 
-Full name: `org.apache.commons.math3.ode.TestProblem4`
+Package: `org.apache.commons.math3.ode.TestProblem4`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/ode/TestProblem4.java`
 
 - `a` (line 42)
@@ -1437,7 +1437,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In TestProblemAbstract
 
-Full name: `org.apache.commons.math3.ode.TestProblemAbstract`
+Package: `org.apache.commons.math3.ode.TestProblemAbstract`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/ode/TestProblemAbstract.java`
 
 - `n` (line 31)
@@ -1450,7 +1450,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In TestProblem1
 
-Full name: `org.apache.commons.math3.ode.TestProblem1`
+Package: `org.apache.commons.math3.ode.TestProblem1`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/ode/TestProblem1.java`
 
 - `y` (line 40)
@@ -1458,7 +1458,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In TestProblemHandler
 
-Full name: `org.apache.commons.math3.ode.TestProblemHandler`
+Package: `org.apache.commons.math3.ode.TestProblemHandler`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/ode/TestProblemHandler.java`
 
 - `problem` (line 33)
@@ -1472,7 +1472,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In DummyStepInterpolator
 
-Full name: `org.apache.commons.math3.ode.sampling.DummyStepInterpolator`
+Package: `org.apache.commons.math3.ode.sampling.DummyStepInterpolator`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/ode/sampling/DummyStepInterpolator.java`
 
 - `serialVersionUID` (line 43)
@@ -1481,7 +1481,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In StepNormalizerOutputTestBase
 
-Full name: `org.apache.commons.math3.ode.sampling.StepNormalizerOutputTestBase`
+Package: `org.apache.commons.math3.ode.sampling.StepNormalizerOutputTestBase`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/ode/sampling/StepNormalizerOutputTestBase.java`
 
 - `output` (line 39)
@@ -1489,7 +1489,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In TestFieldProblemAbstract
 
-Full name: `org.apache.commons.math3.ode.TestFieldProblemAbstract`
+Package: `org.apache.commons.math3.ode.TestFieldProblemAbstract`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/ode/TestFieldProblemAbstract.java`
 
 - `field` (line 36)
@@ -1503,7 +1503,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In TestProblem2
 
-Full name: `org.apache.commons.math3.ode.TestProblem2`
+Package: `org.apache.commons.math3.ode.TestProblem2`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/ode/TestProblem2.java`
 
 - `y` (line 41)
@@ -1511,7 +1511,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In AbstractLeastSquaresOptimizerTestValidation
 
-Full name: `org.apache.commons.math3.optim.nonlinear.vector.jacobian.AbstractLeastSquaresOptimizerTestValidation`
+Package: `org.apache.commons.math3.optim.nonlinear.vector.jacobian.AbstractLeastSquaresOptimizerTestValidation`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/optim/nonlinear/vector/jacobian/AbstractLeastSquaresOptimizerTestValidation.java`
 
 - `MONTE_CARLO_RUNS` (line 51)
@@ -1519,7 +1519,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In RandomCirclePointGenerator
 
-Full name: `org.apache.commons.math3.optim.nonlinear.vector.jacobian.RandomCirclePointGenerator`
+Package: `org.apache.commons.math3.optim.nonlinear.vector.jacobian.RandomCirclePointGenerator`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/optim/nonlinear/vector/jacobian/RandomCirclePointGenerator.java`
 
 - `cX` (line 34)
@@ -1530,7 +1530,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In StatisticalReferenceDataset
 
-Full name: `org.apache.commons.math3.optim.nonlinear.vector.jacobian.StatisticalReferenceDataset`
+Package: `org.apache.commons.math3.optim.nonlinear.vector.jacobian.StatisticalReferenceDataset`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/optim/nonlinear/vector/jacobian/StatisticalReferenceDataset.java`
 
 - `name` (line 40)
@@ -1548,7 +1548,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In RandomStraightLinePointGenerator
 
-Full name: `org.apache.commons.math3.optim.nonlinear.vector.jacobian.RandomStraightLinePointGenerator`
+Package: `org.apache.commons.math3.optim.nonlinear.vector.jacobian.RandomStraightLinePointGenerator`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/optim/nonlinear/vector/jacobian/RandomStraightLinePointGenerator.java`
 
 - `slope` (line 34)
@@ -1559,7 +1559,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In AbstractLeastSquaresOptimizerAbstractTest
 
-Full name: `org.apache.commons.math3.optim.nonlinear.vector.jacobian.AbstractLeastSquaresOptimizerAbstractTest`
+Package: `org.apache.commons.math3.optim.nonlinear.vector.jacobian.AbstractLeastSquaresOptimizerAbstractTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/optim/nonlinear/vector/jacobian/AbstractLeastSquaresOptimizerAbstractTest.java`
 
 - `circlePoints` (line 542)
@@ -1567,7 +1567,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In SimplexOptimizerMultiDirectionalTest
 
-Full name: `org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizerMultiDirectionalTest`
+Package: `org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizerMultiDirectionalTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/optim/nonlinear/scalar/noderiv/SimplexOptimizerMultiDirectionalTest.java`
 
 - `count` (line 255)
@@ -1575,7 +1575,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In CircleScalar
 
-Full name: `org.apache.commons.math3.optim.nonlinear.scalar.gradient.CircleScalar`
+Package: `org.apache.commons.math3.optim.nonlinear.scalar.gradient.CircleScalar`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/optim/nonlinear/scalar/gradient/CircleScalar.java`
 
 - `points` (line 32)
@@ -1583,7 +1583,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In SimplexSolverTest
 
-Full name: `org.apache.commons.math3.optim.linear.SimplexSolverTest`
+Package: `org.apache.commons.math3.optim.linear.SimplexSolverTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/test/java/org/apache/commons/math3/optim/linear/SimplexSolverTest.java`
 
 - `DEFAULT_MAX_ITER` (line 32)
@@ -1591,7 +1591,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In NotPositiveException
 
-Full name: `org.apache.commons.math3.exception.NotPositiveException`
+Package: `org.apache.commons.math3.exception.NotPositiveException`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/exception/NotPositiveException.java`
 
 - `serialVersionUID` (line 28)
@@ -1599,7 +1599,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In MathIllegalArgumentException
 
-Full name: `org.apache.commons.math3.exception.MathIllegalArgumentException`
+Package: `org.apache.commons.math3.exception.MathIllegalArgumentException`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/exception/MathIllegalArgumentException.java`
 
 - `serialVersionUID` (line 34)
@@ -1608,7 +1608,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In NoBracketingException
 
-Full name: `org.apache.commons.math3.exception.NoBracketingException`
+Package: `org.apache.commons.math3.exception.NoBracketingException`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/exception/NoBracketingException.java`
 
 - `serialVersionUID` (line 30)
@@ -1620,7 +1620,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In TooManyEvaluationsException
 
-Full name: `org.apache.commons.math3.exception.TooManyEvaluationsException`
+Package: `org.apache.commons.math3.exception.TooManyEvaluationsException`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/exception/TooManyEvaluationsException.java`
 
 - `serialVersionUID` (line 28)
@@ -1628,7 +1628,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In ConvergenceException
 
-Full name: `org.apache.commons.math3.exception.ConvergenceException`
+Package: `org.apache.commons.math3.exception.ConvergenceException`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/exception/ConvergenceException.java`
 
 - `serialVersionUID` (line 30)
@@ -1636,7 +1636,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In NumberIsTooLargeException
 
-Full name: `org.apache.commons.math3.exception.NumberIsTooLargeException`
+Package: `org.apache.commons.math3.exception.NumberIsTooLargeException`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/exception/NumberIsTooLargeException.java`
 
 - `serialVersionUID` (line 29)
@@ -1646,7 +1646,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In MaxCountExceededException
 
-Full name: `org.apache.commons.math3.exception.MaxCountExceededException`
+Package: `org.apache.commons.math3.exception.MaxCountExceededException`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/exception/MaxCountExceededException.java`
 
 - `serialVersionUID` (line 29)
@@ -1655,7 +1655,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In NonMonotonicSequenceException
 
-Full name: `org.apache.commons.math3.exception.NonMonotonicSequenceException`
+Package: `org.apache.commons.math3.exception.NonMonotonicSequenceException`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/exception/NonMonotonicSequenceException.java`
 
 - `serialVersionUID` (line 30)
@@ -1667,7 +1667,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In ZeroException
 
-Full name: `org.apache.commons.math3.exception.ZeroException`
+Package: `org.apache.commons.math3.exception.ZeroException`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/exception/ZeroException.java`
 
 - `serialVersionUID` (line 30)
@@ -1675,7 +1675,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In NotANumberException
 
-Full name: `org.apache.commons.math3.exception.NotANumberException`
+Package: `org.apache.commons.math3.exception.NotANumberException`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/exception/NotANumberException.java`
 
 - `serialVersionUID` (line 28)
@@ -1683,7 +1683,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In MathInternalError
 
-Full name: `org.apache.commons.math3.exception.MathInternalError`
+Package: `org.apache.commons.math3.exception.MathInternalError`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/exception/MathInternalError.java`
 
 - `serialVersionUID` (line 29)
@@ -1692,7 +1692,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In InsufficientDataException
 
-Full name: `org.apache.commons.math3.exception.InsufficientDataException`
+Package: `org.apache.commons.math3.exception.InsufficientDataException`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/exception/InsufficientDataException.java`
 
 - `serialVersionUID` (line 31)
@@ -1700,7 +1700,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In MathUnsupportedOperationException
 
-Full name: `org.apache.commons.math3.exception.MathUnsupportedOperationException`
+Package: `org.apache.commons.math3.exception.MathUnsupportedOperationException`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/exception/MathUnsupportedOperationException.java`
 
 - `serialVersionUID` (line 35)
@@ -1709,7 +1709,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In NoDataException
 
-Full name: `org.apache.commons.math3.exception.NoDataException`
+Package: `org.apache.commons.math3.exception.NoDataException`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/exception/NoDataException.java`
 
 - `serialVersionUID` (line 30)
@@ -1717,7 +1717,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In DummyLocalizable
 
-Full name: `org.apache.commons.math3.exception.util.DummyLocalizable`
+Package: `org.apache.commons.math3.exception.util.DummyLocalizable`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/exception/util/DummyLocalizable.java`
 
 - `serialVersionUID` (line 29)
@@ -1726,7 +1726,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In ExceptionContext
 
-Full name: `org.apache.commons.math3.exception.util.ExceptionContext`
+Package: `org.apache.commons.math3.exception.util.ExceptionContext`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/exception/util/ExceptionContext.java`
 
 - `serialVersionUID` (line 40)
@@ -1738,7 +1738,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In LocalizedFormats
 
-Full name: `org.apache.commons.math3.exception.util.LocalizedFormats`
+Package: `org.apache.commons.math3.exception.util.LocalizedFormats`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/exception/util/LocalizedFormats.java`
 
 - `sourceFormat` (line 378)
@@ -1746,7 +1746,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In MathParseException
 
-Full name: `org.apache.commons.math3.exception.MathParseException`
+Package: `org.apache.commons.math3.exception.MathParseException`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/exception/MathParseException.java`
 
 - `serialVersionUID` (line 30)
@@ -1754,7 +1754,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In NotFiniteNumberException
 
-Full name: `org.apache.commons.math3.exception.NotFiniteNumberException`
+Package: `org.apache.commons.math3.exception.NotFiniteNumberException`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/exception/NotFiniteNumberException.java`
 
 - `serialVersionUID` (line 29)
@@ -1762,7 +1762,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In NotStrictlyPositiveException
 
-Full name: `org.apache.commons.math3.exception.NotStrictlyPositiveException`
+Package: `org.apache.commons.math3.exception.NotStrictlyPositiveException`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/exception/NotStrictlyPositiveException.java`
 
 - `serialVersionUID` (line 29)
@@ -1770,7 +1770,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In NullArgumentException
 
-Full name: `org.apache.commons.math3.exception.NullArgumentException`
+Package: `org.apache.commons.math3.exception.NullArgumentException`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/exception/NullArgumentException.java`
 
 - `serialVersionUID` (line 34)
@@ -1778,7 +1778,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In TooManyIterationsException
 
-Full name: `org.apache.commons.math3.exception.TooManyIterationsException`
+Package: `org.apache.commons.math3.exception.TooManyIterationsException`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/exception/TooManyIterationsException.java`
 
 - `serialVersionUID` (line 28)
@@ -1786,7 +1786,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In MathArithmeticException
 
-Full name: `org.apache.commons.math3.exception.MathArithmeticException`
+Package: `org.apache.commons.math3.exception.MathArithmeticException`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/exception/MathArithmeticException.java`
 
 - `serialVersionUID` (line 35)
@@ -1795,7 +1795,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In MathIllegalStateException
 
-Full name: `org.apache.commons.math3.exception.MathIllegalStateException`
+Package: `org.apache.commons.math3.exception.MathIllegalStateException`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/exception/MathIllegalStateException.java`
 
 - `serialVersionUID` (line 34)
@@ -1804,7 +1804,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In OutOfRangeException
 
-Full name: `org.apache.commons.math3.exception.OutOfRangeException`
+Package: `org.apache.commons.math3.exception.OutOfRangeException`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/exception/OutOfRangeException.java`
 
 - `serialVersionUID` (line 29)
@@ -1814,7 +1814,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In MathRuntimeException
 
-Full name: `org.apache.commons.math3.exception.MathRuntimeException`
+Package: `org.apache.commons.math3.exception.MathRuntimeException`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/exception/MathRuntimeException.java`
 
 - `serialVersionUID` (line 35)
@@ -1823,7 +1823,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In MathIllegalNumberException
 
-Full name: `org.apache.commons.math3.exception.MathIllegalNumberException`
+Package: `org.apache.commons.math3.exception.MathIllegalNumberException`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/exception/MathIllegalNumberException.java`
 
 - `serialVersionUID` (line 35)
@@ -1832,7 +1832,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In NumberIsTooSmallException
 
-Full name: `org.apache.commons.math3.exception.NumberIsTooSmallException`
+Package: `org.apache.commons.math3.exception.NumberIsTooSmallException`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/exception/NumberIsTooSmallException.java`
 
 - `serialVersionUID` (line 29)
@@ -1842,7 +1842,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In MultiDimensionMismatchException
 
-Full name: `org.apache.commons.math3.exception.MultiDimensionMismatchException`
+Package: `org.apache.commons.math3.exception.MultiDimensionMismatchException`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/exception/MultiDimensionMismatchException.java`
 
 - `serialVersionUID` (line 29)
@@ -1852,7 +1852,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In DimensionMismatchException
 
-Full name: `org.apache.commons.math3.exception.DimensionMismatchException`
+Package: `org.apache.commons.math3.exception.DimensionMismatchException`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/exception/DimensionMismatchException.java`
 
 - `serialVersionUID` (line 29)
@@ -1861,7 +1861,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In DefaultProcessModel
 
-Full name: `org.apache.commons.math3.filter.DefaultProcessModel`
+Package: `org.apache.commons.math3.filter.DefaultProcessModel`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/filter/DefaultProcessModel.java`
 
 - `stateTransitionMatrix` (line 36)
@@ -1873,7 +1873,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In DefaultMeasurementModel
 
-Full name: `org.apache.commons.math3.filter.DefaultMeasurementModel`
+Package: `org.apache.commons.math3.filter.DefaultMeasurementModel`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/filter/DefaultMeasurementModel.java`
 
 - `measurementMatrix` (line 36)
@@ -1882,7 +1882,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In KalmanFilter
 
-Full name: `org.apache.commons.math3.filter.KalmanFilter`
+Package: `org.apache.commons.math3.filter.KalmanFilter`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/filter/KalmanFilter.java`
 
 - `processModel` (line 84)
@@ -1898,7 +1898,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In AbstractSimplex
 
-Full name: `org.apache.commons.math3.optimization.direct.AbstractSimplex`
+Package: `org.apache.commons.math3.optimization.direct.AbstractSimplex`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/direct/AbstractSimplex.java`
 
 - `simplex` (line 54)
@@ -1908,7 +1908,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In SimplexOptimizer
 
-Full name: `org.apache.commons.math3.optimization.direct.SimplexOptimizer`
+Package: `org.apache.commons.math3.optimization.direct.SimplexOptimizer`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/direct/SimplexOptimizer.java`
 
 - `simplex` (line 93)
@@ -1916,7 +1916,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In MultivariateFunctionMappingAdapter
 
-Full name: `org.apache.commons.math3.optimization.direct.MultivariateFunctionMappingAdapter`
+Package: `org.apache.commons.math3.optimization.direct.MultivariateFunctionMappingAdapter`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/direct/MultivariateFunctionMappingAdapter.java`
 
 - `bounded` (line 82)
@@ -1925,7 +1925,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In CMAESOptimizer
 
-Full name: `org.apache.commons.math3.optimization.direct.CMAESOptimizer`
+Package: `org.apache.commons.math3.optimization.direct.CMAESOptimizer`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java`
 
 - `lambda` (line 109)
@@ -1977,7 +1977,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In NelderMeadSimplex
 
-Full name: `org.apache.commons.math3.optimization.direct.NelderMeadSimplex`
+Package: `org.apache.commons.math3.optimization.direct.NelderMeadSimplex`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/direct/NelderMeadSimplex.java`
 
 - `DEFAULT_RHO` (line 34)
@@ -1992,7 +1992,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In BaseAbstractMultivariateVectorOptimizer
 
-Full name: `org.apache.commons.math3.optimization.direct.BaseAbstractMultivariateVectorOptimizer`
+Package: `org.apache.commons.math3.optimization.direct.BaseAbstractMultivariateVectorOptimizer`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/direct/BaseAbstractMultivariateVectorOptimizer.java`
 
 - `checker` (line 52)
@@ -2005,7 +2005,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In BOBYQAOptimizer
 
-Full name: `org.apache.commons.math3.optimization.direct.BOBYQAOptimizer`
+Package: `org.apache.commons.math3.optimization.direct.BOBYQAOptimizer`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/direct/BOBYQAOptimizer.java`
 
 - `ZERO` (line 63)
@@ -2046,7 +2046,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In MultiDirectionalSimplex
 
-Full name: `org.apache.commons.math3.optimization.direct.MultiDirectionalSimplex`
+Package: `org.apache.commons.math3.optimization.direct.MultiDirectionalSimplex`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/direct/MultiDirectionalSimplex.java`
 
 - `DEFAULT_KHI` (line 34)
@@ -2057,7 +2057,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In PowellOptimizer
 
-Full name: `org.apache.commons.math3.optimization.direct.PowellOptimizer`
+Package: `org.apache.commons.math3.optimization.direct.PowellOptimizer`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/direct/PowellOptimizer.java`
 
 - `MIN_RELATIVE_TOLERANCE` (line 59)
@@ -2068,7 +2068,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In MultivariateFunctionPenaltyAdapter
 
-Full name: `org.apache.commons.math3.optimization.direct.MultivariateFunctionPenaltyAdapter`
+Package: `org.apache.commons.math3.optimization.direct.MultivariateFunctionPenaltyAdapter`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/direct/MultivariateFunctionPenaltyAdapter.java`
 
 - `bounded` (line 69)
@@ -2080,7 +2080,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In BaseAbstractMultivariateOptimizer
 
-Full name: `org.apache.commons.math3.optimization.direct.BaseAbstractMultivariateOptimizer`
+Package: `org.apache.commons.math3.optimization.direct.BaseAbstractMultivariateOptimizer`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/direct/BaseAbstractMultivariateOptimizer.java`
 
 - `checker` (line 52)
@@ -2093,7 +2093,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In PointValuePair
 
-Full name: `org.apache.commons.math3.optimization.PointValuePair`
+Package: `org.apache.commons.math3.optimization.PointValuePair`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/PointValuePair.java`
 
 - `serialVersionUID` (line 37)
@@ -2101,7 +2101,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Weight
 
-Full name: `org.apache.commons.math3.optimization.Weight`
+Package: `org.apache.commons.math3.optimization.Weight`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/Weight.java`
 
 - `weightMatrix` (line 35)
@@ -2109,7 +2109,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In LeastSquaresConverter
 
-Full name: `org.apache.commons.math3.optimization.LeastSquaresConverter`
+Package: `org.apache.commons.math3.optimization.LeastSquaresConverter`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/LeastSquaresConverter.java`
 
 - `function` (line 60)
@@ -2120,7 +2120,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In PointVectorValuePair
 
-Full name: `org.apache.commons.math3.optimization.PointVectorValuePair`
+Package: `org.apache.commons.math3.optimization.PointVectorValuePair`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/PointVectorValuePair.java`
 
 - `serialVersionUID` (line 37)
@@ -2128,7 +2128,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In AbstractConvergenceChecker
 
-Full name: `org.apache.commons.math3.optimization.AbstractConvergenceChecker`
+Package: `org.apache.commons.math3.optimization.AbstractConvergenceChecker`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/AbstractConvergenceChecker.java`
 
 - `DEFAULT_RELATIVE_THRESHOLD` (line 38)
@@ -2139,7 +2139,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In WeightedObservedPoint
 
-Full name: `org.apache.commons.math3.optimization.fitting.WeightedObservedPoint`
+Package: `org.apache.commons.math3.optimization.fitting.WeightedObservedPoint`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/fitting/WeightedObservedPoint.java`
 
 - `serialVersionUID` (line 32)
@@ -2150,7 +2150,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In PolynomialFitter
 
-Full name: `org.apache.commons.math3.optimization.fitting.PolynomialFitter`
+Package: `org.apache.commons.math3.optimization.fitting.PolynomialFitter`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/fitting/PolynomialFitter.java`
 
 - `degree` (line 36)
@@ -2158,7 +2158,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In CurveFitter
 
-Full name: `org.apache.commons.math3.optimization.fitting.CurveFitter`
+Package: `org.apache.commons.math3.optimization.fitting.CurveFitter`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/fitting/CurveFitter.java`
 
 - `oldOptimizer` (line 55)
@@ -2168,7 +2168,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In SimpleVectorValueChecker
 
-Full name: `org.apache.commons.math3.optimization.SimpleVectorValueChecker`
+Package: `org.apache.commons.math3.optimization.SimpleVectorValueChecker`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/SimpleVectorValueChecker.java`
 
 - `ITERATION_CHECK_DISABLED` (line 48)
@@ -2177,7 +2177,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In BaseMultivariateVectorMultiStartOptimizer
 
-Full name: `org.apache.commons.math3.optimization.BaseMultivariateVectorMultiStartOptimizer`
+Package: `org.apache.commons.math3.optimization.BaseMultivariateVectorMultiStartOptimizer`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/BaseMultivariateVectorMultiStartOptimizer.java`
 
 - `optimizer` (line 47)
@@ -2190,7 +2190,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In BrentOptimizer
 
-Full name: `org.apache.commons.math3.optimization.univariate.BrentOptimizer`
+Package: `org.apache.commons.math3.optimization.univariate.BrentOptimizer`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java`
 
 - `GOLDEN_SECTION` (line 49)
@@ -2201,7 +2201,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In BracketFinder
 
-Full name: `org.apache.commons.math3.optimization.univariate.BracketFinder`
+Package: `org.apache.commons.math3.optimization.univariate.BracketFinder`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/univariate/BracketFinder.java`
 
 - `EPS_MIN` (line 38)
@@ -2218,7 +2218,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In UnivariateMultiStartOptimizer
 
-Full name: `org.apache.commons.math3.optimization.univariate.UnivariateMultiStartOptimizer`
+Package: `org.apache.commons.math3.optimization.univariate.UnivariateMultiStartOptimizer`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/univariate/UnivariateMultiStartOptimizer.java`
 
 - `optimizer` (line 49)
@@ -2231,7 +2231,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In UnivariatePointValuePair
 
-Full name: `org.apache.commons.math3.optimization.univariate.UnivariatePointValuePair`
+Package: `org.apache.commons.math3.optimization.univariate.UnivariatePointValuePair`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/univariate/UnivariatePointValuePair.java`
 
 - `serialVersionUID` (line 33)
@@ -2241,7 +2241,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In BaseAbstractUnivariateOptimizer
 
-Full name: `org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer`
+Package: `org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/univariate/BaseAbstractUnivariateOptimizer.java`
 
 - `checker` (line 39)
@@ -2255,7 +2255,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In SimpleUnivariateValueChecker
 
-Full name: `org.apache.commons.math3.optimization.univariate.SimpleUnivariateValueChecker`
+Package: `org.apache.commons.math3.optimization.univariate.SimpleUnivariateValueChecker`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/univariate/SimpleUnivariateValueChecker.java`
 
 - `ITERATION_CHECK_DISABLED` (line 51)
@@ -2264,7 +2264,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In SimplexSolver
 
-Full name: `org.apache.commons.math3.optimization.linear.SimplexSolver`
+Package: `org.apache.commons.math3.optimization.linear.SimplexSolver`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/linear/SimplexSolver.java`
 
 - `DEFAULT_EPSILON` (line 38)
@@ -2275,7 +2275,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In AbstractLinearOptimizer
 
-Full name: `org.apache.commons.math3.optimization.linear.AbstractLinearOptimizer`
+Package: `org.apache.commons.math3.optimization.linear.AbstractLinearOptimizer`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/linear/AbstractLinearOptimizer.java`
 
 - `function` (line 47)
@@ -2288,7 +2288,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Relationship
 
-Full name: `org.apache.commons.math3.optimization.linear.Relationship`
+Package: `org.apache.commons.math3.optimization.linear.Relationship`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/linear/Relationship.java`
 
 - `stringValue` (line 38)
@@ -2296,7 +2296,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In NoFeasibleSolutionException
 
-Full name: `org.apache.commons.math3.optimization.linear.NoFeasibleSolutionException`
+Package: `org.apache.commons.math3.optimization.linear.NoFeasibleSolutionException`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/linear/NoFeasibleSolutionException.java`
 
 - `serialVersionUID` (line 33)
@@ -2304,7 +2304,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In LinearObjectiveFunction
 
-Full name: `org.apache.commons.math3.optimization.linear.LinearObjectiveFunction`
+Package: `org.apache.commons.math3.optimization.linear.LinearObjectiveFunction`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/linear/LinearObjectiveFunction.java`
 
 - `serialVersionUID` (line 46)
@@ -2314,7 +2314,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In UnboundedSolutionException
 
-Full name: `org.apache.commons.math3.optimization.linear.UnboundedSolutionException`
+Package: `org.apache.commons.math3.optimization.linear.UnboundedSolutionException`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/linear/UnboundedSolutionException.java`
 
 - `serialVersionUID` (line 33)
@@ -2322,7 +2322,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In LinearConstraint
 
-Full name: `org.apache.commons.math3.optimization.linear.LinearConstraint`
+Package: `org.apache.commons.math3.optimization.linear.LinearConstraint`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/linear/LinearConstraint.java`
 
 - `serialVersionUID` (line 55)
@@ -2333,7 +2333,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In AbstractLeastSquaresOptimizer
 
-Full name: `org.apache.commons.math3.optimization.general.AbstractLeastSquaresOptimizer`
+Package: `org.apache.commons.math3.optimization.general.AbstractLeastSquaresOptimizer`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/general/AbstractLeastSquaresOptimizer.java`
 
 - `DEFAULT_SINGULARITY_THRESHOLD` (line 70)
@@ -2344,7 +2344,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In LevenbergMarquardtOptimizer
 
-Full name: `org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizer`
+Package: `org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizer`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/general/LevenbergMarquardtOptimizer.java`
 
 - `solvedCols` (line 111)
@@ -2366,7 +2366,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In GaussNewtonOptimizer
 
-Full name: `org.apache.commons.math3.optimization.general.GaussNewtonOptimizer`
+Package: `org.apache.commons.math3.optimization.general.GaussNewtonOptimizer`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/general/GaussNewtonOptimizer.java`
 
 - `useLU` (line 51)
@@ -2374,7 +2374,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In AbstractDifferentiableOptimizer
 
-Full name: `org.apache.commons.math3.optimization.general.AbstractDifferentiableOptimizer`
+Package: `org.apache.commons.math3.optimization.general.AbstractDifferentiableOptimizer`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/general/AbstractDifferentiableOptimizer.java`
 
 - `gradient` (line 44)
@@ -2382,7 +2382,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In NonLinearConjugateGradientOptimizer
 
-Full name: `org.apache.commons.math3.optimization.general.NonLinearConjugateGradientOptimizer`
+Package: `org.apache.commons.math3.optimization.general.NonLinearConjugateGradientOptimizer`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/general/NonLinearConjugateGradientOptimizer.java`
 
 - `updateFormula` (line 47)
@@ -2394,7 +2394,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In AbstractScalarDifferentiableOptimizer
 
-Full name: `org.apache.commons.math3.optimization.general.AbstractScalarDifferentiableOptimizer`
+Package: `org.apache.commons.math3.optimization.general.AbstractScalarDifferentiableOptimizer`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/general/AbstractScalarDifferentiableOptimizer.java`
 
 - `gradient` (line 45)
@@ -2402,7 +2402,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In SimplePointChecker
 
-Full name: `org.apache.commons.math3.optimization.SimplePointChecker`
+Package: `org.apache.commons.math3.optimization.SimplePointChecker`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/SimplePointChecker.java`
 
 - `ITERATION_CHECK_DISABLED` (line 51)
@@ -2411,7 +2411,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In InitialGuess
 
-Full name: `org.apache.commons.math3.optimization.InitialGuess`
+Package: `org.apache.commons.math3.optimization.InitialGuess`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/InitialGuess.java`
 
 - `init` (line 31)
@@ -2419,7 +2419,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In BaseMultivariateMultiStartOptimizer
 
-Full name: `org.apache.commons.math3.optimization.BaseMultivariateMultiStartOptimizer`
+Package: `org.apache.commons.math3.optimization.BaseMultivariateMultiStartOptimizer`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/BaseMultivariateMultiStartOptimizer.java`
 
 - `optimizer` (line 47)
@@ -2432,7 +2432,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In SimpleBounds
 
-Full name: `org.apache.commons.math3.optimization.SimpleBounds`
+Package: `org.apache.commons.math3.optimization.SimpleBounds`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/SimpleBounds.java`
 
 - `lower` (line 33)
@@ -2441,7 +2441,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In SimpleValueChecker
 
-Full name: `org.apache.commons.math3.optimization.SimpleValueChecker`
+Package: `org.apache.commons.math3.optimization.SimpleValueChecker`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/SimpleValueChecker.java`
 
 - `ITERATION_CHECK_DISABLED` (line 48)
@@ -2450,7 +2450,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Target
 
-Full name: `org.apache.commons.math3.optimization.Target`
+Package: `org.apache.commons.math3.optimization.Target`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optimization/Target.java`
 
 - `target` (line 33)
@@ -2458,7 +2458,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In CauchyDistribution
 
-Full name: `org.apache.commons.math3.distribution.CauchyDistribution`
+Package: `org.apache.commons.math3.distribution.CauchyDistribution`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/distribution/CauchyDistribution.java`
 
 - `serialVersionUID` (line 40)
@@ -2469,7 +2469,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In ZipfDistribution
 
-Full name: `org.apache.commons.math3.distribution.ZipfDistribution`
+Package: `org.apache.commons.math3.distribution.ZipfDistribution`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/distribution/ZipfDistribution.java`
 
 - `serialVersionUID` (line 47)
@@ -2484,7 +2484,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In BinomialDistribution
 
-Full name: `org.apache.commons.math3.distribution.BinomialDistribution`
+Package: `org.apache.commons.math3.distribution.BinomialDistribution`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/distribution/BinomialDistribution.java`
 
 - `serialVersionUID` (line 35)
@@ -2494,7 +2494,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In GeometricDistribution
 
-Full name: `org.apache.commons.math3.distribution.GeometricDistribution`
+Package: `org.apache.commons.math3.distribution.GeometricDistribution`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/distribution/GeometricDistribution.java`
 
 - `serialVersionUID` (line 35)
@@ -2505,7 +2505,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In AbstractMultivariateRealDistribution
 
-Full name: `org.apache.commons.math3.distribution.AbstractMultivariateRealDistribution`
+Package: `org.apache.commons.math3.distribution.AbstractMultivariateRealDistribution`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/distribution/AbstractMultivariateRealDistribution.java`
 
 - `dimension` (line 33)
@@ -2513,7 +2513,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In GumbelDistribution
 
-Full name: `org.apache.commons.math3.distribution.GumbelDistribution`
+Package: `org.apache.commons.math3.distribution.GumbelDistribution`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/distribution/GumbelDistribution.java`
 
 - `serialVersionUID` (line 38)
@@ -2524,7 +2524,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In KolmogorovSmirnovDistribution
 
-Full name: `org.apache.commons.math3.distribution.KolmogorovSmirnovDistribution`
+Package: `org.apache.commons.math3.distribution.KolmogorovSmirnovDistribution`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/distribution/KolmogorovSmirnovDistribution.java`
 
 - `serialVersionUID` (line 77)
@@ -2533,7 +2533,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In LevyDistribution
 
-Full name: `org.apache.commons.math3.distribution.LevyDistribution`
+Package: `org.apache.commons.math3.distribution.LevyDistribution`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/distribution/LevyDistribution.java`
 
 - `serialVersionUID` (line 34)
@@ -2544,7 +2544,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In EnumeratedDistribution
 
-Full name: `org.apache.commons.math3.distribution.EnumeratedDistribution`
+Package: `org.apache.commons.math3.distribution.EnumeratedDistribution`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/distribution/EnumeratedDistribution.java`
 
 - `serialVersionUID` (line 57)
@@ -2555,7 +2555,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In MixtureMultivariateRealDistribution
 
-Full name: `org.apache.commons.math3.distribution.MixtureMultivariateRealDistribution`
+Package: `org.apache.commons.math3.distribution.MixtureMultivariateRealDistribution`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/distribution/MixtureMultivariateRealDistribution.java`
 
 - `weight` (line 41)
@@ -2564,7 +2564,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In MultivariateNormalDistribution
 
-Full name: `org.apache.commons.math3.distribution.MultivariateNormalDistribution`
+Package: `org.apache.commons.math3.distribution.MultivariateNormalDistribution`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/distribution/MultivariateNormalDistribution.java`
 
 - `means` (line 43)
@@ -2576,7 +2576,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In AbstractIntegerDistribution
 
-Full name: `org.apache.commons.math3.distribution.AbstractIntegerDistribution`
+Package: `org.apache.commons.math3.distribution.AbstractIntegerDistribution`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/distribution/AbstractIntegerDistribution.java`
 
 - `serialVersionUID` (line 38)
@@ -2584,7 +2584,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In BetaDistribution
 
-Full name: `org.apache.commons.math3.distribution.BetaDistribution`
+Package: `org.apache.commons.math3.distribution.BetaDistribution`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/distribution/BetaDistribution.java`
 
 - `serialVersionUID` (line 41)
@@ -2596,7 +2596,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In ConstantRealDistribution
 
-Full name: `org.apache.commons.math3.distribution.ConstantRealDistribution`
+Package: `org.apache.commons.math3.distribution.ConstantRealDistribution`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/distribution/ConstantRealDistribution.java`
 
 - `serialVersionUID` (line 30)
@@ -2605,7 +2605,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In UniformRealDistribution
 
-Full name: `org.apache.commons.math3.distribution.UniformRealDistribution`
+Package: `org.apache.commons.math3.distribution.UniformRealDistribution`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/distribution/UniformRealDistribution.java`
 
 - `serialVersionUID` (line 41)
@@ -2615,7 +2615,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In LaplaceDistribution
 
-Full name: `org.apache.commons.math3.distribution.LaplaceDistribution`
+Package: `org.apache.commons.math3.distribution.LaplaceDistribution`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/distribution/LaplaceDistribution.java`
 
 - `serialVersionUID` (line 36)
@@ -2625,7 +2625,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In MultivariateNormalMixtureExpectationMaximization
 
-Full name: `org.apache.commons.math3.distribution.fitting.MultivariateNormalMixtureExpectationMaximization`
+Package: `org.apache.commons.math3.distribution.fitting.MultivariateNormalMixtureExpectationMaximization`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/distribution/fitting/MultivariateNormalMixtureExpectationMaximization.java`
 
 - `DEFAULT_MAX_ITERATIONS` (line 58)
@@ -2637,7 +2637,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In FDistribution
 
-Full name: `org.apache.commons.math3.distribution.FDistribution`
+Package: `org.apache.commons.math3.distribution.FDistribution`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/distribution/FDistribution.java`
 
 - `serialVersionUID` (line 40)
@@ -2650,7 +2650,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In ParetoDistribution
 
-Full name: `org.apache.commons.math3.distribution.ParetoDistribution`
+Package: `org.apache.commons.math3.distribution.ParetoDistribution`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/distribution/ParetoDistribution.java`
 
 - `serialVersionUID` (line 55)
@@ -2661,7 +2661,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In WeibullDistribution
 
-Full name: `org.apache.commons.math3.distribution.WeibullDistribution`
+Package: `org.apache.commons.math3.distribution.WeibullDistribution`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/distribution/WeibullDistribution.java`
 
 - `serialVersionUID` (line 45)
@@ -2676,7 +2676,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In LogNormalDistribution
 
-Full name: `org.apache.commons.math3.distribution.LogNormalDistribution`
+Package: `org.apache.commons.math3.distribution.LogNormalDistribution`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/distribution/LogNormalDistribution.java`
 
 - `serialVersionUID` (line 60)
@@ -2690,7 +2690,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In EnumeratedIntegerDistribution
 
-Full name: `org.apache.commons.math3.distribution.EnumeratedIntegerDistribution`
+Package: `org.apache.commons.math3.distribution.EnumeratedIntegerDistribution`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/distribution/EnumeratedIntegerDistribution.java`
 
 - `serialVersionUID` (line 47)
@@ -2698,7 +2698,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In NakagamiDistribution
 
-Full name: `org.apache.commons.math3.distribution.NakagamiDistribution`
+Package: `org.apache.commons.math3.distribution.NakagamiDistribution`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/distribution/NakagamiDistribution.java`
 
 - `serialVersionUID` (line 40)
@@ -2709,7 +2709,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In LogisticDistribution
 
-Full name: `org.apache.commons.math3.distribution.LogisticDistribution`
+Package: `org.apache.commons.math3.distribution.LogisticDistribution`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/distribution/LogisticDistribution.java`
 
 - `serialVersionUID` (line 38)
@@ -2719,7 +2719,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In NormalDistribution
 
-Full name: `org.apache.commons.math3.distribution.NormalDistribution`
+Package: `org.apache.commons.math3.distribution.NormalDistribution`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/distribution/NormalDistribution.java`
 
 - `serialVersionUID` (line 42)
@@ -2732,7 +2732,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In EnumeratedRealDistribution
 
-Full name: `org.apache.commons.math3.distribution.EnumeratedRealDistribution`
+Package: `org.apache.commons.math3.distribution.EnumeratedRealDistribution`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/distribution/EnumeratedRealDistribution.java`
 
 - `serialVersionUID` (line 48)
@@ -2740,7 +2740,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In TDistribution
 
-Full name: `org.apache.commons.math3.distribution.TDistribution`
+Package: `org.apache.commons.math3.distribution.TDistribution`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/distribution/TDistribution.java`
 
 - `serialVersionUID` (line 40)
@@ -2751,7 +2751,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In AbstractRealDistribution
 
-Full name: `org.apache.commons.math3.distribution.AbstractRealDistribution`
+Package: `org.apache.commons.math3.distribution.AbstractRealDistribution`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/distribution/AbstractRealDistribution.java`
 
 - `serialVersionUID` (line 42)
@@ -2760,7 +2760,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In ExponentialDistribution
 
-Full name: `org.apache.commons.math3.distribution.ExponentialDistribution`
+Package: `org.apache.commons.math3.distribution.ExponentialDistribution`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/distribution/ExponentialDistribution.java`
 
 - `serialVersionUID` (line 41)
@@ -2772,7 +2772,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In TriangularDistribution
 
-Full name: `org.apache.commons.math3.distribution.TriangularDistribution`
+Package: `org.apache.commons.math3.distribution.TriangularDistribution`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/distribution/TriangularDistribution.java`
 
 - `serialVersionUID` (line 38)
@@ -2784,7 +2784,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In HypergeometricDistribution
 
-Full name: `org.apache.commons.math3.distribution.HypergeometricDistribution`
+Package: `org.apache.commons.math3.distribution.HypergeometricDistribution`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/distribution/HypergeometricDistribution.java`
 
 - `serialVersionUID` (line 36)
@@ -2797,7 +2797,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In GammaDistribution
 
-Full name: `org.apache.commons.math3.distribution.GammaDistribution`
+Package: `org.apache.commons.math3.distribution.GammaDistribution`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/distribution/GammaDistribution.java`
 
 - `serialVersionUID` (line 39)
@@ -2815,7 +2815,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In PoissonDistribution
 
-Full name: `org.apache.commons.math3.distribution.PoissonDistribution`
+Package: `org.apache.commons.math3.distribution.PoissonDistribution`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/distribution/PoissonDistribution.java`
 
 - `serialVersionUID` (line 46)
@@ -2828,7 +2828,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In ChiSquaredDistribution
 
-Full name: `org.apache.commons.math3.distribution.ChiSquaredDistribution`
+Package: `org.apache.commons.math3.distribution.ChiSquaredDistribution`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/distribution/ChiSquaredDistribution.java`
 
 - `serialVersionUID` (line 35)
@@ -2838,7 +2838,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In UniformIntegerDistribution
 
-Full name: `org.apache.commons.math3.distribution.UniformIntegerDistribution`
+Package: `org.apache.commons.math3.distribution.UniformIntegerDistribution`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/distribution/UniformIntegerDistribution.java`
 
 - `serialVersionUID` (line 35)
@@ -2848,7 +2848,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In PascalDistribution
 
-Full name: `org.apache.commons.math3.distribution.PascalDistribution`
+Package: `org.apache.commons.math3.distribution.PascalDistribution`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/distribution/PascalDistribution.java`
 
 - `serialVersionUID` (line 65)
@@ -2860,7 +2860,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In TransformerMap
 
-Full name: `org.apache.commons.math3.util.TransformerMap`
+Package: `org.apache.commons.math3.util.TransformerMap`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/util/TransformerMap.java`
 
 - `serialVersionUID` (line 36)
@@ -2870,7 +2870,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In DefaultTransformer
 
-Full name: `org.apache.commons.math3.util.DefaultTransformer`
+Package: `org.apache.commons.math3.util.DefaultTransformer`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/util/DefaultTransformer.java`
 
 - `serialVersionUID` (line 36)
@@ -2878,7 +2878,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In MultidimensionalCounter
 
-Full name: `org.apache.commons.math3.util.MultidimensionalCounter`
+Package: `org.apache.commons.math3.util.MultidimensionalCounter`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/util/MultidimensionalCounter.java`
 
 - `dimension` (line 50)
@@ -2890,7 +2890,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Combinations
 
-Full name: `org.apache.commons.math3.util.Combinations`
+Package: `org.apache.commons.math3.util.Combinations`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/util/Combinations.java`
 
 - `n` (line 37)
@@ -2900,7 +2900,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In ContinuedFraction
 
-Full name: `org.apache.commons.math3.util.ContinuedFraction`
+Package: `org.apache.commons.math3.util.ContinuedFraction`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/util/ContinuedFraction.java`
 
 - `DEFAULT_EPSILON` (line 38)
@@ -2908,7 +2908,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In KthSelector
 
-Full name: `org.apache.commons.math3.util.KthSelector`
+Package: `org.apache.commons.math3.util.KthSelector`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/util/KthSelector.java`
 
 - `serialVersionUID` (line 34)
@@ -2918,7 +2918,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In CentralPivotingStrategy
 
-Full name: `org.apache.commons.math3.util.CentralPivotingStrategy`
+Package: `org.apache.commons.math3.util.CentralPivotingStrategy`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/util/CentralPivotingStrategy.java`
 
 - `serialVersionUID` (line 31)
@@ -2926,7 +2926,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In OpenIntToDoubleHashMap
 
-Full name: `org.apache.commons.math3.util.OpenIntToDoubleHashMap`
+Package: `org.apache.commons.math3.util.OpenIntToDoubleHashMap`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/util/OpenIntToDoubleHashMap.java`
 
 - `serialVersionUID` (line 48)
@@ -2945,7 +2945,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Decimal64
 
-Full name: `org.apache.commons.math3.util.Decimal64`
+Package: `org.apache.commons.math3.util.Decimal64`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/util/Decimal64.java`
 
 - `serialVersionUID` (line 55)
@@ -2954,7 +2954,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Incrementor
 
-Full name: `org.apache.commons.math3.util.Incrementor`
+Package: `org.apache.commons.math3.util.Incrementor`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/util/Incrementor.java`
 
 - `maximalCount` (line 38)
@@ -2964,7 +2964,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In ResizableDoubleArray
 
-Full name: `org.apache.commons.math3.util.ResizableDoubleArray`
+Package: `org.apache.commons.math3.util.ResizableDoubleArray`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/util/ResizableDoubleArray.java`
 
 - `serialVersionUID` (line 95)
@@ -2981,7 +2981,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In BigReal
 
-Full name: `org.apache.commons.math3.util.BigReal`
+Package: `org.apache.commons.math3.util.BigReal`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/util/BigReal.java`
 
 - `serialVersionUID` (line 48)
@@ -2992,7 +2992,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In RandomPivotingStrategy
 
-Full name: `org.apache.commons.math3.util.RandomPivotingStrategy`
+Package: `org.apache.commons.math3.util.RandomPivotingStrategy`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/util/RandomPivotingStrategy.java`
 
 - `serialVersionUID` (line 32)
@@ -3001,7 +3001,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In IterationManager
 
-Full name: `org.apache.commons.math3.util.IterationManager`
+Package: `org.apache.commons.math3.util.IterationManager`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/util/IterationManager.java`
 
 - `iterations` (line 34)
@@ -3010,7 +3010,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In IterationEvent
 
-Full name: `org.apache.commons.math3.util.IterationEvent`
+Package: `org.apache.commons.math3.util.IterationEvent`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/util/IterationEvent.java`
 
 - `serialVersionUID` (line 28)
@@ -3019,7 +3019,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In OpenIntToFieldHashMap
 
-Full name: `org.apache.commons.math3.util.OpenIntToFieldHashMap`
+Package: `org.apache.commons.math3.util.OpenIntToFieldHashMap`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/util/OpenIntToFieldHashMap.java`
 
 - `serialVersionUID` (line 52)
@@ -3039,7 +3039,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In MedianOf3PivotingStrategy
 
-Full name: `org.apache.commons.math3.util.MedianOf3PivotingStrategy`
+Package: `org.apache.commons.math3.util.MedianOf3PivotingStrategy`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/util/MedianOf3PivotingStrategy.java`
 
 - `serialVersionUID` (line 31)
@@ -3047,7 +3047,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Decimal64Field
 
-Full name: `org.apache.commons.math3.util.Decimal64Field`
+Package: `org.apache.commons.math3.util.Decimal64Field`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/util/Decimal64Field.java`
 
 - `INSTANCE` (line 31)
@@ -3055,7 +3055,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In FastMath
 
-Full name: `org.apache.commons.math3.util.FastMath`
+Package: `org.apache.commons.math3.util.FastMath`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/util/FastMath.java`
 
 - `LOG_MAX_VALUE` (line 99)
@@ -3104,7 +3104,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In BigRealField
 
-Full name: `org.apache.commons.math3.util.BigRealField`
+Package: `org.apache.commons.math3.util.BigRealField`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/util/BigRealField.java`
 
 - `serialVersionUID` (line 36)
@@ -3112,7 +3112,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Pair
 
-Full name: `org.apache.commons.math3.util.Pair`
+Package: `org.apache.commons.math3.util.Pair`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/util/Pair.java`
 
 - `key` (line 33)
@@ -3121,7 +3121,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Precision
 
-Full name: `org.apache.commons.math3.util.Precision`
+Package: `org.apache.commons.math3.util.Precision`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/util/Precision.java`
 
 - `EXPONENT_OFFSET` (line 56)
@@ -3136,7 +3136,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In RandomKey
 
-Full name: `org.apache.commons.math3.genetics.RandomKey`
+Package: `org.apache.commons.math3.genetics.RandomKey`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/genetics/RandomKey.java`
 
 - `sortedRepresentation` (line 59)
@@ -3145,7 +3145,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In AbstractListChromosome
 
-Full name: `org.apache.commons.math3.genetics.AbstractListChromosome`
+Package: `org.apache.commons.math3.genetics.AbstractListChromosome`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/genetics/AbstractListChromosome.java`
 
 - `representation` (line 33)
@@ -3153,7 +3153,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In ListPopulation
 
-Full name: `org.apache.commons.math3.genetics.ListPopulation`
+Package: `org.apache.commons.math3.genetics.ListPopulation`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/genetics/ListPopulation.java`
 
 - `chromosomes` (line 39)
@@ -3162,7 +3162,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In ChromosomePair
 
-Full name: `org.apache.commons.math3.genetics.ChromosomePair`
+Package: `org.apache.commons.math3.genetics.ChromosomePair`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/genetics/ChromosomePair.java`
 
 - `first` (line 26)
@@ -3171,7 +3171,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In NPointCrossover
 
-Full name: `org.apache.commons.math3.genetics.NPointCrossover`
+Package: `org.apache.commons.math3.genetics.NPointCrossover`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/genetics/NPointCrossover.java`
 
 - `crossoverPoints` (line 55)
@@ -3179,7 +3179,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In TournamentSelection
 
-Full name: `org.apache.commons.math3.genetics.TournamentSelection`
+Package: `org.apache.commons.math3.genetics.TournamentSelection`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/genetics/TournamentSelection.java`
 
 - `arity` (line 36)
@@ -3187,7 +3187,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Chromosome
 
-Full name: `org.apache.commons.math3.genetics.Chromosome`
+Package: `org.apache.commons.math3.genetics.Chromosome`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/genetics/Chromosome.java`
 
 - `NO_FITNESS` (line 29)
@@ -3196,7 +3196,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In UniformCrossover
 
-Full name: `org.apache.commons.math3.genetics.UniformCrossover`
+Package: `org.apache.commons.math3.genetics.UniformCrossover`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/genetics/UniformCrossover.java`
 
 - `ratio` (line 54)
@@ -3204,7 +3204,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In ElitisticListPopulation
 
-Full name: `org.apache.commons.math3.genetics.ElitisticListPopulation`
+Package: `org.apache.commons.math3.genetics.ElitisticListPopulation`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/genetics/ElitisticListPopulation.java`
 
 - `elitismRate` (line 38)
@@ -3212,7 +3212,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In CycleCrossover
 
-Full name: `org.apache.commons.math3.genetics.CycleCrossover`
+Package: `org.apache.commons.math3.genetics.CycleCrossover`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/genetics/CycleCrossover.java`
 
 - `randomStart` (line 68)
@@ -3220,7 +3220,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In FixedElapsedTime
 
-Full name: `org.apache.commons.math3.genetics.FixedElapsedTime`
+Package: `org.apache.commons.math3.genetics.FixedElapsedTime`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/genetics/FixedElapsedTime.java`
 
 - `maxTimePeriod` (line 34)
@@ -3229,7 +3229,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In InvalidRepresentationException
 
-Full name: `org.apache.commons.math3.genetics.InvalidRepresentationException`
+Package: `org.apache.commons.math3.genetics.InvalidRepresentationException`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/genetics/InvalidRepresentationException.java`
 
 - `serialVersionUID` (line 30)
@@ -3237,7 +3237,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In GeneticAlgorithm
 
-Full name: `org.apache.commons.math3.genetics.GeneticAlgorithm`
+Package: `org.apache.commons.math3.genetics.GeneticAlgorithm`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/genetics/GeneticAlgorithm.java`
 
 - `randomGenerator` (line 38)
@@ -3251,7 +3251,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In FixedGenerationCount
 
-Full name: `org.apache.commons.math3.genetics.FixedGenerationCount`
+Package: `org.apache.commons.math3.genetics.FixedGenerationCount`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/genetics/FixedGenerationCount.java`
 
 - `numGenerations` (line 30)
@@ -3260,7 +3260,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In AbstractRandomGenerator
 
-Full name: `org.apache.commons.math3.random.AbstractRandomGenerator`
+Package: `org.apache.commons.math3.random.AbstractRandomGenerator`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/random/AbstractRandomGenerator.java`
 
 - `cachedNormalDeviate` (line 44)
@@ -3268,7 +3268,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Well19937c
 
-Full name: `org.apache.commons.math3.random.Well19937c`
+Package: `org.apache.commons.math3.random.Well19937c`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/random/Well19937c.java`
 
 - `serialVersionUID` (line 37)
@@ -3280,7 +3280,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In RandomDataGenerator
 
-Full name: `org.apache.commons.math3.random.RandomDataGenerator`
+Package: `org.apache.commons.math3.random.RandomDataGenerator`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/random/RandomDataGenerator.java`
 
 - `serialVersionUID` (line 115)
@@ -3290,7 +3290,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Well19937a
 
-Full name: `org.apache.commons.math3.random.Well19937a`
+Package: `org.apache.commons.math3.random.Well19937a`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/random/Well19937a.java`
 
 - `serialVersionUID` (line 37)
@@ -3302,7 +3302,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In AbstractWell
 
-Full name: `org.apache.commons.math3.random.AbstractWell`
+Package: `org.apache.commons.math3.random.AbstractWell`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/random/AbstractWell.java`
 
 - `serialVersionUID` (line 41)
@@ -3310,7 +3310,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In SobolSequenceGenerator
 
-Full name: `org.apache.commons.math3.random.SobolSequenceGenerator`
+Package: `org.apache.commons.math3.random.SobolSequenceGenerator`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/random/SobolSequenceGenerator.java`
 
 - `BITS` (line 59)
@@ -3326,7 +3326,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In EmpiricalDistribution
 
-Full name: `org.apache.commons.math3.random.EmpiricalDistribution`
+Package: `org.apache.commons.math3.random.EmpiricalDistribution`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/random/EmpiricalDistribution.java`
 
 - `FILE_CHARSET` (line 109)
@@ -3343,7 +3343,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In GaussianRandomGenerator
 
-Full name: `org.apache.commons.math3.random.GaussianRandomGenerator`
+Package: `org.apache.commons.math3.random.GaussianRandomGenerator`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/random/GaussianRandomGenerator.java`
 
 - `generator` (line 30)
@@ -3351,7 +3351,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In RandomAdaptor
 
-Full name: `org.apache.commons.math3.random.RandomAdaptor`
+Package: `org.apache.commons.math3.random.RandomAdaptor`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/random/RandomAdaptor.java`
 
 - `serialVersionUID` (line 30)
@@ -3360,7 +3360,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In UniformRandomGenerator
 
-Full name: `org.apache.commons.math3.random.UniformRandomGenerator`
+Package: `org.apache.commons.math3.random.UniformRandomGenerator`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/random/UniformRandomGenerator.java`
 
 - `SQRT3` (line 36)
@@ -3369,7 +3369,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In CorrelatedRandomVectorGenerator
 
-Full name: `org.apache.commons.math3.random.CorrelatedRandomVectorGenerator`
+Package: `org.apache.commons.math3.random.CorrelatedRandomVectorGenerator`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/random/CorrelatedRandomVectorGenerator.java`
 
 - `mean` (line 63)
@@ -3380,7 +3380,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Well1024a
 
-Full name: `org.apache.commons.math3.random.Well1024a`
+Package: `org.apache.commons.math3.random.Well1024a`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/random/Well1024a.java`
 
 - `serialVersionUID` (line 37)
@@ -3392,7 +3392,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In SynchronizedRandomGenerator
 
-Full name: `org.apache.commons.math3.random.SynchronizedRandomGenerator`
+Package: `org.apache.commons.math3.random.SynchronizedRandomGenerator`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/random/SynchronizedRandomGenerator.java`
 
 - `wrapped` (line 30)
@@ -3400,7 +3400,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Well512a
 
-Full name: `org.apache.commons.math3.random.Well512a`
+Package: `org.apache.commons.math3.random.Well512a`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/random/Well512a.java`
 
 - `serialVersionUID` (line 37)
@@ -3412,7 +3412,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In HaltonSequenceGenerator
 
-Full name: `org.apache.commons.math3.random.HaltonSequenceGenerator`
+Package: `org.apache.commons.math3.random.HaltonSequenceGenerator`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/random/HaltonSequenceGenerator.java`
 
 - `PRIMES` (line 57)
@@ -3425,7 +3425,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In RandomDataImpl
 
-Full name: `org.apache.commons.math3.random.RandomDataImpl`
+Package: `org.apache.commons.math3.random.RandomDataImpl`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/random/RandomDataImpl.java`
 
 - `serialVersionUID` (line 100)
@@ -3434,7 +3434,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In UnitSphereRandomVectorGenerator
 
-Full name: `org.apache.commons.math3.random.UnitSphereRandomVectorGenerator`
+Package: `org.apache.commons.math3.random.UnitSphereRandomVectorGenerator`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/random/UnitSphereRandomVectorGenerator.java`
 
 - `rand` (line 34)
@@ -3443,7 +3443,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Well44497a
 
-Full name: `org.apache.commons.math3.random.Well44497a`
+Package: `org.apache.commons.math3.random.Well44497a`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/random/Well44497a.java`
 
 - `serialVersionUID` (line 37)
@@ -3455,7 +3455,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In ValueServer
 
-Full name: `org.apache.commons.math3.random.ValueServer`
+Package: `org.apache.commons.math3.random.ValueServer`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/random/ValueServer.java`
 
 - `mode` (line 72)
@@ -3469,7 +3469,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In MersenneTwister
 
-Full name: `org.apache.commons.math3.random.MersenneTwister`
+Package: `org.apache.commons.math3.random.MersenneTwister`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/random/MersenneTwister.java`
 
 - `serialVersionUID` (line 84)
@@ -3482,7 +3482,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In ISAACRandom
 
-Full name: `org.apache.commons.math3.random.ISAACRandom`
+Package: `org.apache.commons.math3.random.ISAACRandom`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/random/ISAACRandom.java`
 
 - `serialVersionUID` (line 45)
@@ -3505,7 +3505,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In UncorrelatedRandomVectorGenerator
 
-Full name: `org.apache.commons.math3.random.UncorrelatedRandomVectorGenerator`
+Package: `org.apache.commons.math3.random.UncorrelatedRandomVectorGenerator`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/random/UncorrelatedRandomVectorGenerator.java`
 
 - `generator` (line 36)
@@ -3515,7 +3515,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In StableRandomGenerator
 
-Full name: `org.apache.commons.math3.random.StableRandomGenerator`
+Package: `org.apache.commons.math3.random.StableRandomGenerator`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/random/StableRandomGenerator.java`
 
 - `generator` (line 36)
@@ -3526,7 +3526,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In BitsStreamGenerator
 
-Full name: `org.apache.commons.math3.random.BitsStreamGenerator`
+Package: `org.apache.commons.math3.random.BitsStreamGenerator`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/random/BitsStreamGenerator.java`
 
 - `serialVersionUID` (line 33)
@@ -3535,7 +3535,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Well44497b
 
-Full name: `org.apache.commons.math3.random.Well44497b`
+Package: `org.apache.commons.math3.random.Well44497b`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/random/Well44497b.java`
 
 - `serialVersionUID` (line 37)
@@ -3547,7 +3547,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In JDKRandomGenerator
 
-Full name: `org.apache.commons.math3.random.JDKRandomGenerator`
+Package: `org.apache.commons.math3.random.JDKRandomGenerator`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/random/JDKRandomGenerator.java`
 
 - `serialVersionUID` (line 30)
@@ -3555,7 +3555,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Erf
 
-Full name: `org.apache.commons.math3.special.Erf`
+Package: `org.apache.commons.math3.special.Erf`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/special/Erf.java`
 
 - `X_CRIT` (line 38)
@@ -3563,7 +3563,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Beta
 
-Full name: `org.apache.commons.math3.special.Beta`
+Package: `org.apache.commons.math3.special.Beta`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/special/Beta.java`
 
 - `DEFAULT_EPSILON` (line 55)
@@ -3573,7 +3573,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In BesselJ
 
-Full name: `org.apache.commons.math3.special.BesselJ`
+Package: `org.apache.commons.math3.special.BesselJ`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/special/BesselJ.java`
 
 - `PI2` (line 64)
@@ -3592,7 +3592,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Gamma
 
-Full name: `org.apache.commons.math3.special.Gamma`
+Package: `org.apache.commons.math3.special.Gamma`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/special/Gamma.java`
 
 - `DEFAULT_EPSILON` (line 68)
@@ -3641,7 +3641,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In PolynomialCurveFitter
 
-Full name: `org.apache.commons.math3.fitting.PolynomialCurveFitter`
+Package: `org.apache.commons.math3.fitting.PolynomialCurveFitter`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/fitting/PolynomialCurveFitter.java`
 
 - `FUNCTION` (line 41)
@@ -3651,7 +3651,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In HarmonicCurveFitter
 
-Full name: `org.apache.commons.math3.fitting.HarmonicCurveFitter`
+Package: `org.apache.commons.math3.fitting.HarmonicCurveFitter`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/fitting/HarmonicCurveFitter.java`
 
 - `FUNCTION` (line 51)
@@ -3661,7 +3661,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In WeightedObservedPoint
 
-Full name: `org.apache.commons.math3.fitting.WeightedObservedPoint`
+Package: `org.apache.commons.math3.fitting.WeightedObservedPoint`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/fitting/WeightedObservedPoint.java`
 
 - `serialVersionUID` (line 29)
@@ -3672,7 +3672,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In SimpleCurveFitter
 
-Full name: `org.apache.commons.math3.fitting.SimpleCurveFitter`
+Package: `org.apache.commons.math3.fitting.SimpleCurveFitter`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/fitting/SimpleCurveFitter.java`
 
 - `function` (line 33)
@@ -3682,7 +3682,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In CurveFitter
 
-Full name: `org.apache.commons.math3.fitting.CurveFitter`
+Package: `org.apache.commons.math3.fitting.CurveFitter`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/fitting/CurveFitter.java`
 
 - `optimizer` (line 55)
@@ -3691,7 +3691,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In LevenbergMarquardtOptimizer
 
-Full name: `org.apache.commons.math3.fitting.leastsquares.LevenbergMarquardtOptimizer`
+Package: `org.apache.commons.math3.fitting.leastsquares.LevenbergMarquardtOptimizer`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/fitting/leastsquares/LevenbergMarquardtOptimizer.java`
 
 - `TWO_EPS` (line 113)
@@ -3704,7 +3704,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In AbstractEvaluation
 
-Full name: `org.apache.commons.math3.fitting.leastsquares.AbstractEvaluation`
+Package: `org.apache.commons.math3.fitting.leastsquares.AbstractEvaluation`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/fitting/leastsquares/AbstractEvaluation.java`
 
 - `observationSize` (line 38)
@@ -3712,7 +3712,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In LeastSquaresBuilder
 
-Full name: `org.apache.commons.math3.fitting.leastsquares.LeastSquaresBuilder`
+Package: `org.apache.commons.math3.fitting.leastsquares.LeastSquaresBuilder`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/fitting/leastsquares/LeastSquaresBuilder.java`
 
 - `maxEvaluations` (line 37)
@@ -3728,7 +3728,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In GaussNewtonOptimizer
 
-Full name: `org.apache.commons.math3.fitting.leastsquares.GaussNewtonOptimizer`
+Package: `org.apache.commons.math3.fitting.leastsquares.GaussNewtonOptimizer`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/fitting/leastsquares/GaussNewtonOptimizer.java`
 
 - `SINGULARITY_THRESHOLD` (line 162)
@@ -3737,7 +3737,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In EvaluationRmsChecker
 
-Full name: `org.apache.commons.math3.fitting.leastsquares.EvaluationRmsChecker`
+Package: `org.apache.commons.math3.fitting.leastsquares.EvaluationRmsChecker`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/fitting/leastsquares/EvaluationRmsChecker.java`
 
 - `relTol` (line 31)
@@ -3746,7 +3746,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In LeastSquaresAdapter
 
-Full name: `org.apache.commons.math3.fitting.leastsquares.LeastSquaresAdapter`
+Package: `org.apache.commons.math3.fitting.leastsquares.LeastSquaresAdapter`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/fitting/leastsquares/LeastSquaresAdapter.java`
 
 - `problem` (line 31)
@@ -3754,7 +3754,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In WeightedObservedPoints
 
-Full name: `org.apache.commons.math3.fitting.WeightedObservedPoints`
+Package: `org.apache.commons.math3.fitting.WeightedObservedPoints`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/fitting/WeightedObservedPoints.java`
 
 - `serialVersionUID` (line 31)
@@ -3763,7 +3763,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In GaussianCurveFitter
 
-Full name: `org.apache.commons.math3.fitting.GaussianCurveFitter`
+Package: `org.apache.commons.math3.fitting.GaussianCurveFitter`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/fitting/GaussianCurveFitter.java`
 
 - `FUNCTION` (line 74)
@@ -3773,7 +3773,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In ConfidenceInterval
 
-Full name: `org.apache.commons.math3.stat.interval.ConfidenceInterval`
+Package: `org.apache.commons.math3.stat.interval.ConfidenceInterval`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/interval/ConfidenceInterval.java`
 
 - `lowerBound` (line 30)
@@ -3783,7 +3783,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In IntervalUtils
 
-Full name: `org.apache.commons.math3.stat.interval.IntervalUtils`
+Package: `org.apache.commons.math3.stat.interval.IntervalUtils`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/interval/IntervalUtils.java`
 
 - `AGRESTI_COULL` (line 40)
@@ -3794,7 +3794,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In NaturalRanking
 
-Full name: `org.apache.commons.math3.stat.ranking.NaturalRanking`
+Package: `org.apache.commons.math3.stat.ranking.NaturalRanking`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/ranking/NaturalRanking.java`
 
 - `nanStrategy` (line 79)
@@ -3804,7 +3804,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Frequency
 
-Full name: `org.apache.commons.math3.stat.Frequency`
+Package: `org.apache.commons.math3.stat.Frequency`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/Frequency.java`
 
 - `serialVersionUID` (line 68)
@@ -3813,7 +3813,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In KolmogorovSmirnovTest
 
-Full name: `org.apache.commons.math3.stat.inference.KolmogorovSmirnovTest`
+Package: `org.apache.commons.math3.stat.inference.KolmogorovSmirnovTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/inference/KolmogorovSmirnovTest.java`
 
 - `rng` (line 149)
@@ -3821,7 +3821,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In MannWhitneyUTest
 
-Full name: `org.apache.commons.math3.stat.inference.MannWhitneyUTest`
+Package: `org.apache.commons.math3.stat.inference.MannWhitneyUTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/inference/MannWhitneyUTest.java`
 
 - `naturalRanking` (line 36)
@@ -3829,7 +3829,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In TestUtils
 
-Full name: `org.apache.commons.math3.stat.inference.TestUtils`
+Package: `org.apache.commons.math3.stat.inference.TestUtils`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/inference/TestUtils.java`
 
 - `T_TEST` (line 44)
@@ -3841,7 +3841,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In WilcoxonSignedRankTest
 
-Full name: `org.apache.commons.math3.stat.inference.WilcoxonSignedRankTest`
+Package: `org.apache.commons.math3.stat.inference.WilcoxonSignedRankTest`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/inference/WilcoxonSignedRankTest.java`
 
 - `naturalRanking` (line 38)
@@ -3849,7 +3849,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In SummaryStatistics
 
-Full name: `org.apache.commons.math3.stat.descriptive.SummaryStatistics`
+Package: `org.apache.commons.math3.stat.descriptive.SummaryStatistics`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/descriptive/SummaryStatistics.java`
 
 - `serialVersionUID` (line 63)
@@ -3875,7 +3875,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In DescriptiveStatistics
 
-Full name: `org.apache.commons.math3.stat.descriptive.DescriptiveStatistics`
+Package: `org.apache.commons.math3.stat.descriptive.DescriptiveStatistics`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/descriptive/DescriptiveStatistics.java`
 
 - `serialVersionUID` (line 70)
@@ -3895,7 +3895,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Min
 
-Full name: `org.apache.commons.math3.stat.descriptive.rank.Min`
+Package: `org.apache.commons.math3.stat.descriptive.rank.Min`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/descriptive/rank/Min.java`
 
 - `serialVersionUID` (line 45)
@@ -3905,7 +3905,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Max
 
-Full name: `org.apache.commons.math3.stat.descriptive.rank.Max`
+Package: `org.apache.commons.math3.stat.descriptive.rank.Max`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/descriptive/rank/Max.java`
 
 - `serialVersionUID` (line 45)
@@ -3915,7 +3915,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Median
 
-Full name: `org.apache.commons.math3.stat.descriptive.rank.Median`
+Package: `org.apache.commons.math3.stat.descriptive.rank.Median`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/descriptive/rank/Median.java`
 
 - `serialVersionUID` (line 40)
@@ -3924,7 +3924,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Percentile
 
-Full name: `org.apache.commons.math3.stat.descriptive.rank.Percentile`
+Package: `org.apache.commons.math3.stat.descriptive.rank.Percentile`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/descriptive/rank/Percentile.java`
 
 - `serialVersionUID` (line 99)
@@ -3939,7 +3939,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In PSquarePercentile
 
-Full name: `org.apache.commons.math3.stat.descriptive.rank.PSquarePercentile`
+Package: `org.apache.commons.math3.stat.descriptive.rank.PSquarePercentile`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/descriptive/rank/PSquarePercentile.java`
 
 - `PSQUARE_CONSTANT` (line 62)
@@ -3956,7 +3956,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In AbstractUnivariateStatistic
 
-Full name: `org.apache.commons.math3.stat.descriptive.AbstractUnivariateStatistic`
+Package: `org.apache.commons.math3.stat.descriptive.AbstractUnivariateStatistic`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/descriptive/AbstractUnivariateStatistic.java`
 
 - `storedData` (line 42)
@@ -3964,7 +3964,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In AggregateSummaryStatistics
 
-Full name: `org.apache.commons.math3.stat.descriptive.AggregateSummaryStatistics`
+Package: `org.apache.commons.math3.stat.descriptive.AggregateSummaryStatistics`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/descriptive/AggregateSummaryStatistics.java`
 
 - `serialVersionUID` (line 58)
@@ -3974,7 +3974,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In SynchronizedDescriptiveStatistics
 
-Full name: `org.apache.commons.math3.stat.descriptive.SynchronizedDescriptiveStatistics`
+Package: `org.apache.commons.math3.stat.descriptive.SynchronizedDescriptiveStatistics`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/descriptive/SynchronizedDescriptiveStatistics.java`
 
 - `serialVersionUID` (line 38)
@@ -3982,7 +3982,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In SynchronizedMultivariateSummaryStatistics
 
-Full name: `org.apache.commons.math3.stat.descriptive.SynchronizedMultivariateSummaryStatistics`
+Package: `org.apache.commons.math3.stat.descriptive.SynchronizedMultivariateSummaryStatistics`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/descriptive/SynchronizedMultivariateSummaryStatistics.java`
 
 - `serialVersionUID` (line 38)
@@ -3990,7 +3990,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In SumOfLogs
 
-Full name: `org.apache.commons.math3.stat.descriptive.summary.SumOfLogs`
+Package: `org.apache.commons.math3.stat.descriptive.summary.SumOfLogs`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/descriptive/summary/SumOfLogs.java`
 
 - `serialVersionUID` (line 51)
@@ -4000,7 +4000,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Product
 
-Full name: `org.apache.commons.math3.stat.descriptive.summary.Product`
+Package: `org.apache.commons.math3.stat.descriptive.summary.Product`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/descriptive/summary/Product.java`
 
 - `serialVersionUID` (line 44)
@@ -4010,7 +4010,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Sum
 
-Full name: `org.apache.commons.math3.stat.descriptive.summary.Sum`
+Package: `org.apache.commons.math3.stat.descriptive.summary.Sum`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/descriptive/summary/Sum.java`
 
 - `serialVersionUID` (line 43)
@@ -4020,7 +4020,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In SumOfSquares
 
-Full name: `org.apache.commons.math3.stat.descriptive.summary.SumOfSquares`
+Package: `org.apache.commons.math3.stat.descriptive.summary.SumOfSquares`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/descriptive/summary/SumOfSquares.java`
 
 - `serialVersionUID` (line 42)
@@ -4030,7 +4030,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Variance
 
-Full name: `org.apache.commons.math3.stat.descriptive.moment.Variance`
+Package: `org.apache.commons.math3.stat.descriptive.moment.Variance`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/descriptive/moment/Variance.java`
 
 - `serialVersionUID` (line 72)
@@ -4039,7 +4039,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Kurtosis
 
-Full name: `org.apache.commons.math3.stat.descriptive.moment.Kurtosis`
+Package: `org.apache.commons.math3.stat.descriptive.moment.Kurtosis`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/descriptive/moment/Kurtosis.java`
 
 - `serialVersionUID` (line 52)
@@ -4047,7 +4047,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In SemiVariance
 
-Full name: `org.apache.commons.math3.stat.descriptive.moment.SemiVariance`
+Package: `org.apache.commons.math3.stat.descriptive.moment.SemiVariance`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/descriptive/moment/SemiVariance.java`
 
 - `serialVersionUID` (line 69)
@@ -4057,7 +4057,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In SecondMoment
 
-Full name: `org.apache.commons.math3.stat.descriptive.moment.SecondMoment`
+Package: `org.apache.commons.math3.stat.descriptive.moment.SecondMoment`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/descriptive/moment/SecondMoment.java`
 
 - `serialVersionUID` (line 52)
@@ -4065,7 +4065,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Skewness
 
-Full name: `org.apache.commons.math3.stat.descriptive.moment.Skewness`
+Package: `org.apache.commons.math3.stat.descriptive.moment.Skewness`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/descriptive/moment/Skewness.java`
 
 - `serialVersionUID` (line 51)
@@ -4073,7 +4073,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Mean
 
-Full name: `org.apache.commons.math3.stat.descriptive.moment.Mean`
+Package: `org.apache.commons.math3.stat.descriptive.moment.Mean`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/descriptive/moment/Mean.java`
 
 - `serialVersionUID` (line 67)
@@ -4081,7 +4081,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In VectorialMean
 
-Full name: `org.apache.commons.math3.stat.descriptive.moment.VectorialMean`
+Package: `org.apache.commons.math3.stat.descriptive.moment.VectorialMean`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/descriptive/moment/VectorialMean.java`
 
 - `serialVersionUID` (line 31)
@@ -4090,7 +4090,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In VectorialCovariance
 
-Full name: `org.apache.commons.math3.stat.descriptive.moment.VectorialCovariance`
+Package: `org.apache.commons.math3.stat.descriptive.moment.VectorialCovariance`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/descriptive/moment/VectorialCovariance.java`
 
 - `serialVersionUID` (line 33)
@@ -4102,7 +4102,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In GeometricMean
 
-Full name: `org.apache.commons.math3.stat.descriptive.moment.GeometricMean`
+Package: `org.apache.commons.math3.stat.descriptive.moment.GeometricMean`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/descriptive/moment/GeometricMean.java`
 
 - `serialVersionUID` (line 57)
@@ -4111,7 +4111,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In StandardDeviation
 
-Full name: `org.apache.commons.math3.stat.descriptive.moment.StandardDeviation`
+Package: `org.apache.commons.math3.stat.descriptive.moment.StandardDeviation`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/descriptive/moment/StandardDeviation.java`
 
 - `serialVersionUID` (line 47)
@@ -4120,7 +4120,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In MultivariateSummaryStatistics
 
-Full name: `org.apache.commons.math3.stat.descriptive.MultivariateSummaryStatistics`
+Package: `org.apache.commons.math3.stat.descriptive.MultivariateSummaryStatistics`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/descriptive/MultivariateSummaryStatistics.java`
 
 - `serialVersionUID` (line 75)
@@ -4138,7 +4138,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In SynchronizedSummaryStatistics
 
-Full name: `org.apache.commons.math3.stat.descriptive.SynchronizedSummaryStatistics`
+Package: `org.apache.commons.math3.stat.descriptive.SynchronizedSummaryStatistics`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/descriptive/SynchronizedSummaryStatistics.java`
 
 - `serialVersionUID` (line 38)
@@ -4146,7 +4146,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In StatisticalSummaryValues
 
-Full name: `org.apache.commons.math3.stat.descriptive.StatisticalSummaryValues`
+Package: `org.apache.commons.math3.stat.descriptive.StatisticalSummaryValues`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/descriptive/StatisticalSummaryValues.java`
 
 - `serialVersionUID` (line 33)
@@ -4160,7 +4160,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In OLSMultipleLinearRegression
 
-Full name: `org.apache.commons.math3.stat.regression.OLSMultipleLinearRegression`
+Package: `org.apache.commons.math3.stat.regression.OLSMultipleLinearRegression`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/regression/OLSMultipleLinearRegression.java`
 
 - `qr` (line 57)
@@ -4169,7 +4169,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In GLSMultipleLinearRegression
 
-Full name: `org.apache.commons.math3.stat.regression.GLSMultipleLinearRegression`
+Package: `org.apache.commons.math3.stat.regression.GLSMultipleLinearRegression`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/regression/GLSMultipleLinearRegression.java`
 
 - `Omega` (line 45)
@@ -4178,7 +4178,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In RegressionResults
 
-Full name: `org.apache.commons.math3.stat.regression.RegressionResults`
+Package: `org.apache.commons.math3.stat.regression.RegressionResults`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/regression/RegressionResults.java`
 
 - `SSE_IDX` (line 33)
@@ -4198,7 +4198,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In ModelSpecificationException
 
-Full name: `org.apache.commons.math3.stat.regression.ModelSpecificationException`
+Package: `org.apache.commons.math3.stat.regression.ModelSpecificationException`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/regression/ModelSpecificationException.java`
 
 - `serialVersionUID` (line 29)
@@ -4206,7 +4206,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In MillerUpdatingRegression
 
-Full name: `org.apache.commons.math3.stat.regression.MillerUpdatingRegression`
+Package: `org.apache.commons.math3.stat.regression.MillerUpdatingRegression`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/regression/MillerUpdatingRegression.java`
 
 - `nvars` (line 45)
@@ -4232,7 +4232,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In SimpleRegression
 
-Full name: `org.apache.commons.math3.stat.regression.SimpleRegression`
+Package: `org.apache.commons.math3.stat.regression.SimpleRegression`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/regression/SimpleRegression.java`
 
 - `serialVersionUID` (line 66)
@@ -4249,7 +4249,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In AbstractMultipleLinearRegression
 
-Full name: `org.apache.commons.math3.stat.regression.AbstractMultipleLinearRegression`
+Package: `org.apache.commons.math3.stat.regression.AbstractMultipleLinearRegression`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/regression/AbstractMultipleLinearRegression.java`
 
 - `xMatrix` (line 41)
@@ -4259,7 +4259,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In StatUtils
 
-Full name: `org.apache.commons.math3.stat.StatUtils`
+Package: `org.apache.commons.math3.stat.StatUtils`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/StatUtils.java`
 
 - `SUM` (line 49)
@@ -4276,7 +4276,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In DBSCANClusterer
 
-Full name: `org.apache.commons.math3.stat.clustering.DBSCANClusterer`
+Package: `org.apache.commons.math3.stat.clustering.DBSCANClusterer`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/clustering/DBSCANClusterer.java`
 
 - `eps` (line 66)
@@ -4285,7 +4285,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Cluster
 
-Full name: `org.apache.commons.math3.stat.clustering.Cluster`
+Package: `org.apache.commons.math3.stat.clustering.Cluster`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/clustering/Cluster.java`
 
 - `serialVersionUID` (line 35)
@@ -4295,7 +4295,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In EuclideanIntegerPoint
 
-Full name: `org.apache.commons.math3.stat.clustering.EuclideanIntegerPoint`
+Package: `org.apache.commons.math3.stat.clustering.EuclideanIntegerPoint`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/clustering/EuclideanIntegerPoint.java`
 
 - `serialVersionUID` (line 36)
@@ -4304,7 +4304,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In EuclideanDoublePoint
 
-Full name: `org.apache.commons.math3.stat.clustering.EuclideanDoublePoint`
+Package: `org.apache.commons.math3.stat.clustering.EuclideanDoublePoint`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/clustering/EuclideanDoublePoint.java`
 
 - `serialVersionUID` (line 35)
@@ -4313,7 +4313,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In KMeansPlusPlusClusterer
 
-Full name: `org.apache.commons.math3.stat.clustering.KMeansPlusPlusClusterer`
+Package: `org.apache.commons.math3.stat.clustering.KMeansPlusPlusClusterer`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/clustering/KMeansPlusPlusClusterer.java`
 
 - `random` (line 62)
@@ -4322,7 +4322,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In KendallsCorrelation
 
-Full name: `org.apache.commons.math3.stat.correlation.KendallsCorrelation`
+Package: `org.apache.commons.math3.stat.correlation.KendallsCorrelation`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/correlation/KendallsCorrelation.java`
 
 - `correlationMatrix` (line 73)
@@ -4330,7 +4330,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In StorelessCovariance
 
-Full name: `org.apache.commons.math3.stat.correlation.StorelessCovariance`
+Package: `org.apache.commons.math3.stat.correlation.StorelessCovariance`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/correlation/StorelessCovariance.java`
 
 - `covMatrix` (line 45)
@@ -4339,7 +4339,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In PearsonsCorrelation
 
-Full name: `org.apache.commons.math3.stat.correlation.PearsonsCorrelation`
+Package: `org.apache.commons.math3.stat.correlation.PearsonsCorrelation`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/correlation/PearsonsCorrelation.java`
 
 - `correlationMatrix` (line 54)
@@ -4348,7 +4348,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Covariance
 
-Full name: `org.apache.commons.math3.stat.correlation.Covariance`
+Package: `org.apache.commons.math3.stat.correlation.Covariance`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/correlation/Covariance.java`
 
 - `covarianceMatrix` (line 49)
@@ -4357,7 +4357,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In SpearmansCorrelation
 
-Full name: `org.apache.commons.math3.stat.correlation.SpearmansCorrelation`
+Package: `org.apache.commons.math3.stat.correlation.SpearmansCorrelation`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/stat/correlation/SpearmansCorrelation.java`
 
 - `data` (line 48)
@@ -4367,7 +4367,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In FieldHermiteInterpolator
 
-Full name: `org.apache.commons.math3.analysis.interpolation.FieldHermiteInterpolator`
+Package: `org.apache.commons.math3.analysis.interpolation.FieldHermiteInterpolator`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/analysis/interpolation/FieldHermiteInterpolator.java`
 
 - `abscissae` (line 53)
@@ -4377,7 +4377,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In UnivariatePeriodicInterpolator
 
-Full name: `org.apache.commons.math3.analysis.interpolation.UnivariatePeriodicInterpolator`
+Package: `org.apache.commons.math3.analysis.interpolation.UnivariatePeriodicInterpolator`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/analysis/interpolation/UnivariatePeriodicInterpolator.java`
 
 - `interpolator` (line 40)
@@ -4387,7 +4387,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In TricubicInterpolatingFunction
 
-Full name: `org.apache.commons.math3.analysis.interpolation.TricubicInterpolatingFunction`
+Package: `org.apache.commons.math3.analysis.interpolation.TricubicInterpolatingFunction`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/analysis/interpolation/TricubicInterpolatingFunction.java`
 
 - `AINV` (line 44)
@@ -4399,7 +4399,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In AkimaSplineInterpolator
 
-Full name: `org.apache.commons.math3.analysis.interpolation.AkimaSplineInterpolator`
+Package: `org.apache.commons.math3.analysis.interpolation.AkimaSplineInterpolator`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/analysis/interpolation/AkimaSplineInterpolator.java`
 
 - `MINIMUM_NUMBER_POINTS` (line 51)
@@ -4407,7 +4407,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In DividedDifferenceInterpolator
 
-Full name: `org.apache.commons.math3.analysis.interpolation.DividedDifferenceInterpolator`
+Package: `org.apache.commons.math3.analysis.interpolation.DividedDifferenceInterpolator`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/analysis/interpolation/DividedDifferenceInterpolator.java`
 
 - `serialVersionUID` (line 41)
@@ -4415,7 +4415,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In BicubicInterpolatingFunction
 
-Full name: `org.apache.commons.math3.analysis.interpolation.BicubicInterpolatingFunction`
+Package: `org.apache.commons.math3.analysis.interpolation.BicubicInterpolatingFunction`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/analysis/interpolation/BicubicInterpolatingFunction.java`
 
 - `NUM_COEFF` (line 37)
@@ -4427,7 +4427,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In InterpolatingMicrosphere2D
 
-Full name: `org.apache.commons.math3.analysis.interpolation.InterpolatingMicrosphere2D`
+Package: `org.apache.commons.math3.analysis.interpolation.InterpolatingMicrosphere2D`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/analysis/interpolation/InterpolatingMicrosphere2D.java`
 
 - `DIMENSION` (line 32)
@@ -4435,7 +4435,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In LoessInterpolator
 
-Full name: `org.apache.commons.math3.analysis.interpolation.LoessInterpolator`
+Package: `org.apache.commons.math3.analysis.interpolation.LoessInterpolator`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/analysis/interpolation/LoessInterpolator.java`
 
 - `serialVersionUID` (line 62)
@@ -4446,7 +4446,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In PiecewiseBicubicSplineInterpolatingFunction
 
-Full name: `org.apache.commons.math3.analysis.interpolation.PiecewiseBicubicSplineInterpolatingFunction`
+Package: `org.apache.commons.math3.analysis.interpolation.PiecewiseBicubicSplineInterpolatingFunction`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/analysis/interpolation/PiecewiseBicubicSplineInterpolatingFunction.java`
 
 - `MIN_NUM_POINTS` (line 44)
@@ -4457,7 +4457,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In BicubicSplineInterpolator
 
-Full name: `org.apache.commons.math3.analysis.interpolation.BicubicSplineInterpolator`
+Package: `org.apache.commons.math3.analysis.interpolation.BicubicSplineInterpolator`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/analysis/interpolation/BicubicSplineInterpolator.java`
 
 - `initializeDerivatives` (line 39)
@@ -4465,7 +4465,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In BicubicSplineInterpolatingFunction
 
-Full name: `org.apache.commons.math3.analysis.interpolation.BicubicSplineInterpolatingFunction`
+Package: `org.apache.commons.math3.analysis.interpolation.BicubicSplineInterpolatingFunction`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/analysis/interpolation/BicubicSplineInterpolatingFunction.java`
 
 - `NUM_COEFF` (line 41)
@@ -4478,7 +4478,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In SmoothingPolynomialBicubicSplineInterpolator
 
-Full name: `org.apache.commons.math3.analysis.interpolation.SmoothingPolynomialBicubicSplineInterpolator`
+Package: `org.apache.commons.math3.analysis.interpolation.SmoothingPolynomialBicubicSplineInterpolator`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/analysis/interpolation/SmoothingPolynomialBicubicSplineInterpolator.java`
 
 - `xFitter` (line 43)
@@ -4489,7 +4489,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In MicrosphereProjectionInterpolator
 
-Full name: `org.apache.commons.math3.analysis.interpolation.MicrosphereProjectionInterpolator`
+Package: `org.apache.commons.math3.analysis.interpolation.MicrosphereProjectionInterpolator`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/analysis/interpolation/MicrosphereProjectionInterpolator.java`
 
 - `exponent` (line 36)
@@ -4500,7 +4500,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In TricubicSplineInterpolatingFunction
 
-Full name: `org.apache.commons.math3.analysis.interpolation.TricubicSplineInterpolatingFunction`
+Package: `org.apache.commons.math3.analysis.interpolation.TricubicSplineInterpolatingFunction`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/analysis/interpolation/TricubicSplineInterpolatingFunction.java`
 
 - `AINV` (line 46)
@@ -4512,7 +4512,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In MicrosphereInterpolator
 
-Full name: `org.apache.commons.math3.analysis.interpolation.MicrosphereInterpolator`
+Package: `org.apache.commons.math3.analysis.interpolation.MicrosphereInterpolator`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/analysis/interpolation/MicrosphereInterpolator.java`
 
 - `microsphereElements` (line 50)
@@ -4521,7 +4521,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In MicrosphereInterpolatingFunction
 
-Full name: `org.apache.commons.math3.analysis.interpolation.MicrosphereInterpolatingFunction`
+Package: `org.apache.commons.math3.analysis.interpolation.MicrosphereInterpolatingFunction`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/analysis/interpolation/MicrosphereInterpolatingFunction.java`
 
 - `dimension` (line 46)
@@ -4532,7 +4532,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In InterpolatingMicrosphere
 
-Full name: `org.apache.commons.math3.analysis.interpolation.InterpolatingMicrosphere`
+Package: `org.apache.commons.math3.analysis.interpolation.InterpolatingMicrosphere`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/analysis/interpolation/InterpolatingMicrosphere.java`
 
 - `microsphere` (line 37)
@@ -4546,7 +4546,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In HermiteInterpolator
 
-Full name: `org.apache.commons.math3.analysis.interpolation.HermiteInterpolator`
+Package: `org.apache.commons.math3.analysis.interpolation.HermiteInterpolator`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/analysis/interpolation/HermiteInterpolator.java`
 
 - `abscissae` (line 51)
@@ -4556,7 +4556,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In PolynomialFunctionLagrangeForm
 
-Full name: `org.apache.commons.math3.analysis.polynomials.PolynomialFunctionLagrangeForm`
+Package: `org.apache.commons.math3.analysis.polynomials.PolynomialFunctionLagrangeForm`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/analysis/polynomials/PolynomialFunctionLagrangeForm.java`
 
 - `coefficients` (line 44)
@@ -4567,7 +4567,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In PolynomialsUtils
 
-Full name: `org.apache.commons.math3.analysis.polynomials.PolynomialsUtils`
+Package: `org.apache.commons.math3.analysis.polynomials.PolynomialsUtils`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/analysis/polynomials/PolynomialsUtils.java`
 
 - `CHEBYSHEV_COEFFICIENTS` (line 36)
@@ -4579,7 +4579,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In PolynomialFunction
 
-Full name: `org.apache.commons.math3.analysis.polynomials.PolynomialFunction`
+Package: `org.apache.commons.math3.analysis.polynomials.PolynomialFunction`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/analysis/polynomials/PolynomialFunction.java`
 
 - `serialVersionUID` (line 44)
@@ -4588,7 +4588,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In PolynomialSplineFunction
 
-Full name: `org.apache.commons.math3.analysis.polynomials.PolynomialSplineFunction`
+Package: `org.apache.commons.math3.analysis.polynomials.PolynomialSplineFunction`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/analysis/polynomials/PolynomialSplineFunction.java`
 
 - `knots` (line 71)
@@ -4598,7 +4598,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In PolynomialFunctionNewtonForm
 
-Full name: `org.apache.commons.math3.analysis.polynomials.PolynomialFunctionNewtonForm`
+Package: `org.apache.commons.math3.analysis.polynomials.PolynomialFunctionNewtonForm`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/analysis/polynomials/PolynomialFunctionNewtonForm.java`
 
 - `coefficients` (line 46)
@@ -4609,7 +4609,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In SparseGradient
 
-Full name: `org.apache.commons.math3.analysis.differentiation.SparseGradient`
+Package: `org.apache.commons.math3.analysis.differentiation.SparseGradient`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/analysis/differentiation/SparseGradient.java`
 
 - `serialVersionUID` (line 48)
@@ -4619,7 +4619,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In DerivativeStructure
 
-Full name: `org.apache.commons.math3.analysis.differentiation.DerivativeStructure`
+Package: `org.apache.commons.math3.analysis.differentiation.DerivativeStructure`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/analysis/differentiation/DerivativeStructure.java`
 
 - `serialVersionUID` (line 64)
@@ -4629,7 +4629,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In FiniteDifferencesDifferentiator
 
-Full name: `org.apache.commons.math3.analysis.differentiation.FiniteDifferencesDifferentiator`
+Package: `org.apache.commons.math3.analysis.differentiation.FiniteDifferencesDifferentiator`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/analysis/differentiation/FiniteDifferencesDifferentiator.java`
 
 - `serialVersionUID` (line 76)
@@ -4642,7 +4642,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In GradientFunction
 
-Full name: `org.apache.commons.math3.analysis.differentiation.GradientFunction`
+Package: `org.apache.commons.math3.analysis.differentiation.GradientFunction`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/analysis/differentiation/GradientFunction.java`
 
 - `f` (line 31)
@@ -4650,7 +4650,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In JacobianFunction
 
-Full name: `org.apache.commons.math3.analysis.differentiation.JacobianFunction`
+Package: `org.apache.commons.math3.analysis.differentiation.JacobianFunction`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/analysis/differentiation/JacobianFunction.java`
 
 - `f` (line 33)
@@ -4658,7 +4658,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In DSCompiler
 
-Full name: `org.apache.commons.math3.analysis.differentiation.DSCompiler`
+Package: `org.apache.commons.math3.analysis.differentiation.DSCompiler`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/analysis/differentiation/DSCompiler.java`
 
 - `compilers` (line 128)
@@ -4673,7 +4673,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Gaussian
 
-Full name: `org.apache.commons.math3.analysis.function.Gaussian`
+Package: `org.apache.commons.math3.analysis.function.Gaussian`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/analysis/function/Gaussian.java`
 
 - `mean` (line 42)
@@ -4684,7 +4684,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Logistic
 
-Full name: `org.apache.commons.math3.analysis.function.Logistic`
+Package: `org.apache.commons.math3.analysis.function.Logistic`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/analysis/function/Logistic.java`
 
 - `a` (line 39)
@@ -4697,7 +4697,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Sigmoid
 
-Full name: `org.apache.commons.math3.analysis.function.Sigmoid`
+Package: `org.apache.commons.math3.analysis.function.Sigmoid`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/analysis/function/Sigmoid.java`
 
 - `lo` (line 43)
@@ -4706,7 +4706,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Logit
 
-Full name: `org.apache.commons.math3.analysis.function.Logit`
+Package: `org.apache.commons.math3.analysis.function.Logit`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/analysis/function/Logit.java`
 
 - `lo` (line 40)
@@ -4715,7 +4715,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In StepFunction
 
-Full name: `org.apache.commons.math3.analysis.function.StepFunction`
+Package: `org.apache.commons.math3.analysis.function.StepFunction`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/analysis/function/StepFunction.java`
 
 - `abscissa` (line 37)
@@ -4724,7 +4724,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Sinc
 
-Full name: `org.apache.commons.math3.analysis.function.Sinc`
+Package: `org.apache.commons.math3.analysis.function.Sinc`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/analysis/function/Sinc.java`
 
 - `SHORTCUT` (line 63)
@@ -4733,7 +4733,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Power
 
-Full name: `org.apache.commons.math3.analysis.function.Power`
+Package: `org.apache.commons.math3.analysis.function.Power`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/analysis/function/Power.java`
 
 - `p` (line 34)
@@ -4741,7 +4741,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In HarmonicOscillator
 
-Full name: `org.apache.commons.math3.analysis.function.HarmonicOscillator`
+Package: `org.apache.commons.math3.analysis.function.HarmonicOscillator`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/analysis/function/HarmonicOscillator.java`
 
 - `amplitude` (line 38)
@@ -4751,7 +4751,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Constant
 
-Full name: `org.apache.commons.math3.analysis.function.Constant`
+Package: `org.apache.commons.math3.analysis.function.Constant`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/analysis/function/Constant.java`
 
 - `c` (line 31)
@@ -4759,7 +4759,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In BrentSolver
 
-Full name: `org.apache.commons.math3.analysis.solvers.BrentSolver`
+Package: `org.apache.commons.math3.analysis.solvers.BrentSolver`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/analysis/solvers/BrentSolver.java`
 
 - `DEFAULT_ABSOLUTE_ACCURACY` (line 48)
@@ -4767,7 +4767,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In MullerSolver2
 
-Full name: `org.apache.commons.math3.analysis.solvers.MullerSolver2`
+Package: `org.apache.commons.math3.analysis.solvers.MullerSolver2`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/analysis/solvers/MullerSolver2.java`
 
 - `DEFAULT_ABSOLUTE_ACCURACY` (line 52)
@@ -4775,7 +4775,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In MullerSolver
 
-Full name: `org.apache.commons.math3.analysis.solvers.MullerSolver`
+Package: `org.apache.commons.math3.analysis.solvers.MullerSolver`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/analysis/solvers/MullerSolver.java`
 
 - `DEFAULT_ABSOLUTE_ACCURACY` (line 52)
@@ -4783,7 +4783,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In BaseAbstractUnivariateSolver
 
-Full name: `org.apache.commons.math3.analysis.solvers.BaseAbstractUnivariateSolver`
+Package: `org.apache.commons.math3.analysis.solvers.BaseAbstractUnivariateSolver`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/analysis/solvers/BaseAbstractUnivariateSolver.java`
 
 - `DEFAULT_RELATIVE_ACCURACY` (line 44)
@@ -4800,7 +4800,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In AbstractDifferentiableUnivariateSolver
 
-Full name: `org.apache.commons.math3.analysis.solvers.AbstractDifferentiableUnivariateSolver`
+Package: `org.apache.commons.math3.analysis.solvers.AbstractDifferentiableUnivariateSolver`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/analysis/solvers/AbstractDifferentiableUnivariateSolver.java`
 
 - `functionDerivative` (line 36)
@@ -4808,7 +4808,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In NewtonRaphsonSolver
 
-Full name: `org.apache.commons.math3.analysis.solvers.NewtonRaphsonSolver`
+Package: `org.apache.commons.math3.analysis.solvers.NewtonRaphsonSolver`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/analysis/solvers/NewtonRaphsonSolver.java`
 
 - `DEFAULT_ABSOLUTE_ACCURACY` (line 34)
@@ -4816,7 +4816,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In BracketingNthOrderBrentSolver
 
-Full name: `org.apache.commons.math3.analysis.solvers.BracketingNthOrderBrentSolver`
+Package: `org.apache.commons.math3.analysis.solvers.BracketingNthOrderBrentSolver`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/analysis/solvers/BracketingNthOrderBrentSolver.java`
 
 - `DEFAULT_ABSOLUTE_ACCURACY` (line 48)
@@ -4829,7 +4829,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In LaguerreSolver
 
-Full name: `org.apache.commons.math3.analysis.solvers.LaguerreSolver`
+Package: `org.apache.commons.math3.analysis.solvers.LaguerreSolver`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/analysis/solvers/LaguerreSolver.java`
 
 - `DEFAULT_ABSOLUTE_ACCURACY` (line 46)
@@ -4838,7 +4838,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In AbstractPolynomialSolver
 
-Full name: `org.apache.commons.math3.analysis.solvers.AbstractPolynomialSolver`
+Package: `org.apache.commons.math3.analysis.solvers.AbstractPolynomialSolver`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/analysis/solvers/AbstractPolynomialSolver.java`
 
 - `polynomialFunction` (line 31)
@@ -4846,7 +4846,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In BisectionSolver
 
-Full name: `org.apache.commons.math3.analysis.solvers.BisectionSolver`
+Package: `org.apache.commons.math3.analysis.solvers.BisectionSolver`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/analysis/solvers/BisectionSolver.java`
 
 - `DEFAULT_ABSOLUTE_ACCURACY` (line 31)
@@ -4854,7 +4854,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In AbstractUnivariateDifferentiableSolver
 
-Full name: `org.apache.commons.math3.analysis.solvers.AbstractUnivariateDifferentiableSolver`
+Package: `org.apache.commons.math3.analysis.solvers.AbstractUnivariateDifferentiableSolver`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/analysis/solvers/AbstractUnivariateDifferentiableSolver.java`
 
 - `function` (line 35)
@@ -4862,7 +4862,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In FieldBracketingNthOrderBrentSolver
 
-Full name: `org.apache.commons.math3.analysis.solvers.FieldBracketingNthOrderBrentSolver`
+Package: `org.apache.commons.math3.analysis.solvers.FieldBracketingNthOrderBrentSolver`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/analysis/solvers/FieldBracketingNthOrderBrentSolver.java`
 
 - `MAXIMAL_AGING` (line 52)
@@ -4876,7 +4876,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In RiddersSolver
 
-Full name: `org.apache.commons.math3.analysis.solvers.RiddersSolver`
+Package: `org.apache.commons.math3.analysis.solvers.RiddersSolver`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/analysis/solvers/RiddersSolver.java`
 
 - `DEFAULT_ABSOLUTE_ACCURACY` (line 36)
@@ -4884,7 +4884,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In BaseSecantSolver
 
-Full name: `org.apache.commons.math3.analysis.solvers.BaseSecantSolver`
+Package: `org.apache.commons.math3.analysis.solvers.BaseSecantSolver`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/analysis/solvers/BaseSecantSolver.java`
 
 - `allowed` (line 56)
@@ -4893,7 +4893,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In NewtonSolver
 
-Full name: `org.apache.commons.math3.analysis.solvers.NewtonSolver`
+Package: `org.apache.commons.math3.analysis.solvers.NewtonSolver`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/analysis/solvers/NewtonSolver.java`
 
 - `DEFAULT_ABSOLUTE_ACCURACY` (line 35)
@@ -4901,7 +4901,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In IterativeLegendreGaussIntegrator
 
-Full name: `org.apache.commons.math3.analysis.integration.IterativeLegendreGaussIntegrator`
+Package: `org.apache.commons.math3.analysis.integration.IterativeLegendreGaussIntegrator`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/analysis/integration/IterativeLegendreGaussIntegrator.java`
 
 - `FACTORY` (line 50)
@@ -4910,7 +4910,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In LegendreHighPrecisionRuleFactory
 
-Full name: `org.apache.commons.math3.analysis.integration.gauss.LegendreHighPrecisionRuleFactory`
+Package: `org.apache.commons.math3.analysis.integration.gauss.LegendreHighPrecisionRuleFactory`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/analysis/integration/gauss/LegendreHighPrecisionRuleFactory.java`
 
 - `mContext` (line 37)
@@ -4921,7 +4921,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In GaussIntegratorFactory
 
-Full name: `org.apache.commons.math3.analysis.integration.gauss.GaussIntegratorFactory`
+Package: `org.apache.commons.math3.analysis.integration.gauss.GaussIntegratorFactory`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/analysis/integration/gauss/GaussIntegratorFactory.java`
 
 - `legendre` (line 33)
@@ -4931,7 +4931,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In BaseRuleFactory
 
-Full name: `org.apache.commons.math3.analysis.integration.gauss.BaseRuleFactory`
+Package: `org.apache.commons.math3.analysis.integration.gauss.BaseRuleFactory`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/analysis/integration/gauss/BaseRuleFactory.java`
 
 - `pointsAndWeights` (line 38)
@@ -4940,7 +4940,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In HermiteRuleFactory
 
-Full name: `org.apache.commons.math3.analysis.integration.gauss.HermiteRuleFactory`
+Package: `org.apache.commons.math3.analysis.integration.gauss.HermiteRuleFactory`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/analysis/integration/gauss/HermiteRuleFactory.java`
 
 - `SQRT_PI` (line 53)
@@ -4950,7 +4950,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In GaussIntegrator
 
-Full name: `org.apache.commons.math3.analysis.integration.gauss.GaussIntegrator`
+Package: `org.apache.commons.math3.analysis.integration.gauss.GaussIntegrator`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/analysis/integration/gauss/GaussIntegrator.java`
 
 - `points` (line 34)
@@ -4959,7 +4959,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In LegendreGaussIntegrator
 
-Full name: `org.apache.commons.math3.analysis.integration.LegendreGaussIntegrator`
+Package: `org.apache.commons.math3.analysis.integration.LegendreGaussIntegrator`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/analysis/integration/LegendreGaussIntegrator.java`
 
 - `ABSCISSAS_2` (line 58)
@@ -4976,7 +4976,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In TrapezoidIntegrator
 
-Full name: `org.apache.commons.math3.analysis.integration.TrapezoidIntegrator`
+Package: `org.apache.commons.math3.analysis.integration.TrapezoidIntegrator`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/analysis/integration/TrapezoidIntegrator.java`
 
 - `s` (line 43)
@@ -4984,7 +4984,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In BaseAbstractUnivariateIntegrator
 
-Full name: `org.apache.commons.math3.analysis.integration.BaseAbstractUnivariateIntegrator`
+Package: `org.apache.commons.math3.analysis.integration.BaseAbstractUnivariateIntegrator`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/analysis/integration/BaseAbstractUnivariateIntegrator.java`
 
 - `count` (line 56)
@@ -4999,7 +4999,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Quaternion
 
-Full name: `org.apache.commons.math3.complex.Quaternion`
+Package: `org.apache.commons.math3.complex.Quaternion`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/complex/Quaternion.java`
 
 - `serialVersionUID` (line 49)
@@ -5011,7 +5011,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In RootsOfUnity
 
-Full name: `org.apache.commons.math3.complex.RootsOfUnity`
+Package: `org.apache.commons.math3.complex.RootsOfUnity`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/complex/RootsOfUnity.java`
 
 - `serialVersionUID` (line 37)
@@ -5024,7 +5024,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In ComplexFormat
 
-Full name: `org.apache.commons.math3.complex.ComplexFormat`
+Package: `org.apache.commons.math3.complex.ComplexFormat`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/complex/ComplexFormat.java`
 
 - `DEFAULT_IMAGINARY_CHARACTER` (line 41)
@@ -5035,7 +5035,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In ComplexField
 
-Full name: `org.apache.commons.math3.complex.ComplexField`
+Package: `org.apache.commons.math3.complex.ComplexField`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/complex/ComplexField.java`
 
 - `serialVersionUID` (line 36)
@@ -5043,7 +5043,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Complex
 
-Full name: `org.apache.commons.math3.complex.Complex`
+Package: `org.apache.commons.math3.complex.Complex`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/complex/Complex.java`
 
 - `serialVersionUID` (line 70)
@@ -5055,7 +5055,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Network
 
-Full name: `org.apache.commons.math3.ml.neuralnet.Network`
+Package: `org.apache.commons.math3.ml.neuralnet.Network`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ml/neuralnet/Network.java`
 
 - `serialVersionUID` (line 50)
@@ -5067,7 +5067,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In LocationFinder
 
-Full name: `org.apache.commons.math3.ml.neuralnet.twod.util.LocationFinder`
+Package: `org.apache.commons.math3.ml.neuralnet.twod.util.LocationFinder`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ml/neuralnet/twod/util/LocationFinder.java`
 
 - `locations` (line 32)
@@ -5075,7 +5075,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In TopographicErrorHistogram
 
-Full name: `org.apache.commons.math3.ml.neuralnet.twod.util.TopographicErrorHistogram`
+Package: `org.apache.commons.math3.ml.neuralnet.twod.util.TopographicErrorHistogram`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ml/neuralnet/twod/util/TopographicErrorHistogram.java`
 
 - `distance` (line 35)
@@ -5084,7 +5084,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In UnifiedDistanceMatrix
 
-Full name: `org.apache.commons.math3.ml.neuralnet.twod.util.UnifiedDistanceMatrix`
+Package: `org.apache.commons.math3.ml.neuralnet.twod.util.UnifiedDistanceMatrix`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ml/neuralnet/twod/util/UnifiedDistanceMatrix.java`
 
 - `individualDistances` (line 33)
@@ -5093,7 +5093,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In HitHistogram
 
-Full name: `org.apache.commons.math3.ml.neuralnet.twod.util.HitHistogram`
+Package: `org.apache.commons.math3.ml.neuralnet.twod.util.HitHistogram`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ml/neuralnet/twod/util/HitHistogram.java`
 
 - `distance` (line 33)
@@ -5102,7 +5102,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In QuantizationError
 
-Full name: `org.apache.commons.math3.ml.neuralnet.twod.util.QuantizationError`
+Package: `org.apache.commons.math3.ml.neuralnet.twod.util.QuantizationError`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ml/neuralnet/twod/util/QuantizationError.java`
 
 - `distance` (line 33)
@@ -5110,7 +5110,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In SmoothedDataHistogram
 
-Full name: `org.apache.commons.math3.ml.neuralnet.twod.util.SmoothedDataHistogram`
+Package: `org.apache.commons.math3.ml.neuralnet.twod.util.SmoothedDataHistogram`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ml/neuralnet/twod/util/SmoothedDataHistogram.java`
 
 - `smoothingBins` (line 38)
@@ -5120,7 +5120,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In NeuronSquareMesh2D
 
-Full name: `org.apache.commons.math3.ml.neuralnet.twod.NeuronSquareMesh2D`
+Package: `org.apache.commons.math3.ml.neuralnet.twod.NeuronSquareMesh2D`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ml/neuralnet/twod/NeuronSquareMesh2D.java`
 
 - `serialVersionUID` (line 48)
@@ -5135,7 +5135,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Neuron
 
-Full name: `org.apache.commons.math3.ml.neuralnet.Neuron`
+Package: `org.apache.commons.math3.ml.neuralnet.Neuron`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ml/neuralnet/Neuron.java`
 
 - `serialVersionUID` (line 38)
@@ -5148,7 +5148,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In ExponentialDecayFunction
 
-Full name: `org.apache.commons.math3.ml.neuralnet.sofm.util.ExponentialDecayFunction`
+Package: `org.apache.commons.math3.ml.neuralnet.sofm.util.ExponentialDecayFunction`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ml/neuralnet/sofm/util/ExponentialDecayFunction.java`
 
 - `a` (line 34)
@@ -5157,7 +5157,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In QuasiSigmoidDecayFunction
 
-Full name: `org.apache.commons.math3.ml.neuralnet.sofm.util.QuasiSigmoidDecayFunction`
+Package: `org.apache.commons.math3.ml.neuralnet.sofm.util.QuasiSigmoidDecayFunction`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ml/neuralnet/sofm/util/QuasiSigmoidDecayFunction.java`
 
 - `sigmoid` (line 33)
@@ -5166,7 +5166,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In KohonenUpdateAction
 
-Full name: `org.apache.commons.math3.ml.neuralnet.sofm.KohonenUpdateAction`
+Package: `org.apache.commons.math3.ml.neuralnet.sofm.KohonenUpdateAction`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ml/neuralnet/sofm/KohonenUpdateAction.java`
 
 - `distance` (line 71)
@@ -5177,7 +5177,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In KohonenTrainingTask
 
-Full name: `org.apache.commons.math3.ml.neuralnet.sofm.KohonenTrainingTask`
+Package: `org.apache.commons.math3.ml.neuralnet.sofm.KohonenTrainingTask`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ml/neuralnet/sofm/KohonenTrainingTask.java`
 
 - `net` (line 30)
@@ -5187,7 +5187,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In NeuronString
 
-Full name: `org.apache.commons.math3.ml.neuralnet.oned.NeuronString`
+Package: `org.apache.commons.math3.ml.neuralnet.oned.NeuronString`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ml/neuralnet/oned/NeuronString.java`
 
 - `serialVersionUID` (line 35)
@@ -5199,7 +5199,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In FuzzyKMeansClusterer
 
-Full name: `org.apache.commons.math3.ml.clustering.FuzzyKMeansClusterer`
+Package: `org.apache.commons.math3.ml.clustering.FuzzyKMeansClusterer`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ml/clustering/FuzzyKMeansClusterer.java`
 
 - `DEFAULT_EPSILON` (line 71)
@@ -5215,7 +5215,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In CentroidCluster
 
-Full name: `org.apache.commons.math3.ml.clustering.CentroidCluster`
+Package: `org.apache.commons.math3.ml.clustering.CentroidCluster`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ml/clustering/CentroidCluster.java`
 
 - `serialVersionUID` (line 31)
@@ -5224,7 +5224,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In DBSCANClusterer
 
-Full name: `org.apache.commons.math3.ml.clustering.DBSCANClusterer`
+Package: `org.apache.commons.math3.ml.clustering.DBSCANClusterer`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ml/clustering/DBSCANClusterer.java`
 
 - `eps` (line 61)
@@ -5233,7 +5233,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In MultiKMeansPlusPlusClusterer
 
-Full name: `org.apache.commons.math3.ml.clustering.MultiKMeansPlusPlusClusterer`
+Package: `org.apache.commons.math3.ml.clustering.MultiKMeansPlusPlusClusterer`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ml/clustering/MultiKMeansPlusPlusClusterer.java`
 
 - `clusterer` (line 37)
@@ -5243,7 +5243,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Cluster
 
-Full name: `org.apache.commons.math3.ml.clustering.Cluster`
+Package: `org.apache.commons.math3.ml.clustering.Cluster`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ml/clustering/Cluster.java`
 
 - `serialVersionUID` (line 32)
@@ -5252,7 +5252,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In ClusterEvaluator
 
-Full name: `org.apache.commons.math3.ml.clustering.evaluation.ClusterEvaluator`
+Package: `org.apache.commons.math3.ml.clustering.evaluation.ClusterEvaluator`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ml/clustering/evaluation/ClusterEvaluator.java`
 
 - `measure` (line 38)
@@ -5260,7 +5260,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In DoublePoint
 
-Full name: `org.apache.commons.math3.ml.clustering.DoublePoint`
+Package: `org.apache.commons.math3.ml.clustering.DoublePoint`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ml/clustering/DoublePoint.java`
 
 - `serialVersionUID` (line 30)
@@ -5269,7 +5269,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Clusterer
 
-Full name: `org.apache.commons.math3.ml.clustering.Clusterer`
+Package: `org.apache.commons.math3.ml.clustering.Clusterer`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ml/clustering/Clusterer.java`
 
 - `measure` (line 35)
@@ -5277,7 +5277,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In KMeansPlusPlusClusterer
 
-Full name: `org.apache.commons.math3.ml.clustering.KMeansPlusPlusClusterer`
+Package: `org.apache.commons.math3.ml.clustering.KMeansPlusPlusClusterer`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ml/clustering/KMeansPlusPlusClusterer.java`
 
 - `k` (line 62)
@@ -5288,7 +5288,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In EarthMoversDistance
 
-Full name: `org.apache.commons.math3.ml.distance.EarthMoversDistance`
+Package: `org.apache.commons.math3.ml.distance.EarthMoversDistance`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ml/distance/EarthMoversDistance.java`
 
 - `serialVersionUID` (line 33)
@@ -5296,7 +5296,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In EuclideanDistance
 
-Full name: `org.apache.commons.math3.ml.distance.EuclideanDistance`
+Package: `org.apache.commons.math3.ml.distance.EuclideanDistance`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ml/distance/EuclideanDistance.java`
 
 - `serialVersionUID` (line 30)
@@ -5304,7 +5304,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In ChebyshevDistance
 
-Full name: `org.apache.commons.math3.ml.distance.ChebyshevDistance`
+Package: `org.apache.commons.math3.ml.distance.ChebyshevDistance`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ml/distance/ChebyshevDistance.java`
 
 - `serialVersionUID` (line 30)
@@ -5312,7 +5312,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In CanberraDistance
 
-Full name: `org.apache.commons.math3.ml.distance.CanberraDistance`
+Package: `org.apache.commons.math3.ml.distance.CanberraDistance`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ml/distance/CanberraDistance.java`
 
 - `serialVersionUID` (line 31)
@@ -5320,7 +5320,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In ManhattanDistance
 
-Full name: `org.apache.commons.math3.ml.distance.ManhattanDistance`
+Package: `org.apache.commons.math3.ml.distance.ManhattanDistance`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ml/distance/ManhattanDistance.java`
 
 - `serialVersionUID` (line 30)
@@ -5328,7 +5328,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In FastCosineTransformer
 
-Full name: `org.apache.commons.math3.transform.FastCosineTransformer`
+Package: `org.apache.commons.math3.transform.FastCosineTransformer`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/transform/FastCosineTransformer.java`
 
 - `normalization` (line 71)
@@ -5336,7 +5336,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In FastFourierTransformer
 
-Full name: `org.apache.commons.math3.transform.FastFourierTransformer`
+Package: `org.apache.commons.math3.transform.FastFourierTransformer`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/transform/FastFourierTransformer.java`
 
 - `W_SUB_N_R` (line 63)
@@ -5346,7 +5346,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In TransformUtils
 
-Full name: `org.apache.commons.math3.transform.TransformUtils`
+Package: `org.apache.commons.math3.transform.TransformUtils`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/transform/TransformUtils.java`
 
 - `POWERS_OF_TWO` (line 37)
@@ -5354,7 +5354,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In FastSineTransformer
 
-Full name: `org.apache.commons.math3.transform.FastSineTransformer`
+Package: `org.apache.commons.math3.transform.FastSineTransformer`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/transform/FastSineTransformer.java`
 
 - `normalization` (line 76)
@@ -5362,7 +5362,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Fraction
 
-Full name: `org.apache.commons.math3.fraction.Fraction`
+Package: `org.apache.commons.math3.fraction.Fraction`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/fraction/Fraction.java`
 
 - `serialVersionUID` (line 83)
@@ -5373,7 +5373,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In BigFractionField
 
-Full name: `org.apache.commons.math3.fraction.BigFractionField`
+Package: `org.apache.commons.math3.fraction.BigFractionField`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/fraction/BigFractionField.java`
 
 - `serialVersionUID` (line 36)
@@ -5381,7 +5381,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In BigFractionFormat
 
-Full name: `org.apache.commons.math3.fraction.BigFractionFormat`
+Package: `org.apache.commons.math3.fraction.BigFractionFormat`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/fraction/BigFractionFormat.java`
 
 - `serialVersionUID` (line 43)
@@ -5389,7 +5389,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In FractionFormat
 
-Full name: `org.apache.commons.math3.fraction.FractionFormat`
+Package: `org.apache.commons.math3.fraction.FractionFormat`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/fraction/FractionFormat.java`
 
 - `serialVersionUID` (line 39)
@@ -5397,7 +5397,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In BigFraction
 
-Full name: `org.apache.commons.math3.fraction.BigFraction`
+Package: `org.apache.commons.math3.fraction.BigFraction`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/fraction/BigFraction.java`
 
 - `serialVersionUID` (line 86)
@@ -5408,7 +5408,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In AbstractFormat
 
-Full name: `org.apache.commons.math3.fraction.AbstractFormat`
+Package: `org.apache.commons.math3.fraction.AbstractFormat`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/fraction/AbstractFormat.java`
 
 - `serialVersionUID` (line 36)
@@ -5418,7 +5418,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In FractionConversionException
 
-Full name: `org.apache.commons.math3.fraction.FractionConversionException`
+Package: `org.apache.commons.math3.fraction.FractionConversionException`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/fraction/FractionConversionException.java`
 
 - `serialVersionUID` (line 32)
@@ -5426,7 +5426,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In ProperBigFractionFormat
 
-Full name: `org.apache.commons.math3.fraction.ProperBigFractionFormat`
+Package: `org.apache.commons.math3.fraction.ProperBigFractionFormat`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/fraction/ProperBigFractionFormat.java`
 
 - `serialVersionUID` (line 40)
@@ -5435,7 +5435,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In ProperFractionFormat
 
-Full name: `org.apache.commons.math3.fraction.ProperFractionFormat`
+Package: `org.apache.commons.math3.fraction.ProperFractionFormat`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/fraction/ProperFractionFormat.java`
 
 - `serialVersionUID` (line 41)
@@ -5444,7 +5444,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In FractionField
 
-Full name: `org.apache.commons.math3.fraction.FractionField`
+Package: `org.apache.commons.math3.fraction.FractionField`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/fraction/FractionField.java`
 
 - `serialVersionUID` (line 36)
@@ -5452,7 +5452,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In ArrayRealVector
 
-Full name: `org.apache.commons.math3.linear.ArrayRealVector`
+Package: `org.apache.commons.math3.linear.ArrayRealVector`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/linear/ArrayRealVector.java`
 
 - `serialVersionUID` (line 40)
@@ -5462,7 +5462,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In NonSymmetricMatrixException
 
-Full name: `org.apache.commons.math3.linear.NonSymmetricMatrixException`
+Package: `org.apache.commons.math3.linear.NonSymmetricMatrixException`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/linear/NonSymmetricMatrixException.java`
 
 - `serialVersionUID` (line 29)
@@ -5473,7 +5473,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In SingularValueDecomposition
 
-Full name: `org.apache.commons.math3.linear.SingularValueDecomposition`
+Package: `org.apache.commons.math3.linear.SingularValueDecomposition`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/linear/SingularValueDecomposition.java`
 
 - `EPS` (line 55)
@@ -5492,7 +5492,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In RRQRDecomposition
 
-Full name: `org.apache.commons.math3.linear.RRQRDecomposition`
+Package: `org.apache.commons.math3.linear.RRQRDecomposition`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/linear/RRQRDecomposition.java`
 
 - `p` (line 53)
@@ -5501,7 +5501,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In NonPositiveDefiniteOperatorException
 
-Full name: `org.apache.commons.math3.linear.NonPositiveDefiniteOperatorException`
+Package: `org.apache.commons.math3.linear.NonPositiveDefiniteOperatorException`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/linear/NonPositiveDefiniteOperatorException.java`
 
 - `serialVersionUID` (line 37)
@@ -5509,7 +5509,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In CholeskyDecomposition
 
-Full name: `org.apache.commons.math3.linear.CholeskyDecomposition`
+Package: `org.apache.commons.math3.linear.CholeskyDecomposition`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/linear/CholeskyDecomposition.java`
 
 - `lTData` (line 59)
@@ -5519,7 +5519,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In ArrayFieldVector
 
-Full name: `org.apache.commons.math3.linear.ArrayFieldVector`
+Package: `org.apache.commons.math3.linear.ArrayFieldVector`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/linear/ArrayFieldVector.java`
 
 - `serialVersionUID` (line 43)
@@ -5529,7 +5529,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In OpenMapRealVector
 
-Full name: `org.apache.commons.math3.linear.OpenMapRealVector`
+Package: `org.apache.commons.math3.linear.OpenMapRealVector`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/linear/OpenMapRealVector.java`
 
 - `serialVersionUID` (line 48)
@@ -5540,7 +5540,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In RealVectorFormat
 
-Full name: `org.apache.commons.math3.linear.RealVectorFormat`
+Package: `org.apache.commons.math3.linear.RealVectorFormat`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/linear/RealVectorFormat.java`
 
 - `DEFAULT_PREFIX` (line 46)
@@ -5557,7 +5557,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In BlockRealMatrix
 
-Full name: `org.apache.commons.math3.linear.BlockRealMatrix`
+Package: `org.apache.commons.math3.linear.BlockRealMatrix`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/linear/BlockRealMatrix.java`
 
 - `serialVersionUID` (line 75)
@@ -5570,7 +5570,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In IllConditionedOperatorException
 
-Full name: `org.apache.commons.math3.linear.IllConditionedOperatorException`
+Package: `org.apache.commons.math3.linear.IllConditionedOperatorException`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/linear/IllConditionedOperatorException.java`
 
 - `serialVersionUID` (line 31)
@@ -5578,7 +5578,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In NonSquareOperatorException
 
-Full name: `org.apache.commons.math3.linear.NonSquareOperatorException`
+Package: `org.apache.commons.math3.linear.NonSquareOperatorException`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/linear/NonSquareOperatorException.java`
 
 - `serialVersionUID` (line 29)
@@ -5586,7 +5586,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In BlockFieldMatrix
 
-Full name: `org.apache.commons.math3.linear.BlockFieldMatrix`
+Package: `org.apache.commons.math3.linear.BlockFieldMatrix`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/linear/BlockFieldMatrix.java`
 
 - `serialVersionUID` (line 78)
@@ -5599,7 +5599,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In SymmLQ
 
-Full name: `org.apache.commons.math3.linear.SymmLQ`
+Package: `org.apache.commons.math3.linear.SymmLQ`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/linear/SymmLQ.java`
 
 - `OPERATOR` (line 836)
@@ -5613,7 +5613,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In EigenDecomposition
 
-Full name: `org.apache.commons.math3.linear.EigenDecomposition`
+Package: `org.apache.commons.math3.linear.EigenDecomposition`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/linear/EigenDecomposition.java`
 
 - `EPSILON` (line 78)
@@ -5632,7 +5632,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In DiagonalMatrix
 
-Full name: `org.apache.commons.math3.linear.DiagonalMatrix`
+Package: `org.apache.commons.math3.linear.DiagonalMatrix`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/linear/DiagonalMatrix.java`
 
 - `serialVersionUID` (line 38)
@@ -5641,7 +5641,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In NonSelfAdjointOperatorException
 
-Full name: `org.apache.commons.math3.linear.NonSelfAdjointOperatorException`
+Package: `org.apache.commons.math3.linear.NonSelfAdjointOperatorException`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/linear/NonSelfAdjointOperatorException.java`
 
 - `serialVersionUID` (line 40)
@@ -5649,7 +5649,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In RealMatrixFormat
 
-Full name: `org.apache.commons.math3.linear.RealMatrixFormat`
+Package: `org.apache.commons.math3.linear.RealMatrixFormat`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/linear/RealMatrixFormat.java`
 
 - `DEFAULT_PREFIX` (line 57)
@@ -5669,7 +5669,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In RectangularCholeskyDecomposition
 
-Full name: `org.apache.commons.math3.linear.RectangularCholeskyDecomposition`
+Package: `org.apache.commons.math3.linear.RectangularCholeskyDecomposition`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/linear/RectangularCholeskyDecomposition.java`
 
 - `root` (line 47)
@@ -5678,7 +5678,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In NonSquareMatrixException
 
-Full name: `org.apache.commons.math3.linear.NonSquareMatrixException`
+Package: `org.apache.commons.math3.linear.NonSquareMatrixException`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/linear/NonSquareMatrixException.java`
 
 - `serialVersionUID` (line 29)
@@ -5686,7 +5686,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In DefaultIterativeLinearSolverEvent
 
-Full name: `org.apache.commons.math3.linear.DefaultIterativeLinearSolverEvent`
+Package: `org.apache.commons.math3.linear.DefaultIterativeLinearSolverEvent`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/linear/DefaultIterativeLinearSolverEvent.java`
 
 - `serialVersionUID` (line 29)
@@ -5698,7 +5698,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In MatrixDimensionMismatchException
 
-Full name: `org.apache.commons.math3.linear.MatrixDimensionMismatchException`
+Package: `org.apache.commons.math3.linear.MatrixDimensionMismatchException`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/linear/MatrixDimensionMismatchException.java`
 
 - `serialVersionUID` (line 30)
@@ -5706,7 +5706,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In IterativeLinearSolverEvent
 
-Full name: `org.apache.commons.math3.linear.IterativeLinearSolverEvent`
+Package: `org.apache.commons.math3.linear.IterativeLinearSolverEvent`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/linear/IterativeLinearSolverEvent.java`
 
 - `serialVersionUID` (line 31)
@@ -5714,7 +5714,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In JacobiPreconditioner
 
-Full name: `org.apache.commons.math3.linear.JacobiPreconditioner`
+Package: `org.apache.commons.math3.linear.JacobiPreconditioner`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/linear/JacobiPreconditioner.java`
 
 - `diag` (line 32)
@@ -5722,7 +5722,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In AbstractFieldMatrix
 
-Full name: `org.apache.commons.math3.linear.AbstractFieldMatrix`
+Package: `org.apache.commons.math3.linear.AbstractFieldMatrix`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/linear/AbstractFieldMatrix.java`
 
 - `field` (line 46)
@@ -5730,7 +5730,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Array2DRowRealMatrix
 
-Full name: `org.apache.commons.math3.linear.Array2DRowRealMatrix`
+Package: `org.apache.commons.math3.linear.Array2DRowRealMatrix`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/linear/Array2DRowRealMatrix.java`
 
 - `serialVersionUID` (line 39)
@@ -5739,7 +5739,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In OpenMapRealMatrix
 
-Full name: `org.apache.commons.math3.linear.OpenMapRealMatrix`
+Package: `org.apache.commons.math3.linear.OpenMapRealMatrix`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/linear/OpenMapRealMatrix.java`
 
 - `serialVersionUID` (line 43)
@@ -5750,7 +5750,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Array2DRowFieldMatrix
 
-Full name: `org.apache.commons.math3.linear.Array2DRowFieldMatrix`
+Package: `org.apache.commons.math3.linear.Array2DRowFieldMatrix`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/linear/Array2DRowFieldMatrix.java`
 
 - `serialVersionUID` (line 49)
@@ -5759,7 +5759,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In SparseFieldMatrix
 
-Full name: `org.apache.commons.math3.linear.SparseFieldMatrix`
+Package: `org.apache.commons.math3.linear.SparseFieldMatrix`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/linear/SparseFieldMatrix.java`
 
 - `entries` (line 39)
@@ -5769,7 +5769,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In IterativeLinearSolver
 
-Full name: `org.apache.commons.math3.linear.IterativeLinearSolver`
+Package: `org.apache.commons.math3.linear.IterativeLinearSolver`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/linear/IterativeLinearSolver.java`
 
 - `manager` (line 36)
@@ -5777,7 +5777,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In SingularOperatorException
 
-Full name: `org.apache.commons.math3.linear.SingularOperatorException`
+Package: `org.apache.commons.math3.linear.SingularOperatorException`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/linear/SingularOperatorException.java`
 
 - `serialVersionUID` (line 30)
@@ -5785,7 +5785,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In DefaultFieldMatrixPreservingVisitor
 
-Full name: `org.apache.commons.math3.linear.DefaultFieldMatrixPreservingVisitor`
+Package: `org.apache.commons.math3.linear.DefaultFieldMatrixPreservingVisitor`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/linear/DefaultFieldMatrixPreservingVisitor.java`
 
 - `zero` (line 35)
@@ -5793,7 +5793,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In ConjugateGradient
 
-Full name: `org.apache.commons.math3.linear.ConjugateGradient`
+Package: `org.apache.commons.math3.linear.ConjugateGradient`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/linear/ConjugateGradient.java`
 
 - `check` (line 91)
@@ -5802,7 +5802,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In AbstractRealMatrix
 
-Full name: `org.apache.commons.math3.linear.AbstractRealMatrix`
+Package: `org.apache.commons.math3.linear.AbstractRealMatrix`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/linear/AbstractRealMatrix.java`
 
 - `DEFAULT_FORMAT` (line 46)
@@ -5810,7 +5810,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In DefaultFieldMatrixChangingVisitor
 
-Full name: `org.apache.commons.math3.linear.DefaultFieldMatrixChangingVisitor`
+Package: `org.apache.commons.math3.linear.DefaultFieldMatrixChangingVisitor`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/linear/DefaultFieldMatrixChangingVisitor.java`
 
 - `zero` (line 35)
@@ -5818,7 +5818,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In SparseFieldVector
 
-Full name: `org.apache.commons.math3.linear.SparseFieldVector`
+Package: `org.apache.commons.math3.linear.SparseFieldVector`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/linear/SparseFieldVector.java`
 
 - `serialVersionUID` (line 48)
@@ -5829,7 +5829,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In QRDecomposition
 
-Full name: `org.apache.commons.math3.linear.QRDecomposition`
+Package: `org.apache.commons.math3.linear.QRDecomposition`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/linear/QRDecomposition.java`
 
 - `qrt` (line 57)
@@ -5843,7 +5843,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In SingularMatrixException
 
-Full name: `org.apache.commons.math3.linear.SingularMatrixException`
+Package: `org.apache.commons.math3.linear.SingularMatrixException`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/linear/SingularMatrixException.java`
 
 - `serialVersionUID` (line 29)
@@ -5851,7 +5851,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In FieldLUDecomposition
 
-Full name: `org.apache.commons.math3.linear.FieldLUDecomposition`
+Package: `org.apache.commons.math3.linear.FieldLUDecomposition`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/linear/FieldLUDecomposition.java`
 
 - `field` (line 56)
@@ -5866,7 +5866,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In NonPositiveDefiniteMatrixException
 
-Full name: `org.apache.commons.math3.linear.NonPositiveDefiniteMatrixException`
+Package: `org.apache.commons.math3.linear.NonPositiveDefiniteMatrixException`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/linear/NonPositiveDefiniteMatrixException.java`
 
 - `serialVersionUID` (line 30)
@@ -5876,7 +5876,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In LUDecomposition
 
-Full name: `org.apache.commons.math3.linear.LUDecomposition`
+Package: `org.apache.commons.math3.linear.LUDecomposition`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/linear/LUDecomposition.java`
 
 - `DEFAULT_TOO_SMALL` (line 50)
@@ -5891,7 +5891,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In DfpField
 
-Full name: `org.apache.commons.math3.dfp.DfpField`
+Package: `org.apache.commons.math3.dfp.DfpField`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/dfp/DfpField.java`
 
 - `sqr2String` (line 75)
@@ -5927,7 +5927,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In DfpMath
 
-Full name: `org.apache.commons.math3.dfp.DfpMath`
+Package: `org.apache.commons.math3.dfp.DfpMath`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/dfp/DfpMath.java`
 
 - `POW_TRAP` (line 27)
@@ -5935,7 +5935,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Dfp
 
-Full name: `org.apache.commons.math3.dfp.Dfp`
+Package: `org.apache.commons.math3.dfp.Dfp`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/dfp/Dfp.java`
 
 - `NAN_STRING` (line 126)
@@ -5956,7 +5956,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Segment
 
-Full name: `org.apache.commons.math3.geometry.euclidean.twod.Segment`
+Package: `org.apache.commons.math3.geometry.euclidean.twod.Segment`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Segment.java`
 
 - `start` (line 28)
@@ -5966,7 +5966,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Euclidean2D
 
-Full name: `org.apache.commons.math3.geometry.euclidean.twod.Euclidean2D`
+Package: `org.apache.commons.math3.geometry.euclidean.twod.Euclidean2D`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Euclidean2D.java`
 
 - `serialVersionUID` (line 32)
@@ -5974,7 +5974,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In ConvexHull2D
 
-Full name: `org.apache.commons.math3.geometry.euclidean.twod.hull.ConvexHull2D`
+Package: `org.apache.commons.math3.geometry.euclidean.twod.hull.ConvexHull2D`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/hull/ConvexHull2D.java`
 
 - `serialVersionUID` (line 42)
@@ -5985,7 +5985,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Line
 
-Full name: `org.apache.commons.math3.geometry.euclidean.twod.Line`
+Package: `org.apache.commons.math3.geometry.euclidean.twod.Line`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java`
 
 - `DEFAULT_TOLERANCE` (line 66)
@@ -5999,7 +5999,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Vector2D
 
-Full name: `org.apache.commons.math3.geometry.euclidean.twod.Vector2D`
+Package: `org.apache.commons.math3.geometry.euclidean.twod.Vector2D`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Vector2D.java`
 
 - `serialVersionUID` (line 54)
@@ -6009,7 +6009,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In SubLine
 
-Full name: `org.apache.commons.math3.geometry.euclidean.twod.SubLine`
+Package: `org.apache.commons.math3.geometry.euclidean.twod.SubLine`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/SubLine.java`
 
 - `DEFAULT_TOLERANCE` (line 42)
@@ -6017,7 +6017,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In PolygonsSet
 
-Full name: `org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet`
+Package: `org.apache.commons.math3.geometry.euclidean.twod.PolygonsSet`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java`
 
 - `DEFAULT_TOLERANCE` (line 45)
@@ -6026,7 +6026,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In FieldRotation
 
-Full name: `org.apache.commons.math3.geometry.euclidean.threed.FieldRotation`
+Package: `org.apache.commons.math3.geometry.euclidean.threed.FieldRotation`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/FieldRotation.java`
 
 - `serialVersionUID` (line 43)
@@ -6038,7 +6038,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Vector3D
 
-Full name: `org.apache.commons.math3.geometry.euclidean.threed.Vector3D`
+Package: `org.apache.commons.math3.geometry.euclidean.threed.Vector3D`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Vector3D.java`
 
 - `serialVersionUID` (line 75)
@@ -6049,7 +6049,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Euclidean3D
 
-Full name: `org.apache.commons.math3.geometry.euclidean.threed.Euclidean3D`
+Package: `org.apache.commons.math3.geometry.euclidean.threed.Euclidean3D`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Euclidean3D.java`
 
 - `serialVersionUID` (line 32)
@@ -6057,7 +6057,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Plane
 
-Full name: `org.apache.commons.math3.geometry.euclidean.threed.Plane`
+Package: `org.apache.commons.math3.geometry.euclidean.threed.Plane`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Plane.java`
 
 - `DEFAULT_TOLERANCE` (line 38)
@@ -6071,7 +6071,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Segment
 
-Full name: `org.apache.commons.math3.geometry.euclidean.threed.Segment`
+Package: `org.apache.commons.math3.geometry.euclidean.threed.Segment`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Segment.java`
 
 - `start` (line 26)
@@ -6081,7 +6081,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In PolyhedronsSet
 
-Full name: `org.apache.commons.math3.geometry.euclidean.threed.PolyhedronsSet`
+Package: `org.apache.commons.math3.geometry.euclidean.threed.PolyhedronsSet`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/PolyhedronsSet.java`
 
 - `DEFAULT_TOLERANCE` (line 50)
@@ -6089,7 +6089,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In FieldVector3D
 
-Full name: `org.apache.commons.math3.geometry.euclidean.threed.FieldVector3D`
+Package: `org.apache.commons.math3.geometry.euclidean.threed.FieldVector3D`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/FieldVector3D.java`
 
 - `serialVersionUID` (line 39)
@@ -6100,7 +6100,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In NotARotationMatrixException
 
-Full name: `org.apache.commons.math3.geometry.euclidean.threed.NotARotationMatrixException`
+Package: `org.apache.commons.math3.geometry.euclidean.threed.NotARotationMatrixException`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/NotARotationMatrixException.java`
 
 - `serialVersionUID` (line 34)
@@ -6108,7 +6108,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In CardanEulerSingularityException
 
-Full name: `org.apache.commons.math3.geometry.euclidean.threed.CardanEulerSingularityException`
+Package: `org.apache.commons.math3.geometry.euclidean.threed.CardanEulerSingularityException`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/CardanEulerSingularityException.java`
 
 - `serialVersionUID` (line 32)
@@ -6116,7 +6116,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Rotation
 
-Full name: `org.apache.commons.math3.geometry.euclidean.threed.Rotation`
+Package: `org.apache.commons.math3.geometry.euclidean.threed.Rotation`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Rotation.java`
 
 - `serialVersionUID` (line 102)
@@ -6128,7 +6128,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In RotationOrder
 
-Full name: `org.apache.commons.math3.geometry.euclidean.threed.RotationOrder`
+Package: `org.apache.commons.math3.geometry.euclidean.threed.RotationOrder`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/RotationOrder.java`
 
 - `name` (line 118)
@@ -6139,7 +6139,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In OutlineExtractor
 
-Full name: `org.apache.commons.math3.geometry.euclidean.threed.OutlineExtractor`
+Package: `org.apache.commons.math3.geometry.euclidean.threed.OutlineExtractor`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/OutlineExtractor.java`
 
 - `u` (line 41)
@@ -6149,7 +6149,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Line
 
-Full name: `org.apache.commons.math3.geometry.euclidean.threed.Line`
+Package: `org.apache.commons.math3.geometry.euclidean.threed.Line`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/Line.java`
 
 - `DEFAULT_TOLERANCE` (line 44)
@@ -6160,7 +6160,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In SubLine
 
-Full name: `org.apache.commons.math3.geometry.euclidean.threed.SubLine`
+Package: `org.apache.commons.math3.geometry.euclidean.threed.SubLine`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/SubLine.java`
 
 - `DEFAULT_TOLERANCE` (line 36)
@@ -6170,7 +6170,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In SphericalCoordinates
 
-Full name: `org.apache.commons.math3.geometry.euclidean.threed.SphericalCoordinates`
+Package: `org.apache.commons.math3.geometry.euclidean.threed.SphericalCoordinates`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/threed/SphericalCoordinates.java`
 
 - `serialVersionUID` (line 55)
@@ -6186,7 +6186,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Interval
 
-Full name: `org.apache.commons.math3.geometry.euclidean.oned.Interval`
+Package: `org.apache.commons.math3.geometry.euclidean.oned.Interval`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/oned/Interval.java`
 
 - `lower` (line 31)
@@ -6195,7 +6195,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In OrientedPoint
 
-Full name: `org.apache.commons.math3.geometry.euclidean.oned.OrientedPoint`
+Package: `org.apache.commons.math3.geometry.euclidean.oned.OrientedPoint`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/oned/OrientedPoint.java`
 
 - `DEFAULT_TOLERANCE` (line 32)
@@ -6206,7 +6206,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Vector1D
 
-Full name: `org.apache.commons.math3.geometry.euclidean.oned.Vector1D`
+Package: `org.apache.commons.math3.geometry.euclidean.oned.Vector1D`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/oned/Vector1D.java`
 
 - `serialVersionUID` (line 55)
@@ -6215,7 +6215,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In IntervalsSet
 
-Full name: `org.apache.commons.math3.geometry.euclidean.oned.IntervalsSet`
+Package: `org.apache.commons.math3.geometry.euclidean.oned.IntervalsSet`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/oned/IntervalsSet.java`
 
 - `DEFAULT_TOLERANCE` (line 38)
@@ -6223,7 +6223,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Euclidean1D
 
-Full name: `org.apache.commons.math3.geometry.euclidean.oned.Euclidean1D`
+Package: `org.apache.commons.math3.geometry.euclidean.oned.Euclidean1D`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/euclidean/oned/Euclidean1D.java`
 
 - `serialVersionUID` (line 33)
@@ -6231,7 +6231,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Sphere2D
 
-Full name: `org.apache.commons.math3.geometry.spherical.twod.Sphere2D`
+Package: `org.apache.commons.math3.geometry.spherical.twod.Sphere2D`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/spherical/twod/Sphere2D.java`
 
 - `serialVersionUID` (line 38)
@@ -6239,7 +6239,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Circle
 
-Full name: `org.apache.commons.math3.geometry.spherical.twod.Circle`
+Package: `org.apache.commons.math3.geometry.spherical.twod.Circle`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/spherical/twod/Circle.java`
 
 - `pole` (line 48)
@@ -6250,7 +6250,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In SphericalPolygonsSet
 
-Full name: `org.apache.commons.math3.geometry.spherical.twod.SphericalPolygonsSet`
+Package: `org.apache.commons.math3.geometry.spherical.twod.SphericalPolygonsSet`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/spherical/twod/SphericalPolygonsSet.java`
 
 - `loops` (line 48)
@@ -6258,7 +6258,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Edge
 
-Full name: `org.apache.commons.math3.geometry.spherical.twod.Edge`
+Package: `org.apache.commons.math3.geometry.spherical.twod.Edge`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/spherical/twod/Edge.java`
 
 - `start` (line 34)
@@ -6269,7 +6269,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Vertex
 
-Full name: `org.apache.commons.math3.geometry.spherical.twod.Vertex`
+Package: `org.apache.commons.math3.geometry.spherical.twod.Vertex`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/spherical/twod/Vertex.java`
 
 - `location` (line 30)
@@ -6280,7 +6280,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In S2Point
 
-Full name: `org.apache.commons.math3.geometry.spherical.twod.S2Point`
+Package: `org.apache.commons.math3.geometry.spherical.twod.S2Point`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/spherical/twod/S2Point.java`
 
 - `serialVersionUID` (line 64)
@@ -6291,7 +6291,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Sphere1D
 
-Full name: `org.apache.commons.math3.geometry.spherical.oned.Sphere1D`
+Package: `org.apache.commons.math3.geometry.spherical.oned.Sphere1D`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/spherical/oned/Sphere1D.java`
 
 - `serialVersionUID` (line 39)
@@ -6299,7 +6299,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In S1Point
 
-Full name: `org.apache.commons.math3.geometry.spherical.oned.S1Point`
+Package: `org.apache.commons.math3.geometry.spherical.oned.S1Point`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/spherical/oned/S1Point.java`
 
 - `serialVersionUID` (line 37)
@@ -6309,7 +6309,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In LimitAngle
 
-Full name: `org.apache.commons.math3.geometry.spherical.oned.LimitAngle`
+Package: `org.apache.commons.math3.geometry.spherical.oned.LimitAngle`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/spherical/oned/LimitAngle.java`
 
 - `location` (line 30)
@@ -6319,7 +6319,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Arc
 
-Full name: `org.apache.commons.math3.geometry.spherical.oned.Arc`
+Package: `org.apache.commons.math3.geometry.spherical.oned.Arc`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/spherical/oned/Arc.java`
 
 - `lower` (line 34)
@@ -6330,7 +6330,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In WelzlEncloser
 
-Full name: `org.apache.commons.math3.geometry.enclosing.WelzlEncloser`
+Package: `org.apache.commons.math3.geometry.enclosing.WelzlEncloser`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/enclosing/WelzlEncloser.java`
 
 - `tolerance` (line 46)
@@ -6339,7 +6339,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In EnclosingBall
 
-Full name: `org.apache.commons.math3.geometry.enclosing.EnclosingBall`
+Package: `org.apache.commons.math3.geometry.enclosing.EnclosingBall`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/enclosing/EnclosingBall.java`
 
 - `serialVersionUID` (line 35)
@@ -6350,7 +6350,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In RegionFactory
 
-Full name: `org.apache.commons.math3.geometry.partitioning.RegionFactory`
+Package: `org.apache.commons.math3.geometry.partitioning.RegionFactory`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/partitioning/RegionFactory.java`
 
 - `nodeCleaner` (line 39)
@@ -6358,7 +6358,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In AbstractRegion
 
-Full name: `org.apache.commons.math3.geometry.partitioning.AbstractRegion`
+Package: `org.apache.commons.math3.geometry.partitioning.AbstractRegion`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/partitioning/AbstractRegion.java`
 
 - `tree` (line 41)
@@ -6369,7 +6369,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In AbstractSubHyperplane
 
-Full name: `org.apache.commons.math3.geometry.partitioning.AbstractSubHyperplane`
+Package: `org.apache.commons.math3.geometry.partitioning.AbstractSubHyperplane`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/partitioning/AbstractSubHyperplane.java`
 
 - `hyperplane` (line 42)
@@ -6378,7 +6378,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In AVLTree
 
-Full name: `org.apache.commons.math3.geometry.partitioning.utilities.AVLTree`
+Package: `org.apache.commons.math3.geometry.partitioning.utilities.AVLTree`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/partitioning/utilities/AVLTree.java`
 
 - `top` (line 52)
@@ -6386,7 +6386,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In OrderedTuple
 
-Full name: `org.apache.commons.math3.geometry.partitioning.utilities.OrderedTuple`
+Package: `org.apache.commons.math3.geometry.partitioning.utilities.OrderedTuple`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/partitioning/utilities/OrderedTuple.java`
 
 - `SIGN_MASK` (line 99)
@@ -6404,7 +6404,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In NodesSet
 
-Full name: `org.apache.commons.math3.geometry.partitioning.NodesSet`
+Package: `org.apache.commons.math3.geometry.partitioning.NodesSet`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/partitioning/NodesSet.java`
 
 - `list` (line 33)
@@ -6412,7 +6412,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In BoundaryProjection
 
-Full name: `org.apache.commons.math3.geometry.partitioning.BoundaryProjection`
+Package: `org.apache.commons.math3.geometry.partitioning.BoundaryProjection`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/partitioning/BoundaryProjection.java`
 
 - `original` (line 33)
@@ -6422,7 +6422,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In BSPTree
 
-Full name: `org.apache.commons.math3.geometry.partitioning.BSPTree`
+Package: `org.apache.commons.math3.geometry.partitioning.BSPTree`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/partitioning/BSPTree.java`
 
 - `cut` (line 71)
@@ -6434,7 +6434,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In BoundaryAttribute
 
-Full name: `org.apache.commons.math3.geometry.partitioning.BoundaryAttribute`
+Package: `org.apache.commons.math3.geometry.partitioning.BoundaryAttribute`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/partitioning/BoundaryAttribute.java`
 
 - `plusOutside` (line 40)
@@ -6444,7 +6444,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In VectorFormat
 
-Full name: `org.apache.commons.math3.geometry.VectorFormat`
+Package: `org.apache.commons.math3.geometry.VectorFormat`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/geometry/VectorFormat.java`
 
 - `prefix` (line 57)
@@ -6458,7 +6458,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In ContinuousOutputFieldModel
 
-Full name: `org.apache.commons.math3.ode.ContinuousOutputFieldModel`
+Package: `org.apache.commons.math3.ode.ContinuousOutputFieldModel`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/ContinuousOutputFieldModel.java`
 
 - `initialTime` (line 85)
@@ -6470,7 +6470,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In FirstOrderConverter
 
-Full name: `org.apache.commons.math3.ode.FirstOrderConverter`
+Package: `org.apache.commons.math3.ode.FirstOrderConverter`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/FirstOrderConverter.java`
 
 - `equations` (line 59)
@@ -6482,7 +6482,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In MultistepFieldIntegrator
 
-Full name: `org.apache.commons.math3.ode.MultistepFieldIntegrator`
+Package: `org.apache.commons.math3.ode.MultistepFieldIntegrator`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/MultistepFieldIntegrator.java`
 
 - `starter` (line 80)
@@ -6495,7 +6495,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In FieldEventState
 
-Full name: `org.apache.commons.math3.ode.events.FieldEventState`
+Package: `org.apache.commons.math3.ode.events.FieldEventState`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/events/FieldEventState.java`
 
 - `handler` (line 47)
@@ -6516,7 +6516,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In EventState
 
-Full name: `org.apache.commons.math3.ode.events.EventState`
+Package: `org.apache.commons.math3.ode.events.EventState`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/events/EventState.java`
 
 - `handler` (line 48)
@@ -6538,7 +6538,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In EventFilter
 
-Full name: `org.apache.commons.math3.ode.events.EventFilter`
+Package: `org.apache.commons.math3.ode.events.EventFilter`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/events/EventFilter.java`
 
 - `HISTORY_SIZE` (line 58)
@@ -6552,7 +6552,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In AbstractIntegrator
 
-Full name: `org.apache.commons.math3.ode.AbstractIntegrator`
+Package: `org.apache.commons.math3.ode.AbstractIntegrator`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/AbstractIntegrator.java`
 
 - `eventsStates` (line 66)
@@ -6564,7 +6564,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In EquationsMapper
 
-Full name: `org.apache.commons.math3.ode.EquationsMapper`
+Package: `org.apache.commons.math3.ode.EquationsMapper`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/EquationsMapper.java`
 
 - `serialVersionUID` (line 36)
@@ -6574,7 +6574,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In UnknownParameterException
 
-Full name: `org.apache.commons.math3.ode.UnknownParameterException`
+Package: `org.apache.commons.math3.ode.UnknownParameterException`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/UnknownParameterException.java`
 
 - `serialVersionUID` (line 30)
@@ -6583,7 +6583,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In FieldODEStateAndDerivative
 
-Full name: `org.apache.commons.math3.ode.FieldODEStateAndDerivative`
+Package: `org.apache.commons.math3.ode.FieldODEStateAndDerivative`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/FieldODEStateAndDerivative.java`
 
 - `derivative` (line 34)
@@ -6592,7 +6592,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In JacobianMatrices
 
-Full name: `org.apache.commons.math3.ode.JacobianMatrices`
+Package: `org.apache.commons.math3.ode.JacobianMatrices`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/JacobianMatrices.java`
 
 - `efode` (line 59)
@@ -6609,7 +6609,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In LutherIntegrator
 
-Full name: `org.apache.commons.math3.ode.nonstiff.LutherIntegrator`
+Package: `org.apache.commons.math3.ode.nonstiff.LutherIntegrator`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/nonstiff/LutherIntegrator.java`
 
 - `Q` (line 59)
@@ -6620,7 +6620,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In AdamsNordsieckTransformer
 
-Full name: `org.apache.commons.math3.ode.nonstiff.AdamsNordsieckTransformer`
+Package: `org.apache.commons.math3.ode.nonstiff.AdamsNordsieckTransformer`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/nonstiff/AdamsNordsieckTransformer.java`
 
 - `CACHE` (line 138)
@@ -6630,7 +6630,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In AdamsMoultonFieldIntegrator
 
-Full name: `org.apache.commons.math3.ode.nonstiff.AdamsMoultonFieldIntegrator`
+Package: `org.apache.commons.math3.ode.nonstiff.AdamsMoultonFieldIntegrator`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/nonstiff/AdamsMoultonFieldIntegrator.java`
 
 - `METHOD_NAME` (line 166)
@@ -6638,7 +6638,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In RungeKuttaFieldIntegrator
 
-Full name: `org.apache.commons.math3.ode.nonstiff.RungeKuttaFieldIntegrator`
+Package: `org.apache.commons.math3.ode.nonstiff.RungeKuttaFieldIntegrator`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/nonstiff/RungeKuttaFieldIntegrator.java`
 
 - `c` (line 65)
@@ -6649,7 +6649,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In EulerIntegrator
 
-Full name: `org.apache.commons.math3.ode.nonstiff.EulerIntegrator`
+Package: `org.apache.commons.math3.ode.nonstiff.EulerIntegrator`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/nonstiff/EulerIntegrator.java`
 
 - `STATIC_C` (line 52)
@@ -6659,7 +6659,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In MidpointIntegrator
 
-Full name: `org.apache.commons.math3.ode.nonstiff.MidpointIntegrator`
+Package: `org.apache.commons.math3.ode.nonstiff.MidpointIntegrator`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/nonstiff/MidpointIntegrator.java`
 
 - `STATIC_C` (line 47)
@@ -6669,7 +6669,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In DormandPrince853Integrator
 
-Full name: `org.apache.commons.math3.ode.nonstiff.DormandPrince853Integrator`
+Package: `org.apache.commons.math3.ode.nonstiff.DormandPrince853Integrator`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/nonstiff/DormandPrince853Integrator.java`
 
 - `METHOD_NAME` (line 59)
@@ -6696,7 +6696,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In AdamsNordsieckFieldTransformer
 
-Full name: `org.apache.commons.math3.ode.nonstiff.AdamsNordsieckFieldTransformer`
+Package: `org.apache.commons.math3.ode.nonstiff.AdamsNordsieckFieldTransformer`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/nonstiff/AdamsNordsieckFieldTransformer.java`
 
 - `CACHE` (line 137)
@@ -6707,7 +6707,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In AdamsIntegrator
 
-Full name: `org.apache.commons.math3.ode.nonstiff.AdamsIntegrator`
+Package: `org.apache.commons.math3.ode.nonstiff.AdamsIntegrator`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/nonstiff/AdamsIntegrator.java`
 
 - `transformer` (line 36)
@@ -6715,7 +6715,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In EmbeddedRungeKuttaFieldIntegrator
 
-Full name: `org.apache.commons.math3.ode.nonstiff.EmbeddedRungeKuttaFieldIntegrator`
+Package: `org.apache.commons.math3.ode.nonstiff.EmbeddedRungeKuttaFieldIntegrator`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/nonstiff/EmbeddedRungeKuttaFieldIntegrator.java`
 
 - `fsal` (line 75)
@@ -6730,7 +6730,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In AdamsBashforthFieldIntegrator
 
-Full name: `org.apache.commons.math3.ode.nonstiff.AdamsBashforthFieldIntegrator`
+Package: `org.apache.commons.math3.ode.nonstiff.AdamsBashforthFieldIntegrator`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/nonstiff/AdamsBashforthFieldIntegrator.java`
 
 - `METHOD_NAME` (line 150)
@@ -6738,7 +6738,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In EmbeddedRungeKuttaIntegrator
 
-Full name: `org.apache.commons.math3.ode.nonstiff.EmbeddedRungeKuttaIntegrator`
+Package: `org.apache.commons.math3.ode.nonstiff.EmbeddedRungeKuttaIntegrator`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java`
 
 - `fsal` (line 67)
@@ -6754,7 +6754,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In RungeKuttaIntegrator
 
-Full name: `org.apache.commons.math3.ode.nonstiff.RungeKuttaIntegrator`
+Package: `org.apache.commons.math3.ode.nonstiff.RungeKuttaIntegrator`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/nonstiff/RungeKuttaIntegrator.java`
 
 - `c` (line 57)
@@ -6766,7 +6766,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In AdamsBashforthIntegrator
 
-Full name: `org.apache.commons.math3.ode.nonstiff.AdamsBashforthIntegrator`
+Package: `org.apache.commons.math3.ode.nonstiff.AdamsBashforthIntegrator`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/nonstiff/AdamsBashforthIntegrator.java`
 
 - `METHOD_NAME` (line 147)
@@ -6774,7 +6774,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In AdamsMoultonIntegrator
 
-Full name: `org.apache.commons.math3.ode.nonstiff.AdamsMoultonIntegrator`
+Package: `org.apache.commons.math3.ode.nonstiff.AdamsMoultonIntegrator`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/nonstiff/AdamsMoultonIntegrator.java`
 
 - `METHOD_NAME` (line 162)
@@ -6782,7 +6782,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In GillIntegrator
 
-Full name: `org.apache.commons.math3.ode.nonstiff.GillIntegrator`
+Package: `org.apache.commons.math3.ode.nonstiff.GillIntegrator`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/nonstiff/GillIntegrator.java`
 
 - `STATIC_C` (line 50)
@@ -6792,7 +6792,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In HighamHall54Integrator
 
-Full name: `org.apache.commons.math3.ode.nonstiff.HighamHall54Integrator`
+Package: `org.apache.commons.math3.ode.nonstiff.HighamHall54Integrator`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/nonstiff/HighamHall54Integrator.java`
 
 - `METHOD_NAME` (line 39)
@@ -6804,7 +6804,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In ThreeEighthesIntegrator
 
-Full name: `org.apache.commons.math3.ode.nonstiff.ThreeEighthesIntegrator`
+Package: `org.apache.commons.math3.ode.nonstiff.ThreeEighthesIntegrator`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/nonstiff/ThreeEighthesIntegrator.java`
 
 - `STATIC_C` (line 48)
@@ -6814,7 +6814,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In DormandPrince54FieldIntegrator
 
-Full name: `org.apache.commons.math3.ode.nonstiff.DormandPrince54FieldIntegrator`
+Package: `org.apache.commons.math3.ode.nonstiff.DormandPrince54FieldIntegrator`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/nonstiff/DormandPrince54FieldIntegrator.java`
 
 - `METHOD_NAME` (line 58)
@@ -6828,7 +6828,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In HighamHall54FieldIntegrator
 
-Full name: `org.apache.commons.math3.ode.nonstiff.HighamHall54FieldIntegrator`
+Package: `org.apache.commons.math3.ode.nonstiff.HighamHall54FieldIntegrator`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/nonstiff/HighamHall54FieldIntegrator.java`
 
 - `METHOD_NAME` (line 46)
@@ -6837,7 +6837,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In ClassicalRungeKuttaIntegrator
 
-Full name: `org.apache.commons.math3.ode.nonstiff.ClassicalRungeKuttaIntegrator`
+Package: `org.apache.commons.math3.ode.nonstiff.ClassicalRungeKuttaIntegrator`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/nonstiff/ClassicalRungeKuttaIntegrator.java`
 
 - `STATIC_C` (line 49)
@@ -6847,7 +6847,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In AdamsFieldIntegrator
 
-Full name: `org.apache.commons.math3.ode.nonstiff.AdamsFieldIntegrator`
+Package: `org.apache.commons.math3.ode.nonstiff.AdamsFieldIntegrator`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/nonstiff/AdamsFieldIntegrator.java`
 
 - `transformer` (line 41)
@@ -6855,7 +6855,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In DormandPrince54Integrator
 
-Full name: `org.apache.commons.math3.ode.nonstiff.DormandPrince54Integrator`
+Package: `org.apache.commons.math3.ode.nonstiff.DormandPrince54Integrator`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/nonstiff/DormandPrince54Integrator.java`
 
 - `METHOD_NAME` (line 51)
@@ -6872,7 +6872,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In AdaptiveStepsizeIntegrator
 
-Full name: `org.apache.commons.math3.ode.nonstiff.AdaptiveStepsizeIntegrator`
+Package: `org.apache.commons.math3.ode.nonstiff.AdaptiveStepsizeIntegrator`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/nonstiff/AdaptiveStepsizeIntegrator.java`
 
 - `initialStep` (line 84)
@@ -6882,7 +6882,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In GraggBulirschStoerIntegrator
 
-Full name: `org.apache.commons.math3.ode.nonstiff.GraggBulirschStoerIntegrator`
+Package: `org.apache.commons.math3.ode.nonstiff.GraggBulirschStoerIntegrator`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/nonstiff/GraggBulirschStoerIntegrator.java`
 
 - `METHOD_NAME` (line 99)
@@ -6908,7 +6908,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In DormandPrince853FieldIntegrator
 
-Full name: `org.apache.commons.math3.ode.nonstiff.DormandPrince853FieldIntegrator`
+Package: `org.apache.commons.math3.ode.nonstiff.DormandPrince853FieldIntegrator`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/nonstiff/DormandPrince853FieldIntegrator.java`
 
 - `METHOD_NAME` (line 66)
@@ -6932,7 +6932,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In AdaptiveStepsizeFieldIntegrator
 
-Full name: `org.apache.commons.math3.ode.nonstiff.AdaptiveStepsizeFieldIntegrator`
+Package: `org.apache.commons.math3.ode.nonstiff.AdaptiveStepsizeFieldIntegrator`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/nonstiff/AdaptiveStepsizeFieldIntegrator.java`
 
 - `initialStep` (line 89)
@@ -6942,7 +6942,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In FieldODEState
 
-Full name: `org.apache.commons.math3.ode.FieldODEState`
+Package: `org.apache.commons.math3.ode.FieldODEState`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/FieldODEState.java`
 
 - `time` (line 37)
@@ -6952,7 +6952,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In ExpandableStatefulODE
 
-Full name: `org.apache.commons.math3.ode.ExpandableStatefulODE`
+Package: `org.apache.commons.math3.ode.ExpandableStatefulODE`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/ExpandableStatefulODE.java`
 
 - `primary` (line 52)
@@ -6965,7 +6965,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In AbstractParameterizable
 
-Full name: `org.apache.commons.math3.ode.AbstractParameterizable`
+Package: `org.apache.commons.math3.ode.AbstractParameterizable`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/AbstractParameterizable.java`
 
 - `parametersNames` (line 30)
@@ -6973,7 +6973,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In ContinuousOutputModel
 
-Full name: `org.apache.commons.math3.ode.ContinuousOutputModel`
+Package: `org.apache.commons.math3.ode.ContinuousOutputModel`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/ContinuousOutputModel.java`
 
 - `serialVersionUID` (line 93)
@@ -6986,7 +6986,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In AbstractFieldIntegrator
 
-Full name: `org.apache.commons.math3.ode.AbstractFieldIntegrator`
+Package: `org.apache.commons.math3.ode.AbstractFieldIntegrator`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/AbstractFieldIntegrator.java`
 
 - `DEFAULT_RELATIVE_ACCURACY` (line 53)
@@ -7006,7 +7006,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In NordsieckStepInterpolator
 
-Full name: `org.apache.commons.math3.ode.sampling.NordsieckStepInterpolator`
+Package: `org.apache.commons.math3.ode.sampling.NordsieckStepInterpolator`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/sampling/NordsieckStepInterpolator.java`
 
 - `serialVersionUID` (line 44)
@@ -7018,7 +7018,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In FieldStepNormalizer
 
-Full name: `org.apache.commons.math3.ode.sampling.FieldStepNormalizer`
+Package: `org.apache.commons.math3.ode.sampling.FieldStepNormalizer`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/sampling/FieldStepNormalizer.java`
 
 - `h` (line 97)
@@ -7032,7 +7032,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In AbstractStepInterpolator
 
-Full name: `org.apache.commons.math3.ode.sampling.AbstractStepInterpolator`
+Package: `org.apache.commons.math3.ode.sampling.AbstractStepInterpolator`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/sampling/AbstractStepInterpolator.java`
 
 - `globalPreviousTime` (line 74)
@@ -7048,7 +7048,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In AbstractFieldStepInterpolator
 
-Full name: `org.apache.commons.math3.ode.sampling.AbstractFieldStepInterpolator`
+Package: `org.apache.commons.math3.ode.sampling.AbstractFieldStepInterpolator`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/sampling/AbstractFieldStepInterpolator.java`
 
 - `globalPreviousState` (line 44)
@@ -7061,7 +7061,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In StepNormalizerBounds
 
-Full name: `org.apache.commons.math3.ode.sampling.StepNormalizerBounds`
+Package: `org.apache.commons.math3.ode.sampling.StepNormalizerBounds`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/sampling/StepNormalizerBounds.java`
 
 - `first` (line 46)
@@ -7070,7 +7070,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In StepNormalizer
 
-Full name: `org.apache.commons.math3.ode.sampling.StepNormalizer`
+Package: `org.apache.commons.math3.ode.sampling.StepNormalizer`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/sampling/StepNormalizer.java`
 
 - `h` (line 93)
@@ -7086,7 +7086,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In FieldEquationsMapper
 
-Full name: `org.apache.commons.math3.ode.FieldEquationsMapper`
+Package: `org.apache.commons.math3.ode.FieldEquationsMapper`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/FieldEquationsMapper.java`
 
 - `serialVersionUID` (line 41)
@@ -7095,7 +7095,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In MultistepIntegrator
 
-Full name: `org.apache.commons.math3.ode.MultistepIntegrator`
+Package: `org.apache.commons.math3.ode.MultistepIntegrator`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/MultistepIntegrator.java`
 
 - `starter` (line 74)
@@ -7108,7 +7108,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In FieldExpandableODE
 
-Full name: `org.apache.commons.math3.ode.FieldExpandableODE`
+Package: `org.apache.commons.math3.ode.FieldExpandableODE`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/ode/FieldExpandableODE.java`
 
 - `primary` (line 55)
@@ -7118,7 +7118,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In BaseOptimizer
 
-Full name: `org.apache.commons.math3.optim.BaseOptimizer`
+Package: `org.apache.commons.math3.optim.BaseOptimizer`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/BaseOptimizer.java`
 
 - `checker` (line 41)
@@ -7126,7 +7126,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In AbstractOptimizationProblem
 
-Full name: `org.apache.commons.math3.optim.AbstractOptimizationProblem`
+Package: `org.apache.commons.math3.optim.AbstractOptimizationProblem`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/AbstractOptimizationProblem.java`
 
 - `MAX_EVAL_CALLBACK` (line 35)
@@ -7138,7 +7138,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In BaseMultiStartMultivariateOptimizer
 
-Full name: `org.apache.commons.math3.optim.BaseMultiStartMultivariateOptimizer`
+Package: `org.apache.commons.math3.optim.BaseMultiStartMultivariateOptimizer`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/BaseMultiStartMultivariateOptimizer.java`
 
 - `optimizer` (line 40)
@@ -7152,7 +7152,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In PointValuePair
 
-Full name: `org.apache.commons.math3.optim.PointValuePair`
+Package: `org.apache.commons.math3.optim.PointValuePair`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/PointValuePair.java`
 
 - `serialVersionUID` (line 32)
@@ -7160,7 +7160,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In MultiStartMultivariateVectorOptimizer
 
-Full name: `org.apache.commons.math3.optim.nonlinear.vector.MultiStartMultivariateVectorOptimizer`
+Package: `org.apache.commons.math3.optim.nonlinear.vector.MultiStartMultivariateVectorOptimizer`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/nonlinear/vector/MultiStartMultivariateVectorOptimizer.java`
 
 - `optimizer` (line 45)
@@ -7169,7 +7169,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Weight
 
-Full name: `org.apache.commons.math3.optim.nonlinear.vector.Weight`
+Package: `org.apache.commons.math3.optim.nonlinear.vector.Weight`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/nonlinear/vector/Weight.java`
 
 - `weightMatrix` (line 38)
@@ -7177,7 +7177,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In AbstractLeastSquaresOptimizer
 
-Full name: `org.apache.commons.math3.optim.nonlinear.vector.jacobian.AbstractLeastSquaresOptimizer`
+Package: `org.apache.commons.math3.optim.nonlinear.vector.jacobian.AbstractLeastSquaresOptimizer`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/nonlinear/vector/jacobian/AbstractLeastSquaresOptimizer.java`
 
 - `weightMatrixSqrt` (line 49)
@@ -7186,7 +7186,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In LevenbergMarquardtOptimizer
 
-Full name: `org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizer`
+Package: `org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizer`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/nonlinear/vector/jacobian/LevenbergMarquardtOptimizer.java`
 
 - `TWO_EPS` (line 120)
@@ -7209,7 +7209,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In GaussNewtonOptimizer
 
-Full name: `org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizer`
+Package: `org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizer`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/nonlinear/vector/jacobian/GaussNewtonOptimizer.java`
 
 - `useLU` (line 57)
@@ -7217,7 +7217,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In ModelFunctionJacobian
 
-Full name: `org.apache.commons.math3.optim.nonlinear.vector.ModelFunctionJacobian`
+Package: `org.apache.commons.math3.optim.nonlinear.vector.ModelFunctionJacobian`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/nonlinear/vector/ModelFunctionJacobian.java`
 
 - `jacobian` (line 34)
@@ -7225,7 +7225,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In MultivariateVectorOptimizer
 
-Full name: `org.apache.commons.math3.optim.nonlinear.vector.MultivariateVectorOptimizer`
+Package: `org.apache.commons.math3.optim.nonlinear.vector.MultivariateVectorOptimizer`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/nonlinear/vector/MultivariateVectorOptimizer.java`
 
 - `target` (line 38)
@@ -7235,7 +7235,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In ModelFunction
 
-Full name: `org.apache.commons.math3.optim.nonlinear.vector.ModelFunction`
+Package: `org.apache.commons.math3.optim.nonlinear.vector.ModelFunction`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/nonlinear/vector/ModelFunction.java`
 
 - `model` (line 34)
@@ -7243,7 +7243,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In JacobianMultivariateVectorOptimizer
 
-Full name: `org.apache.commons.math3.optim.nonlinear.vector.JacobianMultivariateVectorOptimizer`
+Package: `org.apache.commons.math3.optim.nonlinear.vector.JacobianMultivariateVectorOptimizer`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/nonlinear/vector/JacobianMultivariateVectorOptimizer.java`
 
 - `jacobian` (line 48)
@@ -7251,7 +7251,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Target
 
-Full name: `org.apache.commons.math3.optim.nonlinear.vector.Target`
+Package: `org.apache.commons.math3.optim.nonlinear.vector.Target`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/nonlinear/vector/Target.java`
 
 - `target` (line 37)
@@ -7259,7 +7259,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In MultivariateFunctionMappingAdapter
 
-Full name: `org.apache.commons.math3.optim.nonlinear.scalar.MultivariateFunctionMappingAdapter`
+Package: `org.apache.commons.math3.optim.nonlinear.scalar.MultivariateFunctionMappingAdapter`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/nonlinear/scalar/MultivariateFunctionMappingAdapter.java`
 
 - `bounded` (line 83)
@@ -7268,7 +7268,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In ObjectiveFunctionGradient
 
-Full name: `org.apache.commons.math3.optim.nonlinear.scalar.ObjectiveFunctionGradient`
+Package: `org.apache.commons.math3.optim.nonlinear.scalar.ObjectiveFunctionGradient`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/nonlinear/scalar/ObjectiveFunctionGradient.java`
 
 - `gradient` (line 29)
@@ -7276,7 +7276,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In LeastSquaresConverter
 
-Full name: `org.apache.commons.math3.optim.nonlinear.scalar.LeastSquaresConverter`
+Package: `org.apache.commons.math3.optim.nonlinear.scalar.LeastSquaresConverter`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/nonlinear/scalar/LeastSquaresConverter.java`
 
 - `function` (line 56)
@@ -7287,7 +7287,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In MultiStartMultivariateOptimizer
 
-Full name: `org.apache.commons.math3.optim.nonlinear.scalar.MultiStartMultivariateOptimizer`
+Package: `org.apache.commons.math3.optim.nonlinear.scalar.MultiStartMultivariateOptimizer`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/nonlinear/scalar/MultiStartMultivariateOptimizer.java`
 
 - `optimizer` (line 41)
@@ -7296,7 +7296,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In AbstractSimplex
 
-Full name: `org.apache.commons.math3.optim.nonlinear.scalar.noderiv.AbstractSimplex`
+Package: `org.apache.commons.math3.optim.nonlinear.scalar.noderiv.AbstractSimplex`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/nonlinear/scalar/noderiv/AbstractSimplex.java`
 
 - `simplex` (line 52)
@@ -7306,7 +7306,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In SimplexOptimizer
 
-Full name: `org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizer`
+Package: `org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizer`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/nonlinear/scalar/noderiv/SimplexOptimizer.java`
 
 - `simplex` (line 90)
@@ -7314,7 +7314,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In CMAESOptimizer
 
-Full name: `org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizer`
+Package: `org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizer`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/nonlinear/scalar/noderiv/CMAESOptimizer.java`
 
 - `lambda` (line 91)
@@ -7366,7 +7366,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In NelderMeadSimplex
 
-Full name: `org.apache.commons.math3.optim.nonlinear.scalar.noderiv.NelderMeadSimplex`
+Package: `org.apache.commons.math3.optim.nonlinear.scalar.noderiv.NelderMeadSimplex`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/nonlinear/scalar/noderiv/NelderMeadSimplex.java`
 
 - `DEFAULT_RHO` (line 31)
@@ -7381,7 +7381,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In BOBYQAOptimizer
 
-Full name: `org.apache.commons.math3.optim.nonlinear.scalar.noderiv.BOBYQAOptimizer`
+Package: `org.apache.commons.math3.optim.nonlinear.scalar.noderiv.BOBYQAOptimizer`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/nonlinear/scalar/noderiv/BOBYQAOptimizer.java`
 
 - `ZERO` (line 58)
@@ -7422,7 +7422,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In MultiDirectionalSimplex
 
-Full name: `org.apache.commons.math3.optim.nonlinear.scalar.noderiv.MultiDirectionalSimplex`
+Package: `org.apache.commons.math3.optim.nonlinear.scalar.noderiv.MultiDirectionalSimplex`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/nonlinear/scalar/noderiv/MultiDirectionalSimplex.java`
 
 - `DEFAULT_KHI` (line 31)
@@ -7433,7 +7433,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In PowellOptimizer
 
-Full name: `org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer`
+Package: `org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/nonlinear/scalar/noderiv/PowellOptimizer.java`
 
 - `MIN_RELATIVE_TOLERANCE` (line 62)
@@ -7444,7 +7444,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In NonLinearConjugateGradientOptimizer
 
-Full name: `org.apache.commons.math3.optim.nonlinear.scalar.gradient.NonLinearConjugateGradientOptimizer`
+Package: `org.apache.commons.math3.optim.nonlinear.scalar.gradient.NonLinearConjugateGradientOptimizer`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/nonlinear/scalar/gradient/NonLinearConjugateGradientOptimizer.java`
 
 - `updateFormula` (line 49)
@@ -7454,7 +7454,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In LineSearch
 
-Full name: `org.apache.commons.math3.optim.nonlinear.scalar.LineSearch`
+Package: `org.apache.commons.math3.optim.nonlinear.scalar.LineSearch`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/nonlinear/scalar/LineSearch.java`
 
 - `REL_TOL_UNUSED` (line 41)
@@ -7467,7 +7467,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In ObjectiveFunction
 
-Full name: `org.apache.commons.math3.optim.nonlinear.scalar.ObjectiveFunction`
+Package: `org.apache.commons.math3.optim.nonlinear.scalar.ObjectiveFunction`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/nonlinear/scalar/ObjectiveFunction.java`
 
 - `function` (line 29)
@@ -7475,7 +7475,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In MultivariateFunctionPenaltyAdapter
 
-Full name: `org.apache.commons.math3.optim.nonlinear.scalar.MultivariateFunctionPenaltyAdapter`
+Package: `org.apache.commons.math3.optim.nonlinear.scalar.MultivariateFunctionPenaltyAdapter`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/nonlinear/scalar/MultivariateFunctionPenaltyAdapter.java`
 
 - `bounded` (line 70)
@@ -7487,7 +7487,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In MultivariateOptimizer
 
-Full name: `org.apache.commons.math3.optim.nonlinear.scalar.MultivariateOptimizer`
+Package: `org.apache.commons.math3.optim.nonlinear.scalar.MultivariateOptimizer`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/nonlinear/scalar/MultivariateOptimizer.java`
 
 - `function` (line 34)
@@ -7496,7 +7496,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In GradientMultivariateOptimizer
 
-Full name: `org.apache.commons.math3.optim.nonlinear.scalar.GradientMultivariateOptimizer`
+Package: `org.apache.commons.math3.optim.nonlinear.scalar.GradientMultivariateOptimizer`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/nonlinear/scalar/GradientMultivariateOptimizer.java`
 
 - `gradient` (line 37)
@@ -7504,7 +7504,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In PointVectorValuePair
 
-Full name: `org.apache.commons.math3.optim.PointVectorValuePair`
+Package: `org.apache.commons.math3.optim.PointVectorValuePair`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/PointVectorValuePair.java`
 
 - `serialVersionUID` (line 32)
@@ -7512,7 +7512,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In AbstractConvergenceChecker
 
-Full name: `org.apache.commons.math3.optim.AbstractConvergenceChecker`
+Package: `org.apache.commons.math3.optim.AbstractConvergenceChecker`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/AbstractConvergenceChecker.java`
 
 - `relativeThreshold` (line 31)
@@ -7521,7 +7521,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In SimpleVectorValueChecker
 
-Full name: `org.apache.commons.math3.optim.SimpleVectorValueChecker`
+Package: `org.apache.commons.math3.optim.SimpleVectorValueChecker`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/SimpleVectorValueChecker.java`
 
 - `ITERATION_CHECK_DISABLED` (line 46)
@@ -7530,7 +7530,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In BaseMultivariateOptimizer
 
-Full name: `org.apache.commons.math3.optim.BaseMultivariateOptimizer`
+Package: `org.apache.commons.math3.optim.BaseMultivariateOptimizer`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/BaseMultivariateOptimizer.java`
 
 - `start` (line 37)
@@ -7540,7 +7540,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In BrentOptimizer
 
-Full name: `org.apache.commons.math3.optim.univariate.BrentOptimizer`
+Package: `org.apache.commons.math3.optim.univariate.BrentOptimizer`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/univariate/BrentOptimizer.java`
 
 - `GOLDEN_SECTION` (line 47)
@@ -7551,7 +7551,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In BracketFinder
 
-Full name: `org.apache.commons.math3.optim.univariate.BracketFinder`
+Package: `org.apache.commons.math3.optim.univariate.BracketFinder`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/univariate/BracketFinder.java`
 
 - `EPS_MIN` (line 36)
@@ -7568,7 +7568,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In MultiStartUnivariateOptimizer
 
-Full name: `org.apache.commons.math3.optim.univariate.MultiStartUnivariateOptimizer`
+Package: `org.apache.commons.math3.optim.univariate.MultiStartUnivariateOptimizer`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/univariate/MultiStartUnivariateOptimizer.java`
 
 - `optimizer` (line 43)
@@ -7583,7 +7583,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In SearchInterval
 
-Full name: `org.apache.commons.math3.optim.univariate.SearchInterval`
+Package: `org.apache.commons.math3.optim.univariate.SearchInterval`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/univariate/SearchInterval.java`
 
 - `lower` (line 32)
@@ -7593,7 +7593,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In UnivariatePointValuePair
 
-Full name: `org.apache.commons.math3.optim.univariate.UnivariatePointValuePair`
+Package: `org.apache.commons.math3.optim.univariate.UnivariatePointValuePair`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/univariate/UnivariatePointValuePair.java`
 
 - `serialVersionUID` (line 31)
@@ -7603,7 +7603,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In UnivariateOptimizer
 
-Full name: `org.apache.commons.math3.optim.univariate.UnivariateOptimizer`
+Package: `org.apache.commons.math3.optim.univariate.UnivariateOptimizer`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/univariate/UnivariateOptimizer.java`
 
 - `function` (line 34)
@@ -7615,7 +7615,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In SimpleUnivariateValueChecker
 
-Full name: `org.apache.commons.math3.optim.univariate.SimpleUnivariateValueChecker`
+Package: `org.apache.commons.math3.optim.univariate.SimpleUnivariateValueChecker`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/univariate/SimpleUnivariateValueChecker.java`
 
 - `ITERATION_CHECK_DISABLED` (line 48)
@@ -7624,7 +7624,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In UnivariateObjectiveFunction
 
-Full name: `org.apache.commons.math3.optim.univariate.UnivariateObjectiveFunction`
+Package: `org.apache.commons.math3.optim.univariate.UnivariateObjectiveFunction`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/univariate/UnivariateObjectiveFunction.java`
 
 - `function` (line 29)
@@ -7632,7 +7632,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In SolutionCallback
 
-Full name: `org.apache.commons.math3.optim.linear.SolutionCallback`
+Package: `org.apache.commons.math3.optim.linear.SolutionCallback`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/linear/SolutionCallback.java`
 
 - `tableau` (line 30)
@@ -7640,7 +7640,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In SimplexSolver
 
-Full name: `org.apache.commons.math3.optim.linear.SimplexSolver`
+Package: `org.apache.commons.math3.optim.linear.SimplexSolver`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/linear/SimplexSolver.java`
 
 - `DEFAULT_EPSILON` (line 73)
@@ -7653,7 +7653,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Relationship
 
-Full name: `org.apache.commons.math3.optim.linear.Relationship`
+Package: `org.apache.commons.math3.optim.linear.Relationship`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/linear/Relationship.java`
 
 - `stringValue` (line 33)
@@ -7661,7 +7661,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In NonNegativeConstraint
 
-Full name: `org.apache.commons.math3.optim.linear.NonNegativeConstraint`
+Package: `org.apache.commons.math3.optim.linear.NonNegativeConstraint`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/linear/NonNegativeConstraint.java`
 
 - `isRestricted` (line 29)
@@ -7669,7 +7669,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In LinearConstraintSet
 
-Full name: `org.apache.commons.math3.optim.linear.LinearConstraintSet`
+Package: `org.apache.commons.math3.optim.linear.LinearConstraintSet`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/linear/LinearConstraintSet.java`
 
 - `linearConstraints` (line 33)
@@ -7677,7 +7677,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In LinearOptimizer
 
-Full name: `org.apache.commons.math3.optim.linear.LinearOptimizer`
+Package: `org.apache.commons.math3.optim.linear.LinearOptimizer`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/linear/LinearOptimizer.java`
 
 - `function` (line 36)
@@ -7687,7 +7687,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In NoFeasibleSolutionException
 
-Full name: `org.apache.commons.math3.optim.linear.NoFeasibleSolutionException`
+Package: `org.apache.commons.math3.optim.linear.NoFeasibleSolutionException`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/linear/NoFeasibleSolutionException.java`
 
 - `serialVersionUID` (line 29)
@@ -7695,7 +7695,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In LinearObjectiveFunction
 
-Full name: `org.apache.commons.math3.optim.linear.LinearObjectiveFunction`
+Package: `org.apache.commons.math3.optim.linear.LinearObjectiveFunction`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/linear/LinearObjectiveFunction.java`
 
 - `serialVersionUID` (line 47)
@@ -7705,7 +7705,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In UnboundedSolutionException
 
-Full name: `org.apache.commons.math3.optim.linear.UnboundedSolutionException`
+Package: `org.apache.commons.math3.optim.linear.UnboundedSolutionException`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/linear/UnboundedSolutionException.java`
 
 - `serialVersionUID` (line 29)
@@ -7713,7 +7713,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In LinearConstraint
 
-Full name: `org.apache.commons.math3.optim.linear.LinearConstraint`
+Package: `org.apache.commons.math3.optim.linear.LinearConstraint`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/linear/LinearConstraint.java`
 
 - `serialVersionUID` (line 50)
@@ -7724,7 +7724,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In MaxEval
 
-Full name: `org.apache.commons.math3.optim.MaxEval`
+Package: `org.apache.commons.math3.optim.MaxEval`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/MaxEval.java`
 
 - `maxEval` (line 28)
@@ -7732,7 +7732,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In MaxIter
 
-Full name: `org.apache.commons.math3.optim.MaxIter`
+Package: `org.apache.commons.math3.optim.MaxIter`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/MaxIter.java`
 
 - `maxIter` (line 28)
@@ -7740,7 +7740,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In SimplePointChecker
 
-Full name: `org.apache.commons.math3.optim.SimplePointChecker`
+Package: `org.apache.commons.math3.optim.SimplePointChecker`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/SimplePointChecker.java`
 
 - `ITERATION_CHECK_DISABLED` (line 48)
@@ -7749,7 +7749,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In InitialGuess
 
-Full name: `org.apache.commons.math3.optim.InitialGuess`
+Package: `org.apache.commons.math3.optim.InitialGuess`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/InitialGuess.java`
 
 - `init` (line 29)
@@ -7757,7 +7757,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In SimpleBounds
 
-Full name: `org.apache.commons.math3.optim.SimpleBounds`
+Package: `org.apache.commons.math3.optim.SimpleBounds`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/SimpleBounds.java`
 
 - `lower` (line 32)
@@ -7766,7 +7766,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In SimpleValueChecker
 
-Full name: `org.apache.commons.math3.optim.SimpleValueChecker`
+Package: `org.apache.commons.math3.optim.SimpleValueChecker`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/optim/SimpleValueChecker.java`
 
 - `ITERATION_CHECK_DISABLED` (line 46)
@@ -7775,7 +7775,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In ChineseRings
 
-Full name: `org.apache.commons.math3.userguide.sofm.ChineseRings`
+Package: `org.apache.commons.math3.userguide.sofm.ChineseRings`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/userguide/java/org/apache/commons/math3/userguide/sofm/ChineseRings.java`
 
 - `points` (line 32)
@@ -7783,7 +7783,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In ChineseRingsClassifier
 
-Full name: `org.apache.commons.math3.userguide.sofm.ChineseRingsClassifier`
+Package: `org.apache.commons.math3.userguide.sofm.ChineseRingsClassifier`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/userguide/java/org/apache/commons/math3/userguide/sofm/ChineseRingsClassifier.java`
 
 - `sofm` (line 55)
@@ -7793,7 +7793,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In PolygonChromosome
 
-Full name: `org.apache.commons.math3.userguide.genetics.PolygonChromosome`
+Package: `org.apache.commons.math3.userguide.genetics.PolygonChromosome`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/userguide/java/org/apache/commons/math3/userguide/genetics/PolygonChromosome.java`
 
 - `refImage` (line 37)
@@ -7802,7 +7802,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In RandomPolygonMutation
 
-Full name: `org.apache.commons.math3.userguide.genetics.RandomPolygonMutation`
+Package: `org.apache.commons.math3.userguide.genetics.RandomPolygonMutation`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/userguide/java/org/apache/commons/math3/userguide/genetics/RandomPolygonMutation.java`
 
 - `mutationRate` (line 27)
@@ -7811,7 +7811,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In Polygon
 
-Full name: `org.apache.commons.math3.userguide.genetics.Polygon`
+Package: `org.apache.commons.math3.userguide.genetics.Polygon`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/userguide/java/org/apache/commons/math3/userguide/genetics/Polygon.java`
 
 - `data` (line 45)
@@ -7819,7 +7819,7 @@ Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/
 
 ## In FastMathTestPerformance
 
-Full name: `org.apache.commons.math3.userguide.FastMathTestPerformance`
+Package: `org.apache.commons.math3.userguide.FastMathTestPerformance`
 Path: `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/userguide/java/org/apache/commons/math3/userguide/FastMathTestPerformance.java`
 
 - `RUNS` (line 27)

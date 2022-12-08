@@ -39,7 +39,7 @@ public class TCC extends VoidVisitorWithDefaults<Void> {
         // Nice output in markdown format
         System.out.println(
                 "\n# The class '" + declaration.getNameAsString() + "'");
-        System.out.println("Full name: `" + declaration.getFullyQualifiedName().get() + "`");
+        System.out.println("Package: `" + declaration.getFullyQualifiedName().get() + "`");
         System.out.print("methods : [ ");
         for (MethodDeclaration method : methods) {
             System.out.print("`" + method.getNameAsString() + "` ");

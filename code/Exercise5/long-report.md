@@ -3,7 +3,7 @@
 Calculating the TCC values of the classes in `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src`
 
 # The class 'PrimesTest'
-Full name: `org.apache.commons.math3.primes.PrimesTest`
+Package: `org.apache.commons.math3.primes.PrimesTest`
 methods : [ `testPrimeFactors` `testIsPrime` `assertNextPrimeException` `testNextPrime` `product` `checkPrimeFactors` `sum` `assertPrimeFactorsException` ]
 attributes : [ `PRIMES_SET` `BELOW_2` `NOT_PRIMES` `PRIMES` ]
 
@@ -42,7 +42,7 @@ Number of direct connections (link by): $4.0$
 
 
 # The class 'RetryRunnerTest'
-Full name: `org.apache.commons.math3.RetryRunnerTest`
+Package: `org.apache.commons.math3.RetryRunnerTest`
 methods : [ `testRetryFailAlways` `testRetryFailSometimes` ]
 attributes : [ `rng` ]
 
@@ -63,7 +63,7 @@ Number of direct connections (link by): $0.0$
 
 
 # The class 'NonMonotonicSequenceExceptionTest'
-Full name: `org.apache.commons.math3.exception.NonMonotonicSequenceExceptionTest`
+Package: `org.apache.commons.math3.exception.NonMonotonicSequenceExceptionTest`
 methods : [ `testAccessors` ]
 attributes : [ ]
 
@@ -72,7 +72,7 @@ The TCC value is 0 because the class has no methods or no attributes.
 
 
 # The class 'NumberIsTooLargeExceptionTest'
-Full name: `org.apache.commons.math3.exception.NumberIsTooLargeExceptionTest`
+Package: `org.apache.commons.math3.exception.NumberIsTooLargeExceptionTest`
 methods : [ `testAccessors` ]
 attributes : [ ]
 
@@ -81,7 +81,7 @@ The TCC value is 0 because the class has no methods or no attributes.
 
 
 # The class 'MaxCountExceededExceptionTest'
-Full name: `org.apache.commons.math3.exception.MaxCountExceededExceptionTest`
+Package: `org.apache.commons.math3.exception.MaxCountExceededExceptionTest`
 methods : [ `testAccessors` ]
 attributes : [ ]
 
@@ -90,7 +90,7 @@ The TCC value is 0 because the class has no methods or no attributes.
 
 
 # The class 'LocalizedFormatsTest'
-Full name: `org.apache.commons.math3.exception.util.LocalizedFormatsTest`
+Package: `org.apache.commons.math3.exception.util.LocalizedFormatsTest`
 methods : [ `testMessageNumber` `testNoOpEnglishTranslation` `testVariablePartsConsistency` `testAllKeysPresentInPropertiesFiles` `testNoMissingFrenchTranslation` `testAllPropertiesCorrespondToKeys` ]
 attributes : [ ]
 
@@ -99,7 +99,7 @@ The TCC value is 0 because the class has no methods or no attributes.
 
 
 # The class 'ExceptionContextTest'
-Full name: `org.apache.commons.math3.exception.util.ExceptionContextTest`
+Package: `org.apache.commons.math3.exception.util.ExceptionContextTest`
 methods : [ `testSerialize` `testSerializeUnserializable` `testNoArgAddMessage` `testContext` `testMessageChain` ]
 attributes : [ ]
 
@@ -108,7 +108,7 @@ The TCC value is 0 because the class has no methods or no attributes.
 
 
 # The class 'ArgUtilsTest'
-Full name: `org.apache.commons.math3.exception.util.ArgUtilsTest`
+Package: `org.apache.commons.math3.exception.util.ArgUtilsTest`
 methods : [ `create` `testFlatten` ]
 attributes : [ ]
 
@@ -117,7 +117,7 @@ The TCC value is 0 because the class has no methods or no attributes.
 
 
 # The class 'OutOfRangeExceptionTest'
-Full name: `org.apache.commons.math3.exception.OutOfRangeExceptionTest`
+Package: `org.apache.commons.math3.exception.OutOfRangeExceptionTest`
 methods : [ `testAccessors` ]
 attributes : [ ]
 
@@ -126,7 +126,7 @@ The TCC value is 0 because the class has no methods or no attributes.
 
 
 # The class 'TooManyEvaluationsExceptionTest'
-Full name: `org.apache.commons.math3.exception.TooManyEvaluationsExceptionTest`
+Package: `org.apache.commons.math3.exception.TooManyEvaluationsExceptionTest`
 methods : [ `testMessage` ]
 attributes : [ ]
 
@@ -135,7 +135,7 @@ The TCC value is 0 because the class has no methods or no attributes.
 
 
 # The class 'NotStrictlyPositiveExceptionTest'
-Full name: `org.apache.commons.math3.exception.NotStrictlyPositiveExceptionTest`
+Package: `org.apache.commons.math3.exception.NotStrictlyPositiveExceptionTest`
 methods : [ `testAccessors` ]
 attributes : [ ]
 
@@ -144,7 +144,7 @@ The TCC value is 0 because the class has no methods or no attributes.
 
 
 # The class 'NumberIsTooSmallExceptionTest'
-Full name: `org.apache.commons.math3.exception.NumberIsTooSmallExceptionTest`
+Package: `org.apache.commons.math3.exception.NumberIsTooSmallExceptionTest`
 methods : [ `testAccessors` ]
 attributes : [ ]
 
@@ -153,7 +153,7 @@ The TCC value is 0 because the class has no methods or no attributes.
 
 
 # The class 'DimensionMismatchExceptionTest'
-Full name: `org.apache.commons.math3.exception.DimensionMismatchExceptionTest`
+Package: `org.apache.commons.math3.exception.DimensionMismatchExceptionTest`
 methods : [ `testAccessors` ]
 attributes : [ ]
 
@@ -162,7 +162,7 @@ The TCC value is 0 because the class has no methods or no attributes.
 
 
 # The class 'NotPositiveExceptionTest'
-Full name: `org.apache.commons.math3.exception.NotPositiveExceptionTest`
+Package: `org.apache.commons.math3.exception.NotPositiveExceptionTest`
 methods : [ `testAccessors` ]
 attributes : [ ]
 
@@ -171,7 +171,7 @@ The TCC value is 0 because the class has no methods or no attributes.
 
 
 # The class 'KalmanFilterTest'
-Full name: `org.apache.commons.math3.filter.KalmanFilterTest`
+Package: `org.apache.commons.math3.filter.KalmanFilterTest`
 methods : [ `testCannonball` `assertVectorEquals` `assertMatrixEquals` `testConstant` `testTransitionMeasurementMatrixMismatch` `testTransitionControlMatrixMismatch` `testConstantAcceleration` ]
 attributes : [ ]
 
@@ -180,7 +180,7 @@ The TCC value is 0 because the class has no methods or no attributes.
 
 
 # The class 'PowellOptimizerTest'
-Full name: `org.apache.commons.math3.optimization.direct.PowellOptimizerTest`
+Package: `org.apache.commons.math3.optimization.direct.PowellOptimizerTest`
 methods : [ `doTest` `testQuadratic` `testSumSinc` `testRelativeToleranceOnScaledValues` `testMaximizeQuadratic` `doTest` ]
 attributes : [ ]
 
@@ -189,7 +189,7 @@ The TCC value is 0 because the class has no methods or no attributes.
 
 
 # The class 'MultivariateFunctionPenaltyAdapterTest'
-Full name: `org.apache.commons.math3.optimization.direct.MultivariateFunctionPenaltyAdapterTest`
+Package: `org.apache.commons.math3.optimization.direct.MultivariateFunctionPenaltyAdapterTest`
 methods : [ `testStartSimplexOutsideRange` `testHalfBounded` `testUnbounded` `testOptimumOutsideRange` `testStartSimplexInsideRange` ]
 attributes : [ ]
 
@@ -198,7 +198,7 @@ The TCC value is 0 because the class has no methods or no attributes.
 
 
 # The class 'MultivariateFunctionMappingAdapterTest'
-Full name: `org.apache.commons.math3.optimization.direct.MultivariateFunctionMappingAdapterTest`
+Package: `org.apache.commons.math3.optimization.direct.MultivariateFunctionMappingAdapterTest`
 methods : [ `testStartSimplexInsideRange` `testUnbounded` `testHalfBounded` `testOptimumOutsideRange` ]
 attributes : [ ]
 
@@ -207,7 +207,7 @@ The TCC value is 0 because the class has no methods or no attributes.
 
 
 # The class 'BOBYQAOptimizerTest'
-Full name: `org.apache.commons.math3.optimization.direct.BOBYQAOptimizerTest`
+Package: `org.apache.commons.math3.optimization.direct.BOBYQAOptimizerTest`
 methods : [ `testConstrainedRosen` `testRastrigin` `testEllipse` `testBoundariesDimensionMismatch` `doTest` `boundaries` `testSsDiffPow` `testTwoAxes` `testCigTab` `testConstrainedRosenWithMoreInterpolationPoints` `testSphere` `testElliRotated` `testAckley` `testCigar` `testInitOutOfBounds` `testDiffPow` `testMaximize` `testTablet` `point` `testProblemDimensionTooSmall` `doTest` `testRosen` `testMaxEvaluations` ]
 attributes : [ `DIM` ]
 
@@ -479,7 +479,7 @@ Number of direct connections (link by): $153.0$
 
 
 # The class 'SimplexOptimizerNelderMeadTest'
-Full name: `org.apache.commons.math3.optimization.direct.SimplexOptimizerNelderMeadTest`
+Package: `org.apache.commons.math3.optimization.direct.SimplexOptimizerNelderMeadTest`
 methods : [ `testLeastSquares1` `testMinimize1` `testLeastSquares3` `testMaximize2` `testMinimize2` `testPowell` `testRosenbrock` `testMaxIterations` `testLeastSquares2` `testMaximize1` ]
 attributes : [ ]
 
@@ -488,7 +488,7 @@ The TCC value is 0 because the class has no methods or no attributes.
 
 
 # The class 'SimplexOptimizerMultiDirectionalTest'
-Full name: `org.apache.commons.math3.optimization.direct.SimplexOptimizerMultiDirectionalTest`
+Package: `org.apache.commons.math3.optimization.direct.SimplexOptimizerMultiDirectionalTest`
 methods : [ `testPowell` `testMaximize2` `testMinimize1` `testMaximize1` `testMinimize2` `testRosenbrock` `testMath283` ]
 attributes : [ `count` ]
 
@@ -512,7 +512,7 @@ Number of direct connections (link by): $1.0$
 
 
 # The class 'CMAESOptimizerTest'
-Full name: `org.apache.commons.math3.optimization.direct.CMAESOptimizerTest`
+Package: `org.apache.commons.math3.optimization.direct.CMAESOptimizerTest`
 methods : [ `testTablet` `testInitOutofbounds1` `testEllipse` `testBoundariesDimensionMismatch` `testCigarWithBoundaries` `boundaries` `testSphere` `testFitAccuracyDependsOnBoundary` `testRosen` `testSsDiffPow` `testAckley` `testRastrigin` `testTwoAxes` `doTest` `testDiagonalRosen` `testInputSigmaDimensionMismatch` `testInputSigmaNegative` `testInputSigmaOutOfRange` `testCigar` `testConstrainedRosen` `testDiffPow` `testCigTab` `testMath864` `testMaximize` `testInitOutofbounds2` `testElliRotated` `point` ]
 attributes : [ `DIM` `LAMBDA` ]
 
@@ -1069,7 +1069,7 @@ Number of direct connections (link by): $402.0$
 
 
 # The class 'SimpleVectorValueCheckerTest'
-Full name: `org.apache.commons.math3.optimization.SimpleVectorValueCheckerTest`
+Package: `org.apache.commons.math3.optimization.SimpleVectorValueCheckerTest`
 methods : [ `testIterationCheckPrecondition` `testIterationCheckDisabled` `testIterationCheck` ]
 attributes : [ ]
 
@@ -1078,7 +1078,7 @@ The TCC value is 0 because the class has no methods or no attributes.
 
 
 # The class 'SimplePointCheckerTest'
-Full name: `org.apache.commons.math3.optimization.SimplePointCheckerTest`
+Package: `org.apache.commons.math3.optimization.SimplePointCheckerTest`
 methods : [ `testIterationCheckPrecondition` `testIterationCheckDisabled` `testIterationCheck` ]
 attributes : [ ]
 
@@ -1087,7 +1087,7 @@ The TCC value is 0 because the class has no methods or no attributes.
 
 
 # The class 'MultivariateDifferentiableVectorMultiStartOptimizerTest'
-Full name: `org.apache.commons.math3.optimization.MultivariateDifferentiableVectorMultiStartOptimizerTest`
+Package: `org.apache.commons.math3.optimization.MultivariateDifferentiableVectorMultiStartOptimizerTest`
 methods : [ `testNoOptimum` `testTrivial` ]
 attributes : [ ]
 
@@ -1096,7 +1096,7 @@ The TCC value is 0 because the class has no methods or no attributes.
 
 
 # The class 'CurveFitterTest'
-Full name: `org.apache.commons.math3.optimization.fitting.CurveFitterTest`
+Package: `org.apache.commons.math3.optimization.fitting.CurveFitterTest`
 methods : [ `testMath303` `testMath372` `testMath304` ]
 attributes : [ ]
 
@@ -1105,7 +1105,7 @@ The TCC value is 0 because the class has no methods or no attributes.
 
 
 # The class 'HarmonicFitterTest'
-Full name: `org.apache.commons.math3.optimization.fitting.HarmonicFitterTest`
+Package: `org.apache.commons.math3.optimization.fitting.HarmonicFitterTest`
 methods : [ `testPreconditions1` `testTinyVariationsData` `test1PercentError` `testInitialGuess` `testUnsorted` `testMath844` `testNoError` ]
 attributes : [ ]
 
@@ -1114,7 +1114,7 @@ The TCC value is 0 because the class has no methods or no attributes.
 
 
 # The class 'GaussianFitterTest'
-Full name: `org.apache.commons.math3.optimization.fitting.GaussianFitterTest`
+Package: `org.apache.commons.math3.optimization.fitting.GaussianFitterTest`
 methods : [ `addDatasetToGaussianFitter` `testFit05` `testFit02` `testMath798` `testFit04` `testFit03` `testMath519` `testFit01` `testFit06` `testFit07` ]
 attributes : [ `DATASET4` `DATASET5` `DATASET2` `DATASET3` `DATASET1` ]
 
@@ -1155,7 +1155,7 @@ Number of direct connections (link by): $0.0$
 
 
 # The class 'PolynomialFitterTest'
-Full name: `org.apache.commons.math3.optimization.fitting.PolynomialFitterTest`
+Package: `org.apache.commons.math3.optimization.fitting.PolynomialFitterTest`
 methods : [ `testLargeSample` `checkUnsolvableProblem` `testFit` `buildRandomPolynomial` `testMath798` `testMath798WithToleranceTooLow` `testMath798WithToleranceTooLowButNoException` `testNoError` `doMath798` `testSmallError` `testRedundantSolvable` `testRedundantUnsolvable` ]
 attributes : [ ]
 
@@ -1164,7 +1164,7 @@ The TCC value is 0 because the class has no methods or no attributes.
 
 
 # The class 'MultivariateDifferentiableMultiStartOptimizerTest'
-Full name: `org.apache.commons.math3.optimization.MultivariateDifferentiableMultiStartOptimizerTest`
+Package: `org.apache.commons.math3.optimization.MultivariateDifferentiableMultiStartOptimizerTest`
 methods : [ `testCircleFitting` ]
 attributes : [ ]
 
@@ -1173,7 +1173,7 @@ The TCC value is 0 because the class has no methods or no attributes.
 
 
 # The class 'SimpleValueCheckerTest'
-Full name: `org.apache.commons.math3.optimization.SimpleValueCheckerTest`
+Package: `org.apache.commons.math3.optimization.SimpleValueCheckerTest`
 methods : [ `testIterationCheck` `testIterationCheckDisabled` `testIterationCheckPrecondition` ]
 attributes : [ ]
 
@@ -1182,7 +1182,7 @@ The TCC value is 0 because the class has no methods or no attributes.
 
 
 # The class 'PointValuePairTest'
-Full name: `org.apache.commons.math3.optimization.PointValuePairTest`
+Package: `org.apache.commons.math3.optimization.PointValuePairTest`
 methods : [ `testSerial` ]
 attributes : [ ]
 
@@ -1191,7 +1191,7 @@ The TCC value is 0 because the class has no methods or no attributes.
 
 
 # The class 'UnivariateMultiStartOptimizerTest'
-Full name: `org.apache.commons.math3.optimization.univariate.UnivariateMultiStartOptimizerTest`
+Package: `org.apache.commons.math3.optimization.univariate.UnivariateMultiStartOptimizerTest`
 methods : [ `testQuinticMin` `testBadFunction` `testSinMin` ]
 attributes : [ ]
 
@@ -1200,7 +1200,7 @@ The TCC value is 0 because the class has no methods or no attributes.
 
 
 # The class 'SimpleUnivariateValueCheckerTest'
-Full name: `org.apache.commons.math3.optimization.univariate.SimpleUnivariateValueCheckerTest`
+Package: `org.apache.commons.math3.optimization.univariate.SimpleUnivariateValueCheckerTest`
 methods : [ `testIterationCheckPrecondition` `testIterationCheckDisabled` `testIterationCheck` ]
 attributes : [ ]
 
@@ -1209,7 +1209,7 @@ The TCC value is 0 because the class has no methods or no attributes.
 
 
 # The class 'BracketFinderTest'
-Full name: `org.apache.commons.math3.optimization.univariate.BracketFinderTest`
+Package: `org.apache.commons.math3.optimization.univariate.BracketFinderTest`
 methods : [ `testCubicMin` `testIntervalBoundsOrdering` `testCubicMax` `testMinimumIsOnIntervalBoundary` ]
 attributes : [ ]
 
@@ -1218,7 +1218,7 @@ The TCC value is 0 because the class has no methods or no attributes.
 
 
 # The class 'BrentOptimizerTest'
-Full name: `org.apache.commons.math3.optimization.univariate.BrentOptimizerTest`
+Package: `org.apache.commons.math3.optimization.univariate.BrentOptimizerTest`
 methods : [ `testQuinticMax` `testKeepInitIfBest` `testQuinticMin` `testMath855` `testSinMinWithValueChecker` `testMinEndpoints` `testBoundaries` `testSinMin` `testMath832` `testQuinticMinStatistics` ]
 attributes : [ ]
 
@@ -1227,7 +1227,7 @@ The TCC value is 0 because the class has no methods or no attributes.
 
 
 # The class 'SimplexTableauTest'
-Full name: `org.apache.commons.math3.optimization.linear.SimplexTableauTest`
+Package: `org.apache.commons.math3.optimization.linear.SimplexTableauTest`
 methods : [ `testDropPhase1Objective` `testSerial` `assertMatrixEquals` `createFunction` `testTableauWithNoArtificialVars` `createConstraints` `testInitialization` ]
 attributes : [ ]
 
@@ -1236,7 +1236,7 @@ The TCC value is 0 because the class has no methods or no attributes.
 
 
 # The class 'SimplexSolverTest'
-Full name: `org.apache.commons.math3.optimization.linear.SimplexSolverTest`
+Package: `org.apache.commons.math3.optimization.linear.SimplexSolverTest`
 methods : [ `testSolutionWithNegativeDecisionVariable` `testMath286` `testMath293` `testMath828Cycle` `testDegeneracy` `testRestrictVariablesToNonNegative` `testLargeModel` `testMath828` `testMath434PivotRowSelection` `testSimplexSolver` `testMath434PivotRowSelection2` `testMath781` `testMinimization` `testMath272` `testMath288` `testMath290LEQ` `testTrivialModel` `testMath434UnfeasibleSolution` `equationFromString` `testSingleVariableAndConstraint` `testInfeasibleSolution` `testEpsilon` `validSolution` `testModelWithNoArtificialVars` `testUnboundedSolution` `testMath713NegativeVariable` `testMath434NegativeVariable` `testMath290GEQ` ]
 attributes : [ ]
 
@@ -1245,7 +1245,7 @@ The TCC value is 0 because the class has no methods or no attributes.
 
 
 # The class 'MultivariateMultiStartOptimizerTest'
-Full name: `org.apache.commons.math3.optimization.MultivariateMultiStartOptimizerTest`
+Package: `org.apache.commons.math3.optimization.MultivariateMultiStartOptimizerTest`
 methods : [ `testRosenbrock` ]
 attributes : [ ]
 
@@ -1254,7 +1254,7 @@ The TCC value is 0 because the class has no methods or no attributes.
 
 
 # The class 'PointVectorValuePairTest'
-Full name: `org.apache.commons.math3.optimization.PointVectorValuePairTest`
+Package: `org.apache.commons.math3.optimization.PointVectorValuePairTest`
 methods : [ `testSerial` ]
 attributes : [ ]
 
@@ -1263,7 +1263,7 @@ The TCC value is 0 because the class has no methods or no attributes.
 
 
 # The class 'NonLinearConjugateGradientOptimizerTest'
-Full name: `org.apache.commons.math3.optimization.general.NonLinearConjugateGradientOptimizerTest`
+Package: `org.apache.commons.math3.optimization.general.NonLinearConjugateGradientOptimizerTest`
 methods : [ `testTwoSets` `testOneSet` `testInconsistentEquations` `testColumnsPermutation` `testMoreEstimatedParametersUnsorted` `testNonInversible` `testIllConditioned` `testNoDependency` `testMoreEstimatedParametersSimple` `testCircleFitting` `testTrivial` `testRedundantEquations` ]
 attributes : [ ]
 
@@ -1272,7 +1272,7 @@ The TCC value is 0 because the class has no methods or no attributes.
 
 
 # The class 'CircleVectorial'
-Full name: `org.apache.commons.math3.optimization.general.CircleVectorial`
+Package: `org.apache.commons.math3.optimization.general.CircleVectorial`
 methods : [ `getRadius` `value` `getN` `addPoint` `value` `distance` `getRadius` ]
 attributes : [ `points` ]
 
@@ -1326,7 +1326,7 @@ Number of direct connections (link by): $13.0$
 
 
 # The class 'StraightLineProblem'
-Full name: `org.apache.commons.math3.optimization.general.StraightLineProblem`
+Package: `org.apache.commons.math3.optimization.general.StraightLineProblem`
 methods : [ `x` `y` `target` `addPoint` `solve` `weight` `value` `value` ]
 attributes : [ `sigma` `points` ]
 
@@ -1393,7 +1393,7 @@ Number of direct connections (link by): $27.0$
 
 
 # The class 'GaussNewtonOptimizerTest'
-Full name: `org.apache.commons.math3.optimization.general.GaussNewtonOptimizerTest`
+Package: `org.apache.commons.math3.optimization.general.GaussNewtonOptimizerTest`
 methods : [ `testMoreEstimatedParametersSimple` `testMoreEstimatedParametersUnsorted` `createOptimizer` `testCircleFittingBadInit` `testMaxEvaluations` `testHahn1` ]
 attributes : [ ]
 
@@ -1402,7 +1402,7 @@ The TCC value is 0 because the class has no methods or no attributes.
 
 
 # The class 'AbstractLeastSquaresOptimizerTestValidation'
-Full name: `org.apache.commons.math3.optimization.general.AbstractLeastSquaresOptimizerTestValidation`
+Package: `org.apache.commons.math3.optimization.general.AbstractLeastSquaresOptimizerTestValidation`
 methods : [ `testParametersErrorMonteCarloParameters` `getChi2N` `testParametersErrorMonteCarloObservations` ]
 attributes : [ `MONTE_CARLO_RUNS` ]
 
@@ -1428,7 +1428,7 @@ Number of direct connections (link by): $1.0$
 
 
 # The class 'DummyOptimizer'
-Full name: `org.apache.commons.math3.optimization.general.DummyOptimizer`
+Package: `org.apache.commons.math3.optimization.general.DummyOptimizer`
 methods : [ `doOptimize` ]
 attributes : [ ]
 
@@ -1437,7 +1437,7 @@ The TCC value is 0 because the class has no methods or no attributes.
 
 
 # The class 'CircleProblem'
-Full name: `org.apache.commons.math3.optimization.general.CircleProblem`
+Package: `org.apache.commons.math3.optimization.general.CircleProblem`
 methods : [ `value` `value` `target` `addPoint` `weight` ]
 attributes : [ `ySigma` `xSigma` `points` ]
 
@@ -1477,7 +1477,7 @@ Number of direct connections (link by): $9.0$
 
 
 # The class 'RandomCirclePointGenerator'
-Full name: `org.apache.commons.math3.optimization.general.RandomCirclePointGenerator`
+Package: `org.apache.commons.math3.optimization.general.RandomCirclePointGenerator`
 methods : [ `generate` `create` ]
 attributes : [ `cX` `cY` `tP` `radius` ]
 
@@ -1507,7 +1507,7 @@ Number of direct connections (link by): $4.0$
 
 
 # The class 'CircleScalar'
-Full name: `org.apache.commons.math3.optimization.general.CircleScalar`
+Package: `org.apache.commons.math3.optimization.general.CircleScalar`
 methods : [ `getRadius` `value` `addPoint` `distance` `getRadius` `value` ]
 attributes : [ `points` ]
 
@@ -1554,7 +1554,7 @@ Number of direct connections (link by): $8.0$
 
 
 # The class 'MinpackTest'
-Full name: `org.apache.commons.math3.optimization.general.MinpackTest`
+Package: `org.apache.commons.math3.optimization.general.MinpackTest`
 methods : [ `testMinpackPowellSingular` `minpackTest` `testMinpackLinearRank1` `testMinpackFreudensteinRoth` `testMinpackMeyer` `testMinpackRosenbrok` `testMinpackWatson` `testMinpackChebyquad` `testMinpackBox3Dimensional` `testMinpackLinearRank1ZeroColsAndRows` `testMinpackOsborne1` `testMinpackLinearFullRank` `testMinpackKowalikOsborne` `testMinpackBard` `testMinpackBrownDennis` `testMinpackOsborne2` `testMinpackBrownAlmostLinear` `testMinpackJennrichSampson` `testMinpackHelicalValley` ]
 attributes : [ ]
 
@@ -1563,7 +1563,7 @@ The TCC value is 0 because the class has no methods or no attributes.
 
 
 # The class 'LevenbergMarquardtOptimizerTest'
-Full name: `org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizerTest`
+Package: `org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizerTest`
 methods : [ `testCircleFitting2` `createOptimizer` `testMath199` `testControlParameters` `checkEstimate` `testNonInvertible` `testBevington` ]
 attributes : [ ]
 
@@ -1572,7 +1572,7 @@ The TCC value is 0 because the class has no methods or no attributes.
 
 
 # The class 'StatisticalReferenceDataset'
-Full name: `org.apache.commons.math3.optimization.general.StatisticalReferenceDataset`
+Package: `org.apache.commons.math3.optimization.general.StatisticalReferenceDataset`
 methods : [ `getLeastSquaresProblem` `getParameters` `findLineNumbers` `getName` `getParameterStandardDeviation` `getNumObservations` `getStartingPoint` `getX` `getParametersStandardDeviations` `getResidualSumOfSquares` `getData` `getNumStartingPoints` `getY` `getNumParameters` `getModelValue` `getParameter` ]
 attributes : [ `a` `problem` `sigA` `numStartingPoints` `numObservations` `numParameters` `name` `x` `y` `residualSumOfSquares` `startingValues` ]
 
@@ -1624,7 +1624,7 @@ Number of direct connections (link by): $4.0$
 
 
 # The class 'StatisticalReferenceDatasetFactory'
-Full name: `org.apache.commons.math3.optimization.general.StatisticalReferenceDatasetFactory`
+Package: `org.apache.commons.math3.optimization.general.StatisticalReferenceDatasetFactory`
 methods : [ `createKirby2` `createAll` `createBufferedReaderFromResource` `createLanczos1` `createMGH17` `createHahn1` ]
 attributes : [ ]
 
@@ -1633,7 +1633,7 @@ The TCC value is 0 because the class has no methods or no attributes.
 
 
 # The class 'AbstractLeastSquaresOptimizerTest'
-Full name: `org.apache.commons.math3.optimization.general.AbstractLeastSquaresOptimizerTest`
+Package: `org.apache.commons.math3.optimization.general.AbstractLeastSquaresOptimizerTest`
 methods : [ `testGetRMS` `testGetChiSquare` `createOptimizer` `testComputeSigma` ]
 attributes : [ ]
 
@@ -1642,7 +1642,7 @@ The TCC value is 0 because the class has no methods or no attributes.
 
 
 # The class 'RandomStraightLinePointGenerator'
-Full name: `org.apache.commons.math3.optimization.general.RandomStraightLinePointGenerator`
+Package: `org.apache.commons.math3.optimization.general.RandomStraightLinePointGenerator`
 methods : [ `generate` `create` ]
 attributes : [ `intercept` `x` `slope` `error` ]
 
@@ -1672,7 +1672,7 @@ Number of direct connections (link by): $4.0$
 
 
 # The class 'AbstractLeastSquaresOptimizerAbstractTest'
-Full name: `org.apache.commons.math3.optimization.general.AbstractLeastSquaresOptimizerAbstractTest`
+Package: `org.apache.commons.math3.optimization.general.AbstractLeastSquaresOptimizerAbstractTest`
 methods : [ `testOneSet` `doTestStRD` `testMoreEstimatedParametersUnsorted` `testInconsistentSizes2` `testQRColumnsPermutation` `testIllConditioned` `testKirby2` `testNoDependency` `testNonInvertible` `testCircleFittingGoodInit` `testInconsistentEquations` `testTwoSets` `createOptimizer` `testHahn1` `testRedundantEquations` `testMoreEstimatedParametersSimple` `testInconsistentSizes1` `testCircleFitting` `testTrivial` `testCircleFittingBadInit` ]
 attributes : [ `circlePoints` ]
 
@@ -1734,7 +1734,7 @@ Number of direct connections (link by): $1.0$
 
 
 # The class 'UniformIntegerDistributionTest'
-Full name: `org.apache.commons.math3.distribution.UniformIntegerDistributionTest`
+Package: `org.apache.commons.math3.distribution.UniformIntegerDistributionTest`
 methods : [ `makeCumulativeTestPoints` `testMoments` `makeDensityTestValues` `makeDensityTestPoints` `setUp` `makeInverseCumulativeTestPoints` `makeInverseCumulativeTestValues` `makeCumulativeTestValues` `makeDistribution` `testPreconditionUpperBoundInclusive` ]
 attributes : [ ]
 
@@ -1743,7 +1743,7 @@ The TCC value is 0 because the class has no methods or no attributes.
 
 
 # The class 'ChiSquaredDistributionTest'
-Full name: `org.apache.commons.math3.distribution.ChiSquaredDistributionTest`
+Package: `org.apache.commons.math3.distribution.ChiSquaredDistributionTest`
 methods : [ `makeDistribution` `makeDensityTestValues` `makeCumulativeTestPoints` `testSmallDf` `makeInverseCumulativeTestPoints` `makeCumulativeTestValues` `setUp` `testDfAccessors` `testDensity` `testMoments` `makeInverseCumulativeTestValues` `checkDensity` ]
 attributes : [ ]
 
@@ -1752,7 +1752,7 @@ The TCC value is 0 because the class has no methods or no attributes.
 
 
 # The class 'FDistributionTest'
-Full name: `org.apache.commons.math3.distribution.FDistributionTest`
+Package: `org.apache.commons.math3.distribution.FDistributionTest`
 methods : [ `testMath785` `testDfAccessors` `testSmallDegreesOfFreedom` `testMoments` `testPreconditions` `makeCumulativeTestValues` `setUp` `makeCumulativeTestPoints` `testLargeDegreesOfFreedom` `testInverseCumulativeProbabilityExtremes` `makeDensityTestValues` `testCumulativeProbabilityExtremes` `makeDistribution` ]
 attributes : [ ]
 
@@ -1761,7 +1761,7 @@ The TCC value is 0 because the class has no methods or no attributes.
 
 
 # The class 'IntegerDistributionAbstractTest'
-Full name: `org.apache.commons.math3.distribution.IntegerDistributionAbstractTest`
+Package: `org.apache.commons.math3.distribution.IntegerDistributionAbstractTest`
 methods : [ `makeDensityTestValues` `getDistribution` `makeInverseCumulativeTestValues` `getInverseCumulativeTestValues` `getDensityTestValues` `getCumulativeTestPoints` `setDensityTestPoints` `verifyDensities` `getTolerance` `testLogDensities` `setCumulativeTestPoints` `testCumulativeProbabilities` `testIllegalArguments` `makeLogDensityTestValues` `makeDistribution` `getCumulativeTestValues` `setInverseCumulativeTestValues` `setDistribution` `setCumulativeTestValues` `tearDown` `verifyInverseCumulativeProbabilities` `setTolerance` `makeCumulativeTestValues` `verifyCumulativeProbabilities` `setUp` `verifyLogDensities` `getInverseCumulativeTestPoints` `testSampling` `setInverseCumulativeTestPoints` `makeCumulativeTestPoints` `testInverseCumulativeProbabilities` `testConsistencyAtSupportBounds` `makeInverseCumulativeTestPoints` `testDensities` `getDensityTestPoints` `makeDensityTestPoints` `setDensityTestValues` ]
 attributes : [ `inverseCumulativeTestPoints` `densityTestPoints` `inverseCumulativeTestValues` `cumulativeTestPoints` `logDensityTestValues` `distribution` `tolerance` `densityTestValues` `cumulativeTestValues` ]
 
@@ -2145,7 +2145,7 @@ Number of direct connections (link by): $260.0$
 
 
 # The class 'PoissonDistributionTest'
-Full name: `org.apache.commons.math3.distribution.PoissonDistributionTest`
+Package: `org.apache.commons.math3.distribution.PoissonDistributionTest`
 methods : [ `makeDistribution` `testDegenerateInverseCumulativeProbability` `testMoments` `testLargeMeanInverseCumulativeProbability` `testLargeMeanCumulativeProbability` `makeDensityTestPoints` `checkProbability` `makeCumulativeTestValues` `testCumulativeProbabilitySpecial` `testMean` `makeInverseCumulativeTestValues` `makeCumulativeTestPoints` `testNegativeMean` `makeDensityTestValues` `testNormalApproximateProbability` `makeInverseCumulativeTestPoints` `makeLogDensityTestValues` ]
 attributes : [ `DEFAULT_TEST_POISSON_PARAMETER` ]
 
