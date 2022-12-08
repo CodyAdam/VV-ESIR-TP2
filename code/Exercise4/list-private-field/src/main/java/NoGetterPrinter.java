@@ -48,7 +48,7 @@ public class NoGetterPrinter extends VoidVisitorWithDefaults<Void> {
                             // only part after the last dot
                             System.out.println("\n\n## In " + fullName.substring(fullName.lastIndexOf('.') + 1) + "\n");
                             System.out.println("Package: `" + fullName + "`");
-                            System.out.println("Path: `"
+                            System.out.println("\nPath: `"
                                     + declaration.findCompilationUnit().get().getStorage().get().getPath() + "`\n");
                             firstPass = false;
                         }
