@@ -101,6 +101,11 @@ public class TCC extends VoidVisitorWithDefaults<Void> {
         double nbMaxPairs = (methods.size() * (methods.size() - 1)) / 2.0;
         double nbDirectConnection = 0;
 
+        if (nbMaxPairs == 0) {
+            System.out.println("\nThe TCC value is 0 because the class only has one method.");
+            return;
+        }
+
         // print the mermaid graph of the connections
         System.out.println("\n```mermaid");
         System.out.println("graph TD");
