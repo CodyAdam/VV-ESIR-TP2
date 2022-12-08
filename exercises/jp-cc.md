@@ -99,7 +99,3 @@ The report is outputed in Markdown. To preview it you can use the bash `>` opera
 ```bash
 java -jar get-cc-1.0-jar-with-dependencies.jar <path-to-source-directory> > report.md
 ```
-
-- You can find a sample report [here](/code/Exercise6/report.md). This sample was generated on the examples classes in the [Exercise5/get-tcc/examples](/code/Exercise5/get-tcc/examples/) directory.
-
-- You can find another report [here](/code/Exercise6/common-math-random-report.md). This sample was generated on the [Apache Commons Math](https://github.com/apache/commons-math) Random Package source.
