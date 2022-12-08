@@ -1,3 +1,2 @@
-# Code of your exercise
 
-Put here all the code created for this exercise
+# For explanation of the code, see [this markdown file](/exercises/jp-cc.md)
