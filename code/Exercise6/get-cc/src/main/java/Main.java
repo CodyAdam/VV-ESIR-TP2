@@ -26,7 +26,7 @@ public class Main {
         System.out.println("# Report CC Value\n");
         System.out.println("Calculating the CC values of the classes in `" + target + "`");
 
-        System.out.println("# [Histogram of CC values per class](#histogram-of-cc-values-per-class)");
+        System.out.println("# [Go to the Histogram per class](#histogram-of-cc-values-per-class)");
 
         SourceRoot root = new SourceRoot(file.toPath());
         CC visitor = new CC();
@@ -51,7 +51,7 @@ public class Main {
 
         // Print a histogram of the CC values
         // 100% is the maximum CC value make a bar of 50 characters
-        System.out.println("\n# Histogram of CC values per class");
+        System.out.println("\n# Go to the Histogram per class");
         System.out.println("> Total CC of the whole project: " + totalCc);
         System.out.println("The values per class are the sum of the CC values of all methods in the class.");
         System.out.println("```");

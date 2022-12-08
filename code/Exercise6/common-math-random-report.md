@@ -1,7 +1,7 @@
 # Report CC Value
 
 Calculating the CC values of the classes in `/home/cody/Git/VV-ESIR-TP2/code/Exercise2/source/commons-math3-3.6.1-src/src/main/java/org/apache/commons/math3/random`
-# [Histogram of CC values per class](#histogram-of-cc-values-per-class)
+# [Go to the Histogram per class](#histogram-of-cc-values-per-class)
 
 # The class 'RandomGenerator'
 Package: `org.apache.commons.math3.random.RandomGenerator`

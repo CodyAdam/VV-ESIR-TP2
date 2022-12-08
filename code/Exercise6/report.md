@@ -1,7 +1,7 @@
 # Report CC Value
 
 Calculating the CC values of the classes in `examples/`
-# [Histogram of CC values per class](#histogram-of-cc-values-per-class)
+# [Go to the Histogram per class](#histogram-of-cc-values-per-class)
 
 # The class 'Example1'
 Package: `Example1`

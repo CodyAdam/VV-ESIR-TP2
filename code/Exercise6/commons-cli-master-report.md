@@ -1,7 +1,7 @@
 # Report CC Value
 
 Calculating the CC values of the classes in `/home/cody/Documents/commons-cli-master/src`
-# [Histogram of CC values per class](#histogram-of-cc-values-per-class)
+# [Go to the Histogram per class](#histogram-of-cc-values-per-class)
 
 # The class 'BugCLI18Test'
 Package: `org.apache.commons.cli.bug.BugCLI18Test`
