@@ -32,21 +32,17 @@ Include in this repository the code of your application. Remove all unnecessary 
 
 The solution is available in the [Exercise4](../code/Exercise4/) folder.
 
-## Demo on the Apache Commons Math
-
-Running the program on the Apache Commons Math project. 
-We founded a total of 2792 private fields without public getter.
+-   Running the program on the __Apache Commons Math project__
+    We founded a total of **2792 private fields without public getter**.
 
 
-The full report is available [here](../code/Exercise4/long-report.md).
+    The full report is available [here](../code/Exercise4/long-report.md).
 
 
-## Demo on a smaller sample : Apache Commons Math Random package
+-   Running the program on the __Apache Commons Math Random package__ (smaller sample)
+    We founded a total of **113 private fields without public getter**.
 
-Running the program on the Apache Commons Math Random package.
-We founded a total of 113 private fields without public getter.
-
-The full report is available [here](../code/Exercise4/report.md).
+    The full report is available [here](../code/Exercise4/report.md).
 
 ## How to build 
 
