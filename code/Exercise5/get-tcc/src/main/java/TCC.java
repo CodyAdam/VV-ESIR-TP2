@@ -39,16 +39,16 @@ public class TCC extends VoidVisitorWithDefaults<Void> {
         // Nice output in markdown format
         System.out.println(
                 "\n# The class '" + declaration.getNameAsString() + "'");
-        System.out.println("Package: `" + declaration.getFullyQualifiedName().get() + "`");
+        System.out.println("Package: `" + declaration.getFullyQualifiedName().get() + "`\n");
         System.out.print("methods : [ ");
         for (MethodDeclaration method : methods) {
             System.out.print("`" + method.getNameAsString() + "` ");
         }
-        System.out.print("]\nattributes : [ ");
+        System.out.print("]\n\nattributes : [ ");
         for (String attribute : attributes) {
             System.out.print("`" + attribute + "` ");
         }
-        System.out.println("]");
+        System.out.println("]\n");
 
         // Check if TCC is 0
         if (methods.size() == 0 || attributes.size() == 0) {
@@ -172,9 +172,9 @@ public class TCC extends VoidVisitorWithDefaults<Void> {
         }
 
         System.out.println("```");
-        System.out.println("\nNumber of max pairs: $" + nbMaxPairs + "$");
-        System.out.println("Number of direct connections (link by): $" + nbDirectConnection + "$");
-        System.out.println("**TCC value: $" + nbDirectConnection / nbMaxPairs + "$**");
+        System.out.println("\nNumber of max pairs: $" + nbMaxPairs + "$\n");
+        System.out.println("Number of direct connections (link by): $" + nbDirectConnection + "$\n");
+        System.out.println("**TCC value: $" + nbDirectConnection / nbMaxPairs + "$**\n");
 
         System.out.println("\n");
     }
